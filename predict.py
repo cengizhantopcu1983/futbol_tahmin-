@@ -15,8 +15,10 @@ import json
 import sys
 
 import numpy as np
+import pandas as pd
 
-from data import LEAGUES, find_team, load_fixtures, load_league, resolve_league
+from data import (FIXTURE_COLS, LEAGUES, TZ_TR, find_team, load_fixtures, load_fixtures_api,
+                  load_league, resolve_league, resolve_team)
 from models import DixonColes, compute_elo, elo_expectation, head_to_head, team_form
 
 try:
@@ -87,10 +89,31 @@ def print_match(lm: LeagueModel, home: str, away: str, sd: float, n_sim: int, bk
     print()
 
 
+def collect_fixtures() -> pd.DataFrame:
+    """İki kaynaktan yaklaşan maçları toplar. Önce football-data.co.uk (bahis oranları var)."""
+    frames = []
+    print("Fikstür kaynakları:")
+    try:
+        uk = load_fixtures()
+        print(f"  football-data.co.uk: {len(uk)} maç (4 lig, tarih süzülmeden önce)")
+        frames.append(uk)
+    except Exception as e:
+        print(f"  ! football-data.co.uk fikstürü alınamadı: {e}")
+    try:
+        frames.append(load_fixtures_api())
+    except Exception as e:
+        print(f"  ! football-data.org fikstürü alınamadı: {e}")
+    frames = [f for f in frames if len(f)]
+    if not frames:
+        return pd.DataFrame(columns=FIXTURE_COLS)
+    fx = pd.concat(frames, ignore_index=True)
+    today = dt.datetime.now(TZ_TR).date()
+    fx["Date"] = pd.to_datetime(fx["Date"])
+    return fx[fx["Date"].isna() | (fx["Date"].dt.date >= today)].reset_index(drop=True)
+
+
 def run_fixtures(args):
-    fx = load_fixtures()
-    today = dt.date.today()
-    fx = fx[(fx["Date"].dt.date >= today) | fx["Date"].isna()]
+    fx = collect_fixtures()
     if not len(fx):
         print("Yaklaşan maç bulunamadı.")
     output = []
@@ -101,13 +124,19 @@ def run_fixtures(args):
         except Exception as e:  # bir lig hata verirse diğerleri yine çalışsın
             print(f"  atlandı: {e}")
             continue
+        teams = sorted(set(lm.model.teams) | set(lm.current_teams))
+        seen = set()
         for m in fx[fx["Div"] == code].itertuples(index=False):
             try:
-                home = find_team(m.HomeTeam, lm.model.teams + lm.current_teams)
-                away = find_team(m.AwayTeam, lm.model.teams + lm.current_teams)
+                home = resolve_team(m.HomeNames, teams)
+                away = resolve_team(m.AwayNames, teams)
             except ValueError as e:
-                print(f"  atlandı: {e}")
+                print(f"  atlandı ({m.Kaynak}): {m.HomeTeam} - {m.AwayTeam}: {e}")
                 continue
+            key = (m.Date.strftime("%Y-%m-%d") if m.Date == m.Date else None, home, away)
+            if key in seen:
+                continue  # aynı maç iki kaynakta da var
+            seen.add(key)
             r = lm.model.predict(home, away, sd=args.belirsizlik, n_sim=0)
             h, a, p = r["top_scores"][0]
             date = f"{m.Date:%d.%m}" if m.Date == m.Date else "??"
@@ -133,9 +162,9 @@ def run_fixtures(args):
                 "skor_matrisi": np.round(r["matrix"][:6, :6], 4).tolist(),
                 "az_veri": r["unknown"],
             })
+    output.sort(key=lambda o: (o["tarih"] or "9999", o["saat"] or "", o["lig_kodu"]))
     if args.json:
-        istanbul = dt.timezone(dt.timedelta(hours=3))
-        payload = {"olusturulma": dt.datetime.now(istanbul).isoformat(timespec="minutes"),
+        payload = {"olusturulma": dt.datetime.now(TZ_TR).isoformat(timespec="minutes"),
                    "model": "dixon-coles-v1", "maclar": output}
         with open(args.json, "w", encoding="utf-8") as f:
             json.dump(payload, f, ensure_ascii=False, indent=2)
