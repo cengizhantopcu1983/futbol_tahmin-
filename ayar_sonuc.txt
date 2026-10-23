@@ -1,0 +1,54 @@
+
+=== Süper Lig (6 sn) ===
+  Ayar sezonu 2425, 36 kombinasyon denendi. En iyi 3 (RPS):
+    xi=0.0045 reg=3.0  belirsizlik=0.00   RPS 0.1936
+    xi=0.0045 reg=1.0  belirsizlik=0.00   RPS 0.1939
+    xi=0.0045 reg=3.0  belirsizlik=0.10   RPS 0.1941
+    varsayılan ayar                         RPS 0.1983
+  Sınav sezonu 2526:
+                               RPS   İsabet
+    Varsayılan ayar         0.1936    51.6%
+    Seçilen ayar            0.1941    50.7%
+    Bahis piyasası          0.1858    54.2%
+  Karar: varsayılan ayar korunuyor  ->  xi=0.0019, reg=1.0, belirsizlik=0.1
+
+=== Premier League (6 sn) ===
+  Ayar sezonu 2425, 36 kombinasyon denendi. En iyi 3 (RPS):
+    xi=0.0045 reg=0.3  belirsizlik=0.10   RPS 0.2000
+    xi=0.0045 reg=0.3  belirsizlik=0.20   RPS 0.2001
+    xi=0.0045 reg=0.3  belirsizlik=0.00   RPS 0.2001
+    varsayılan ayar                         RPS 0.2021
+  Sınav sezonu 2526:
+                               RPS   İsabet
+    Varsayılan ayar         0.2085    47.4%
+    Seçilen ayar            0.2090    46.6%
+    Bahis piyasası          0.2053    49.5%
+  Karar: varsayılan ayar korunuyor  ->  xi=0.0019, reg=1.0, belirsizlik=0.1
+
+=== La Liga (6 sn) ===
+  Ayar sezonu 2425, 36 kombinasyon denendi. En iyi 3 (RPS):
+    xi=0.0019 reg=0.3  belirsizlik=0.00   RPS 0.1959
+    xi=0.0010 reg=0.3  belirsizlik=0.00   RPS 0.1959
+    xi=0.0019 reg=0.3  belirsizlik=0.10   RPS 0.1959
+    varsayılan ayar                         RPS 0.1960
+  Sınav sezonu 2526:
+                               RPS   İsabet
+    Varsayılan ayar         0.2009    53.2%
+    Seçilen ayar            0.2007    53.2%
+    Bahis piyasası          0.1957    54.7%
+  Karar: YENİ AYAR KULLANILACAK  ->  xi=0.0019, reg=0.3, belirsizlik=0.0
+
+=== Serie A (6 sn) ===
+  Ayar sezonu 2425, 36 kombinasyon denendi. En iyi 3 (RPS):
+    xi=0.0010 reg=3.0  belirsizlik=0.00   RPS 0.1906
+    xi=0.0010 reg=3.0  belirsizlik=0.10   RPS 0.1906
+    xi=0.0010 reg=1.0  belirsizlik=0.00   RPS 0.1907
+    varsayılan ayar                         RPS 0.1909
+  Sınav sezonu 2526:
+                               RPS   İsabet
+    Varsayılan ayar         0.2014    51.1%
+    Seçilen ayar            0.2010    52.1%
+    Bahis piyasası          0.1966    53.9%
+  Karar: YENİ AYAR KULLANILACAK  ->  xi=0.001, reg=3.0, belirsizlik=0.0
+
+Ayarlar ayarlar.json dosyasına yazıldı.
