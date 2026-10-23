@@ -20,6 +20,7 @@ import pandas as pd
 
 from data import (FIXTURE_COLS, LEAGUES, TZ_TR, find_team, load_fixtures, load_fixtures_api,
                   load_league, resolve_league, resolve_team)
+from ekstra import Extras
 from models import DixonColes, compute_elo, elo_expectation, head_to_head, team_form
 
 try:
@@ -65,9 +66,15 @@ class LeagueModel:
         self.sd = self.params["sd"]
         self.df = load_league(code, n_seasons=args.sezon_sayisi)
         self.model = DixonColes(xi=self.params["xi"], reg=self.params["reg"]).fit(self.df)
+        self.extras = Extras().fit(self.df, xi=self.params["xi"])
         self.elo, _ = compute_elo(self.df)
         self.current_teams = sorted(set(self.df[self.df["Season"] == self.df["Season"].iloc[-1]]
                                         [["HomeTeam", "AwayTeam"]].to_numpy().ravel()))
+
+    def extra(self, r: dict, referee: str | None = None) -> dict:
+        """İlk yarı, İY/MS, gol zamanlaması ve kart/korner/şut tahminleri."""
+        return self.extras.predict(r["home"], r["away"], r["xg_home"], r["xg_away"],
+                                   (r["pH"], r["pD"], r["pA"]), float(r["matrix"][0, 0]), referee)
 
 
 def consistent_score(r: dict) -> dict:
@@ -110,6 +117,23 @@ def print_match(lm: LeagueModel, home: str, away: str, sd: float, n_sim: int, bk
     print(f"\nTahmin: {sonuc_adi}, bu sonuçta en olası skor {ts['skor']}")
     print("En olası skorlar (tek tek): " + ", ".join(f"{h}-{a} ({100 * p:.1f}%)" for h, a, p in r["top_scores"]))
     print(f"2.5 üst: {pct(r['over25']).strip()}   |   Karşılıklı gol: {pct(r['btts']).strip()}")
+
+    ek = lm.extra(r)
+    iy = ek["ilk_yari"]
+    print(f"\nİlk yarı: 1 {pct(iy['p_ev'])} | X {pct(iy['p_beraberlik'])} | 2 {pct(iy['p_deplasman'])}   "
+          f"İY 0.5 üst {pct(iy['ust_0_5']).strip()}, 1.5 üst {pct(iy['ust_1_5']).strip()}")
+    print("İY/MS (en olası 4): " + ", ".join(f"{z['kod']} {100 * z['p']:.1f}%" for z in ek["iy_ms"][:4]))
+    gd = ek["gol_dakika"]
+    print("Gol olma ihtimali (dakika): " + ", ".join(f"{z['aralik']} {100 * z['p_gol']:.0f}%" for z in gd["araliklar"]))
+    print(f"İlk gol 30. dk'dan önce: {pct(gd['ilk_gol_30_once']).strip()}   İlk golü atan: "
+          f"{home} {pct(gd['ilk_golu_ev']).strip()}, {away} {pct(gd['ilk_golu_deplasman']).strip()}, "
+          f"golsüz {pct(gd['golsuz']).strip()}")
+    adlar = {"sari_kart": "Sarı kart", "korner": "Korner", "sut": "Şut", "isabetli_sut": "İsabetli şut",
+             "kirmizi_kart": "Kırmızı kart"}
+    for key, v in ek["istatistikler"].items():
+        cz = "  ".join(f"{c['cizgi']} üst {100 * c['ust']:.0f}%" for c in v.get("cizgiler", []))
+        extra = f"  (en az bir: {100 * v['p_en_az_bir']:.0f}%, düşük güven)" if key == "kirmizi_kart" else ""
+        print(f"{adlar[key]:<13} {v['ev']:.1f} - {v['deplasman']:.1f}  toplam {v['toplam']:.1f}  {cz}{extra}")
 
     eh, ea = lm.elo.get(home), lm.elo.get(away)
     if eh and ea:
@@ -205,6 +229,8 @@ def run_fixtures(args):
                 # satır = ev sahibi golü (0-5), sütun = deplasman golü (0-5)
                 "skor_matrisi": np.round(r["matrix"][:6, :6], 4).tolist(),
                 "az_veri": r["unknown"],
+                # ilk_yari, iy_ms, gol_dakika, istatistikler
+                **lm.extra(r, referee=(m.Referee or None) if isinstance(m.Referee, str) else None),
             })
     output.sort(key=lambda o: (o["tarih"] or "9999", o["saat"] or "", o["lig_kodu"]))
     if args.json:
