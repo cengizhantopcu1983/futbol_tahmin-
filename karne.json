@@ -1,11 +1,12 @@
 {
- "olusturulma": "2026-10-23T17:24+03:00",
+ "olusturulma": "2026-10-23T17:39+03:00",
  "ozet": {
   "mac": 0,
   "dogru": 0,
   "isabet": null,
   "rps": null,
   "skor_tuttu": 0,
+  "en_olasi_skor_tuttu": 0,
   "piyasa_mac": 0,
   "piyasa_isabet": null,
   "model_isabet_ayni_maclar": null
