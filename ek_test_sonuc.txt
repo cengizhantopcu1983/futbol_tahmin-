@@ -1,0 +1,52 @@
+
+=== Süper Lig 2526: 306 maç ===
+                                        Model  Referans
+  Maç başı gol (tahmin / gerçek)         2.73      2.65
+  İlk yarı sonucu (RPS)                0.1921    0.2035  ✓ model daha iyi
+  İlk yarı 0.5 üst (Brier)             0.2168    0.2210  ✓ model daha iyi
+  Sarı kart toplamı (ort. hata)          1.93      1.96  ✓ model daha iyi
+  Sarı kart 4.5 üst (Brier)            0.2454    0.2480  ✓ model daha iyi
+  Korner toplamı (ort. hata)             2.75      2.73  ✗ referans daha iyi
+  Korner 9.5 üst (Brier)               0.2552    0.2498  ✗ referans daha iyi
+  Şut toplamı (ort. hata)                4.52      4.84  ✓ model daha iyi
+  İsabetli şut toplamı (ort. hata)       2.54      2.75  ✓ model daha iyi
+  Kırmızı kart çıkar mı (Brier)        0.1576    0.1577  ✓ model daha iyi
+
+=== Premier League 2526: 380 maç ===
+                                        Model  Referans
+  Maç başı gol (tahmin / gerçek)         2.88      2.75
+  İlk yarı sonucu (RPS)                0.1990    0.2096  ✓ model daha iyi
+  İlk yarı 0.5 üst (Brier)             0.2056    0.2047  ✗ referans daha iyi
+  Sarı kart toplamı (ort. hata)          1.59      1.55  ✗ referans daha iyi
+  Sarı kart 4.5 üst (Brier)            0.2251    0.2251  ✗ referans daha iyi
+  Korner toplamı (ort. hata)             2.67      2.67  ✗ referans daha iyi
+  Korner 9.5 üst (Brier)               0.2530    0.2465  ✗ referans daha iyi
+  Şut toplamı (ort. hata)                4.34      4.49  ✓ model daha iyi
+  İsabetli şut toplamı (ort. hata)       2.35      2.41  ✓ model daha iyi
+  Kırmızı kart çıkar mı (Brier)        0.0840    0.0839  ✗ referans daha iyi
+
+=== La Liga 2526: 380 maç ===
+                                        Model  Referans
+  Maç başı gol (tahmin / gerçek)         2.60      2.69
+  İlk yarı sonucu (RPS)                0.1922    0.2016  ✓ model daha iyi
+  İlk yarı 0.5 üst (Brier)             0.2069    0.2106  ✓ model daha iyi
+  Sarı kart toplamı (ort. hata)          1.81      1.86  ✓ model daha iyi
+  Sarı kart 4.5 üst (Brier)            0.2454    0.2515  ✓ model daha iyi
+  Korner toplamı (ort. hata)             2.70      2.74  ✓ model daha iyi
+  Korner 9.5 üst (Brier)               0.2485    0.2497  ✓ model daha iyi
+  Şut toplamı (ort. hata)                4.68      4.94  ✓ model daha iyi
+  İsabetli şut toplamı (ort. hata)       2.34      2.40  ✓ model daha iyi
+  Kırmızı kart çıkar mı (Brier)        0.1728    0.1722  ✗ referans daha iyi
+
+=== Serie A 2526: 380 maç ===
+                                        Model  Referans
+  Maç başı gol (tahmin / gerçek)         2.49      2.43
+  İlk yarı sonucu (RPS)                0.1909    0.2021  ✓ model daha iyi
+  İlk yarı 0.5 üst (Brier)             0.2266    0.2277  ✓ model daha iyi
+  Sarı kart toplamı (ort. hata)          1.39      1.52  ✓ model daha iyi
+  Sarı kart 4.5 üst (Brier)            0.1988    0.2271  ✓ model daha iyi
+  Korner toplamı (ort. hata)             2.54      2.60  ✓ model daha iyi
+  Korner 9.5 üst (Brier)               0.2413    0.2450  ✓ model daha iyi
+  Şut toplamı (ort. hata)                4.43      4.43  ✗ referans daha iyi
+  İsabetli şut toplamı (ort. hata)       2.25      2.24  ✗ referans daha iyi
+  Kırmızı kart çıkar mı (Brier)        0.1225    0.1221  ✗ referans daha iyi
