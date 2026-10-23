@@ -1,0 +1,56 @@
+
+=== Süper Lig 2526: 306 maç, model 33 kez yeniden eğitildi ===
+                        Log loss     RPS   Brier   İsabet
+  Model                   0.9919  0.1936  0.5937    50.7%
+  Bahis piyasası          0.9686  0.1858  0.5785    54.2%
+  Referans (oranlar)      1.0894  0.2253  0.6597    42.2%
+
+  Kalibrasyon (ev sahibi galibiyeti):
+  Tahmin aralığı    Maç  Ort. tahmin  Gerçekleşen
+  %0-%20             25        12.9%        20.0%
+  %20-%35            81        28.3%        28.4%
+  %35-%50           111        42.4%        39.6%
+  %50-%65            54        56.1%        59.3%
+  %65-%100           35        73.9%        71.4%
+
+=== Premier League 2526: 380 maç, model 34 kez yeniden eğitildi ===
+                        Log loss     RPS   Brier   İsabet
+  Model                   1.0284  0.2093  0.6171    46.8%
+  Bahis piyasası          1.0158  0.2053  0.6103    49.5%
+  Referans (oranlar)      1.0845  0.2278  0.6563    42.6%
+
+  Kalibrasyon (ev sahibi galibiyeti):
+  Tahmin aralığı    Maç  Ort. tahmin  Gerçekleşen
+  %0-%20             27        15.7%        11.1%
+  %20-%35           101        28.4%        32.7%
+  %35-%50           143        42.0%        39.9%
+  %50-%65            80        57.0%        61.3%
+  %65-%100           29        71.4%        69.0%
+
+=== La Liga 2526: 380 maç, model 36 kez yeniden eğitildi ===
+                        Log loss     RPS   Brier   İsabet
+  Model                   0.9801  0.2009  0.5818    52.9%
+  Bahis piyasası          0.9641  0.1957  0.5714    54.7%
+  Referans (oranlar)      1.0489  0.2234  0.6318    48.9%
+
+  Kalibrasyon (ev sahibi galibiyeti):
+  Tahmin aralığı    Maç  Ort. tahmin  Gerçekleşen
+  %0-%20             31        16.7%        25.8%
+  %20-%35            69        28.1%        27.5%
+  %35-%50           159        42.1%        44.0%
+  %50-%65            72        56.6%        65.3%
+  %65-%100           49        73.6%        85.7%
+
+=== Serie A 2526: 380 maç, model 36 kez yeniden eğitildi ===
+                        Log loss     RPS   Brier   İsabet
+  Model                   0.9977  0.2020  0.5958    52.1%
+  Bahis piyasası          0.9804  0.1966  0.5839    53.9%
+  Referans (oranlar)      1.0896  0.2339  0.6608    38.9%
+
+  Kalibrasyon (ev sahibi galibiyeti):
+  Tahmin aralığı    Maç  Ort. tahmin  Gerçekleşen
+  %0-%20             59        15.5%        15.3%
+  %20-%35            97        27.5%        28.9%
+  %35-%50           109        41.8%        38.5%
+  %50-%65            85        56.9%        56.5%
+  %65-%100           30        72.3%        70.0%
