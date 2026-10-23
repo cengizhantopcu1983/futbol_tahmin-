@@ -73,7 +73,9 @@ def archive_predictions(tahminler: dict, arsiv: dict, now: dt.datetime) -> int:
             "ev": m["ev"], "deplasman": m["deplasman"],
             "p_ev": m["p_ev"], "p_beraberlik": m["p_beraberlik"], "p_deplasman": m["p_deplasman"],
             "xg_ev": m.get("xg_ev"), "xg_deplasman": m.get("xg_deplasman"),
-            "olasi_skor": (m.get("olasi_skorlar") or [{}])[0].get("skor"),
+            # tahmin edilen sonuçla tutarlı skor (yoksa tek tek en olası skor)
+            "olasi_skor": (m.get("tutarli_skor") or {}).get("skor")
+                          or (m.get("olasi_skorlar") or [{}])[0].get("skor"),
             "piyasa": m.get("piyasa"),
             "kayit": now.isoformat(timespec="minutes"),
         }
