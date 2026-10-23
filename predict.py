@@ -12,6 +12,7 @@ from __future__ import annotations
 import argparse
 import datetime as dt
 import json
+import os
 import sys
 
 import numpy as np
@@ -35,14 +36,35 @@ def pct(p: float) -> str:
     return f"{100 * p:5.1f}%"
 
 
+SETTINGS_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "ayarlar.json")
+DEFAULTS = {"xi": 0.0019, "reg": 1.0, "sd": 0.10}
+
+
+def league_params(code: str, args) -> dict:
+    """Ayarlar: varsayılan < ayarlar.json (tune.py çıktısı) < komut satırı."""
+    p = dict(DEFAULTS)
+    try:
+        with open(SETTINGS_FILE, encoding="utf-8") as f:
+            saved = json.load(f).get(code, {})
+        p.update({k: float(saved[k]) for k in DEFAULTS if k in saved})
+    except (OSError, ValueError):
+        pass
+    for key, arg in (("xi", "xi"), ("reg", "reg"), ("sd", "belirsizlik")):
+        if getattr(args, arg, None) is not None:
+            p[key] = getattr(args, arg)
+    return p
+
+
 class LeagueModel:
     """Bir ligin verisi + eğitilmiş modeli + Elo puanları."""
 
-    def __init__(self, code: str, n_seasons: int, xi: float):
+    def __init__(self, code: str, args):
         self.code = code
         self.name = LEAGUES[code]
-        self.df = load_league(code, n_seasons=n_seasons)
-        self.model = DixonColes(xi=xi).fit(self.df)
+        self.params = league_params(code, args)
+        self.sd = self.params["sd"]
+        self.df = load_league(code, n_seasons=args.sezon_sayisi)
+        self.model = DixonColes(xi=self.params["xi"], reg=self.params["reg"]).fit(self.df)
         self.elo, _ = compute_elo(self.df)
         self.current_teams = sorted(set(self.df[self.df["Season"] == self.df["Season"].iloc[-1]]
                                         [["HomeTeam", "AwayTeam"]].to_numpy().ravel()))
@@ -120,7 +142,9 @@ def run_fixtures(args):
     for code in [c for c in LEAGUES if c in set(fx["Div"])]:
         print(f"\n### {LEAGUES[code]}")
         try:
-            lm = LeagueModel(code, args.sezon_sayisi, args.xi)
+            lm = LeagueModel(code, args)
+            p = lm.params
+            print(f"  ayarlar: xi={p['xi']}, reg={p['reg']}, belirsizlik={p['sd']}")
         except Exception as e:  # bir lig hata verirse diğerleri yine çalışsın
             print(f"  atlandı: {e}")
             continue
@@ -137,7 +161,7 @@ def run_fixtures(args):
             if key in seen:
                 continue  # aynı maç iki kaynakta da var
             seen.add(key)
-            r = lm.model.predict(home, away, sd=args.belirsizlik, n_sim=0)
+            r = lm.model.predict(home, away, sd=lm.sd, n_sim=0)
             h, a, p = r["top_scores"][0]
             date = f"{m.Date:%d.%m}" if m.Date == m.Date else "??"
             print(f"  {date} {m.Time!s:>5}  {home[:16]:>16} - {away[:16]:<16} "
@@ -181,8 +205,10 @@ def main():
     ap.add_argument("--siralama", action="store_true", help="Takım güç sıralaması")
     ap.add_argument("--takimlar", action="store_true", help="Ligdeki takım adlarını listele")
     ap.add_argument("--sezon-sayisi", type=int, default=4, help="Kaç sezonluk veri (varsayılan 4)")
-    ap.add_argument("--xi", type=float, default=0.0019, help="Form ağırlığı (büyük = yeni maçlar daha önemli)")
-    ap.add_argument("--belirsizlik", type=float, default=0.10, help="Beklenen gole eklenen belirsizlik")
+    ap.add_argument("--xi", type=float, help="Form ağırlığı (büyük = yeni maçlar daha önemli); "
+                                              "verilmezse ayarlar.json veya varsayılan")
+    ap.add_argument("--reg", type=float, help="Az maçı olan takımları ortalamaya çekme gücü")
+    ap.add_argument("--belirsizlik", type=float, help="Beklenen gole eklenen belirsizlik")
     ap.add_argument("--sim", type=int, default=10000, help="Simülasyon sayısı")
     args = ap.parse_args()
 
@@ -191,7 +217,7 @@ def main():
         return
     if not args.lig:
         ap.error("--lig gerekli (veya --fikstur kullan)")
-    lm = LeagueModel(resolve_league(args.lig), args.sezon_sayisi, args.xi)
+    lm = LeagueModel(resolve_league(args.lig), args)
 
     if args.takimlar:
         print(f"{lm.name} - bu sezonun takımları:")
@@ -211,7 +237,7 @@ def main():
         ap.error("--ev ve --deplasman gerekli")
     teams = sorted(set(lm.model.teams) | set(lm.current_teams))
     home, away = find_team(args.ev, teams), find_team(args.deplasman, teams)
-    print_match(lm, home, away, args.belirsizlik, args.sim)
+    print_match(lm, home, away, lm.sd, args.sim)
 
 
 if __name__ == "__main__":
