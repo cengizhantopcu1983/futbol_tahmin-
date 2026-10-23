@@ -73,9 +73,11 @@ def archive_predictions(tahminler: dict, arsiv: dict, now: dt.datetime) -> int:
             "ev": m["ev"], "deplasman": m["deplasman"],
             "p_ev": m["p_ev"], "p_beraberlik": m["p_beraberlik"], "p_deplasman": m["p_deplasman"],
             "xg_ev": m.get("xg_ev"), "xg_deplasman": m.get("xg_deplasman"),
-            # tahmin edilen sonuçla tutarlı skor (yoksa tek tek en olası skor)
+            # sonuca göre skor: tahmin edilen sonuç içindeki en olası skor
             "olasi_skor": (m.get("tutarli_skor") or {}).get("skor")
                           or (m.get("olasi_skorlar") or [{}])[0].get("skor"),
+            # tek tek en olası skor (sonuçtan bağımsız; çoğu zaman 1-1)
+            "en_olasi_skor": (m.get("olasi_skorlar") or [{}])[0].get("skor"),
             "piyasa": m.get("piyasa"),
             "kayit": now.isoformat(timespec="minutes"),
         }
@@ -114,7 +116,9 @@ def evaluate(r: dict) -> dict:
     pick = int(P.argmax())
     cp, cy = np.cumsum(P)[:2], np.cumsum(np.eye(3)[o])[:2]
     out = {"o": o, "pick": pick, "tuttu": pick == o, "rps": float(((cp - cy) ** 2).sum() / 2),
-           "skor_tuttu": r.get("olasi_skor") == f"{h}-{a}", "p_tahmin": float(P[pick])}
+           "skor_tuttu": r.get("olasi_skor") == f"{h}-{a}",
+           "en_olasi_skor_tuttu": r.get("en_olasi_skor") == f"{h}-{a}",
+           "p_tahmin": float(P[pick])}
     pz = r.get("piyasa")
     if pz:
         bp = int(np.argmax([pz["ev"], pz["beraberlik"], pz["deplasman"]]))
@@ -131,6 +135,7 @@ def stats(items: list[tuple[dict, dict]]) -> dict:
         "mac": n, "dogru": dogru, "isabet": ratio(dogru, n),
         "rps": round(float(np.mean([e["rps"] for _, e in items])), 4) if n else None,
         "skor_tuttu": sum(e["skor_tuttu"] for _, e in items),
+        "en_olasi_skor_tuttu": sum(e["en_olasi_skor_tuttu"] for _, e in items),
         # piyasa kıyası: sadece oranı olan maçlarda, ikisi aynı maçlar üzerinden
         "piyasa_mac": len(pz),
         "piyasa_isabet": ratio(sum(e["piyasa_tuttu"] for _, e in pz), len(pz)),
@@ -161,6 +166,7 @@ def build_karne(arsiv: dict, now: dt.datetime) -> dict:
             "tahmin": SECIM[e["pick"]], "p_tahmin": round(e["p_tahmin"], 4),
             "p_ev": r["p_ev"], "p_beraberlik": r["p_beraberlik"], "p_deplasman": r["p_deplasman"],
             "tuttu": e["tuttu"], "olasi_skor": r.get("olasi_skor"), "skor_tuttu": e["skor_tuttu"],
+            "en_olasi_skor": r.get("en_olasi_skor"), "en_olasi_skor_tuttu": e["en_olasi_skor_tuttu"],
             "piyasa_tahmin": SECIM[e["piyasa_pick"]] if "piyasa_pick" in e else None,
             "piyasa_tuttu": e.get("piyasa_tuttu"),
         })
@@ -188,7 +194,7 @@ def main():
     print(f"Yeni notlanan maç: {notlanan}  |  sonucu beklenen: {karne['bekleyen']}")
     if oz["mac"]:
         print(f"Toplam: {oz['mac']} maç, {oz['dogru']} doğru (%{100 * oz['isabet']:.1f}), "
-              f"skor tutturma {oz['skor_tuttu']}")
+              f"skor tutturma: sonuca göre {oz['skor_tuttu']}, en olası skor {oz['en_olasi_skor_tuttu']}")
         if oz["piyasa_mac"]:
             print(f"Aynı {oz['piyasa_mac']} maçta: model %{100 * oz['model_isabet_ayni_maclar']:.1f}, "
                   f"piyasa %{100 * oz['piyasa_isabet']:.1f}")
