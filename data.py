@@ -159,7 +159,14 @@ def _clean(raw: pd.DataFrame, season: str) -> pd.DataFrame:
     df["FTAG"] = df["FTAG"].astype(int)
     df = _add_bookmaker_probs(df)
     df["Season"] = season
-    return df[["Date", "Season", "HomeTeam", "AwayTeam", "FTHG", "FTAG", "bk_H", "bk_D", "bk_A"]]
+    for c in STAT_COLS:  # devre skoru, şut, korner, kart (dosyada yoksa boş kalır)
+        df[c] = pd.to_numeric(df[c], errors="coerce") if c in df.columns else np.nan
+    df["Referee"] = df["Referee"].astype(str).str.strip().replace("nan", "") if "Referee" in df.columns else ""
+    return df[["Date", "Season", "HomeTeam", "AwayTeam", "FTHG", "FTAG", "bk_H", "bk_D", "bk_A",
+               *STAT_COLS, "Referee"]]
+
+
+STAT_COLS = ["HTHG", "HTAG", "HS", "AS", "HST", "AST", "HC", "AC", "HY", "AY", "HR", "AR"]
 
 
 def load_league(code: str, seasons: list[str] | None = None, n_seasons: int = 4,
@@ -213,13 +220,15 @@ def load_fixtures(refresh: bool = True) -> pd.DataFrame:
     raw["Date"] = [c[0] for c in conv]
     raw["Time"] = [c[1] for c in conv]
     raw["Kaynak"] = "football-data.co.uk"
+    raw["Referee"] = (raw["Referee"].astype(str).str.strip().replace("nan", "")
+                      if "Referee" in raw.columns else "")
     raw["HomeNames"] = [[n] for n in raw["HomeTeam"]]
     raw["AwayNames"] = [[n] for n in raw["AwayTeam"]]
     return raw[FIXTURE_COLS].sort_values(["Date", "Time"]).reset_index(drop=True)
 
 
 FIXTURE_COLS = ["Div", "Date", "Time", "HomeTeam", "AwayTeam", "HomeNames", "AwayNames",
-                "bk_H", "bk_D", "bk_A", "Kaynak"]
+                "bk_H", "bk_D", "bk_A", "Kaynak", "Referee"]
 
 
 def _uk_to_tr(date, time_str):
@@ -267,7 +276,8 @@ def load_fixtures_api(days: int = 8) -> pd.DataFrame:
             t = pd.Timestamp(m["utcDate"]).tz_convert(TZ_TR)
             rows.append({"Div": code, "Date": t.tz_localize(None).normalize(), "Time": t.strftime("%H:%M"),
                          "HomeTeam": hn[0], "AwayTeam": an[0], "HomeNames": hn, "AwayNames": an,
-                         "bk_H": np.nan, "bk_D": np.nan, "bk_A": np.nan, "Kaynak": "football-data.org"})
+                         "bk_H": np.nan, "bk_D": np.nan, "bk_A": np.nan, "Kaynak": "football-data.org",
+                         "Referee": ""})
             n += 1
         print(f"  football-data.org {LEAGUES[code]}: {n} maç")
         time.sleep(1)  # ücretsiz plan: dakikada 10 istek
