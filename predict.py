@@ -70,6 +70,21 @@ class LeagueModel:
                                         [["HomeTeam", "AwayTeam"]].to_numpy().ravel()))
 
 
+def consistent_score(r: dict) -> dict:
+    """En olası sonucu (1/X/2) ve SADECE o sonucu veren skorlar içinde en olasısını döner.
+
+    Tek tek en olası skor çoğu zaman 1-1'dir (beraberlik az sayıda skora yığılır),
+    ev sahibi %44 favori olsa bile. Bu fonksiyon tahminle çelişmeyen skoru verir.
+    """
+    mat = r["matrix"]
+    pick = int(np.argmax([r["pH"], r["pD"], r["pA"]]))
+    i, j = np.indices(mat.shape)
+    mask = (i > j) if pick == 0 else (i == j) if pick == 1 else (i < j)
+    flat = int(np.argmax(np.where(mask, mat, -1.0)))
+    h, a = divmod(flat, mat.shape[1])
+    return {"sonuc": "1X2"[pick], "skor": f"{h}-{a}", "p": round(float(mat[h, a]), 4)}
+
+
 def print_match(lm: LeagueModel, home: str, away: str, sd: float, n_sim: int, bk=None):
     r = lm.model.predict(home, away, sd=sd, n_sim=n_sim)
     line = "═" * 60
@@ -90,7 +105,10 @@ def print_match(lm: LeagueModel, home: str, away: str, sd: float, n_sim: int, bk
         n = lambda v: f"{v:,}".replace(",", ".")
         print(f"\n{n(s['n'])} maç simülasyonu: {n(s['H'])} ev sahibi galibiyeti, {n(s['D'])} beraberlik, "
               f"{n(s['A'])} deplasman galibiyeti")
-    print("\nEn olası skorlar: " + ", ".join(f"{h}-{a} ({100 * p:.1f}%)" for h, a, p in r["top_scores"]))
+    ts = consistent_score(r)
+    sonuc_adi = {"1": "ev sahibi galibiyeti", "X": "beraberlik", "2": "deplasman galibiyeti"}[ts["sonuc"]]
+    print(f"\nTahmin: {sonuc_adi}, bu sonuçta en olası skor {ts['skor']}")
+    print("En olası skorlar (tek tek): " + ", ".join(f"{h}-{a} ({100 * p:.1f}%)" for h, a, p in r["top_scores"]))
     print(f"2.5 üst: {pct(r['over25']).strip()}   |   Karşılıklı gol: {pct(r['btts']).strip()}")
 
     eh, ea = lm.elo.get(home), lm.elo.get(away)
@@ -162,11 +180,11 @@ def run_fixtures(args):
                 continue  # aynı maç iki kaynakta da var
             seen.add(key)
             r = lm.model.predict(home, away, sd=lm.sd, n_sim=0)
-            h, a, p = r["top_scores"][0]
+            ts = consistent_score(r)
             date = f"{m.Date:%d.%m}" if m.Date == m.Date else "??"
             print(f"  {date} {m.Time!s:>5}  {home[:16]:>16} - {away[:16]:<16} "
                   f"1:{pct(r['pH'])} X:{pct(r['pD'])} 2:{pct(r['pA'])}  "
-                  f"xG {r['xg_home']:.1f}-{r['xg_away']:.1f}  olası {h}-{a}")
+                  f"xG {r['xg_home']:.1f}-{r['xg_away']:.1f}  tahmin {ts['sonuc']} ({ts['skor']})")
             output.append({
                 "lig": LEAGUES[code], "lig_kodu": code,
                 "tarih": m.Date.strftime("%Y-%m-%d") if m.Date == m.Date else None,
@@ -176,6 +194,8 @@ def run_fixtures(args):
                 "xg_ev": round(r["xg_home"], 2), "xg_deplasman": round(r["xg_away"], 2),
                 "ust_2_5": round(r["over25"], 4), "kg_var": round(r["btts"], 4),
                 "olasi_skorlar": [{"skor": f"{h}-{a}", "p": round(p, 4)} for h, a, p in r["top_scores"]],
+                # en olası SONUÇ ve o sonuç içindeki en olası skor (ör. "1" ve "2-1")
+                "tutarli_skor": ts,
                 "form_ev": team_form(lm.df, home)["seq"], "form_deplasman": team_form(lm.df, away)["seq"],
                 "elo_ev": round(lm.elo[home]) if home in lm.elo else None,
                 "elo_deplasman": round(lm.elo[away]) if away in lm.elo else None,
