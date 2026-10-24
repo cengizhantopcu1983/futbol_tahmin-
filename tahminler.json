@@ -1,965 +1,7 @@
 {
-  "olusturulma": "2026-10-23T20:57+03:00",
+  "olusturulma": "2026-10-24T12:04+03:00",
   "model": "dixon-coles-v1",
   "maclar": [
-    {
-      "lig": "Süper Lig",
-      "lig_kodu": "T1",
-      "tarih": "2026-10-23",
-      "saat": "20:00",
-      "ev": "Alanyaspor",
-      "deplasman": "Kocaelispor",
-      "p_ev": 0.4123,
-      "p_beraberlik": 0.3576,
-      "p_deplasman": 0.2301,
-      "xg_ev": 1.04,
-      "xg_deplasman": 0.7,
-      "ust_2_5": 0.25,
-      "kg_var": 0.3344,
-      "olasi_skorlar": [
-        {
-          "skor": "0-0",
-          "p": 0.1929
-        },
-        {
-          "skor": "1-0",
-          "p": 0.1691
-        },
-        {
-          "skor": "1-1",
-          "p": 0.14
-        },
-        {
-          "skor": "0-1",
-          "p": 0.1107
-        },
-        {
-          "skor": "2-0",
-          "p": 0.0939
-        }
-      ],
-      "tutarli_skor": {
-        "sonuc": "1",
-        "skor": "1-0",
-        "p": 0.1691
-      },
-      "form_ev": "G B G B M",
-      "form_deplasman": "G M G M M",
-      "elo_ev": 1484,
-      "elo_deplasman": 1456,
-      "piyasa": {
-        "ev": 0.4759,
-        "beraberlik": 0.2885,
-        "deplasman": 0.2355
-      },
-      "skor_matrisi": [
-        [
-          0.1929,
-          0.1107,
-          0.0434,
-          0.0102,
-          0.0018,
-          0.0003
-        ],
-        [
-          0.1691,
-          0.14,
-          0.0442,
-          0.0104,
-          0.0019,
-          0.0003
-        ],
-        [
-          0.0939,
-          0.065,
-          0.0227,
-          0.0054,
-          0.001,
-          0.0001
-        ],
-        [
-          0.0325,
-          0.0225,
-          0.0079,
-          0.0019,
-          0.0003,
-          0.0
-        ],
-        [
-          0.0085,
-          0.0059,
-          0.0021,
-          0.0005,
-          0.0001,
-          0.0
-        ],
-        [
-          0.0018,
-          0.0013,
-          0.0004,
-          0.0001,
-          0.0,
-          0.0
-        ]
-      ],
-      "az_veri": [],
-      "ilk_yari": {
-        "p_ev": 0.2813,
-        "p_beraberlik": 0.543,
-        "p_deplasman": 0.1756,
-        "xg_ev": 0.46,
-        "xg_deplasman": 0.31,
-        "ust_0_5": 0.5342,
-        "ust_1_5": 0.1783,
-        "ilk_yari_gol_payi": 0.441
-      },
-      "iy_ms": [
-        {
-          "kod": "X/X",
-          "p": 0.2724
-        },
-        {
-          "kod": "1/1",
-          "p": 0.2308
-        },
-        {
-          "kod": "X/1",
-          "p": 0.1688
-        },
-        {
-          "kod": "2/2",
-          "p": 0.1204
-        },
-        {
-          "kod": "X/2",
-          "p": 0.1018
-        },
-        {
-          "kod": "1/X",
-          "p": 0.0426
-        },
-        {
-          "kod": "2/X",
-          "p": 0.0426
-        },
-        {
-          "kod": "2/1",
-          "p": 0.0127
-        },
-        {
-          "kod": "1/2",
-          "p": 0.0079
-        }
-      ],
-      "gol_dakika": {
-        "araliklar": [
-          {
-            "aralik": "0-15",
-            "p_gol": 0.1951
-          },
-          {
-            "aralik": "16-30",
-            "p_gol": 0.2226
-          },
-          {
-            "aralik": "31-45+",
-            "p_gol": 0.2556
-          },
-          {
-            "aralik": "46-60",
-            "p_gol": 0.2416
-          },
-          {
-            "aralik": "61-75",
-            "p_gol": 0.2546
-          },
-          {
-            "aralik": "76-90+",
-            "p_gol": 0.3281
-          }
-        ],
-        "ilk_gol_30_once": 0.3742,
-        "golsuz": 0.1929,
-        "ilk_golu_ev": 0.4828,
-        "ilk_golu_deplasman": 0.3243
-      },
-      "istatistikler": {
-        "sari_kart": {
-          "ev": 1.92,
-          "deplasman": 2.16,
-          "toplam": 4.09,
-          "cizgiler": [
-            {
-              "cizgi": 3.5,
-              "ust": 0.5607
-            },
-            {
-              "cizgi": 4.5,
-              "ust": 0.3857
-            },
-            {
-              "cizgi": 5.5,
-              "ust": 0.2433
-            }
-          ]
-        },
-        "korner": {
-          "ev": 4.52,
-          "deplasman": 2.96,
-          "toplam": 7.48,
-          "cizgiler": [
-            {
-              "cizgi": 8.5,
-              "ust": 0.3384
-            },
-            {
-              "cizgi": 9.5,
-              "ust": 0.2283
-            },
-            {
-              "cizgi": 10.5,
-              "ust": 0.1446
-            }
-          ]
-        },
-        "sut": {
-          "ev": 12.45,
-          "deplasman": 8.94,
-          "toplam": 21.39
-        },
-        "isabetli_sut": {
-          "ev": 3.27,
-          "deplasman": 2.68,
-          "toplam": 5.95
-        },
-        "kirmizi_kart": {
-          "ev": 0.08,
-          "deplasman": 0.12,
-          "toplam": 0.2,
-          "p_en_az_bir": 0.1797,
-          "dusuk_guven": true
-        }
-      }
-    },
-    {
-      "lig": "Serie A",
-      "lig_kodu": "I1",
-      "tarih": "2026-10-23",
-      "saat": "21:45",
-      "ev": "Torino",
-      "deplasman": "Monza",
-      "p_ev": 0.4959,
-      "p_beraberlik": 0.2614,
-      "p_deplasman": 0.2427,
-      "xg_ev": 1.57,
-      "xg_deplasman": 1.02,
-      "ust_2_5": 0.4801,
-      "kg_var": 0.5118,
-      "olasi_skorlar": [
-        {
-          "skor": "1-1",
-          "p": 0.1245
-        },
-        {
-          "skor": "1-0",
-          "p": 0.113
-        },
-        {
-          "skor": "2-1",
-          "p": 0.0943
-        },
-        {
-          "skor": "2-0",
-          "p": 0.0921
-        },
-        {
-          "skor": "0-0",
-          "p": 0.0791
-        }
-      ],
-      "tutarli_skor": {
-        "sonuc": "1",
-        "skor": "1-0",
-        "p": 0.113
-      },
-      "form_ev": "G M B G G",
-      "form_deplasman": "B M G M G",
-      "elo_ev": 1477,
-      "elo_deplasman": 1410,
-      "piyasa": {
-        "ev": 0.4514,
-        "beraberlik": 0.2735,
-        "deplasman": 0.2751
-      },
-      "skor_matrisi": [
-        [
-          0.0791,
-          0.0721,
-          0.0391,
-          0.0134,
-          0.0034,
-          0.0007
-        ],
-        [
-          0.113,
-          0.1245,
-          0.0615,
-          0.021,
-          0.0054,
-          0.0011
-        ],
-        [
-          0.0921,
-          0.0943,
-          0.0483,
-          0.0165,
-          0.0042,
-          0.0009
-        ],
-        [
-          0.0482,
-          0.0494,
-          0.0253,
-          0.0086,
-          0.0022,
-          0.0005
-        ],
-        [
-          0.0189,
-          0.0194,
-          0.0099,
-          0.0034,
-          0.0009,
-          0.0002
-        ],
-        [
-          0.0059,
-          0.0061,
-          0.0031,
-          0.0011,
-          0.0003,
-          0.0001
-        ]
-      ],
-      "az_veri": [],
-      "ilk_yari": {
-        "p_ev": 0.3602,
-        "p_beraberlik": 0.4327,
-        "p_deplasman": 0.2072,
-        "xg_ev": 0.68,
-        "xg_deplasman": 0.44,
-        "ust_0_5": 0.6753,
-        "ust_1_5": 0.3101,
-        "ilk_yari_gol_payi": 0.434
-      },
-      "iy_ms": [
-        {
-          "kod": "1/1",
-          "p": 0.296
-        },
-        {
-          "kod": "X/1",
-          "p": 0.1743
-        },
-        {
-          "kod": "X/X",
-          "p": 0.1625
-        },
-        {
-          "kod": "2/2",
-          "p": 0.1321
-        },
-        {
-          "kod": "X/2",
-          "p": 0.0958
-        },
-        {
-          "kod": "1/X",
-          "p": 0.0494
-        },
-        {
-          "kod": "2/X",
-          "p": 0.0494
-        },
-        {
-          "kod": "2/1",
-          "p": 0.0256
-        },
-        {
-          "kod": "1/2",
-          "p": 0.0148
-        }
-      ],
-      "gol_dakika": {
-        "araliklar": [
-          {
-            "aralik": "0-15",
-            "p_gol": 0.2736
-          },
-          {
-            "aralik": "16-30",
-            "p_gol": 0.3098
-          },
-          {
-            "aralik": "31-45+",
-            "p_gol": 0.3525
-          },
-          {
-            "aralik": "46-60",
-            "p_gol": 0.3428
-          },
-          {
-            "aralik": "61-75",
-            "p_gol": 0.3598
-          },
-          {
-            "aralik": "76-90+",
-            "p_gol": 0.453
-          }
-        ],
-        "ilk_gol_30_once": 0.4986,
-        "golsuz": 0.0791,
-        "ilk_golu_ev": 0.5575,
-        "ilk_golu_deplasman": 0.3634
-      },
-      "istatistikler": {
-        "sari_kart": {
-          "ev": 1.59,
-          "deplasman": 1.99,
-          "toplam": 3.59,
-          "cizgiler": [
-            {
-              "cizgi": 3.5,
-              "ust": 0.4821
-            },
-            {
-              "cizgi": 4.5,
-              "ust": 0.2911
-            },
-            {
-              "cizgi": 5.5,
-              "ust": 0.1541
-            }
-          ]
-        },
-        "korner": {
-          "ev": 4.92,
-          "deplasman": 3.46,
-          "toplam": 8.38,
-          "cizgiler": [
-            {
-              "cizgi": 8.5,
-              "ust": 0.4563
-            },
-            {
-              "cizgi": 9.5,
-              "ust": 0.3367
-            },
-            {
-              "cizgi": 10.5,
-              "ust": 0.2354
-            }
-          ]
-        },
-        "sut": {
-          "ev": 14.02,
-          "deplasman": 10.49,
-          "toplam": 24.51
-        },
-        "isabetli_sut": {
-          "ev": 4.69,
-          "deplasman": 3.47,
-          "toplam": 8.16
-        },
-        "kirmizi_kart": {
-          "ev": 0.08,
-          "deplasman": 0.09,
-          "toplam": 0.17,
-          "p_en_az_bir": 0.1406,
-          "dusuk_guven": true
-        }
-      }
-    },
-    {
-      "lig": "Premier League",
-      "lig_kodu": "E0",
-      "tarih": "2026-10-23",
-      "saat": "22:00",
-      "ev": "Ipswich",
-      "deplasman": "Nott'm Forest",
-      "p_ev": 0.2614,
-      "p_beraberlik": 0.2567,
-      "p_deplasman": 0.482,
-      "xg_ev": 1.22,
-      "xg_deplasman": 1.72,
-      "ust_2_5": 0.5607,
-      "kg_var": 0.5837,
-      "olasi_skorlar": [
-        {
-          "skor": "1-1",
-          "p": 0.1201
-        },
-        {
-          "skor": "1-2",
-          "p": 0.0942
-        },
-        {
-          "skor": "0-1",
-          "p": 0.0819
-        },
-        {
-          "skor": "0-2",
-          "p": 0.0784
-        },
-        {
-          "skor": "2-1",
-          "p": 0.0668
-        }
-      ],
-      "tutarli_skor": {
-        "sonuc": "2",
-        "skor": "1-2",
-        "p": 0.0942
-      },
-      "form_ev": "M G M G M",
-      "form_deplasman": "B G M M M",
-      "elo_ev": 1410,
-      "elo_deplasman": 1466,
-      "piyasa": {
-        "ev": 0.313,
-        "beraberlik": 0.2739,
-        "deplasman": 0.4132
-      },
-      "skor_matrisi": [
-        [
-          0.0641,
-          0.0819,
-          0.0784,
-          0.0451,
-          0.0196,
-          0.0069
-        ],
-        [
-          0.0553,
-          0.1201,
-          0.0942,
-          0.0542,
-          0.0236,
-          0.0083
-        ],
-        [
-          0.0395,
-          0.0668,
-          0.0571,
-          0.0328,
-          0.0143,
-          0.005
-        ],
-        [
-          0.0161,
-          0.0273,
-          0.0233,
-          0.0134,
-          0.0058,
-          0.0021
-        ],
-        [
-          0.005,
-          0.0084,
-          0.0072,
-          0.0041,
-          0.0018,
-          0.0006
-        ],
-        [
-          0.0012,
-          0.0021,
-          0.0018,
-          0.001,
-          0.0005,
-          0.0002
-        ]
-      ],
-      "az_veri": [],
-      "ilk_yari": {
-        "p_ev": 0.2305,
-        "p_beraberlik": 0.4047,
-        "p_deplasman": 0.3648,
-        "xg_ev": 0.53,
-        "xg_deplasman": 0.75,
-        "ust_0_5": 0.7215,
-        "ust_1_5": 0.3655,
-        "ilk_yari_gol_payi": 0.435
-      },
-      "iy_ms": [
-        {
-          "kod": "2/2",
-          "p": 0.2916
-        },
-        {
-          "kod": "X/2",
-          "p": 0.161
-        },
-        {
-          "kod": "X/X",
-          "p": 0.1471
-        },
-        {
-          "kod": "1/1",
-          "p": 0.1463
-        },
-        {
-          "kod": "X/1",
-          "p": 0.0966
-        },
-        {
-          "kod": "1/X",
-          "p": 0.0548
-        },
-        {
-          "kod": "2/X",
-          "p": 0.0548
-        },
-        {
-          "kod": "1/2",
-          "p": 0.0294
-        },
-        {
-          "kod": "2/1",
-          "p": 0.0185
-        }
-      ],
-      "gol_dakika": {
-        "araliklar": [
-          {
-            "aralik": "0-15",
-            "p_gol": 0.3046
-          },
-          {
-            "aralik": "16-30",
-            "p_gol": 0.3438
-          },
-          {
-            "aralik": "31-45+",
-            "p_gol": 0.3898
-          },
-          {
-            "aralik": "46-60",
-            "p_gol": 0.3782
-          },
-          {
-            "aralik": "61-75",
-            "p_gol": 0.3964
-          },
-          {
-            "aralik": "76-90+",
-            "p_gol": 0.4949
-          }
-        ],
-        "ilk_gol_30_once": 0.5437,
-        "golsuz": 0.0641,
-        "ilk_golu_ev": 0.3894,
-        "ilk_golu_deplasman": 0.5465
-      },
-      "istatistikler": {
-        "sari_kart": {
-          "hakem": "T Bramall",
-          "hakem_etkisi": 0.98,
-          "ev": 1.85,
-          "deplasman": 1.92,
-          "toplam": 3.77,
-          "cizgiler": [
-            {
-              "cizgi": 3.5,
-              "ust": 0.5202
-            },
-            {
-              "cizgi": 4.5,
-              "ust": 0.3261
-            },
-            {
-              "cizgi": 5.5,
-              "ust": 0.1799
-            }
-          ]
-        },
-        "korner": {
-          "ev": 4.16,
-          "deplasman": 5.12,
-          "toplam": 9.28,
-          "cizgiler": [
-            {
-              "cizgi": 8.5,
-              "ust": 0.5769
-            },
-            {
-              "cizgi": 9.5,
-              "ust": 0.4484
-            },
-            {
-              "cizgi": 10.5,
-              "ust": 0.3293
-            }
-          ]
-        },
-        "sut": {
-          "ev": 11.74,
-          "deplasman": 14.67,
-          "toplam": 26.41
-        },
-        "isabetli_sut": {
-          "ev": 3.97,
-          "deplasman": 4.76,
-          "toplam": 8.73
-        },
-        "kirmizi_kart": {
-          "ev": 0.06,
-          "deplasman": 0.06,
-          "toplam": 0.13,
-          "p_en_az_bir": 0.1152,
-          "dusuk_guven": true
-        }
-      }
-    },
-    {
-      "lig": "La Liga",
-      "lig_kodu": "SP1",
-      "tarih": "2026-10-23",
-      "saat": "22:00",
-      "ev": "Alaves",
-      "deplasman": "Malaga",
-      "p_ev": 0.6696,
-      "p_beraberlik": 0.2196,
-      "p_deplasman": 0.1109,
-      "xg_ev": 1.86,
-      "xg_deplasman": 0.61,
-      "ust_2_5": 0.4473,
-      "kg_var": 0.3888,
-      "olasi_skorlar": [
-        {
-          "skor": "1-0",
-          "p": 0.1539
-        },
-        {
-          "skor": "2-0",
-          "p": 0.1464
-        },
-        {
-          "skor": "1-1",
-          "p": 0.0999
-        },
-        {
-          "skor": "3-0",
-          "p": 0.0905
-        },
-        {
-          "skor": "2-1",
-          "p": 0.0892
-        }
-      ],
-      "tutarli_skor": {
-        "sonuc": "1",
-        "skor": "1-0",
-        "p": 0.1539
-      },
-      "form_ev": "M M B M M",
-      "form_deplasman": "B M M B M",
-      "elo_ev": 1461,
-      "elo_deplasman": 1363,
-      "piyasa": {
-        "ev": 0.5826,
-        "beraberlik": 0.2503,
-        "deplasman": 0.167
-      },
-      "skor_matrisi": [
-        [
-          0.0888,
-          0.048,
-          0.0158,
-          0.0032,
-          0.0005,
-          0.0001
-        ],
-        [
-          0.1539,
-          0.0999,
-          0.0293,
-          0.0059,
-          0.0009,
-          0.0001
-        ],
-        [
-          0.1464,
-          0.0892,
-          0.0272,
-          0.0055,
-          0.0008,
-          0.0001
-        ],
-        [
-          0.0905,
-          0.0552,
-          0.0168,
-          0.0034,
-          0.0005,
-          0.0001
-        ],
-        [
-          0.042,
-          0.0256,
-          0.0078,
-          0.0016,
-          0.0002,
-          0.0
-        ],
-        [
-          0.0156,
-          0.0095,
-          0.0029,
-          0.0006,
-          0.0001,
-          0.0
-        ]
-      ],
-      "az_veri": [],
-      "ilk_yari": {
-        "p_ev": 0.4638,
-        "p_beraberlik": 0.4223,
-        "p_deplasman": 0.1139,
-        "xg_ev": 0.81,
-        "xg_deplasman": 0.26,
-        "ust_0_5": 0.6571,
-        "ust_1_5": 0.2901,
-        "ilk_yari_gol_payi": 0.434
-      },
-      "iy_ms": [
-        {
-          "kod": "1/1",
-          "p": 0.4235
-        },
-        {
-          "kod": "X/1",
-          "p": 0.2228
-        },
-        {
-          "kod": "X/X",
-          "p": 0.1506
-        },
-        {
-          "kod": "2/2",
-          "p": 0.0562
-        },
-        {
-          "kod": "X/2",
-          "p": 0.0489
-        },
-        {
-          "kod": "1/X",
-          "p": 0.0345
-        },
-        {
-          "kod": "2/X",
-          "p": 0.0345
-        },
-        {
-          "kod": "2/1",
-          "p": 0.0233
-        },
-        {
-          "kod": "1/2",
-          "p": 0.0058
-        }
-      ],
-      "gol_dakika": {
-        "araliklar": [
-          {
-            "aralik": "0-15",
-            "p_gol": 0.2622
-          },
-          {
-            "aralik": "16-30",
-            "p_gol": 0.2972
-          },
-          {
-            "aralik": "31-45+",
-            "p_gol": 0.3387
-          },
-          {
-            "aralik": "46-60",
-            "p_gol": 0.3288
-          },
-          {
-            "aralik": "61-75",
-            "p_gol": 0.3453
-          },
-          {
-            "aralik": "76-90+",
-            "p_gol": 0.4362
-          }
-        ],
-        "ilk_gol_30_once": 0.4815,
-        "golsuz": 0.0888,
-        "ilk_golu_ev": 0.686,
-        "ilk_golu_deplasman": 0.2252
-      },
-      "istatistikler": {
-        "sari_kart": {
-          "ev": 2.3,
-          "deplasman": 2.25,
-          "toplam": 4.56,
-          "cizgiler": [
-            {
-              "cizgi": 3.5,
-              "ust": 0.6563
-            },
-            {
-              "cizgi": 4.5,
-              "ust": 0.474
-            },
-            {
-              "cizgi": 5.5,
-              "ust": 0.3096
-            }
-          ]
-        },
-        "korner": {
-          "ev": 5.38,
-          "deplasman": 4.89,
-          "toplam": 10.27,
-          "cizgiler": [
-            {
-              "cizgi": 8.5,
-              "ust": 0.6829
-            },
-            {
-              "cizgi": 9.5,
-              "ust": 0.5667
-            },
-            {
-              "cizgi": 10.5,
-              "ust": 0.4491
-            }
-          ]
-        },
-        "sut": {
-          "ev": 16.19,
-          "deplasman": 9.34,
-          "toplam": 25.53
-        },
-        "isabetli_sut": {
-          "ev": 6.15,
-          "deplasman": 2.42,
-          "toplam": 8.56
-        },
-        "kirmizi_kart": {
-          "ev": 0.13,
-          "deplasman": 0.12,
-          "toplam": 0.25,
-          "p_en_az_bir": 0.2159,
-          "dusuk_guven": true
-        }
-      }
-    },
     {
       "lig": "Süper Lig",
       "lig_kodu": "T1",
@@ -15449,6 +14491,2356 @@
           "deplasman": 0.12,
           "toplam": 0.25,
           "p_en_az_bir": 0.2155,
+          "dusuk_guven": true
+        }
+      }
+    },
+    {
+      "lig": "Serie A",
+      "lig_kodu": "I1",
+      "tarih": "2026-11-01",
+      "saat": "14:30",
+      "ev": "Como",
+      "deplasman": "Venezia",
+      "p_ev": 0.6832,
+      "p_beraberlik": 0.2016,
+      "p_deplasman": 0.1153,
+      "xg_ev": 2.05,
+      "xg_deplasman": 0.71,
+      "ust_2_5": 0.5216,
+      "kg_var": 0.4472,
+      "olasi_skorlar": [
+        {
+          "skor": "2-0",
+          "p": 0.1327
+        },
+        {
+          "skor": "1-0",
+          "p": 0.1261
+        },
+        {
+          "skor": "1-1",
+          "p": 0.0955
+        },
+        {
+          "skor": "2-1",
+          "p": 0.0945
+        },
+        {
+          "skor": "3-0",
+          "p": 0.0907
+        }
+      ],
+      "tutarli_skor": {
+        "sonuc": "1",
+        "skor": "2-0",
+        "p": 0.1327
+      },
+      "form_ev": "G G M B G",
+      "form_deplasman": "M M M M G",
+      "elo_ev": 1600,
+      "elo_deplasman": 1386,
+      "piyasa": null,
+      "skor_matrisi": [
+        [
+          0.0665,
+          0.0416,
+          0.016,
+          0.0038,
+          0.0007,
+          0.0001
+        ],
+        [
+          0.1261,
+          0.0955,
+          0.0328,
+          0.0078,
+          0.0014,
+          0.0002
+        ],
+        [
+          0.1327,
+          0.0945,
+          0.0336,
+          0.008,
+          0.0014,
+          0.0002
+        ],
+        [
+          0.0907,
+          0.0646,
+          0.023,
+          0.0055,
+          0.001,
+          0.0001
+        ],
+        [
+          0.0465,
+          0.0331,
+          0.0118,
+          0.0028,
+          0.0005,
+          0.0001
+        ],
+        [
+          0.0191,
+          0.0136,
+          0.0048,
+          0.0011,
+          0.0002,
+          0.0
+        ]
+      ],
+      "az_veri": [],
+      "ilk_yari": {
+        "p_ev": 0.4843,
+        "p_beraberlik": 0.3923,
+        "p_deplasman": 0.1234,
+        "xg_ev": 0.89,
+        "xg_deplasman": 0.31,
+        "ust_0_5": 0.6982,
+        "ust_1_5": 0.3367,
+        "ilk_yari_gol_payi": 0.434
+      },
+      "iy_ms": [
+        {
+          "kod": "1/1",
+          "p": 0.4408
+        },
+        {
+          "kod": "X/1",
+          "p": 0.2147
+        },
+        {
+          "kod": "X/X",
+          "p": 0.1289
+        },
+        {
+          "kod": "2/2",
+          "p": 0.0594
+        },
+        {
+          "kod": "X/2",
+          "p": 0.0487
+        },
+        {
+          "kod": "1/X",
+          "p": 0.0363
+        },
+        {
+          "kod": "2/X",
+          "p": 0.0363
+        },
+        {
+          "kod": "2/1",
+          "p": 0.0276
+        },
+        {
+          "kod": "1/2",
+          "p": 0.0071
+        }
+      ],
+      "gol_dakika": {
+        "araliklar": [
+          {
+            "aralik": "0-15",
+            "p_gol": 0.2885
+          },
+          {
+            "aralik": "16-30",
+            "p_gol": 0.3262
+          },
+          {
+            "aralik": "31-45+",
+            "p_gol": 0.3705
+          },
+          {
+            "aralik": "46-60",
+            "p_gol": 0.3605
+          },
+          {
+            "aralik": "61-75",
+            "p_gol": 0.3781
+          },
+          {
+            "aralik": "76-90+",
+            "p_gol": 0.4741
+          }
+        ],
+        "ilk_gol_30_once": 0.5206,
+        "golsuz": 0.0665,
+        "ilk_golu_ev": 0.6929,
+        "ilk_golu_deplasman": 0.2406
+      },
+      "istatistikler": {
+        "sari_kart": {
+          "ev": 1.64,
+          "deplasman": 2.8,
+          "toplam": 4.45,
+          "cizgiler": [
+            {
+              "cizgi": 3.5,
+              "ust": 0.6485
+            },
+            {
+              "cizgi": 4.5,
+              "ust": 0.4576
+            },
+            {
+              "cizgi": 5.5,
+              "ust": 0.2879
+            }
+          ]
+        },
+        "korner": {
+          "ev": 6.48,
+          "deplasman": 2.68,
+          "toplam": 9.16,
+          "cizgiler": [
+            {
+              "cizgi": 8.5,
+              "ust": 0.5539
+            },
+            {
+              "cizgi": 9.5,
+              "ust": 0.4321
+            },
+            {
+              "cizgi": 10.5,
+              "ust": 0.3208
+            }
+          ]
+        },
+        "sut": {
+          "ev": 19.66,
+          "deplasman": 8.12,
+          "toplam": 27.78
+        },
+        "isabetli_sut": {
+          "ev": 7.36,
+          "deplasman": 2.89,
+          "toplam": 10.25
+        },
+        "kirmizi_kart": {
+          "ev": 0.08,
+          "deplasman": 0.09,
+          "toplam": 0.18,
+          "p_en_az_bir": 0.1501,
+          "dusuk_guven": true
+        }
+      }
+    },
+    {
+      "lig": "La Liga",
+      "lig_kodu": "SP1",
+      "tarih": "2026-11-01",
+      "saat": "16:00",
+      "ev": "Getafe",
+      "deplasman": "Sevilla",
+      "p_ev": 0.3819,
+      "p_beraberlik": 0.329,
+      "p_deplasman": 0.2891,
+      "xg_ev": 1.03,
+      "xg_deplasman": 0.85,
+      "ust_2_5": 0.2914,
+      "kg_var": 0.3742,
+      "olasi_skorlar": [
+        {
+          "skor": "0-0",
+          "p": 0.1576
+        },
+        {
+          "skor": "1-0",
+          "p": 0.1512
+        },
+        {
+          "skor": "1-1",
+          "p": 0.139
+        },
+        {
+          "skor": "0-1",
+          "p": 0.1248
+        },
+        {
+          "skor": "2-0",
+          "p": 0.0804
+        }
+      ],
+      "tutarli_skor": {
+        "sonuc": "1",
+        "skor": "1-0",
+        "p": 0.1512
+      },
+      "form_ev": "B M G M B",
+      "form_deplasman": "G G M B M",
+      "elo_ev": 1455,
+      "elo_deplasman": 1463,
+      "piyasa": null,
+      "skor_matrisi": [
+        [
+          0.1576,
+          0.1248,
+          0.0556,
+          0.0158,
+          0.0034,
+          0.0006
+        ],
+        [
+          0.1512,
+          0.139,
+          0.0571,
+          0.0163,
+          0.0035,
+          0.0006
+        ],
+        [
+          0.0804,
+          0.0687,
+          0.0293,
+          0.0084,
+          0.0018,
+          0.0003
+        ],
+        [
+          0.0275,
+          0.0235,
+          0.01,
+          0.0029,
+          0.0006,
+          0.0001
+        ],
+        [
+          0.0071,
+          0.006,
+          0.0026,
+          0.0007,
+          0.0002,
+          0.0
+        ],
+        [
+          0.0015,
+          0.0012,
+          0.0005,
+          0.0002,
+          0.0,
+          0.0
+        ]
+      ],
+      "az_veri": [],
+      "ilk_yari": {
+        "p_ev": 0.2662,
+        "p_beraberlik": 0.5213,
+        "p_deplasman": 0.2126,
+        "xg_ev": 0.45,
+        "xg_deplasman": 0.37,
+        "ust_0_5": 0.5582,
+        "ust_1_5": 0.1973,
+        "ilk_yari_gol_payi": 0.434
+      },
+      "iy_ms": [
+        {
+          "kod": "X/X",
+          "p": 0.2402
+        },
+        {
+          "kod": "1/1",
+          "p": 0.2104
+        },
+        {
+          "kod": "X/1",
+          "p": 0.1573
+        },
+        {
+          "kod": "2/2",
+          "p": 0.154
+        },
+        {
+          "kod": "X/2",
+          "p": 0.1237
+        },
+        {
+          "kod": "1/X",
+          "p": 0.0444
+        },
+        {
+          "kod": "2/X",
+          "p": 0.0444
+        },
+        {
+          "kod": "2/1",
+          "p": 0.0141
+        },
+        {
+          "kod": "1/2",
+          "p": 0.0113
+        }
+      ],
+      "gol_dakika": {
+        "araliklar": [
+          {
+            "aralik": "0-15",
+            "p_gol": 0.2071
+          },
+          {
+            "aralik": "16-30",
+            "p_gol": 0.236
+          },
+          {
+            "aralik": "31-45+",
+            "p_gol": 0.2707
+          },
+          {
+            "aralik": "46-60",
+            "p_gol": 0.2623
+          },
+          {
+            "aralik": "61-75",
+            "p_gol": 0.2762
+          },
+          {
+            "aralik": "76-90+",
+            "p_gol": 0.3543
+          }
+        ],
+        "ilk_gol_30_once": 0.3942,
+        "golsuz": 0.1576,
+        "ilk_golu_ev": 0.4599,
+        "ilk_golu_deplasman": 0.3824
+      },
+      "istatistikler": {
+        "sari_kart": {
+          "ev": 2.9,
+          "deplasman": 3.28,
+          "toplam": 6.19,
+          "cizgiler": [
+            {
+              "cizgi": 3.5,
+              "ust": 0.8497
+            },
+            {
+              "cizgi": 4.5,
+              "ust": 0.7236
+            },
+            {
+              "cizgi": 5.5,
+              "ust": 0.5733
+            }
+          ]
+        },
+        "korner": {
+          "ev": 3.98,
+          "deplasman": 3.82,
+          "toplam": 7.8,
+          "cizgiler": [
+            {
+              "cizgi": 8.5,
+              "ust": 0.3801
+            },
+            {
+              "cizgi": 9.5,
+              "ust": 0.2648
+            },
+            {
+              "cizgi": 10.5,
+              "ust": 0.1737
+            }
+          ]
+        },
+        "sut": {
+          "ev": 10.09,
+          "deplasman": 9.9,
+          "toplam": 19.99
+        },
+        "isabetli_sut": {
+          "ev": 3.33,
+          "deplasman": 3.25,
+          "toplam": 6.58
+        },
+        "kirmizi_kart": {
+          "ev": 0.14,
+          "deplasman": 0.13,
+          "toplam": 0.26,
+          "p_en_az_bir": 0.2283,
+          "dusuk_guven": true
+        }
+      }
+    },
+    {
+      "lig": "Serie A",
+      "lig_kodu": "I1",
+      "tarih": "2026-11-01",
+      "saat": "17:00",
+      "ev": "Frosinone",
+      "deplasman": "Torino",
+      "p_ev": 0.4042,
+      "p_beraberlik": 0.2615,
+      "p_deplasman": 0.3343,
+      "xg_ev": 1.47,
+      "xg_deplasman": 1.31,
+      "ust_2_5": 0.5266,
+      "kg_var": 0.5674,
+      "olasi_skorlar": [
+        {
+          "skor": "1-1",
+          "p": 0.1237
+        },
+        {
+          "skor": "2-1",
+          "p": 0.0877
+        },
+        {
+          "skor": "1-0",
+          "p": 0.0865
+        },
+        {
+          "skor": "1-2",
+          "p": 0.0785
+        },
+        {
+          "skor": "0-1",
+          "p": 0.077
+        }
+      ],
+      "tutarli_skor": {
+        "sonuc": "1",
+        "skor": "2-1",
+        "p": 0.0877
+      },
+      "form_ev": "G B G M G",
+      "form_deplasman": "G M B G G",
+      "elo_ev": 1504,
+      "elo_deplasman": 1477,
+      "piyasa": null,
+      "skor_matrisi": [
+        [
+          0.0662,
+          0.077,
+          0.0534,
+          0.0234,
+          0.0077,
+          0.002
+        ],
+        [
+          0.0865,
+          0.1237,
+          0.0785,
+          0.0344,
+          0.0113,
+          0.003
+        ],
+        [
+          0.0667,
+          0.0877,
+          0.0576,
+          0.0253,
+          0.0083,
+          0.0022
+        ],
+        [
+          0.0326,
+          0.0429,
+          0.0282,
+          0.0124,
+          0.0041,
+          0.0011
+        ],
+        [
+          0.012,
+          0.0158,
+          0.0104,
+          0.0045,
+          0.0015,
+          0.0004
+        ],
+        [
+          0.0035,
+          0.0046,
+          0.003,
+          0.0013,
+          0.0004,
+          0.0001
+        ]
+      ],
+      "az_veri": [],
+      "ilk_yari": {
+        "p_ev": 0.3112,
+        "p_beraberlik": 0.4199,
+        "p_deplasman": 0.2689,
+        "xg_ev": 0.64,
+        "xg_deplasman": 0.57,
+        "ust_0_5": 0.7009,
+        "ust_1_5": 0.3399,
+        "ilk_yari_gol_payi": 0.434
+      },
+      "iy_ms": [
+        {
+          "kod": "1/1",
+          "p": 0.2357
+        },
+        {
+          "kod": "2/2",
+          "p": 0.1902
+        },
+        {
+          "kod": "X/X",
+          "p": 0.1539
+        },
+        {
+          "kod": "X/1",
+          "p": 0.1435
+        },
+        {
+          "kod": "X/2",
+          "p": 0.1225
+        },
+        {
+          "kod": "1/X",
+          "p": 0.0538
+        },
+        {
+          "kod": "2/X",
+          "p": 0.0538
+        },
+        {
+          "kod": "2/1",
+          "p": 0.025
+        },
+        {
+          "kod": "1/2",
+          "p": 0.0216
+        }
+      ],
+      "gol_dakika": {
+        "araliklar": [
+          {
+            "aralik": "0-15",
+            "p_gol": 0.2903
+          },
+          {
+            "aralik": "16-30",
+            "p_gol": 0.3282
+          },
+          {
+            "aralik": "31-45+",
+            "p_gol": 0.3727
+          },
+          {
+            "aralik": "46-60",
+            "p_gol": 0.3626
+          },
+          {
+            "aralik": "61-75",
+            "p_gol": 0.3803
+          },
+          {
+            "aralik": "76-90+",
+            "p_gol": 0.4766
+          }
+        ],
+        "ilk_gol_30_once": 0.5232,
+        "golsuz": 0.0662,
+        "ilk_golu_ev": 0.4927,
+        "ilk_golu_deplasman": 0.4411
+      },
+      "istatistikler": {
+        "sari_kart": {
+          "ev": 1.37,
+          "deplasman": 2.3,
+          "toplam": 3.67,
+          "cizgiler": [
+            {
+              "cizgi": 3.5,
+              "ust": 0.4999
+            },
+            {
+              "cizgi": 4.5,
+              "ust": 0.3073
+            },
+            {
+              "cizgi": 5.5,
+              "ust": 0.1659
+            }
+          ]
+        },
+        "korner": {
+          "ev": 6.13,
+          "deplasman": 4.17,
+          "toplam": 10.3,
+          "cizgiler": [
+            {
+              "cizgi": 8.5,
+              "ust": 0.6788
+            },
+            {
+              "cizgi": 9.5,
+              "ust": 0.5653
+            },
+            {
+              "cizgi": 10.5,
+              "ust": 0.4508
+            }
+          ]
+        },
+        "sut": {
+          "ev": 16.67,
+          "deplasman": 13.03,
+          "toplam": 29.71
+        },
+        "isabetli_sut": {
+          "ev": 5.41,
+          "deplasman": 3.99,
+          "toplam": 9.4
+        },
+        "kirmizi_kart": {
+          "ev": 0.08,
+          "deplasman": 0.09,
+          "toplam": 0.16,
+          "p_en_az_bir": 0.1397,
+          "dusuk_guven": true
+        }
+      }
+    },
+    {
+      "lig": "Serie A",
+      "lig_kodu": "I1",
+      "tarih": "2026-11-01",
+      "saat": "17:00",
+      "ev": "Lazio",
+      "deplasman": "Cagliari",
+      "p_ev": 0.5417,
+      "p_beraberlik": 0.2595,
+      "p_deplasman": 0.1989,
+      "xg_ev": 1.59,
+      "xg_deplasman": 0.86,
+      "ust_2_5": 0.445,
+      "kg_var": 0.4649,
+      "olasi_skorlar": [
+        {
+          "skor": "1-0",
+          "p": 0.1324
+        },
+        {
+          "skor": "1-1",
+          "p": 0.1222
+        },
+        {
+          "skor": "2-0",
+          "p": 0.1089
+        },
+        {
+          "skor": "2-1",
+          "p": 0.0939
+        },
+        {
+          "skor": "0-0",
+          "p": 0.09
+        }
+      ],
+      "tutarli_skor": {
+        "sonuc": "1",
+        "skor": "1-0",
+        "p": 0.1324
+      },
+      "form_ev": "G B G G G",
+      "form_deplasman": "G G G B M",
+      "elo_ev": 1579,
+      "elo_deplasman": 1467,
+      "piyasa": null,
+      "skor_matrisi": [
+        [
+          0.09,
+          0.0697,
+          0.0319,
+          0.0092,
+          0.002,
+          0.0003
+        ],
+        [
+          0.1324,
+          0.1222,
+          0.0509,
+          0.0146,
+          0.0032,
+          0.0005
+        ],
+        [
+          0.1089,
+          0.0939,
+          0.0405,
+          0.0117,
+          0.0025,
+          0.0004
+        ],
+        [
+          0.0578,
+          0.0499,
+          0.0215,
+          0.0062,
+          0.0013,
+          0.0002
+        ],
+        [
+          0.023,
+          0.0199,
+          0.0086,
+          0.0025,
+          0.0005,
+          0.0001
+        ],
+        [
+          0.0073,
+          0.0063,
+          0.0027,
+          0.0008,
+          0.0002,
+          0.0
+        ]
+      ],
+      "az_veri": [],
+      "ilk_yari": {
+        "p_ev": 0.3828,
+        "p_beraberlik": 0.442,
+        "p_deplasman": 0.1752,
+        "xg_ev": 0.69,
+        "xg_deplasman": 0.37,
+        "ust_0_5": 0.6554,
+        "ust_1_5": 0.2882,
+        "ilk_yari_gol_payi": 0.434
+      },
+      "iy_ms": [
+        {
+          "kod": "1/1",
+          "p": 0.3262
+        },
+        {
+          "kod": "X/1",
+          "p": 0.191
+        },
+        {
+          "kod": "X/X",
+          "p": 0.1688
+        },
+        {
+          "kod": "2/2",
+          "p": 0.1055
+        },
+        {
+          "kod": "X/2",
+          "p": 0.0822
+        },
+        {
+          "kod": "1/X",
+          "p": 0.0453
+        },
+        {
+          "kod": "2/X",
+          "p": 0.0453
+        },
+        {
+          "kod": "2/1",
+          "p": 0.0244
+        },
+        {
+          "kod": "1/2",
+          "p": 0.0112
+        }
+      ],
+      "gol_dakika": {
+        "araliklar": [
+          {
+            "aralik": "0-15",
+            "p_gol": 0.2611
+          },
+          {
+            "aralik": "16-30",
+            "p_gol": 0.2961
+          },
+          {
+            "aralik": "31-45+",
+            "p_gol": 0.3374
+          },
+          {
+            "aralik": "46-60",
+            "p_gol": 0.328
+          },
+          {
+            "aralik": "61-75",
+            "p_gol": 0.3445
+          },
+          {
+            "aralik": "76-90+",
+            "p_gol": 0.4353
+          }
+        ],
+        "ilk_gol_30_once": 0.4799,
+        "golsuz": 0.09,
+        "ilk_golu_ev": 0.5903,
+        "ilk_golu_deplasman": 0.3197
+      },
+      "istatistikler": {
+        "sari_kart": {
+          "ev": 1.89,
+          "deplasman": 2.86,
+          "toplam": 4.76,
+          "cizgiler": [
+            {
+              "cizgi": 3.5,
+              "ust": 0.699
+            },
+            {
+              "cizgi": 4.5,
+              "ust": 0.5156
+            },
+            {
+              "cizgi": 5.5,
+              "ust": 0.3412
+            }
+          ]
+        },
+        "korner": {
+          "ev": 6.18,
+          "deplasman": 3.69,
+          "toplam": 9.87,
+          "cizgiler": [
+            {
+              "cizgi": 8.5,
+              "ust": 0.634
+            },
+            {
+              "cizgi": 9.5,
+              "ust": 0.5161
+            },
+            {
+              "cizgi": 10.5,
+              "ust": 0.4012
+            }
+          ]
+        },
+        "sut": {
+          "ev": 14.35,
+          "deplasman": 9.82,
+          "toplam": 24.16
+        },
+        "isabetli_sut": {
+          "ev": 5.0,
+          "deplasman": 3.07,
+          "toplam": 8.07
+        },
+        "kirmizi_kart": {
+          "ev": 0.09,
+          "deplasman": 0.1,
+          "toplam": 0.19,
+          "p_en_az_bir": 0.1579,
+          "dusuk_guven": true
+        }
+      }
+    },
+    {
+      "lig": "La Liga",
+      "lig_kodu": "SP1",
+      "tarih": "2026-11-01",
+      "saat": "18:15",
+      "ev": "Santander",
+      "deplasman": "Real Madrid",
+      "p_ev": 0.0869,
+      "p_beraberlik": 0.1159,
+      "p_deplasman": 0.7971,
+      "xg_ev": 1.19,
+      "xg_deplasman": 3.48,
+      "ust_2_5": 0.8446,
+      "kg_var": 0.6766,
+      "olasi_skorlar": [
+        {
+          "skor": "1-3",
+          "p": 0.0784
+        },
+        {
+          "skor": "1-4",
+          "p": 0.0682
+        },
+        {
+          "skor": "1-2",
+          "p": 0.0676
+        },
+        {
+          "skor": "0-3",
+          "p": 0.0657
+        },
+        {
+          "skor": "0-4",
+          "p": 0.0572
+        }
+      ],
+      "tutarli_skor": {
+        "sonuc": "2",
+        "skor": "1-3",
+        "p": 0.0784
+      },
+      "form_ev": "G M M B M",
+      "form_deplasman": "G G M G G",
+      "elo_ev": 1387,
+      "elo_deplasman": 1650,
+      "piyasa": null,
+      "skor_matrisi": [
+        [
+          0.0109,
+          0.031,
+          0.0567,
+          0.0657,
+          0.0572,
+          0.0398
+        ],
+        [
+          0.0096,
+          0.0404,
+          0.0676,
+          0.0784,
+          0.0682,
+          0.0474
+        ],
+        [
+          0.0067,
+          0.0232,
+          0.0403,
+          0.0467,
+          0.0407,
+          0.0283
+        ],
+        [
+          0.0026,
+          0.0092,
+          0.016,
+          0.0186,
+          0.0162,
+          0.0112
+        ],
+        [
+          0.0008,
+          0.0027,
+          0.0048,
+          0.0055,
+          0.0048,
+          0.0034
+        ],
+        [
+          0.0002,
+          0.0007,
+          0.0011,
+          0.0013,
+          0.0011,
+          0.0008
+        ]
+      ],
+      "az_veri": [],
+      "ilk_yari": {
+        "p_ev": 0.1253,
+        "p_beraberlik": 0.2571,
+        "p_deplasman": 0.6176,
+        "xg_ev": 0.52,
+        "xg_deplasman": 1.51,
+        "ust_0_5": 0.8684,
+        "ust_1_5": 0.6015,
+        "ilk_yari_gol_payi": 0.434
+      },
+      "iy_ms": [
+        {
+          "kod": "2/2",
+          "p": 0.5764
+        },
+        {
+          "kod": "X/2",
+          "p": 0.1739
+        },
+        {
+          "kod": "X/X",
+          "p": 0.0533
+        },
+        {
+          "kod": "1/1",
+          "p": 0.0472
+        },
+        {
+          "kod": "1/2",
+          "p": 0.0468
+        },
+        {
+          "kod": "1/X",
+          "p": 0.0313
+        },
+        {
+          "kod": "2/X",
+          "p": 0.0313
+        },
+        {
+          "kod": "X/1",
+          "p": 0.0299
+        },
+        {
+          "kod": "2/1",
+          "p": 0.0099
+        }
+      ],
+      "gol_dakika": {
+        "araliklar": [
+          {
+            "aralik": "0-15",
+            "p_gol": 0.4379
+          },
+          {
+            "aralik": "16-30",
+            "p_gol": 0.4874
+          },
+          {
+            "aralik": "31-45+",
+            "p_gol": 0.5432
+          },
+          {
+            "aralik": "46-60",
+            "p_gol": 0.5301
+          },
+          {
+            "aralik": "61-75",
+            "p_gol": 0.5518
+          },
+          {
+            "aralik": "76-90+",
+            "p_gol": 0.6623
+          }
+        ],
+        "ilk_gol_30_once": 0.7119,
+        "golsuz": 0.0109,
+        "ilk_golu_ev": 0.2525,
+        "ilk_golu_deplasman": 0.7366
+      },
+      "istatistikler": {
+        "sari_kart": {
+          "ev": 2.6,
+          "deplasman": 2.07,
+          "toplam": 4.67,
+          "cizgiler": [
+            {
+              "cizgi": 3.5,
+              "ust": 0.6738
+            },
+            {
+              "cizgi": 4.5,
+              "ust": 0.4941
+            },
+            {
+              "cizgi": 5.5,
+              "ust": 0.3282
+            }
+          ]
+        },
+        "korner": {
+          "ev": 4.39,
+          "deplasman": 9.27,
+          "toplam": 13.66,
+          "cizgiler": [
+            {
+              "cizgi": 8.5,
+              "ust": 0.9105
+            },
+            {
+              "cizgi": 9.5,
+              "ust": 0.8537
+            },
+            {
+              "cizgi": 10.5,
+              "ust": 0.7799
+            }
+          ]
+        },
+        "sut": {
+          "ev": 11.83,
+          "deplasman": 19.25,
+          "toplam": 31.09
+        },
+        "isabetli_sut": {
+          "ev": 4.43,
+          "deplasman": 8.59,
+          "toplam": 13.02
+        },
+        "kirmizi_kart": {
+          "ev": 0.13,
+          "deplasman": 0.13,
+          "toplam": 0.26,
+          "p_en_az_bir": 0.2233,
+          "dusuk_guven": true
+        }
+      }
+    },
+    {
+      "lig": "Premier League",
+      "lig_kodu": "E0",
+      "tarih": "2026-11-01",
+      "saat": "19:30",
+      "ev": "Liverpool",
+      "deplasman": "Arsenal",
+      "p_ev": 0.2669,
+      "p_beraberlik": 0.2827,
+      "p_deplasman": 0.4504,
+      "xg_ev": 1.08,
+      "xg_deplasman": 1.47,
+      "ust_2_5": 0.4665,
+      "kg_var": 0.515,
+      "olasi_skorlar": [
+        {
+          "skor": "1-1",
+          "p": 0.134
+        },
+        {
+          "skor": "0-1",
+          "p": 0.1046
+        },
+        {
+          "skor": "0-0",
+          "p": 0.0909
+        },
+        {
+          "skor": "1-2",
+          "p": 0.0899
+        },
+        {
+          "skor": "0-2",
+          "p": 0.0845
+        }
+      ],
+      "tutarli_skor": {
+        "sonuc": "2",
+        "skor": "0-1",
+        "p": 0.1046
+      },
+      "form_ev": "G B G M G",
+      "form_deplasman": "G G M G G",
+      "elo_ev": 1556,
+      "elo_deplasman": 1651,
+      "piyasa": null,
+      "skor_matrisi": [
+        [
+          0.0909,
+          0.1046,
+          0.0845,
+          0.0416,
+          0.0155,
+          0.0047
+        ],
+        [
+          0.0739,
+          0.134,
+          0.0899,
+          0.0442,
+          0.0165,
+          0.005
+        ],
+        [
+          0.0456,
+          0.0661,
+          0.0483,
+          0.0238,
+          0.0089,
+          0.0027
+        ],
+        [
+          0.0165,
+          0.0239,
+          0.0175,
+          0.0086,
+          0.0032,
+          0.001
+        ],
+        [
+          0.0045,
+          0.0065,
+          0.0048,
+          0.0024,
+          0.0009,
+          0.0003
+        ],
+        [
+          0.001,
+          0.0014,
+          0.0011,
+          0.0005,
+          0.0002,
+          0.0001
+        ]
+      ],
+      "az_veri": [],
+      "ilk_yari": {
+        "p_ev": 0.2239,
+        "p_beraberlik": 0.4423,
+        "p_deplasman": 0.3337,
+        "xg_ev": 0.47,
+        "xg_deplasman": 0.64,
+        "ust_0_5": 0.6697,
+        "ust_1_5": 0.3038,
+        "ilk_yari_gol_payi": 0.435
+      },
+      "iy_ms": [
+        {
+          "kod": "2/2",
+          "p": 0.2648
+        },
+        {
+          "kod": "X/X",
+          "p": 0.1764
+        },
+        {
+          "kod": "X/2",
+          "p": 0.1619
+        },
+        {
+          "kod": "1/1",
+          "p": 0.147
+        },
+        {
+          "kod": "X/1",
+          "p": 0.104
+        },
+        {
+          "kod": "1/X",
+          "p": 0.0531
+        },
+        {
+          "kod": "2/X",
+          "p": 0.0531
+        },
+        {
+          "kod": "1/2",
+          "p": 0.0238
+        },
+        {
+          "kod": "2/1",
+          "p": 0.0158
+        }
+      ],
+      "gol_dakika": {
+        "araliklar": [
+          {
+            "aralik": "0-15",
+            "p_gol": 0.27
+          },
+          {
+            "aralik": "16-30",
+            "p_gol": 0.3058
+          },
+          {
+            "aralik": "31-45+",
+            "p_gol": 0.3482
+          },
+          {
+            "aralik": "46-60",
+            "p_gol": 0.3375
+          },
+          {
+            "aralik": "61-75",
+            "p_gol": 0.3543
+          },
+          {
+            "aralik": "76-90+",
+            "p_gol": 0.4467
+          }
+        ],
+        "ilk_gol_30_once": 0.4933,
+        "golsuz": 0.0909,
+        "ilk_golu_ev": 0.3862,
+        "ilk_golu_deplasman": 0.5229
+      },
+      "istatistikler": {
+        "sari_kart": {
+          "ev": 1.7,
+          "deplasman": 1.7,
+          "toplam": 3.4,
+          "cizgiler": [
+            {
+              "cizgi": 3.5,
+              "ust": 0.4411
+            },
+            {
+              "cizgi": 4.5,
+              "ust": 0.2554
+            },
+            {
+              "cizgi": 5.5,
+              "ust": 0.1292
+            }
+          ]
+        },
+        "korner": {
+          "ev": 4.58,
+          "deplasman": 4.42,
+          "toplam": 8.99,
+          "cizgiler": [
+            {
+              "cizgi": 8.5,
+              "ust": 0.5406
+            },
+            {
+              "cizgi": 9.5,
+              "ust": 0.4116
+            },
+            {
+              "cizgi": 10.5,
+              "ust": 0.2956
+            }
+          ]
+        },
+        "sut": {
+          "ev": 12.57,
+          "deplasman": 11.38,
+          "toplam": 23.95
+        },
+        "isabetli_sut": {
+          "ev": 3.5,
+          "deplasman": 4.05,
+          "toplam": 7.55
+        },
+        "kirmizi_kart": {
+          "ev": 0.06,
+          "deplasman": 0.07,
+          "toplam": 0.13,
+          "p_en_az_bir": 0.1178,
+          "dusuk_guven": true
+        }
+      }
+    },
+    {
+      "lig": "Serie A",
+      "lig_kodu": "I1",
+      "tarih": "2026-11-01",
+      "saat": "20:00",
+      "ev": "Lecce",
+      "deplasman": "Genoa",
+      "p_ev": 0.2959,
+      "p_beraberlik": 0.3149,
+      "p_deplasman": 0.3892,
+      "xg_ev": 0.92,
+      "xg_deplasman": 1.1,
+      "ust_2_5": 0.328,
+      "kg_var": 0.4055,
+      "olasi_skorlar": [
+        {
+          "skor": "0-1",
+          "p": 0.1412
+        },
+        {
+          "skor": "1-1",
+          "p": 0.1391
+        },
+        {
+          "skor": "0-0",
+          "p": 0.1379
+        },
+        {
+          "skor": "1-0",
+          "p": 0.1174
+        },
+        {
+          "skor": "0-2",
+          "p": 0.0802
+        }
+      ],
+      "tutarli_skor": {
+        "sonuc": "2",
+        "skor": "0-1",
+        "p": 0.1412
+      },
+      "form_ev": "M G M M G",
+      "form_deplasman": "M B M G M",
+      "elo_ev": 1439,
+      "elo_deplasman": 1423,
+      "piyasa": null,
+      "skor_matrisi": [
+        [
+          0.1379,
+          0.1412,
+          0.0802,
+          0.0294,
+          0.0081,
+          0.0018
+        ],
+        [
+          0.1174,
+          0.1391,
+          0.0737,
+          0.027,
+          0.0074,
+          0.0016
+        ],
+        [
+          0.0562,
+          0.0617,
+          0.0339,
+          0.0124,
+          0.0034,
+          0.0007
+        ],
+        [
+          0.0172,
+          0.0189,
+          0.0104,
+          0.0038,
+          0.001,
+          0.0002
+        ],
+        [
+          0.004,
+          0.0043,
+          0.0024,
+          0.0009,
+          0.0002,
+          0.0001
+        ],
+        [
+          0.0007,
+          0.0008,
+          0.0004,
+          0.0002,
+          0.0,
+          0.0
+        ]
+      ],
+      "az_veri": [],
+      "ilk_yari": {
+        "p_ev": 0.2214,
+        "p_beraberlik": 0.5028,
+        "p_deplasman": 0.2758,
+        "xg_ev": 0.4,
+        "xg_deplasman": 0.48,
+        "ust_0_5": 0.5831,
+        "ust_1_5": 0.2183,
+        "ilk_yari_gol_payi": 0.434
+      },
+      "iy_ms": [
+        {
+          "kod": "X/X",
+          "p": 0.2223
+        },
+        {
+          "kod": "2/2",
+          "p": 0.2167
+        },
+        {
+          "kod": "1/1",
+          "p": 0.1593
+        },
+        {
+          "kod": "X/2",
+          "p": 0.1566
+        },
+        {
+          "kod": "X/1",
+          "p": 0.1238
+        },
+        {
+          "kod": "1/X",
+          "p": 0.0463
+        },
+        {
+          "kod": "2/X",
+          "p": 0.0463
+        },
+        {
+          "kod": "1/2",
+          "p": 0.0159
+        },
+        {
+          "kod": "2/1",
+          "p": 0.0128
+        }
+      ],
+      "gol_dakika": {
+        "araliklar": [
+          {
+            "aralik": "0-15",
+            "p_gol": 0.2201
+          },
+          {
+            "aralik": "16-30",
+            "p_gol": 0.2505
+          },
+          {
+            "aralik": "31-45+",
+            "p_gol": 0.2868
+          },
+          {
+            "aralik": "46-60",
+            "p_gol": 0.2785
+          },
+          {
+            "aralik": "61-75",
+            "p_gol": 0.2931
+          },
+          {
+            "aralik": "76-90+",
+            "p_gol": 0.3745
+          }
+        ],
+        "ilk_gol_30_once": 0.4154,
+        "golsuz": 0.1379,
+        "ilk_golu_ev": 0.3928,
+        "ilk_golu_deplasman": 0.4693
+      },
+      "istatistikler": {
+        "sari_kart": {
+          "ev": 2.03,
+          "deplasman": 1.95,
+          "toplam": 3.98,
+          "cizgiler": [
+            {
+              "cizgi": 3.5,
+              "ust": 0.5621
+            },
+            {
+              "cizgi": 4.5,
+              "ust": 0.3667
+            },
+            {
+              "cizgi": 5.5,
+              "ust": 0.2113
+            }
+          ]
+        },
+        "korner": {
+          "ev": 5.39,
+          "deplasman": 4.01,
+          "toplam": 9.4,
+          "cizgiler": [
+            {
+              "cizgi": 8.5,
+              "ust": 0.5814
+            },
+            {
+              "cizgi": 9.5,
+              "ust": 0.4603
+            },
+            {
+              "cizgi": 10.5,
+              "ust": 0.3472
+            }
+          ]
+        },
+        "sut": {
+          "ev": 12.86,
+          "deplasman": 10.56,
+          "toplam": 23.42
+        },
+        "isabetli_sut": {
+          "ev": 3.56,
+          "deplasman": 3.61,
+          "toplam": 7.17
+        },
+        "kirmizi_kart": {
+          "ev": 0.09,
+          "deplasman": 0.09,
+          "toplam": 0.17,
+          "p_en_az_bir": 0.1466,
+          "dusuk_guven": true
+        }
+      }
+    },
+    {
+      "lig": "La Liga",
+      "lig_kodu": "SP1",
+      "tarih": "2026-11-01",
+      "saat": "20:30",
+      "ev": "Elche",
+      "deplasman": "Valencia",
+      "p_ev": 0.4754,
+      "p_beraberlik": 0.2658,
+      "p_deplasman": 0.2588,
+      "xg_ev": 1.53,
+      "xg_deplasman": 1.06,
+      "ust_2_5": 0.4789,
+      "kg_var": 0.517,
+      "olasi_skorlar": [
+        {
+          "skor": "1-1",
+          "p": 0.1266
+        },
+        {
+          "skor": "1-0",
+          "p": 0.1098
+        },
+        {
+          "skor": "2-1",
+          "p": 0.093
+        },
+        {
+          "skor": "2-0",
+          "p": 0.0876
+        },
+        {
+          "skor": "0-0",
+          "p": 0.0799
+        }
+      ],
+      "tutarli_skor": {
+        "sonuc": "1",
+        "skor": "1-0",
+        "p": 0.1098
+      },
+      "form_ev": "B M G B B",
+      "form_deplasman": "M G M B B",
+      "elo_ev": 1439,
+      "elo_deplasman": 1452,
+      "piyasa": null,
+      "skor_matrisi": [
+        [
+          0.0799,
+          0.0749,
+          0.0423,
+          0.015,
+          0.004,
+          0.0008
+        ],
+        [
+          0.1098,
+          0.1266,
+          0.0646,
+          0.0229,
+          0.0061,
+          0.0013
+        ],
+        [
+          0.0876,
+          0.093,
+          0.0494,
+          0.0175,
+          0.0046,
+          0.001
+        ],
+        [
+          0.0446,
+          0.0473,
+          0.0251,
+          0.0089,
+          0.0024,
+          0.0005
+        ],
+        [
+          0.017,
+          0.0181,
+          0.0096,
+          0.0034,
+          0.0009,
+          0.0002
+        ],
+        [
+          0.0052,
+          0.0055,
+          0.0029,
+          0.001,
+          0.0003,
+          0.0001
+        ]
+      ],
+      "az_veri": [],
+      "ilk_yari": {
+        "p_ev": 0.348,
+        "p_beraberlik": 0.4345,
+        "p_deplasman": 0.2174,
+        "xg_ev": 0.66,
+        "xg_deplasman": 0.46,
+        "ust_0_5": 0.675,
+        "ust_1_5": 0.3098,
+        "ilk_yari_gol_payi": 0.434
+      },
+      "iy_ms": [
+        {
+          "kod": "1/1",
+          "p": 0.2818
+        },
+        {
+          "kod": "X/1",
+          "p": 0.1685
+        },
+        {
+          "kod": "X/X",
+          "p": 0.1648
+        },
+        {
+          "kod": "2/2",
+          "p": 0.1419
+        },
+        {
+          "kod": "X/2",
+          "p": 0.1012
+        },
+        {
+          "kod": "1/X",
+          "p": 0.0505
+        },
+        {
+          "kod": "2/X",
+          "p": 0.0505
+        },
+        {
+          "kod": "2/1",
+          "p": 0.0251
+        },
+        {
+          "kod": "1/2",
+          "p": 0.0157
+        }
+      ],
+      "gol_dakika": {
+        "araliklar": [
+          {
+            "aralik": "0-15",
+            "p_gol": 0.2734
+          },
+          {
+            "aralik": "16-30",
+            "p_gol": 0.3096
+          },
+          {
+            "aralik": "31-45+",
+            "p_gol": 0.3523
+          },
+          {
+            "aralik": "46-60",
+            "p_gol": 0.3421
+          },
+          {
+            "aralik": "61-75",
+            "p_gol": 0.3591
+          },
+          {
+            "aralik": "76-90+",
+            "p_gol": 0.4522
+          }
+        ],
+        "ilk_gol_30_once": 0.4983,
+        "golsuz": 0.0799,
+        "ilk_golu_ev": 0.5428,
+        "ilk_golu_deplasman": 0.3773
+      },
+      "istatistikler": {
+        "sari_kart": {
+          "ev": 2.2,
+          "deplasman": 2.1,
+          "toplam": 4.3,
+          "cizgiler": [
+            {
+              "cizgi": 3.5,
+              "ust": 0.6134
+            },
+            {
+              "cizgi": 4.5,
+              "ust": 0.427
+            },
+            {
+              "cizgi": 5.5,
+              "ust": 0.2675
+            }
+          ]
+        },
+        "korner": {
+          "ev": 4.51,
+          "deplasman": 3.72,
+          "toplam": 8.23,
+          "cizgiler": [
+            {
+              "cizgi": 8.5,
+              "ust": 0.4378
+            },
+            {
+              "cizgi": 9.5,
+              "ust": 0.3167
+            },
+            {
+              "cizgi": 10.5,
+              "ust": 0.2162
+            }
+          ]
+        },
+        "sut": {
+          "ev": 11.79,
+          "deplasman": 11.01,
+          "toplam": 22.8
+        },
+        "isabetli_sut": {
+          "ev": 4.34,
+          "deplasman": 2.94,
+          "toplam": 7.28
+        },
+        "kirmizi_kart": {
+          "ev": 0.13,
+          "deplasman": 0.11,
+          "toplam": 0.25,
+          "p_en_az_bir": 0.2143,
+          "dusuk_guven": true
+        }
+      }
+    },
+    {
+      "lig": "Serie A",
+      "lig_kodu": "I1",
+      "tarih": "2026-11-01",
+      "saat": "22:45",
+      "ev": "Juventus",
+      "deplasman": "Napoli",
+      "p_ev": 0.3892,
+      "p_beraberlik": 0.2982,
+      "p_deplasman": 0.3126,
+      "xg_ev": 1.19,
+      "xg_deplasman": 1.03,
+      "ust_2_5": 0.3829,
+      "kg_var": 0.4526,
+      "olasi_skorlar": [
+        {
+          "skor": "1-1",
+          "p": 0.138
+        },
+        {
+          "skor": "1-0",
+          "p": 0.124
+        },
+        {
+          "skor": "0-0",
+          "p": 0.1133
+        },
+        {
+          "skor": "0-1",
+          "p": 0.1074
+        },
+        {
+          "skor": "2-1",
+          "p": 0.079
+        }
+      ],
+      "tutarli_skor": {
+        "sonuc": "1",
+        "skor": "1-0",
+        "p": 0.124
+      },
+      "form_ev": "B M G B M",
+      "form_deplasman": "M G B G M",
+      "elo_ev": 1560,
+      "elo_deplasman": 1574,
+      "piyasa": null,
+      "skor_matrisi": [
+        [
+          0.1133,
+          0.1074,
+          0.058,
+          0.02,
+          0.0052,
+          0.0011
+        ],
+        [
+          0.124,
+          0.138,
+          0.0688,
+          0.0237,
+          0.0061,
+          0.0013
+        ],
+        [
+          0.0764,
+          0.079,
+          0.0409,
+          0.0141,
+          0.0036,
+          0.0008
+        ],
+        [
+          0.0302,
+          0.0313,
+          0.0162,
+          0.0056,
+          0.0014,
+          0.0003
+        ],
+        [
+          0.009,
+          0.0093,
+          0.0048,
+          0.0017,
+          0.0004,
+          0.0001
+        ],
+        [
+          0.0021,
+          0.0022,
+          0.0011,
+          0.0004,
+          0.0001,
+          0.0
+        ]
+      ],
+      "az_veri": [],
+      "ilk_yari": {
+        "p_ev": 0.2838,
+        "p_beraberlik": 0.4776,
+        "p_deplasman": 0.2386,
+        "xg_ev": 0.51,
+        "xg_deplasman": 0.45,
+        "ust_0_5": 0.6183,
+        "ust_1_5": 0.2507,
+        "ilk_yari_gol_payi": 0.434
+      },
+      "iy_ms": [
+        {
+          "kod": "1/1",
+          "p": 0.2194
+        },
+        {
+          "kod": "X/X",
+          "p": 0.2001
+        },
+        {
+          "kod": "2/2",
+          "p": 0.1714
+        },
+        {
+          "kod": "X/1",
+          "p": 0.1517
+        },
+        {
+          "kod": "X/2",
+          "p": 0.1259
+        },
+        {
+          "kod": "1/X",
+          "p": 0.049
+        },
+        {
+          "kod": "2/X",
+          "p": 0.049
+        },
+        {
+          "kod": "2/1",
+          "p": 0.0182
+        },
+        {
+          "kod": "1/2",
+          "p": 0.0153
+        }
+      ],
+      "gol_dakika": {
+        "araliklar": [
+          {
+            "aralik": "0-15",
+            "p_gol": 0.2394
+          },
+          {
+            "aralik": "16-30",
+            "p_gol": 0.272
+          },
+          {
+            "aralik": "31-45+",
+            "p_gol": 0.3108
+          },
+          {
+            "aralik": "46-60",
+            "p_gol": 0.3019
+          },
+          {
+            "aralik": "61-75",
+            "p_gol": 0.3174
+          },
+          {
+            "aralik": "76-90+",
+            "p_gol": 0.4035
+          }
+        ],
+        "ilk_gol_30_once": 0.4463,
+        "golsuz": 0.1133,
+        "ilk_golu_ev": 0.4739,
+        "ilk_golu_deplasman": 0.4128
+      },
+      "istatistikler": {
+        "sari_kart": {
+          "ev": 1.47,
+          "deplasman": 1.49,
+          "toplam": 2.96,
+          "cizgiler": [
+            {
+              "cizgi": 3.5,
+              "ust": 0.3432
+            },
+            {
+              "cizgi": 4.5,
+              "ust": 0.1776
+            },
+            {
+              "cizgi": 5.5,
+              "ust": 0.0797
+            }
+          ]
+        },
+        "korner": {
+          "ev": 4.53,
+          "deplasman": 4.49,
+          "toplam": 9.02,
+          "cizgiler": [
+            {
+              "cizgi": 8.5,
+              "ust": 0.5373
+            },
+            {
+              "cizgi": 9.5,
+              "ust": 0.4153
+            },
+            {
+              "cizgi": 10.5,
+              "ust": 0.3053
+            }
+          ]
+        },
+        "sut": {
+          "ev": 14.03,
+          "deplasman": 10.78,
+          "toplam": 24.81
+        },
+        "isabetli_sut": {
+          "ev": 4.18,
+          "deplasman": 3.22,
+          "toplam": 7.41
+        },
+        "kirmizi_kart": {
+          "ev": 0.08,
+          "deplasman": 0.09,
+          "toplam": 0.17,
+          "p_en_az_bir": 0.1403,
+          "dusuk_guven": true
+        }
+      }
+    },
+    {
+      "lig": "La Liga",
+      "lig_kodu": "SP1",
+      "tarih": "2026-11-01",
+      "saat": "23:00",
+      "ev": "Ath Bilbao",
+      "deplasman": "Sociedad",
+      "p_ev": 0.4786,
+      "p_beraberlik": 0.2593,
+      "p_deplasman": 0.2621,
+      "xg_ev": 1.59,
+      "xg_deplasman": 1.11,
+      "ust_2_5": 0.5064,
+      "kg_var": 0.5389,
+      "olasi_skorlar": [
+        {
+          "skor": "1-1",
+          "p": 0.1234
+        },
+        {
+          "skor": "1-0",
+          "p": 0.1019
+        },
+        {
+          "skor": "2-1",
+          "p": 0.0942
+        },
+        {
+          "skor": "2-0",
+          "p": 0.0846
+        },
+        {
+          "skor": "0-0",
+          "p": 0.0719
+        }
+      ],
+      "tutarli_skor": {
+        "sonuc": "1",
+        "skor": "1-0",
+        "p": 0.1019
+      },
+      "form_ev": "G B B B M",
+      "form_deplasman": "G M G G G",
+      "elo_ev": 1466,
+      "elo_deplasman": 1497,
+      "piyasa": null,
+      "skor_matrisi": [
+        [
+          0.0719,
+          0.0701,
+          0.0416,
+          0.0154,
+          0.0043,
+          0.001
+        ],
+        [
+          0.1019,
+          0.1234,
+          0.0661,
+          0.0245,
+          0.0068,
+          0.0015
+        ],
+        [
+          0.0846,
+          0.0942,
+          0.0524,
+          0.0195,
+          0.0054,
+          0.0012
+        ],
+        [
+          0.0448,
+          0.0498,
+          0.0277,
+          0.0103,
+          0.0029,
+          0.0006
+        ],
+        [
+          0.0178,
+          0.0198,
+          0.011,
+          0.0041,
+          0.0011,
+          0.0003
+        ],
+        [
+          0.0056,
+          0.0063,
+          0.0035,
+          0.0013,
+          0.0004,
+          0.0001
+        ]
+      ],
+      "az_veri": [],
+      "ilk_yari": {
+        "p_ev": 0.3536,
+        "p_beraberlik": 0.4239,
+        "p_deplasman": 0.2224,
+        "xg_ev": 0.69,
+        "xg_deplasman": 0.48,
+        "ust_0_5": 0.6903,
+        "ust_1_5": 0.3273,
+        "ilk_yari_gol_payi": 0.434
+      },
+      "iy_ms": [
+        {
+          "kod": "1/1",
+          "p": 0.2856
+        },
+        {
+          "kod": "X/1",
+          "p": 0.1665
+        },
+        {
+          "kod": "X/X",
+          "p": 0.1568
+        },
+        {
+          "kod": "2/2",
+          "p": 0.1446
+        },
+        {
+          "kod": "X/2",
+          "p": 0.1007
+        },
+        {
+          "kod": "1/X",
+          "p": 0.0513
+        },
+        {
+          "kod": "2/X",
+          "p": 0.0513
+        },
+        {
+          "kod": "2/1",
+          "p": 0.0265
+        },
+        {
+          "kod": "1/2",
+          "p": 0.0168
+        }
+      ],
+      "gol_dakika": {
+        "araliklar": [
+          {
+            "aralik": "0-15",
+            "p_gol": 0.2832
+          },
+          {
+            "aralik": "16-30",
+            "p_gol": 0.3204
+          },
+          {
+            "aralik": "31-45+",
+            "p_gol": 0.3642
+          },
+          {
+            "aralik": "46-60",
+            "p_gol": 0.3538
+          },
+          {
+            "aralik": "61-75",
+            "p_gol": 0.3712
+          },
+          {
+            "aralik": "76-90+",
+            "p_gol": 0.4661
+          }
+        ],
+        "ilk_gol_30_once": 0.5129,
+        "golsuz": 0.0719,
+        "ilk_golu_ev": 0.5455,
+        "ilk_golu_deplasman": 0.3826
+      },
+      "istatistikler": {
+        "sari_kart": {
+          "ev": 2.03,
+          "deplasman": 2.18,
+          "toplam": 4.21,
+          "cizgiler": [
+            {
+              "cizgi": 3.5,
+              "ust": 0.5977
+            },
+            {
+              "cizgi": 4.5,
+              "ust": 0.4104
+            },
+            {
+              "cizgi": 5.5,
+              "ust": 0.2532
+            }
+          ]
+        },
+        "korner": {
+          "ev": 6.08,
+          "deplasman": 4.27,
+          "toplam": 10.34,
+          "cizgiler": [
+            {
+              "cizgi": 8.5,
+              "ust": 0.6899
+            },
+            {
+              "cizgi": 9.5,
+              "ust": 0.5746
+            },
+            {
+              "cizgi": 10.5,
+              "ust": 0.4572
+            }
+          ]
+        },
+        "sut": {
+          "ev": 16.21,
+          "deplasman": 8.34,
+          "toplam": 24.55
+        },
+        "isabetli_sut": {
+          "ev": 5.22,
+          "deplasman": 3.37,
+          "toplam": 8.6
+        },
+        "kirmizi_kart": {
+          "ev": 0.13,
+          "deplasman": 0.12,
+          "toplam": 0.25,
+          "p_en_az_bir": 0.2158,
           "dusuk_guven": true
         }
       }
