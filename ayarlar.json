@@ -1,51 +1,59 @@
 {
   "T1": {
-    "xi": 0.0019,
+    "xi": 0.0045,
     "reg": 1.0,
-    "sd": 0.1,
+    "sot": 0.5,
+    "sd": 0.0,
     "lig": "Süper Lig",
     "rapor": {
-      "ayar_rps": 0.19356,
+      "ayar_rps": 0.19254,
+      "ayar_sutsuz_en_iyi_rps": 0.19356,
       "sinav_varsayilan_rps": 0.19358,
-      "sinav_secilen_rps": 0.19406,
+      "sinav_secilen_rps": 0.19292,
       "sinav_piyasa_rps": 0.18579
     }
   },
   "E0": {
-    "xi": 0.0019,
-    "reg": 1.0,
+    "xi": 0.0045,
+    "reg": 0.3,
+    "sot": 0.5,
     "sd": 0.1,
     "lig": "Premier League",
     "rapor": {
-      "ayar_rps": 0.20002,
+      "ayar_rps": 0.19863,
+      "ayar_sutsuz_en_iyi_rps": 0.20002,
       "sinav_varsayilan_rps": 0.20847,
-      "sinav_secilen_rps": 0.20904,
+      "sinav_secilen_rps": 0.20644,
       "sinav_piyasa_rps": 0.20534
     }
   },
   "SP1": {
     "xi": 0.0019,
     "reg": 0.3,
+    "sot": 0.3,
     "sd": 0.0,
     "lig": "La Liga",
     "rapor": {
-      "ayar_rps": 0.19588,
+      "ayar_rps": 0.19587,
+      "ayar_sutsuz_en_iyi_rps": 0.19588,
       "sinav_varsayilan_rps": 0.20088,
-      "sinav_secilen_rps": 0.20068,
+      "sinav_secilen_rps": 0.19996,
       "sinav_piyasa_rps": 0.19572
     }
   },
   "I1": {
-    "xi": 0.001,
-    "reg": 3.0,
+    "xi": 0.0019,
+    "reg": 1.0,
+    "sot": 0.3,
     "sd": 0.0,
     "lig": "Serie A",
     "rapor": {
-      "ayar_rps": 0.19059,
+      "ayar_rps": 0.19019,
+      "ayar_sutsuz_en_iyi_rps": 0.19059,
       "sinav_varsayilan_rps": 0.20139,
-      "sinav_secilen_rps": 0.20103,
+      "sinav_secilen_rps": 0.20116,
       "sinav_piyasa_rps": 0.19658
     }
   },
-  "_guncelleme": "2026-10-23T13:33"
+  "_guncelleme": "2026-10-24T17:28"
 }

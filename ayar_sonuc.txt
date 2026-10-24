@@ -1,54 +1,58 @@
 
-=== Süper Lig (6 sn) ===
-  Ayar sezonu 2425, 36 kombinasyon denendi. En iyi 3 (RPS):
-    xi=0.0045 reg=3.0  belirsizlik=0.00   RPS 0.1936
-    xi=0.0045 reg=1.0  belirsizlik=0.00   RPS 0.1939
-    xi=0.0045 reg=3.0  belirsizlik=0.10   RPS 0.1941
-    varsayılan ayar                         RPS 0.1983
+=== Süper Lig (46 sn) ===
+  Ayar sezonu 2425, 144 kombinasyon denendi. En iyi 3 (RPS):
+    xi=0.0045 reg=1.0  şut=0.5 belirsizlik=0.00   RPS 0.1925
+    xi=0.0045 reg=0.3  şut=0.5 belirsizlik=0.00   RPS 0.1926
+    xi=0.0045 reg=1.0  şut=0.3 belirsizlik=0.00   RPS 0.1927
+    varsayılan ayar (şutsuz)                          RPS 0.1983
+    şutsuz en iyi ayar                                RPS 0.1936
   Sınav sezonu 2526:
                                RPS   İsabet
     Varsayılan ayar         0.1936    51.6%
-    Seçilen ayar            0.1941    50.7%
+    Seçilen ayar            0.1929    49.3%
     Bahis piyasası          0.1858    54.2%
-  Karar: varsayılan ayar korunuyor  ->  xi=0.0019, reg=1.0, belirsizlik=0.1
+  Karar: YENİ AYAR KULLANILACAK  ->  xi=0.0045, reg=1.0, isabetli şut ağırlığı=0.5, belirsizlik=0.0
 
-=== Premier League (6 sn) ===
-  Ayar sezonu 2425, 36 kombinasyon denendi. En iyi 3 (RPS):
-    xi=0.0045 reg=0.3  belirsizlik=0.10   RPS 0.2000
-    xi=0.0045 reg=0.3  belirsizlik=0.20   RPS 0.2001
-    xi=0.0045 reg=0.3  belirsizlik=0.00   RPS 0.2001
-    varsayılan ayar                         RPS 0.2021
+=== Premier League (49 sn) ===
+  Ayar sezonu 2425, 144 kombinasyon denendi. En iyi 3 (RPS):
+    xi=0.0045 reg=0.3  şut=0.5 belirsizlik=0.10   RPS 0.1986
+    xi=0.0045 reg=0.3  şut=0.5 belirsizlik=0.20   RPS 0.1987
+    xi=0.0045 reg=0.3  şut=0.5 belirsizlik=0.00   RPS 0.1988
+    varsayılan ayar (şutsuz)                          RPS 0.2021
+    şutsuz en iyi ayar                                RPS 0.2000
   Sınav sezonu 2526:
                                RPS   İsabet
     Varsayılan ayar         0.2085    47.4%
-    Seçilen ayar            0.2090    46.6%
+    Seçilen ayar            0.2064    47.6%
     Bahis piyasası          0.2053    49.5%
-  Karar: varsayılan ayar korunuyor  ->  xi=0.0019, reg=1.0, belirsizlik=0.1
+  Karar: YENİ AYAR KULLANILACAK  ->  xi=0.0045, reg=0.3, isabetli şut ağırlığı=0.5, belirsizlik=0.1
 
-=== La Liga (6 sn) ===
-  Ayar sezonu 2425, 36 kombinasyon denendi. En iyi 3 (RPS):
-    xi=0.0019 reg=0.3  belirsizlik=0.00   RPS 0.1959
-    xi=0.0010 reg=0.3  belirsizlik=0.00   RPS 0.1959
-    xi=0.0019 reg=0.3  belirsizlik=0.10   RPS 0.1959
-    varsayılan ayar                         RPS 0.1960
+=== La Liga (48 sn) ===
+  Ayar sezonu 2425, 144 kombinasyon denendi. En iyi 3 (RPS):
+    xi=0.0019 reg=0.3  şut=0.3 belirsizlik=0.00   RPS 0.1959
+    xi=0.0019 reg=0.3  şut=0.0 belirsizlik=0.00   RPS 0.1959
+    xi=0.0030 reg=0.3  şut=0.3 belirsizlik=0.00   RPS 0.1959
+    varsayılan ayar (şutsuz)                          RPS 0.1960
+    şutsuz en iyi ayar                                RPS 0.1959
   Sınav sezonu 2526:
                                RPS   İsabet
     Varsayılan ayar         0.2009    53.2%
-    Seçilen ayar            0.2007    53.2%
+    Seçilen ayar            0.2000    53.4%
     Bahis piyasası          0.1957    54.7%
-  Karar: YENİ AYAR KULLANILACAK  ->  xi=0.0019, reg=0.3, belirsizlik=0.0
+  Karar: YENİ AYAR KULLANILACAK  ->  xi=0.0019, reg=0.3, isabetli şut ağırlığı=0.3, belirsizlik=0.0
 
-=== Serie A (6 sn) ===
-  Ayar sezonu 2425, 36 kombinasyon denendi. En iyi 3 (RPS):
-    xi=0.0010 reg=3.0  belirsizlik=0.00   RPS 0.1906
-    xi=0.0010 reg=3.0  belirsizlik=0.10   RPS 0.1906
-    xi=0.0010 reg=1.0  belirsizlik=0.00   RPS 0.1907
-    varsayılan ayar                         RPS 0.1909
+=== Serie A (47 sn) ===
+  Ayar sezonu 2425, 144 kombinasyon denendi. En iyi 3 (RPS):
+    xi=0.0019 reg=1.0  şut=0.3 belirsizlik=0.00   RPS 0.1902
+    xi=0.0019 reg=0.3  şut=0.5 belirsizlik=0.00   RPS 0.1902
+    xi=0.0019 reg=0.3  şut=0.3 belirsizlik=0.00   RPS 0.1902
+    varsayılan ayar (şutsuz)                          RPS 0.1909
+    şutsuz en iyi ayar                                RPS 0.1906
   Sınav sezonu 2526:
                                RPS   İsabet
     Varsayılan ayar         0.2014    51.1%
-    Seçilen ayar            0.2010    52.1%
+    Seçilen ayar            0.2012    52.4%
     Bahis piyasası          0.1966    53.9%
-  Karar: YENİ AYAR KULLANILACAK  ->  xi=0.001, reg=3.0, belirsizlik=0.0
+  Karar: YENİ AYAR KULLANILACAK  ->  xi=0.0019, reg=1.0, isabetli şut ağırlığı=0.3, belirsizlik=0.0
 
 Ayarlar ayarlar.json dosyasına yazıldı.
