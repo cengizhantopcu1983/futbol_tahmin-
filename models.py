@@ -16,11 +16,15 @@ MAX_GOALS = 10
 
 
 class DixonColes:
-    def __init__(self, xi: float = 0.0019, reg: float = 1.0):
+    def __init__(self, xi: float = 0.0019, reg: float = 1.0, sot: float = 0.0):
         # xi: günlük ağırlık azalması. 0.0019 => bir maçın ağırlığı ~1 yılda yarıya iner.
         # reg: az maçı olan takımların (ör. yeni çıkanlar) aşırı uç değer almasını engeller.
+        # sot: isabetli şut ağırlığı (0-1). Takım gücü, gerçek goller ile isabetli şutlardan
+        #      türetilen "şut golü"nün karışımından öğrenilir. İsabetli şut, golden daha az şansa
+        #      bağlı olduğu için gücü daha istikrarlı gösterir (xG'nin basit bir yerine geçer).
         self.xi = xi
         self.reg = reg
+        self.sot = sot
         self.teams: list[str] = []
 
     # ---------- eğitim ----------
@@ -43,8 +47,21 @@ class DixonColes:
         x = d["FTHG"].to_numpy(float)
         y = d["FTAG"].to_numpy(float)
         n = len(teams)
+        # düşük skor düzeltmesi (rho) her zaman GERÇEK skorlara göre
         m00, m01 = (x == 0) & (y == 0), (x == 0) & (y == 1)
         m10, m11 = (x == 1) & (y == 0), (x == 1) & (y == 1)
+        self.sot_used = 0.0
+        if self.sot > 0 and {"HST", "AST"} <= set(d.columns):
+            hst = pd.to_numeric(d["HST"], errors="coerce").to_numpy(float)
+            ast = pd.to_numeric(d["AST"], errors="coerce").to_numpy(float)
+            ok = ~np.isnan(hst) & ~np.isnan(ast)
+            if ok.sum() >= 100:
+                # isabetli şutu gole çeviren lig oranı (ör. 3 isabetli şutta 1 gol)
+                conv = np.sum(w[ok] * (x[ok] + y[ok])) / max(np.sum(w[ok] * (hst[ok] + ast[ok])), 1e-9)
+                s = self.sot
+                x = np.where(ok, (1 - s) * x + s * conv * np.nan_to_num(hst), x)
+                y = np.where(ok, (1 - s) * y + s * conv * np.nan_to_num(ast), y)
+                self.sot_used, self.sot_conv = s, float(conv)
         reg = self.reg
 
         def nll_grad(p):
