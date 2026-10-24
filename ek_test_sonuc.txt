@@ -4,8 +4,8 @@
   Maç başı gol (tahmin / gerçek)         2.73      2.65
   İlk yarı sonucu (RPS)                0.1921    0.2035  ✓ model daha iyi
   İlk yarı 0.5 üst (Brier)             0.2168    0.2210  ✓ model daha iyi
-  Sarı kart toplamı (ort. hata)          1.93      1.96  ✓ model daha iyi
-  Sarı kart 4.5 üst (Brier)            0.2454    0.2480  ✓ model daha iyi
+  Sarı kart toplamı (ort. hata)          1.89      1.96  ✓ model daha iyi
+  Sarı kart 4.5 üst (Brier)            0.2352    0.2480  ✓ model daha iyi
   Korner toplamı (ort. hata)             2.75      2.73  ✗ referans daha iyi
   Korner 9.5 üst (Brier)               0.2552    0.2498  ✗ referans daha iyi
   Şut toplamı (ort. hata)                4.52      4.84  ✓ model daha iyi
@@ -30,8 +30,8 @@
   Maç başı gol (tahmin / gerçek)         2.60      2.69
   İlk yarı sonucu (RPS)                0.1922    0.2016  ✓ model daha iyi
   İlk yarı 0.5 üst (Brier)             0.2069    0.2106  ✓ model daha iyi
-  Sarı kart toplamı (ort. hata)          1.81      1.86  ✓ model daha iyi
-  Sarı kart 4.5 üst (Brier)            0.2454    0.2515  ✓ model daha iyi
+  Sarı kart toplamı (ort. hata)          1.80      1.86  ✓ model daha iyi
+  Sarı kart 4.5 üst (Brier)            0.2468    0.2515  ✓ model daha iyi
   Korner toplamı (ort. hata)             2.70      2.74  ✓ model daha iyi
   Korner 9.5 üst (Brier)               0.2485    0.2497  ✓ model daha iyi
   Şut toplamı (ort. hata)                4.68      4.94  ✓ model daha iyi
@@ -43,8 +43,8 @@
   Maç başı gol (tahmin / gerçek)         2.49      2.43
   İlk yarı sonucu (RPS)                0.1909    0.2021  ✓ model daha iyi
   İlk yarı 0.5 üst (Brier)             0.2266    0.2277  ✓ model daha iyi
-  Sarı kart toplamı (ort. hata)          1.39      1.52  ✓ model daha iyi
-  Sarı kart 4.5 üst (Brier)            0.1988    0.2271  ✓ model daha iyi
+  Sarı kart toplamı (ort. hata)          1.33      1.52  ✓ model daha iyi
+  Sarı kart 4.5 üst (Brier)            0.1870    0.2271  ✓ model daha iyi
   Korner toplamı (ort. hata)             2.54      2.60  ✓ model daha iyi
   Korner 9.5 üst (Brier)               0.2413    0.2450  ✓ model daha iyi
   Şut toplamı (ort. hata)                4.43      4.43  ✗ referans daha iyi
