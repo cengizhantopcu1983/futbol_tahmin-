@@ -13,6 +13,8 @@
 from __future__ import annotations
 
 import argparse
+import json
+import os
 import sys
 
 import numpy as np
@@ -40,7 +42,26 @@ def scores(P: np.ndarray, o: np.ndarray) -> dict:
     }
 
 
-def backtest(code: str, season: str, history: int, refit_days: int, xi: float, sd: float):
+def league_settings(code: str, xi, reg, sot, sd, bc=None) -> dict:
+    """Komut satırında verilmeyen ayarlar ayarlar.json'dan (tune.py çıktısı) ya da varsayılandan."""
+    p = {"xi": 0.0019, "reg": 1.0, "sot": 0.0, "bc": 0.0, "sd": 0.10}
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "ayarlar.json")
+    try:
+        with open(path, encoding="utf-8") as f:
+            saved = json.load(f).get(code, {})
+        p.update({k: float(saved[k]) for k in p if k in saved})
+    except (OSError, ValueError):
+        pass
+    for k, v in (("xi", xi), ("reg", reg), ("sot", sot), ("bc", bc), ("sd", sd)):
+        if v is not None:
+            p[k] = v
+    return p
+
+
+def backtest(code: str, season: str, history: int, refit_days: int, xi=None, sd=None, reg=None, sot=None,
+             bc=None):
+    cfg = league_settings(code, xi, reg, sot, sd, bc)
+    xi, sd = cfg["xi"], cfg["sd"]
     start_year = 2000 + int(season[:2])
     df = load_league(code, seasons=season_codes(history + 1, last_start=start_year))
     test = df[df["Season"] == season]
@@ -54,7 +75,7 @@ def backtest(code: str, season: str, history: int, refit_days: int, xi: float, s
     while t <= end:
         win = test[(test["Date"] >= t) & (test["Date"] < t + pd.Timedelta(days=refit_days))]
         if len(win):
-            model = DixonColes(xi=xi).fit(df, ref_date=t)
+            model = DixonColes(xi=xi, reg=cfg["reg"], sot=cfg["sot"], bc=cfg["bc"]).fit(df, ref_date=t)
             n_fit += 1
             for i, m in zip(test.index.get_indexer(win.index), win.itertuples(index=False)):
                 s = summarize(model.score_matrix(m.HomeTeam, m.AwayTeam, sd=sd, n_draws=200))
@@ -71,6 +92,7 @@ def backtest(code: str, season: str, history: int, refit_days: int, xi: float, s
     has_bk = ~np.isnan(bk).any(1)
 
     print(f"\n=== {LEAGUES[code]} {season}: {len(test)} maç, model {n_fit} kez yeniden eğitildi ===")
+    print(f"  ayarlar: xi={cfg['xi']}, reg={cfg['reg']}, isabetli şut={cfg['sot']}, büyük şans={cfg['bc']}, belirsizlik={cfg['sd']}")
     rows = {"Model": scores(preds[has_bk], o[has_bk]),
             "Bahis piyasası": scores(bk[has_bk], o[has_bk]) if has_bk.any() else None,
             "Referans (oranlar)": scores(np.tile(base, (has_bk.sum(), 1)), o[has_bk])}
@@ -102,14 +124,18 @@ def main():
                     help="Test sezonu, ör. 2526 (varsayılan: son tamamlanan sezon)")
     ap.add_argument("--gecmis", type=int, default=3, help="Eğitim için önceki sezon sayısı")
     ap.add_argument("--yenileme", type=int, default=7, help="Model kaç günde bir yeniden eğitilsin")
-    ap.add_argument("--xi", type=float, default=0.0019)
-    ap.add_argument("--belirsizlik", type=float, default=0.10)
+    ap.add_argument("--xi", type=float)
+    ap.add_argument("--reg", type=float)
+    ap.add_argument("--sut", type=float, help="İsabetli şut ağırlığı (0-1)")
+    ap.add_argument("--buyuk-sans", type=float, help="Büyük şans ağırlığı (0-1)")
+    ap.add_argument("--belirsizlik", type=float)
     args = ap.parse_args()
 
     codes = list(LEAGUES) if args.hepsi else [resolve_league(args.lig or ap.error("--lig veya --hepsi gerekli"))]
     for c in codes:
         try:
-            backtest(c, args.sezon, args.gecmis, args.yenileme, args.xi, args.belirsizlik)
+            backtest(c, args.sezon, args.gecmis, args.yenileme, xi=args.xi, sd=args.belirsizlik,
+                     reg=args.reg, sot=args.sut, bc=args.buyuk_sans)
         except RuntimeError as e:
             print(f"\n=== {LEAGUES[c]}: atlandı ({e})")
 

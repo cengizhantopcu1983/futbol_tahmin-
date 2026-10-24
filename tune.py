@@ -36,8 +36,10 @@ except Exception:
 XI_GRID = [0.0010, 0.0019, 0.0030, 0.0045]   # form ne kadar hızlı eskisin
 REG_GRID = [0.3, 1.0, 3.0]                   # az maçı olan takımları ne kadar ortalamaya çeksin
 SD_GRID = [0.0, 0.10, 0.20]                  # beklenen gole eklenen belirsizlik
-SOT_GRID = [0.0, 0.3, 0.5, 0.7]              # isabetli şut ağırlığı (0 = sadece goller)
-DEFAULT = {"xi": 0.0019, "reg": 1.0, "sot": 0.0, "sd": 0.10}
+# (isabetli şut, büyük şans) ağırlıkları; (0, 0) = sadece goller
+SHOT_GRID = [(0.0, 0.0), (0.3, 0.0), (0.5, 0.0), (0.7, 0.0), (0.0, 0.3), (0.0, 0.5),
+             (0.0, 0.7), (0.3, 0.3), (0.2, 0.5)]
+DEFAULT = {"xi": 0.0019, "reg": 1.0, "sot": 0.0, "bc": 0.0, "sd": 0.10}
 SETTINGS_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "ayarlar.json")
 
 
@@ -60,7 +62,7 @@ def accuracy(P: np.ndarray, o: np.ndarray) -> float:
 
 
 def walk_forward(df, season, fit_configs, sds, refit_days):
-    """Sezonu hafta hafta yürür; her (xi, reg, sot) için modeli o güne kadarki veriyle eğitir."""
+    """Sezonu hafta hafta yürür; her (xi, reg, sot, bc) için modeli o güne kadarki veriyle eğitir."""
     test = df[df["Season"] == season]
     preds = {(*cfg, sd): np.zeros((len(test), 3)) for cfg in fit_configs for sd in sds}
     t, end = test["Date"].min().normalize(), test["Date"].max()
@@ -68,12 +70,12 @@ def walk_forward(df, season, fit_configs, sds, refit_days):
         win = test[(test["Date"] >= t) & (test["Date"] < t + pd.Timedelta(days=refit_days))]
         if len(win):
             idx = test.index.get_indexer(win.index)
-            for xi, reg, sot in fit_configs:
-                model = DixonColes(xi=xi, reg=reg, sot=sot).fit(df, ref_date=t)
+            for xi, reg, sot, bc in fit_configs:
+                model = DixonColes(xi=xi, reg=reg, sot=sot, bc=bc).fit(df, ref_date=t)
                 for i, m in zip(idx, win.itertuples(index=False)):
                     for sd in sds:
                         mat = model.score_matrix(m.HomeTeam, m.AwayTeam, sd=sd, n_draws=120)
-                        preds[(xi, reg, sot, sd)][i] = probs(mat)
+                        preds[(xi, reg, sot, bc, sd)][i] = probs(mat)
         t += pd.Timedelta(days=refit_days)
     return test, preds
 
@@ -86,21 +88,22 @@ def tune_league(code: str, tune_season: str, test_season: str, refit_days: int, 
 
     # 1) Ayar sezonunda tüm kombinasyonlar
     t0 = time.time()
-    test, preds = walk_forward(df, tune_season, list(itertools.product(XI_GRID, REG_GRID, SOT_GRID)),
+    test, preds = walk_forward(df, tune_season, [(x, r, s, b) for x, r, (s, b) in itertools.product(XI_GRID, REG_GRID, SHOT_GRID)],
                                SD_GRID, refit_days)
     o = outcome_index(test)
     table = sorted(((rps(P, o), cfg) for cfg, P in preds.items()), key=lambda x: x[0])
-    best_rps, (xi, reg, sot, sd) = table[0]
-    best = {"xi": xi, "reg": reg, "sot": sot, "sd": sd}
-    default_key = (DEFAULT["xi"], DEFAULT["reg"], DEFAULT["sot"], DEFAULT["sd"])
+    best_rps, (xi, reg, sot, bc, sd) = table[0]
+    best = {"xi": xi, "reg": reg, "sot": sot, "bc": bc, "sd": sd}
+    default_key = (DEFAULT["xi"], DEFAULT["reg"], DEFAULT["sot"], DEFAULT["bc"], DEFAULT["sd"])
     tune_default = rps(preds[default_key], o)
-    best_no_sot = min(r for r, cfg in table if cfg[2] == 0)
+    best_no_sot = min(r for r, cfg in table if cfg[2] == 0 and cfg[3] == 0)
+    best_sot_only = min(r for r, cfg in table if cfg[3] == 0)
 
     # 2) Sınav sezonunda varsayılan vs seçilen
-    fit_cfgs = sorted({(DEFAULT["xi"], DEFAULT["reg"], DEFAULT["sot"]), (xi, reg, sot)})
+    fit_cfgs = sorted({(DEFAULT["xi"], DEFAULT["reg"], DEFAULT["sot"], DEFAULT["bc"]), (xi, reg, sot, bc)})
     test2, preds2 = walk_forward(df, test_season, fit_cfgs, sorted({DEFAULT["sd"], sd}), refit_days)
     o2 = outcome_index(test2)
-    P_def, P_best = preds2[default_key], preds2[(xi, reg, sot, sd)]
+    P_def, P_best = preds2[default_key], preds2[(xi, reg, sot, bc, sd)]
     exam_def, exam_best = rps(P_def, o2), rps(P_best, o2)
     chosen = best if exam_best < exam_def else dict(DEFAULT)
 
@@ -110,10 +113,13 @@ def tune_league(code: str, tune_season: str, test_season: str, refit_days: int, 
 
     print(f"\n=== {LEAGUES[code]} ({time.time() - t0:.0f} sn) ===")
     print(f"  Ayar sezonu {tune_season}, {len(table)} kombinasyon denendi. En iyi 3 (RPS):")
-    for r, (a, b, s, c) in table[:3]:
-        print(f"    xi={a:.4f} reg={b:<4} şut={s:.1f} belirsizlik={c:.2f}   RPS {r:.4f}")
-    print(f"    varsayılan ayar (şutsuz)                          RPS {tune_default:.4f}")
-    print(f"    şutsuz en iyi ayar                                RPS {best_no_sot:.4f}")
+    for r, (a, b, s, bb, c) in table[:3]:
+        print(f"    xi={a:.4f} reg={b:<4} şut={s:.1f} b.şans={bb:.1f} belirsizlik={c:.2f}   RPS {r:.4f}")
+    print(f"    varsayılan ayar (sadece gol)                                RPS {tune_default:.4f}")
+    print(f"    en iyi: sadece gol                                          RPS {best_no_sot:.4f}")
+    print(f"    en iyi: gol + isabetli şut (büyük şanssız)                  RPS {best_sot_only:.4f}")
+    bc_share = df.loc[df["Season"] == tune_season, "HBC"].notna().mean() if "HBC" in df.columns else 0
+    print(f"    (ayar sezonunda büyük şans verisi olan maç oranı: %{100 * bc_share:.0f})")
     print(f"  Sınav sezonu {test_season}:")
     print(f"    {'':<22}{'RPS':>8}{'İsabet':>9}")
     print(f"    {'Varsayılan ayar':<22}{exam_def:>8.4f}{100 * accuracy(P_def, o2):>8.1f}%")
@@ -122,8 +128,9 @@ def tune_league(code: str, tune_season: str, test_season: str, refit_days: int, 
         print(f"    {'Bahis piyasası':<22}{bk_rps:>8.4f}{100 * accuracy(bk[has_bk], o2[has_bk]):>8.1f}%")
     verdict = "YENİ AYAR KULLANILACAK" if chosen == best and best != DEFAULT else "varsayılan ayar korunuyor"
     print(f"  Karar: {verdict}  ->  xi={chosen['xi']}, reg={chosen['reg']}, "
-          f"isabetli şut ağırlığı={chosen['sot']}, belirsizlik={chosen['sd']}")
+          f"isabetli şut={chosen['sot']}, büyük şans={chosen['bc']}, belirsizlik={chosen['sd']}")
     return chosen, {"ayar_rps": round(best_rps, 5), "ayar_sutsuz_en_iyi_rps": round(best_no_sot, 5),
+                    "ayar_sadece_sut_en_iyi_rps": round(best_sot_only, 5),
                     "sinav_varsayilan_rps": round(exam_def, 5),
                     "sinav_secilen_rps": round(exam_best, 5),
                     "sinav_piyasa_rps": None if bk_rps is None else round(bk_rps, 5)}

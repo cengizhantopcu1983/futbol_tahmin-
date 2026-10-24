@@ -45,6 +45,19 @@ TEAM_ALIASES = {
     "celtavigo": "Celta", "rccelta": "Celta", "rcceltadevigo": "Celta",
     "fcinternazionalemilano": "Inter", "internazionale": "Inter",
     "acmilan": "Milan", "hellasverona": "Verona", "hellasveronafc": "Verona",
+    # Sportmonks / uzun adlar
+    "manchestercity": "Man City", "manchesterunited": "Man United", "newcastleunited": "Newcastle",
+    "tottenhamhotspur": "Tottenham", "westhamunited": "West Ham", "brightonhovealbion": "Brighton",
+    "wolverhamptonwanderers": "Wolves", "afcbournemouth": "Bournemouth", "leedsunited": "Leeds",
+    "leicestercity": "Leicester", "ipswichtown": "Ipswich", "sheffieldunited": "Sheffield United",
+    "lutontown": "Luton", "nottinghamforestfc2": "Nott'm Forest",
+    "deportivoalaves": "Alaves", "rcdmallorca": "Mallorca", "realvalladolid": "Valladolid",
+    "udlaspalmas": "Las Palmas", "caosasuna": "Osasuna", "realoviedo": "Oviedo", "cdleganes": "Leganes",
+    "girona": "Girona", "elchecf": "Elche", "levanteud": "Levante",
+    "asroma": "Roma", "sslazio": "Lazio", "sscnapoli": "Napoli", "acffiorentina": "Fiorentina",
+    "torinofc": "Torino", "usssassuolo": "Sassuolo", "uscremonese": "Cremonese", "acpisa": "Pisa",
+    "bodrumfk": "Bodrumspor", "istanbulbasaksehir": "Basaksehir", "caykurrizespor": "Rizespor",
+    "mkeankaragucu": "Ankaragucu", "fatihkaragumruk": "Karagumruk",
 }
 DATA_DIR = os.environ.get("FUTBOL_DATA_DIR") or os.path.join(
     os.path.dirname(os.path.abspath(__file__)), "data"
@@ -170,8 +183,12 @@ STAT_COLS = ["HTHG", "HTAG", "HS", "AS", "HST", "AST", "HC", "AC", "HY", "AY", "
 
 
 def load_league(code: str, seasons: list[str] | None = None, n_seasons: int = 4,
-                refresh: bool = True) -> pd.DataFrame:
-    """Bir ligin son n sezonunu (veya verilen sezonları) yükler, tarihe göre sıralı döner."""
+                refresh: bool = True, use_sm: bool = True) -> pd.DataFrame:
+    """Bir ligin son n sezonunu (veya verilen sezonları) yükler, tarihe göre sıralı döner.
+
+    use_sm: data_sm/ klasöründe Sportmonks verisi varsa (büyük şans, topla oynama, hakem,
+    sakatlık) maçlara eklenir.
+    """
     os.makedirs(DATA_DIR, exist_ok=True)
     seasons = seasons or season_codes(n_seasons)
     current = season_code(current_season_start())
@@ -193,7 +210,14 @@ def load_league(code: str, seasons: list[str] | None = None, n_seasons: int = 4,
     if not frames:
         raise RuntimeError(f"{LEAGUES.get(code, code)} için veri yok. İnternet bağlantısını kontrol et.")
     df = pd.concat(frames, ignore_index=True)
-    return df.sort_values("Date", kind="stable").reset_index(drop=True)
+    df = df.sort_values("Date", kind="stable").reset_index(drop=True)
+    if use_sm:
+        try:
+            from sportmonks import merge_into
+            df = merge_into(df, code)
+        except ImportError:
+            pass
+    return df
 
 
 def load_fixtures(refresh: bool = True) -> pd.DataFrame:
