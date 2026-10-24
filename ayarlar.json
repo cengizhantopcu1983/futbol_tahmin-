@@ -7,9 +7,39 @@
     "sd": 0.0,
     "lig": "Süper Lig",
     "rapor": {
-      "ayar_rps": 0.19066,
-      "ayar_sutsuz_en_iyi_rps": 0.19356,
-      "ayar_sadece_sut_en_iyi_rps": 0.19254,
+      "secilen_aile": "Gol + büyük şans",
+      "adaylar": [
+        {
+          "aday": "Varsayılan (sadece gol)",
+          "ayar_rps": 0.19832,
+          "sinav_rps": 0.19358,
+          "ortalama": 0.19608
+        },
+        {
+          "aday": "Sadece gol (ayarlı)",
+          "ayar_rps": 0.19356,
+          "sinav_rps": 0.19406,
+          "ortalama": 0.1938
+        },
+        {
+          "aday": "Gol + isabetli şut",
+          "ayar_rps": 0.19254,
+          "sinav_rps": 0.19292,
+          "ortalama": 0.19272
+        },
+        {
+          "aday": "Gol + büyük şans",
+          "ayar_rps": 0.19066,
+          "sinav_rps": 0.19093,
+          "ortalama": 0.19078
+        },
+        {
+          "aday": "Gol + şut + büyük şans",
+          "ayar_rps": 0.19078,
+          "sinav_rps": 0.19123,
+          "ortalama": 0.19099
+        }
+      ],
       "sinav_varsayilan_rps": 0.19358,
       "sinav_secilen_rps": 0.19093,
       "sinav_piyasa_rps": 0.18579
@@ -18,50 +48,140 @@
   "E0": {
     "xi": 0.0045,
     "reg": 0.3,
-    "sot": 0.0,
-    "bc": 0.7,
+    "sot": 0.2,
+    "bc": 0.5,
     "sd": 0.1,
     "lig": "Premier League",
     "rapor": {
-      "ayar_rps": 0.19535,
-      "ayar_sutsuz_en_iyi_rps": 0.20002,
-      "ayar_sadece_sut_en_iyi_rps": 0.19863,
+      "secilen_aile": "Gol + şut + büyük şans",
+      "adaylar": [
+        {
+          "aday": "Varsayılan (sadece gol)",
+          "ayar_rps": 0.20205,
+          "sinav_rps": 0.20847,
+          "ortalama": 0.20526
+        },
+        {
+          "aday": "Sadece gol (ayarlı)",
+          "ayar_rps": 0.20002,
+          "sinav_rps": 0.20904,
+          "ortalama": 0.20453
+        },
+        {
+          "aday": "Gol + isabetli şut",
+          "ayar_rps": 0.19863,
+          "sinav_rps": 0.20644,
+          "ortalama": 0.20253
+        },
+        {
+          "aday": "Gol + büyük şans",
+          "ayar_rps": 0.19535,
+          "sinav_rps": 0.20717,
+          "ortalama": 0.20126
+        },
+        {
+          "aday": "Gol + şut + büyük şans",
+          "ayar_rps": 0.19577,
+          "sinav_rps": 0.20642,
+          "ortalama": 0.20109
+        }
+      ],
       "sinav_varsayilan_rps": 0.20847,
-      "sinav_secilen_rps": 0.20717,
+      "sinav_secilen_rps": 0.20642,
       "sinav_piyasa_rps": 0.20534
     }
   },
   "SP1": {
-    "xi": 0.0019,
+    "xi": 0.003,
     "reg": 0.3,
-    "sot": 0.0,
+    "sot": 0.3,
     "bc": 0.3,
     "sd": 0.0,
     "lig": "La Liga",
     "rapor": {
-      "ayar_rps": 0.19582,
-      "ayar_sutsuz_en_iyi_rps": 0.19588,
-      "ayar_sadece_sut_en_iyi_rps": 0.19587,
+      "secilen_aile": "Gol + şut + büyük şans",
+      "adaylar": [
+        {
+          "aday": "Varsayılan (sadece gol)",
+          "ayar_rps": 0.196,
+          "sinav_rps": 0.20088,
+          "ortalama": 0.19844
+        },
+        {
+          "aday": "Sadece gol (ayarlı)",
+          "ayar_rps": 0.19588,
+          "sinav_rps": 0.20068,
+          "ortalama": 0.19828
+        },
+        {
+          "aday": "Gol + isabetli şut",
+          "ayar_rps": 0.19587,
+          "sinav_rps": 0.19996,
+          "ortalama": 0.19791
+        },
+        {
+          "aday": "Gol + büyük şans",
+          "ayar_rps": 0.19582,
+          "sinav_rps": 0.19981,
+          "ortalama": 0.19781
+        },
+        {
+          "aday": "Gol + şut + büyük şans",
+          "ayar_rps": 0.19584,
+          "sinav_rps": 0.19971,
+          "ortalama": 0.19777
+        }
+      ],
       "sinav_varsayilan_rps": 0.20088,
-      "sinav_secilen_rps": 0.19981,
+      "sinav_secilen_rps": 0.19971,
       "sinav_piyasa_rps": 0.19572
     }
   },
   "I1": {
     "xi": 0.0019,
     "reg": 1.0,
-    "sot": 0.0,
+    "sot": 0.3,
     "bc": 0.0,
-    "sd": 0.1,
+    "sd": 0.0,
     "lig": "Serie A",
     "rapor": {
-      "ayar_rps": 0.19,
-      "ayar_sutsuz_en_iyi_rps": 0.19059,
-      "ayar_sadece_sut_en_iyi_rps": 0.19019,
+      "secilen_aile": "Gol + isabetli şut",
+      "adaylar": [
+        {
+          "aday": "Varsayılan (sadece gol)",
+          "ayar_rps": 0.19093,
+          "sinav_rps": 0.20139,
+          "ortalama": 0.19616
+        },
+        {
+          "aday": "Sadece gol (ayarlı)",
+          "ayar_rps": 0.19059,
+          "sinav_rps": 0.20103,
+          "ortalama": 0.19581
+        },
+        {
+          "aday": "Gol + isabetli şut",
+          "ayar_rps": 0.19019,
+          "sinav_rps": 0.20116,
+          "ortalama": 0.19567
+        },
+        {
+          "aday": "Gol + büyük şans",
+          "ayar_rps": 0.19027,
+          "sinav_rps": 0.20279,
+          "ortalama": 0.19653
+        },
+        {
+          "aday": "Gol + şut + büyük şans",
+          "ayar_rps": 0.19,
+          "sinav_rps": 0.20231,
+          "ortalama": 0.19615
+        }
+      ],
       "sinav_varsayilan_rps": 0.20139,
-      "sinav_secilen_rps": 0.20231,
+      "sinav_secilen_rps": 0.20116,
       "sinav_piyasa_rps": 0.19658
     }
   },
-  "_guncelleme": "2026-10-24T17:42"
+  "_guncelleme": "2026-10-24T17:54"
 }

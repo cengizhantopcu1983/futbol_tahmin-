@@ -1,66 +1,46 @@
 
-=== Süper Lig (50 sn) ===
-  Ayar sezonu 2425, 324 kombinasyon denendi. En iyi 3 (RPS):
-    xi=0.0045 reg=1.0  şut=0.0 b.şans=0.7 belirsizlik=0.00   RPS 0.1907
-    xi=0.0045 reg=1.0  şut=0.2 b.şans=0.5 belirsizlik=0.00   RPS 0.1908
-    xi=0.0045 reg=3.0  şut=0.0 b.şans=0.7 belirsizlik=0.00   RPS 0.1908
-    varsayılan ayar (sadece gol)                                RPS 0.1983
-    en iyi: sadece gol                                          RPS 0.1936
-    en iyi: gol + isabetli şut (büyük şanssız)                  RPS 0.1925
-    (ayar sezonunda büyük şans verisi olan maç oranı: %88)
-  Sınav sezonu 2526:
-                               RPS   İsabet
-    Varsayılan ayar         0.1936    51.6%
-    Seçilen ayar            0.1909    51.6%
-    Bahis piyasası          0.1858    54.2%
-  Karar: YENİ AYAR KULLANILACAK  ->  xi=0.0045, reg=1.0, isabetli şut=0.0, büyük şans=0.7, belirsizlik=0.0
+=== Süper Lig (63 sn) ===
+  324 kombinasyon denendi (büyük şans verisi olan maç oranı, 2425: %88). Adaylar (RPS, küçük = iyi):
+                                  2425    2526  Ortalama   ayar
+    Varsayılan (sadece gol)     0.1983  0.1936    0.1961   xi=0.0019 reg=1.0 şut=0.0 b.şans=0.0 bel.=0.1
+    Sadece gol (ayarlı)         0.1936  0.1941    0.1938   xi=0.0045 reg=3.0 şut=0.0 b.şans=0.0 bel.=0.0
+    Gol + isabetli şut          0.1925  0.1929    0.1927   xi=0.0045 reg=1.0 şut=0.5 b.şans=0.0 bel.=0.0
+    Gol + büyük şans            0.1907  0.1909    0.1908   xi=0.0045 reg=1.0 şut=0.0 b.şans=0.7 bel.=0.0 <-
+    Gol + şut + büyük şans      0.1908  0.1912    0.1910   xi=0.0045 reg=1.0 şut=0.2 b.şans=0.5 bel.=0.0
+    Bahis piyasası                      0.1858
+  Karar: Gol + büyük şans  ->  xi=0.0045, reg=1.0, isabetli şut=0.0, büyük şans=0.7, belirsizlik=0.0
 
-=== Premier League (52 sn) ===
-  Ayar sezonu 2425, 324 kombinasyon denendi. En iyi 3 (RPS):
-    xi=0.0045 reg=0.3  şut=0.0 b.şans=0.7 belirsizlik=0.10   RPS 0.1954
-    xi=0.0045 reg=0.3  şut=0.0 b.şans=0.7 belirsizlik=0.00   RPS 0.1954
-    xi=0.0045 reg=0.3  şut=0.0 b.şans=0.7 belirsizlik=0.20   RPS 0.1955
-    varsayılan ayar (sadece gol)                                RPS 0.2021
-    en iyi: sadece gol                                          RPS 0.2000
-    en iyi: gol + isabetli şut (büyük şanssız)                  RPS 0.1986
-    (ayar sezonunda büyük şans verisi olan maç oranı: %98)
-  Sınav sezonu 2526:
-                               RPS   İsabet
-    Varsayılan ayar         0.2085    47.4%
-    Seçilen ayar            0.2072    48.4%
-    Bahis piyasası          0.2053    49.5%
-  Karar: YENİ AYAR KULLANILACAK  ->  xi=0.0045, reg=0.3, isabetli şut=0.0, büyük şans=0.7, belirsizlik=0.1
+=== Premier League (66 sn) ===
+  324 kombinasyon denendi (büyük şans verisi olan maç oranı, 2425: %98). Adaylar (RPS, küçük = iyi):
+                                  2425    2526  Ortalama   ayar
+    Varsayılan (sadece gol)     0.2021  0.2085    0.2053   xi=0.0019 reg=1.0 şut=0.0 b.şans=0.0 bel.=0.1
+    Sadece gol (ayarlı)         0.2000  0.2090    0.2045   xi=0.0045 reg=0.3 şut=0.0 b.şans=0.0 bel.=0.1
+    Gol + isabetli şut          0.1986  0.2064    0.2025   xi=0.0045 reg=0.3 şut=0.5 b.şans=0.0 bel.=0.1
+    Gol + büyük şans            0.1954  0.2072    0.2013   xi=0.0045 reg=0.3 şut=0.0 b.şans=0.7 bel.=0.1
+    Gol + şut + büyük şans      0.1958  0.2064    0.2011   xi=0.0045 reg=0.3 şut=0.2 b.şans=0.5 bel.=0.1 <-
+    Bahis piyasası                      0.2053
+  Karar: Gol + şut + büyük şans  ->  xi=0.0045, reg=0.3, isabetli şut=0.2, büyük şans=0.5, belirsizlik=0.1
 
-=== La Liga (51 sn) ===
-  Ayar sezonu 2425, 324 kombinasyon denendi. En iyi 3 (RPS):
-    xi=0.0019 reg=0.3  şut=0.0 b.şans=0.3 belirsizlik=0.00   RPS 0.1958
-    xi=0.0030 reg=0.3  şut=0.3 b.şans=0.3 belirsizlik=0.00   RPS 0.1958
-    xi=0.0019 reg=0.3  şut=0.0 b.şans=0.3 belirsizlik=0.10   RPS 0.1958
-    varsayılan ayar (sadece gol)                                RPS 0.1960
-    en iyi: sadece gol                                          RPS 0.1959
-    en iyi: gol + isabetli şut (büyük şanssız)                  RPS 0.1959
-    (ayar sezonunda büyük şans verisi olan maç oranı: %98)
-  Sınav sezonu 2526:
-                               RPS   İsabet
-    Varsayılan ayar         0.2009    53.2%
-    Seçilen ayar            0.1998    53.2%
-    Bahis piyasası          0.1957    54.7%
-  Karar: YENİ AYAR KULLANILACAK  ->  xi=0.0019, reg=0.3, isabetli şut=0.0, büyük şans=0.3, belirsizlik=0.0
+=== La Liga (67 sn) ===
+  324 kombinasyon denendi (büyük şans verisi olan maç oranı, 2425: %98). Adaylar (RPS, küçük = iyi):
+                                  2425    2526  Ortalama   ayar
+    Varsayılan (sadece gol)     0.1960  0.2009    0.1984   xi=0.0019 reg=1.0 şut=0.0 b.şans=0.0 bel.=0.1
+    Sadece gol (ayarlı)         0.1959  0.2007    0.1983   xi=0.0019 reg=0.3 şut=0.0 b.şans=0.0 bel.=0.0
+    Gol + isabetli şut          0.1959  0.2000    0.1979   xi=0.0019 reg=0.3 şut=0.3 b.şans=0.0 bel.=0.0
+    Gol + büyük şans            0.1958  0.1998    0.1978   xi=0.0019 reg=0.3 şut=0.0 b.şans=0.3 bel.=0.0
+    Gol + şut + büyük şans      0.1958  0.1997    0.1978   xi=0.003 reg=0.3 şut=0.3 b.şans=0.3 bel.=0.0 <-
+    Bahis piyasası                      0.1957
+  Karar: Gol + şut + büyük şans  ->  xi=0.003, reg=0.3, isabetli şut=0.3, büyük şans=0.3, belirsizlik=0.0
 
-=== Serie A (51 sn) ===
-  Ayar sezonu 2425, 324 kombinasyon denendi. En iyi 3 (RPS):
-    xi=0.0019 reg=1.0  şut=0.3 b.şans=0.3 belirsizlik=0.00   RPS 0.1900
-    xi=0.0019 reg=1.0  şut=0.3 b.şans=0.3 belirsizlik=0.10   RPS 0.1900
-    xi=0.0019 reg=0.3  şut=0.3 b.şans=0.3 belirsizlik=0.10   RPS 0.1900
-    varsayılan ayar (sadece gol)                                RPS 0.1909
-    en iyi: sadece gol                                          RPS 0.1906
-    en iyi: gol + isabetli şut (büyük şanssız)                  RPS 0.1902
-    (ayar sezonunda büyük şans verisi olan maç oranı: %97)
-  Sınav sezonu 2526:
-                               RPS   İsabet
-    Varsayılan ayar         0.2014    51.1%
-    Seçilen ayar            0.2023    52.1%
-    Bahis piyasası          0.1966    53.9%
-  Karar: varsayılan ayar korunuyor  ->  xi=0.0019, reg=1.0, isabetli şut=0.0, büyük şans=0.0, belirsizlik=0.1
+=== Serie A (66 sn) ===
+  324 kombinasyon denendi (büyük şans verisi olan maç oranı, 2425: %97). Adaylar (RPS, küçük = iyi):
+                                  2425    2526  Ortalama   ayar
+    Varsayılan (sadece gol)     0.1909  0.2014    0.1962   xi=0.0019 reg=1.0 şut=0.0 b.şans=0.0 bel.=0.1
+    Sadece gol (ayarlı)         0.1906  0.2010    0.1958   xi=0.001 reg=3.0 şut=0.0 b.şans=0.0 bel.=0.0
+    Gol + isabetli şut          0.1902  0.2012    0.1957   xi=0.0019 reg=1.0 şut=0.3 b.şans=0.0 bel.=0.0 <-
+    Gol + büyük şans            0.1903  0.2028    0.1965   xi=0.001 reg=3.0 şut=0.0 b.şans=0.5 bel.=0.1
+    Gol + şut + büyük şans      0.1900  0.2023    0.1962   xi=0.0019 reg=1.0 şut=0.3 b.şans=0.3 bel.=0.0
+    Bahis piyasası                      0.1966
+  Karar: Gol + isabetli şut  ->  xi=0.0019, reg=1.0, isabetli şut=0.3, büyük şans=0.0, belirsizlik=0.0
 
 Ayarlar ayarlar.json dosyasına yazıldı.
