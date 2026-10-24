@@ -38,7 +38,7 @@ def pct(p: float) -> str:
 
 
 SETTINGS_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "ayarlar.json")
-DEFAULTS = {"xi": 0.0019, "reg": 1.0, "sd": 0.10}
+DEFAULTS = {"xi": 0.0019, "reg": 1.0, "sot": 0.0, "sd": 0.10}
 
 
 def league_params(code: str, args) -> dict:
@@ -50,7 +50,7 @@ def league_params(code: str, args) -> dict:
         p.update({k: float(saved[k]) for k in DEFAULTS if k in saved})
     except (OSError, ValueError):
         pass
-    for key, arg in (("xi", "xi"), ("reg", "reg"), ("sd", "belirsizlik")):
+    for key, arg in (("xi", "xi"), ("reg", "reg"), ("sot", "sut"), ("sd", "belirsizlik")):
         if getattr(args, arg, None) is not None:
             p[key] = getattr(args, arg)
     return p
@@ -65,7 +65,8 @@ class LeagueModel:
         self.params = league_params(code, args)
         self.sd = self.params["sd"]
         self.df = load_league(code, n_seasons=args.sezon_sayisi)
-        self.model = DixonColes(xi=self.params["xi"], reg=self.params["reg"]).fit(self.df)
+        self.model = DixonColes(xi=self.params["xi"], reg=self.params["reg"],
+                                sot=self.params["sot"]).fit(self.df)
         self.extras = Extras().fit(self.df, xi=self.params["xi"])
         self.elo, _ = compute_elo(self.df)
         self.current_teams = sorted(set(self.df[self.df["Season"] == self.df["Season"].iloc[-1]]
@@ -186,7 +187,7 @@ def run_fixtures(args):
         try:
             lm = LeagueModel(code, args)
             p = lm.params
-            print(f"  ayarlar: xi={p['xi']}, reg={p['reg']}, belirsizlik={p['sd']}")
+            print(f"  ayarlar: xi={p['xi']}, reg={p['reg']}, isabetli şut={p['sot']}, belirsizlik={p['sd']}")
         except Exception as e:  # bir lig hata verirse diğerleri yine çalışsın
             print(f"  atlandı: {e}")
             continue
@@ -254,6 +255,7 @@ def main():
     ap.add_argument("--xi", type=float, help="Form ağırlığı (büyük = yeni maçlar daha önemli); "
                                               "verilmezse ayarlar.json veya varsayılan")
     ap.add_argument("--reg", type=float, help="Az maçı olan takımları ortalamaya çekme gücü")
+    ap.add_argument("--sut", type=float, help="İsabetli şut ağırlığı (0-1)")
     ap.add_argument("--belirsizlik", type=float, help="Beklenen gole eklenen belirsizlik")
     ap.add_argument("--sim", type=int, default=10000, help="Simülasyon sayısı")
     args = ap.parse_args()
