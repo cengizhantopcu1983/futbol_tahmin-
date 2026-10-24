@@ -3,31 +3,32 @@ Sportmonks keşif testi (2026-10-24)
 === Süper Lig (lig no 600) ===
 Abonelik bilgisi:
   Plan: Starter - Trialing until 2026-11-07 18:08:29
-  Kalan istek hakkı (bu saat, bu veri türü): 1995
+  Kalan istek hakkı (bu saat, bu veri türü): 1991
   Sezon        Maç    xG  İs.şut  B.şans Topla oyn.  İlk 11  Sakatlık  Hakem
-  2026/2027    ✗ HTTP 403: You do not have access to the 'xgfixture' include
-  2025/2026    ✗ HTTP 403: You do not have access to the 'xgfixture' include
-  2024/2025    ✗ HTTP 403: You do not have access to the 'xgfixture' include
+  2026/2027     25 yetki   25/25   25/25      25/25   25/25     24/25  25/25
+  2025/2026     25 yetki   25/25   25/25      25/25   25/25     23/25  25/25
+  2024/2025     25 yetki   25/25   25/25      25/25   25/25     25/25  25/25
 
 === Premier League (lig no 8) ===
   Sezon        Maç    xG  İs.şut  B.şans Topla oyn.  İlk 11  Sakatlık  Hakem
-  2026/2027    ✗ HTTP 403: You do not have access to the 'xgfixture' include
-  2025/2026    ✗ HTTP 403: You do not have access to the 'xgfixture' include
-  2024/2025    ✗ HTTP 403: You do not have access to the 'xgfixture' include
+  2026/2027     25 yetki   25/25   25/25      25/25   25/25     24/25  25/25
+  2025/2026     25 yetki   25/25   24/25      25/25   25/25     16/25  25/25
+  2024/2025     25 yetki   25/25   25/25      25/25   25/25     20/25  25/25
 
 === La Liga (lig no 564) ===
   Sezon        Maç    xG  İs.şut  B.şans Topla oyn.  İlk 11  Sakatlık  Hakem
-  2026/2027    ✗ HTTP 403: You do not have access to the 'xgfixture' include
-  2025/2026    ✗ HTTP 403: You do not have access to the 'xgfixture' include
-  2024/2025    ✗ HTTP 403: You do not have access to the 'xgfixture' include
+  2026/2027     25 yetki   25/25   24/25      25/25   25/25     25/25  25/25
+  2025/2026     25 yetki   25/25   24/25      25/25   25/25      9/25  25/25
+  2024/2025     25 yetki   25/25   25/25      25/25   25/25     22/25  25/25
 
 === Serie A (lig no 384) ===
   Sezon        Maç    xG  İs.şut  B.şans Topla oyn.  İlk 11  Sakatlık  Hakem
-  2026/2027    ✗ HTTP 403: You do not have access to the 'xgfixture' include
-  2025/2026    ✗ HTTP 403: You do not have access to the 'xgfixture' include
-  2024/2025    ✗ HTTP 403: You do not have access to the 'xgfixture' include
+  2026/2027     25 yetki   25/25   25/25      25/25   25/25     25/25  25/25
+  2025/2026     25 yetki   25/25   25/25      25/25   25/25      3/25  25/25
+  2024/2025     25 yetki   25/25   25/25      25/25   25/25     25/25  25/25
 
 === ÖZET ===
+  Aboneliğe dahil OLMAYAN veriler ('yetki'): xG
   Süper Lig: xG olan sezonlar: YOK
   Premier League: xG olan sezonlar: YOK
   La Liga: xG olan sezonlar: YOK
