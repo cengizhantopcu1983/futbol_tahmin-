@@ -2,23 +2,35 @@ Sportmonks keşif testi (2026-10-24)
 
 === Süper Lig (lig no 600) ===
 Abonelik bilgisi:
-  Plan: Cricket Free Plan, Football Free Plan
-  Kalan istek hakkı (bu saat, bu veri türü): 179
-  ✗ Sezon bilgisi gelmedi.
+  Plan: Starter - Trialing until 2026-11-07 18:08:29
+  Kalan istek hakkı (bu saat, bu veri türü): 1995
+  Sezon        Maç    xG  İs.şut  B.şans Topla oyn.  İlk 11  Sakatlık  Hakem
+  2026/2027    ✗ HTTP 403: You do not have access to the 'xgfixture' include
+  2025/2026    ✗ HTTP 403: You do not have access to the 'xgfixture' include
+  2024/2025    ✗ HTTP 403: You do not have access to the 'xgfixture' include
 
 === Premier League (lig no 8) ===
-  ✗ Sezon bilgisi gelmedi.
+  Sezon        Maç    xG  İs.şut  B.şans Topla oyn.  İlk 11  Sakatlık  Hakem
+  2026/2027    ✗ HTTP 403: You do not have access to the 'xgfixture' include
+  2025/2026    ✗ HTTP 403: You do not have access to the 'xgfixture' include
+  2024/2025    ✗ HTTP 403: You do not have access to the 'xgfixture' include
 
 === La Liga (lig no 564) ===
-  ✗ Sezon bilgisi gelmedi.
+  Sezon        Maç    xG  İs.şut  B.şans Topla oyn.  İlk 11  Sakatlık  Hakem
+  2026/2027    ✗ HTTP 403: You do not have access to the 'xgfixture' include
+  2025/2026    ✗ HTTP 403: You do not have access to the 'xgfixture' include
+  2024/2025    ✗ HTTP 403: You do not have access to the 'xgfixture' include
 
 === Serie A (lig no 384) ===
-  ✗ Sezon bilgisi gelmedi.
+  Sezon        Maç    xG  İs.şut  B.şans Topla oyn.  İlk 11  Sakatlık  Hakem
+  2026/2027    ✗ HTTP 403: You do not have access to the 'xgfixture' include
+  2025/2026    ✗ HTTP 403: You do not have access to the 'xgfixture' include
+  2024/2025    ✗ HTTP 403: You do not have access to the 'xgfixture' include
 
 === ÖZET ===
-  Süper Lig: erişim yok
-  Premier League: erişim yok
-  La Liga: erişim yok
-  Serie A: erişim yok
+  Süper Lig: xG olan sezonlar: YOK
+  Premier League: xG olan sezonlar: YOK
+  La Liga: xG olan sezonlar: YOK
+  Serie A: xG olan sezonlar: YOK
 
 (Sayılar her sezondan örneklenen yaklaşık bir aylık maçlara aittir. Ör. '9/10' = 10 maçın 9'unda bu veri var.)
