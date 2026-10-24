@@ -25,6 +25,12 @@ jobs:
       - name: Kutuphaneleri kur
         run: pip install -r requirements.txt
 
+      - name: Sportmonks verisini guncelle
+        continue-on-error: true  # deneme biterse ya da hata olursa model eski verilerle devam eder
+        env:
+          SPORTMONKS_TOKEN: ${{ secrets.SPORTMONKS_TOKEN }}
+        run: python sportmonks.py
+
       - name: Geriye donuk test
         run: |
           python backtest.py --hepsi --sezon ${{ inputs.sezon }} | tee backtest_sonuc.txt
@@ -50,6 +56,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add backtest_sonuc.txt ek_test_sonuc.txt
+          if [ -d data_sm ]; then git add data_sm/; fi
           git diff --staged --quiet || git commit -m "Model testi sonucu (${{ inputs.sezon }})"
           git pull --rebase
           git push
