@@ -155,6 +155,26 @@ def analyse_fixtures(fixtures: list[dict]) -> dict:
     return out
 
 
+# tablo sütunu -> hangi include'dan geliyor
+INCLUDE_OF = {"xg": "xGFixture", "isabetli_sut": "statistics", "buyuk_sans": "statistics",
+              "topla_oynama": "statistics", "ilk_11": "lineups", "sakatlik": "sidelined", "hakem": "referees"}
+
+
+def fetch_fixtures(lid: int, win, denied: set[str]):
+    """Maçları çeker. Bir include için yetki yoksa onu çıkarıp yeniden dener."""
+    while True:
+        incs = [i for i in INCLUDES.split(";") if i not in denied]
+        try:
+            return get(f"/fixtures/between/{win[0]}/{win[1]}",
+                       {"filters": f"fixtureLeagues:{lid}", "include": ";".join(incs), "per_page": 25}), None
+        except ApiError as e:
+            msg = str(e).lower()
+            bad = next((i for i in incs if e.status == 403 and f"'{i.lower()}'" in msg), None)
+            if bad is None:
+                return None, e
+            denied.add(bad)  # bu veri aboneliğe dahil değil; onsuz devam et
+
+
 # ---------------- ana akış ----------------
 def main() -> int:
     if not TOKEN:
@@ -165,6 +185,7 @@ def main() -> int:
     print(f"Sportmonks keşif testi ({today})\n")
     sub_printed = False
     rows = []
+    denied: set[str] = set()  # aboneliğin izin vermediği include'lar
     for lid, lname in LEAGUES.items():
         print(f"=== {lname} (lig no {lid}) ===")
         try:
@@ -198,17 +219,19 @@ def main() -> int:
             if not win:
                 print(f"  {name:<11}  (uygun tarih aralığı yok)")
                 continue
-            try:
-                fx = get(f"/fixtures/between/{win[0]}/{win[1]}",
-                         {"filters": f"fixtureLeagues:{lid}", "include": INCLUDES, "per_page": 25})
-            except ApiError as e:
-                print(f"  {name:<11}  ✗ {e}")
+            fx, err = fetch_fixtures(lid, win, denied)
+            if fx is None:
+                print(f"  {name:<11}  ✗ {err}")
                 league_rows.append((name, None))
                 continue
             r = analyse_fixtures(fx.get("data") or [])
             league_rows.append((name, r))
             n = r["mac"]
-            cell = lambda k: f"{r[k]}/{n}" if n else "-"
+
+            def cell(k):
+                if INCLUDE_OF.get(k) in denied:
+                    return "yetki"
+                return f"{r[k]}/{n}" if n else "-"
             print(f"  {name:<11}{n:>5}{cell('xg'):>6}{cell('isabetli_sut'):>8}{cell('buyuk_sans'):>8}"
                   f"{cell('topla_oynama'):>11}{cell('ilk_11'):>8}{cell('sakatlik'):>10}{cell('hakem'):>7}")
             time.sleep(0.5)
@@ -220,6 +243,12 @@ def main() -> int:
 
     # ---- özet ----
     print("=== ÖZET ===")
+    if denied:
+        adlar = {"xGFixture": "xG", "statistics": "maç istatistikleri", "lineups": "ilk 11",
+                 "sidelined": "sakatlık/ceza", "referees": "hakem", "scores": "skorlar",
+                 "participants": "takımlar"}
+        print("  Aboneliğe dahil OLMAYAN veriler ('yetki'): "
+              + ", ".join(adlar.get(d, d) for d in sorted(denied)))
     for lname, league_rows in rows:
         if not league_rows:
             print(f"  {lname}: erişim yok")
