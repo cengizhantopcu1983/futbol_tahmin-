@@ -16,7 +16,8 @@ MAX_GOALS = 10
 
 
 class DixonColes:
-    def __init__(self, xi: float = 0.0019, reg: float = 1.0, sot: float = 0.0, bc: float = 0.0):
+    def __init__(self, xi: float = 0.0019, reg: float = 1.0, sot: float = 0.0, bc: float = 0.0,
+                 xg: float = 0.0, fatigue: bool = False):
         # xi: günlük ağırlık azalması. 0.0019 => bir maçın ağırlığı ~1 yılda yarıya iner.
         # reg: az maçı olan takımların (ör. yeni çıkanlar) aşırı uç değer almasını engeller.
         # sot: isabetli şut ağırlığı, bc: büyük şans ağırlığı (toplamları en fazla 1).
@@ -24,12 +25,17 @@ class DixonColes:
         #      karışımından öğrenilir. Bunlar golden daha az şansa bağlı olduğu için gücü daha
         #      istikrarlı gösterir (xG'nin basit bir yerine geçer). Verisi olmayan maçta sadece
         #      gerçek gol kullanılır.
-        if sot + bc > 1:
-            raise ValueError("sot + bc en fazla 1 olabilir")
+        # xg: elle girilen xG ağırlığı (gölge model). fatigue: yorgunluk etkisi (≤4 gün önce maç
+        #      oynamış takımın hücum/savunma değişimi) modele eklensin mi.
+        if sot + bc + xg > 1 + 1e-9:
+            raise ValueError("sot + bc + xg en fazla 1 olabilir")
         self.xi = xi
         self.reg = reg
         self.sot = sot
         self.bc = bc
+        self.xg = xg
+        self.fatigue = fatigue
+        self.fat_att, self.fat_def = 0.0, 0.0
         self.teams: list[str] = []
 
     # ---------- eğitim ----------
@@ -55,16 +61,18 @@ class DixonColes:
         # düşük skor düzeltmesi (rho) her zaman GERÇEK skorlara göre
         m00, m01 = (x == 0) & (y == 0), (x == 0) & (y == 1)
         m10, m11 = (x == 1) & (y == 0), (x == 1) & (y == 1)
-        self.sot_used, self.bc_used = 0.0, 0.0
+        self.sot_used, self.bc_used, self.xg_used = 0.0, 0.0, 0.0
         base_w = np.ones_like(x)        # gerçek golün payı (maç bazında)
         add_x, add_y = np.zeros_like(x), np.zeros_like(y)
-        for weight, hc, ac, attr in ((self.sot, "HST", "AST", "sot"), (self.bc, "HBC", "ABC", "bc")):
+        comps = ((self.sot, "HST", "AST", "sot", 100), (self.bc, "HBC", "ABC", "bc", 100),
+                 (self.xg, "HXG", "AXG", "xg", 20))
+        for weight, hc, ac, attr, min_n in comps:
             if weight <= 0 or not {hc, ac} <= set(d.columns):
                 continue
             hv = pd.to_numeric(d[hc], errors="coerce").to_numpy(float)
             av = pd.to_numeric(d[ac], errors="coerce").to_numpy(float)
             ok = ~np.isnan(hv) & ~np.isnan(av)
-            if ok.sum() < 100:
+            if ok.sum() < min_n:
                 continue
             # şutu/şansı gole çeviren lig oranı (ör. 3 isabetli şutta 1 gol)
             conv = np.sum(w[ok] * (x[ok] + y[ok])) / max(np.sum(w[ok] * (hv[ok] + av[ok])), 1e-9)
@@ -77,11 +85,22 @@ class DixonColes:
         y = base_w * y + add_y
         reg = self.reg
 
+        # yorgunluk: th/ta = ev/deplasman takımı ≤4 gün önce maç oynadı mı (0/1)
+        use_fat = self.fatigue and {"HTired", "ATired"} <= set(d.columns)
+        if use_fat:
+            th = pd.to_numeric(d["HTired"], errors="coerce").fillna(0).to_numpy(float)
+            ta = pd.to_numeric(d["ATired"], errors="coerce").fillna(0).to_numpy(float)
+            use_fat = (th.sum() + ta.sum()) >= 20
+        if not use_fat:
+            th = ta = np.zeros_like(x)
+        fat_reg = 5.0  # yorgunluk katsayılarını sıfıra yakın tutan düzenleme (az veride aşırı tepki olmasın)
+
         def nll_grad(p):
             r, dd, g, rho = p[:n], p[n:2 * n], p[2 * n], p[2 * n + 1]
+            ca, cd = p[2 * n + 2], p[2 * n + 3]
             att = r - r.mean()
-            lam = np.exp(g + att[h] + dd[a])
-            mu = np.exp(att[a] + dd[h])
+            lam = np.exp(g + att[h] + dd[a] + ca * th + cd * ta)
+            mu = np.exp(att[a] + dd[h] + ca * ta + cd * th)
             t = np.ones_like(lam)
             tl, tm, tr = np.zeros_like(lam), np.zeros_like(lam), np.zeros_like(lam)
 
@@ -109,13 +128,16 @@ class DixonColes:
             gd = np.bincount(a, gl, n) + np.bincount(h, gm, n)
             ga -= ga.mean()
             dc = dd - dd.mean()
-            nll = -ll.sum() + reg * (att @ att + dc @ dc)
+            nll = -ll.sum() + reg * (att @ att + dc @ dc) + fat_reg * (ca * ca + cd * cd)
+            g_ca = -(gl @ th + gm @ ta) + 2 * fat_reg * ca
+            g_cd = -(gl @ ta + gm @ th) + 2 * fat_reg * cd
             grad = np.concatenate([-ga + 2 * reg * att, -gd + 2 * reg * dc,
-                                   [-gl.sum(), -(w * tr).sum()]])
+                                   [-gl.sum(), -(w * tr).sum(), g_ca, g_cd]])
             return nll, grad
 
-        p0 = np.concatenate([np.zeros(n), np.full(n, np.log(max(y.mean(), 0.2))), [0.25, -0.05]])
-        bounds = [(None, None)] * (2 * n + 1) + [(-0.25, 0.25)]
+        p0 = np.concatenate([np.zeros(n), np.full(n, np.log(max(y.mean(), 0.2))), [0.25, -0.05, 0.0, 0.0]])
+        fb = (-0.5, 0.5) if use_fat else (0.0, 0.0)
+        bounds = [(None, None)] * (2 * n + 1) + [(-0.25, 0.25), fb, fb]
         res = minimize(nll_grad, p0, jac=True, method="L-BFGS-B", bounds=bounds,
                        options={"maxiter": 2000})
         p = res.x
@@ -125,6 +147,8 @@ class DixonColes:
         self.dfn = dict(zip(teams, p[n:2 * n]))
         self.home_adv = float(p[2 * n])
         self.rho = float(p[2 * n + 1])
+        self.fat_att, self.fat_def = float(p[2 * n + 2]), float(p[2 * n + 3])
+        self.fatigue_used = bool(use_fat)
         self.weight = dict(zip(teams, np.bincount(h, w, n) + np.bincount(a, w, n)))
         self.ref_date = ref_date
         self._fit_nll = nll_grad  # testler için
@@ -140,21 +164,22 @@ class DixonColes:
         return (float(np.mean([self.att[t] for t in net])),
                 float(np.mean([self.dfn[t] for t in net])), True)
 
-    def expected_goals(self, home: str, away: str):
+    def expected_goals(self, home: str, away: str, h_tired: float = 0, a_tired: float = 0):
+        """h_tired / a_tired: takım ≤4 gün önce maç oynadıysa 1 (yorgunluk etkisi)."""
         ah, dh, _ = self._team_params(home)
         aa, da, _ = self._team_params(away)
-        lam = np.exp(self.home_adv + ah + da)
-        mu = np.exp(aa + dh)
+        lam = np.exp(self.home_adv + ah + da + self.fat_att * h_tired + self.fat_def * a_tired)
+        mu = np.exp(aa + dh + self.fat_att * a_tired + self.fat_def * h_tired)
         return float(lam), float(mu)
 
     def score_matrix(self, home: str, away: str, sd: float = 0.10, n_draws: int = 400,
-                     seed: int = 0) -> np.ndarray:
+                     seed: int = 0, h_tired: float = 0, a_tired: float = 0) -> np.ndarray:
         """Skor olasılık matrisi: satır = ev sahibi golü, sütun = deplasman golü.
 
         sd > 0 ise beklenen gollere belirsizlik eklenir (sakatlık, kadro, şans vb.)
         ve sonuç bu senaryoların ortalamasıdır.
         """
-        lam, mu = self.expected_goals(home, away)
+        lam, mu = self.expected_goals(home, away, h_tired, a_tired)
         if sd > 0:
             rng = np.random.default_rng(seed)
             f = np.exp(rng.normal(-sd ** 2 / 2, sd, size=(n_draws, 2)))
@@ -175,10 +200,10 @@ class DixonColes:
         return mats.mean(axis=0)
 
     def predict(self, home: str, away: str, sd: float = 0.10, n_sim: int = 10000,
-                seed: int = 0) -> dict:
-        mat = self.score_matrix(home, away, sd=sd, seed=seed)
+                seed: int = 0, h_tired: float = 0, a_tired: float = 0) -> dict:
+        mat = self.score_matrix(home, away, sd=sd, seed=seed, h_tired=h_tired, a_tired=a_tired)
         out = summarize(mat)
-        lam, mu = self.expected_goals(home, away)
+        lam, mu = self.expected_goals(home, away, h_tired, a_tired)
         out.update(home=home, away=away, xg_home=lam, xg_away=mu,
                    unknown=[t for t in (home, away) if t not in self.att])
         if n_sim:
