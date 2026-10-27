@@ -135,9 +135,12 @@ def update(max_seasons: int = 3) -> None:
         df.to_csv(path, index=False)
         print(f"  ✓ Şampiyonlar Ligi {season}/{season + 1}: {len(df)} maç")
         time.sleep(7)  # football-data.org ücretsiz plan: dakikada 10 istek
-    for name, df, _ in _sportmonks_el(max_seasons, today):
-        df.to_csv(os.path.join(EURO_DIR, f"{name}.csv"), index=False)
-        print(f"  ✓ Avrupa Ligi {name[3:]}: {len(df)} maç")
+    try:
+        for name, df, _ in _sportmonks_el(max_seasons, today):
+            df.to_csv(os.path.join(EURO_DIR, f"{name}.csv"), index=False)
+            print(f"  ✓ Avrupa Ligi {name[3:]}: {len(df)} maç")
+    except Exception as e:  # Avrupa Ligi alınamasa da Şampiyonlar Ligi verisi geçerli kalır
+        print(f"  ✗ Avrupa Ligi alınamadı: {e}")
 
 
 # ---------------- takım adı eşleştirme (katı) ----------------
