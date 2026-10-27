@@ -217,6 +217,11 @@ def load_league(code: str, seasons: list[str] | None = None, n_seasons: int = 4,
             df = merge_into(df, code)
         except ImportError:
             pass
+        try:  # dinlenme süresi ve Avrupa kupası yorgunluğu (HRest, HTired, ...)
+            from yorgunluk import add_fatigue
+            df = add_fatigue(df)
+        except ImportError:
+            pass
     return df
 
 
