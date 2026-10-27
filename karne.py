@@ -79,6 +79,9 @@ def archive_predictions(tahminler: dict, arsiv: dict, now: dt.datetime) -> int:
             # tek tek en olası skor (sonuçtan bağımsız; çoğu zaman 1-1)
             "en_olasi_skor": (m.get("olasi_skorlar") or [{}])[0].get("skor"),
             "piyasa": m.get("piyasa"),
+            # xG'li gölge modelin olasılıkları (elle girilen xG varsa)
+            "golge": ({k: m["xg_modeli"][k] for k in ("p_ev", "p_beraberlik", "p_deplasman")}
+                      if isinstance(m.get("xg_modeli"), dict) else None),
             "kayit": now.isoformat(timespec="minutes"),
         }
         n += 1
@@ -109,20 +112,31 @@ def grade(arsiv: dict, now: dt.datetime, loader=None) -> int:
 
 
 # ---------------- 3) karne ----------------
+def _rps(P, o) -> float:
+    P = np.asarray(P, float) / np.sum(P)
+    cp, cy = np.cumsum(P)[:2], np.cumsum(np.eye(3)[o])[:2]
+    return float(((cp - cy) ** 2).sum() / 2)
+
+
 def evaluate(r: dict) -> dict:
     P = np.array([r["p_ev"], r["p_beraberlik"], r["p_deplasman"]], float)
     h, a = r["sonuc"]["ev"], r["sonuc"]["deplasman"]
     o = 0 if h > a else 1 if h == a else 2
     pick = int(P.argmax())
-    cp, cy = np.cumsum(P)[:2], np.cumsum(np.eye(3)[o])[:2]
-    out = {"o": o, "pick": pick, "tuttu": pick == o, "rps": float(((cp - cy) ** 2).sum() / 2),
+    out = {"o": o, "pick": pick, "tuttu": pick == o, "rps": _rps(P, o),
            "skor_tuttu": r.get("olasi_skor") == f"{h}-{a}",
            "en_olasi_skor_tuttu": r.get("en_olasi_skor") == f"{h}-{a}",
            "p_tahmin": float(P[pick])}
     pz = r.get("piyasa")
     if pz:
-        bp = int(np.argmax([pz["ev"], pz["beraberlik"], pz["deplasman"]]))
-        out.update(piyasa_pick=bp, piyasa_tuttu=bp == o)
+        Q = [pz["ev"], pz["beraberlik"], pz["deplasman"]]
+        bp = int(np.argmax(Q))
+        out.update(piyasa_pick=bp, piyasa_tuttu=bp == o, piyasa_rps=_rps(Q, o))
+    gz = r.get("golge")
+    if gz:
+        G = [gz["p_ev"], gz["p_beraberlik"], gz["p_deplasman"]]
+        gp = int(np.argmax(G))
+        out.update(golge_pick=gp, golge_tuttu=gp == o, golge_rps=_rps(G, o))
     return out
 
 
@@ -130,6 +144,7 @@ def stats(items: list[tuple[dict, dict]]) -> dict:
     n = len(items)
     dogru = sum(e["tuttu"] for _, e in items)
     pz = [(r, e) for r, e in items if "piyasa_tuttu" in e]
+    gz = [(r, e) for r, e in items if "golge_tuttu" in e]
     ratio = lambda a, b: round(a / b, 4) if b else None
     return {
         "mac": n, "dogru": dogru, "isabet": ratio(dogru, n),
@@ -140,7 +155,20 @@ def stats(items: list[tuple[dict, dict]]) -> dict:
         "piyasa_mac": len(pz),
         "piyasa_isabet": ratio(sum(e["piyasa_tuttu"] for _, e in pz), len(pz)),
         "model_isabet_ayni_maclar": ratio(sum(e["tuttu"] for _, e in pz), len(pz)),
+        # olasılık puanı (RPS, küçük = iyi): model ve piyasa AYNI maçlarda
+        "piyasa_rps": mean_of([e["piyasa_rps"] for _, e in pz]),
+        "model_rps_piyasa_maclar": mean_of([e["rps"] for _, e in pz]),
+        # xG'li gölge model, ana modelle AYNI maçlarda
+        "golge_mac": len(gz),
+        "golge_isabet": ratio(sum(e["golge_tuttu"] for _, e in gz), len(gz)),
+        "golge_rps": mean_of([e["golge_rps"] for _, e in gz]),
+        "model_isabet_golge_maclar": ratio(sum(e["tuttu"] for _, e in gz), len(gz)),
+        "model_rps_golge_maclar": mean_of([e["rps"] for _, e in gz]),
     }
+
+
+def mean_of(v):
+    return round(float(np.mean(v)), 4) if len(v) else None
 
 
 def build_karne(arsiv: dict, now: dt.datetime) -> dict:
@@ -169,6 +197,8 @@ def build_karne(arsiv: dict, now: dt.datetime) -> dict:
             "en_olasi_skor": r.get("en_olasi_skor"), "en_olasi_skor_tuttu": e["en_olasi_skor_tuttu"],
             "piyasa_tahmin": SECIM[e["piyasa_pick"]] if "piyasa_pick" in e else None,
             "piyasa_tuttu": e.get("piyasa_tuttu"),
+            "golge_tahmin": SECIM[e["golge_pick"]] if "golge_pick" in e else None,
+            "golge_tuttu": e.get("golge_tuttu"),
         })
     bekleyen = sum(1 for r in arsiv["maclar"].values() if "sonuc" not in r)
     return {"olusturulma": now.isoformat(timespec="minutes"), "ozet": stats(graded),
