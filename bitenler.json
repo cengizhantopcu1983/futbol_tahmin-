@@ -1,0 +1,2156 @@
+{
+ "olusturulma": "2026-10-27T17:18+03:00",
+ "sezon": "2627",
+ "ligler": [
+  {
+   "lig": "Süper Lig",
+   "lig_kodu": "T1",
+   "takimlar": [
+    "Alanyaspor",
+    "Amedspor",
+    "Besiktas",
+    "Buyuksehyr",
+    "Corum",
+    "Erzurumspor",
+    "Eyupspor",
+    "Fenerbahce",
+    "Galatasaray",
+    "Gaziantep",
+    "Genclerbirligi",
+    "Goztep",
+    "Kasimpasa",
+    "Kocaelispor",
+    "Konyaspor",
+    "Rizespor",
+    "Samsunspor",
+    "Trabzonspor"
+   ],
+   "maclar": [
+    {
+     "tarih": "2026-10-26",
+     "ev": "Galatasaray",
+     "deplasman": "Fenerbahce",
+     "skor": "2-1"
+    },
+    {
+     "tarih": "2026-10-26",
+     "ev": "Rizespor",
+     "deplasman": "Trabzonspor",
+     "skor": "3-4"
+    },
+    {
+     "tarih": "2026-10-26",
+     "ev": "Besiktas",
+     "deplasman": "Buyuksehyr",
+     "skor": "2-0"
+    },
+    {
+     "tarih": "2026-10-25",
+     "ev": "Goztep",
+     "deplasman": "Corum",
+     "skor": "2-0"
+    },
+    {
+     "tarih": "2026-10-25",
+     "ev": "Konyaspor",
+     "deplasman": "Genclerbirligi",
+     "skor": "2-0"
+    },
+    {
+     "tarih": "2026-10-24",
+     "ev": "Samsunspor",
+     "deplasman": "Amedspor",
+     "skor": "1-2"
+    },
+    {
+     "tarih": "2026-10-24",
+     "ev": "Gaziantep",
+     "deplasman": "Erzurumspor",
+     "skor": "1-3"
+    },
+    {
+     "tarih": "2026-10-24",
+     "ev": "Eyupspor",
+     "deplasman": "Kasimpasa",
+     "skor": "0-1"
+    },
+    {
+     "tarih": "2026-10-23",
+     "ev": "Alanyaspor",
+     "deplasman": "Kocaelispor",
+     "skor": "1-2"
+    },
+    {
+     "tarih": "2026-10-19",
+     "ev": "Trabzonspor",
+     "deplasman": "Besiktas",
+     "skor": "2-0"
+    },
+    {
+     "tarih": "2026-10-18",
+     "ev": "Buyuksehyr",
+     "deplasman": "Gaziantep",
+     "skor": "2-1"
+    },
+    {
+     "tarih": "2026-10-18",
+     "ev": "Kocaelispor",
+     "deplasman": "Goztep",
+     "skor": "1-2"
+    },
+    {
+     "tarih": "2026-10-18",
+     "ev": "Kasimpasa",
+     "deplasman": "Samsunspor",
+     "skor": "4-1"
+    },
+    {
+     "tarih": "2026-10-17",
+     "ev": "Fenerbahce",
+     "deplasman": "Alanyaspor",
+     "skor": "3-0"
+    },
+    {
+     "tarih": "2026-10-17",
+     "ev": "Genclerbirligi",
+     "deplasman": "Galatasaray",
+     "skor": "0-1"
+    },
+    {
+     "tarih": "2026-10-17",
+     "ev": "Amedspor",
+     "deplasman": "Konyaspor",
+     "skor": "1-0"
+    },
+    {
+     "tarih": "2026-10-17",
+     "ev": "Erzurumspor",
+     "deplasman": "Eyupspor",
+     "skor": "2-0"
+    },
+    {
+     "tarih": "2026-10-16",
+     "ev": "Corum",
+     "deplasman": "Rizespor",
+     "skor": "2-1"
+    },
+    {
+     "tarih": "2026-10-12",
+     "ev": "Eyupspor",
+     "deplasman": "Goztep",
+     "skor": "0-4"
+    },
+    {
+     "tarih": "2026-10-11",
+     "ev": "Gaziantep",
+     "deplasman": "Corum",
+     "skor": "0-3"
+    },
+    {
+     "tarih": "2026-10-11",
+     "ev": "Konyaspor",
+     "deplasman": "Buyuksehyr",
+     "skor": "0-0"
+    },
+    {
+     "tarih": "2026-10-11",
+     "ev": "Besiktas",
+     "deplasman": "Kocaelispor",
+     "skor": "2-1"
+    },
+    {
+     "tarih": "2026-10-10",
+     "ev": "Samsunspor",
+     "deplasman": "Trabzonspor",
+     "skor": "0-3"
+    },
+    {
+     "tarih": "2026-10-10",
+     "ev": "Alanyaspor",
+     "deplasman": "Erzurumspor",
+     "skor": "0-0"
+    },
+    {
+     "tarih": "2026-10-10",
+     "ev": "Genclerbirligi",
+     "deplasman": "Amedspor",
+     "skor": "2-2"
+    },
+    {
+     "tarih": "2026-10-10",
+     "ev": "Rizespor",
+     "deplasman": "Fenerbahce",
+     "skor": "0-3"
+    },
+    {
+     "tarih": "2026-10-09",
+     "ev": "Galatasaray",
+     "deplasman": "Kasimpasa",
+     "skor": "3-1"
+    },
+    {
+     "tarih": "2026-09-20",
+     "ev": "Erzurumspor",
+     "deplasman": "Samsunspor",
+     "skor": "1-0"
+    },
+    {
+     "tarih": "2026-09-20",
+     "ev": "Goztep",
+     "deplasman": "Rizespor",
+     "skor": "2-2"
+    },
+    {
+     "tarih": "2026-09-20",
+     "ev": "Amedspor",
+     "deplasman": "Besiktas",
+     "skor": "3-2"
+    },
+    {
+     "tarih": "2026-09-20",
+     "ev": "Fenerbahce",
+     "deplasman": "Eyupspor",
+     "skor": "8-0"
+    },
+    {
+     "tarih": "2026-09-19",
+     "ev": "Trabzonspor",
+     "deplasman": "Galatasaray",
+     "skor": "4-0"
+    },
+    {
+     "tarih": "2026-09-19",
+     "ev": "Buyuksehyr",
+     "deplasman": "Genclerbirligi",
+     "skor": "4-0"
+    },
+    {
+     "tarih": "2026-09-19",
+     "ev": "Kocaelispor",
+     "deplasman": "Gaziantep",
+     "skor": "2-0"
+    },
+    {
+     "tarih": "2026-09-19",
+     "ev": "Corum",
+     "deplasman": "Alanyaspor",
+     "skor": "1-2"
+    },
+    {
+     "tarih": "2026-09-18",
+     "ev": "Kasimpasa",
+     "deplasman": "Konyaspor",
+     "skor": "0-0"
+    },
+    {
+     "tarih": "2026-09-14",
+     "ev": "Gaziantep",
+     "deplasman": "Fenerbahce",
+     "skor": "0-0"
+    },
+    {
+     "tarih": "2026-09-13",
+     "ev": "Galatasaray",
+     "deplasman": "Kocaelispor",
+     "skor": "1-0"
+    },
+    {
+     "tarih": "2026-09-13",
+     "ev": "Genclerbirligi",
+     "deplasman": "Kasimpasa",
+     "skor": "1-2"
+    },
+    {
+     "tarih": "2026-09-13",
+     "ev": "Amedspor",
+     "deplasman": "Buyuksehyr",
+     "skor": "5-0"
+    },
+    {
+     "tarih": "2026-09-12",
+     "ev": "Konyaspor",
+     "deplasman": "Trabzonspor",
+     "skor": "1-0"
+    },
+    {
+     "tarih": "2026-09-12",
+     "ev": "Samsunspor",
+     "deplasman": "Corum",
+     "skor": "1-5"
+    },
+    {
+     "tarih": "2026-09-12",
+     "ev": "Eyupspor",
+     "deplasman": "Rizespor",
+     "skor": "0-2"
+    },
+    {
+     "tarih": "2026-09-12",
+     "ev": "Alanyaspor",
+     "deplasman": "Goztep",
+     "skor": "2-2"
+    },
+    {
+     "tarih": "2026-09-11",
+     "ev": "Besiktas",
+     "deplasman": "Erzurumspor",
+     "skor": "3-0"
+    },
+    {
+     "tarih": "2026-09-07",
+     "ev": "Rizespor",
+     "deplasman": "Alanyaspor",
+     "skor": "0-1"
+    },
+    {
+     "tarih": "2026-09-07",
+     "ev": "Goztep",
+     "deplasman": "Gaziantep",
+     "skor": "2-4"
+    },
+    {
+     "tarih": "2026-09-06",
+     "ev": "Kasimpasa",
+     "deplasman": "Amedspor",
+     "skor": "2-2"
+    },
+    {
+     "tarih": "2026-09-06",
+     "ev": "Trabzonspor",
+     "deplasman": "Genclerbirligi",
+     "skor": "5-0"
+    },
+    {
+     "tarih": "2026-09-06",
+     "ev": "Kocaelispor",
+     "deplasman": "Samsunspor",
+     "skor": "1-0"
+    },
+    {
+     "tarih": "2026-09-06",
+     "ev": "Corum",
+     "deplasman": "Eyupspor",
+     "skor": "3-0"
+    },
+    {
+     "tarih": "2026-09-05",
+     "ev": "Fenerbahce",
+     "deplasman": "Besiktas",
+     "skor": "1-2"
+    },
+    {
+     "tarih": "2026-09-05",
+     "ev": "Erzurumspor",
+     "deplasman": "Konyaspor",
+     "skor": "1-0"
+    },
+    {
+     "tarih": "2026-09-04",
+     "ev": "Buyuksehyr",
+     "deplasman": "Galatasaray",
+     "skor": "2-3"
+    },
+    {
+     "tarih": "2026-08-31",
+     "ev": "Besiktas",
+     "deplasman": "Corum",
+     "skor": "6-2"
+    },
+    {
+     "tarih": "2026-08-31",
+     "ev": "Amedspor",
+     "deplasman": "Trabzonspor",
+     "skor": "2-1"
+    },
+    {
+     "tarih": "2026-08-30",
+     "ev": "Buyuksehyr",
+     "deplasman": "Kasimpasa",
+     "skor": "1-1"
+    },
+    {
+     "tarih": "2026-08-30",
+     "ev": "Eyupspor",
+     "deplasman": "Alanyaspor",
+     "skor": "2-1"
+    },
+    {
+     "tarih": "2026-08-30",
+     "ev": "Samsunspor",
+     "deplasman": "Fenerbahce",
+     "skor": "0-2"
+    },
+    {
+     "tarih": "2026-08-29",
+     "ev": "Konyaspor",
+     "deplasman": "Kocaelispor",
+     "skor": "1-2"
+    },
+    {
+     "tarih": "2026-08-29",
+     "ev": "Galatasaray",
+     "deplasman": "Goztep",
+     "skor": "3-2"
+    },
+    {
+     "tarih": "2026-08-29",
+     "ev": "Gaziantep",
+     "deplasman": "Rizespor",
+     "skor": "1-2"
+    },
+    {
+     "tarih": "2026-08-28",
+     "ev": "Genclerbirligi",
+     "deplasman": "Erzurumspor",
+     "skor": "1-1"
+    },
+    {
+     "tarih": "2026-08-24",
+     "ev": "Kocaelispor",
+     "deplasman": "Amedspor",
+     "skor": "2-0"
+    },
+    {
+     "tarih": "2026-08-23",
+     "ev": "Goztep",
+     "deplasman": "Genclerbirligi",
+     "skor": "0-1"
+    },
+    {
+     "tarih": "2026-08-23",
+     "ev": "Alanyaspor",
+     "deplasman": "Besiktas",
+     "skor": "1-0"
+    },
+    {
+     "tarih": "2026-08-23",
+     "ev": "Trabzonspor",
+     "deplasman": "Buyuksehyr",
+     "skor": "2-1"
+    },
+    {
+     "tarih": "2026-08-23",
+     "ev": "Eyupspor",
+     "deplasman": "Gaziantep",
+     "skor": "0-1"
+    },
+    {
+     "tarih": "2026-08-22",
+     "ev": "Rizespor",
+     "deplasman": "Samsunspor",
+     "skor": "0-2"
+    },
+    {
+     "tarih": "2026-08-22",
+     "ev": "Corum",
+     "deplasman": "Kasimpasa",
+     "skor": "0-1"
+    },
+    {
+     "tarih": "2026-08-22",
+     "ev": "Fenerbahce",
+     "deplasman": "Konyaspor",
+     "skor": "4-2"
+    },
+    {
+     "tarih": "2026-08-21",
+     "ev": "Erzurumspor",
+     "deplasman": "Galatasaray",
+     "skor": "0-4"
+    },
+    {
+     "tarih": "2026-08-17",
+     "ev": "Samsunspor",
+     "deplasman": "Goztep",
+     "skor": "3-3"
+    },
+    {
+     "tarih": "2026-08-16",
+     "ev": "Besiktas",
+     "deplasman": "Eyupspor",
+     "skor": "1-0"
+    },
+    {
+     "tarih": "2026-08-16",
+     "ev": "Amedspor",
+     "deplasman": "Erzurumspor",
+     "skor": "3-0"
+    },
+    {
+     "tarih": "2026-08-16",
+     "ev": "Buyuksehyr",
+     "deplasman": "Kocaelispor",
+     "skor": "2-0"
+    },
+    {
+     "tarih": "2026-08-15",
+     "ev": "Gaziantep",
+     "deplasman": "Alanyaspor",
+     "skor": "1-1"
+    },
+    {
+     "tarih": "2026-08-15",
+     "ev": "Konyaspor",
+     "deplasman": "Rizespor",
+     "skor": "0-1"
+    },
+    {
+     "tarih": "2026-08-15",
+     "ev": "Kasimpasa",
+     "deplasman": "Trabzonspor",
+     "skor": "1-1"
+    },
+    {
+     "tarih": "2026-08-15",
+     "ev": "Genclerbirligi",
+     "deplasman": "Fenerbahce",
+     "skor": "2-1"
+    },
+    {
+     "tarih": "2026-08-14",
+     "ev": "Galatasaray",
+     "deplasman": "Corum",
+     "skor": "2-2"
+    }
+   ]
+  },
+  {
+   "lig": "Premier League",
+   "lig_kodu": "E0",
+   "takimlar": [
+    "Arsenal",
+    "Aston Villa",
+    "Bournemouth",
+    "Brentford",
+    "Brighton",
+    "Chelsea",
+    "Coventry",
+    "Crystal Palace",
+    "Everton",
+    "Fulham",
+    "Hull",
+    "Ipswich",
+    "Leeds",
+    "Liverpool",
+    "Man City",
+    "Man United",
+    "Newcastle",
+    "Nott'm Forest",
+    "Sunderland",
+    "Tottenham"
+   ],
+   "maclar": [
+    {
+     "tarih": "2026-10-25",
+     "ev": "Sunderland",
+     "deplasman": "Leeds",
+     "skor": "0-0"
+    },
+    {
+     "tarih": "2026-10-25",
+     "ev": "Man United",
+     "deplasman": "Bournemouth",
+     "skor": "0-3"
+    },
+    {
+     "tarih": "2026-10-25",
+     "ev": "Liverpool",
+     "deplasman": "Brighton",
+     "skor": "2-0"
+    },
+    {
+     "tarih": "2026-10-25",
+     "ev": "Hull",
+     "deplasman": "Brentford",
+     "skor": "1-1"
+    },
+    {
+     "tarih": "2026-10-25",
+     "ev": "Crystal Palace",
+     "deplasman": "Newcastle",
+     "skor": "0-2"
+    },
+    {
+     "tarih": "2026-10-24",
+     "ev": "Coventry",
+     "deplasman": "Fulham",
+     "skor": "0-1"
+    },
+    {
+     "tarih": "2026-10-24",
+     "ev": "Aston Villa",
+     "deplasman": "Man City",
+     "skor": "2-1"
+    },
+    {
+     "tarih": "2026-10-24",
+     "ev": "Arsenal",
+     "deplasman": "Everton",
+     "skor": "2-0"
+    },
+    {
+     "tarih": "2026-10-24",
+     "ev": "Chelsea",
+     "deplasman": "Tottenham",
+     "skor": "0-2"
+    },
+    {
+     "tarih": "2026-10-23",
+     "ev": "Ipswich",
+     "deplasman": "Nott'm Forest",
+     "skor": "1-1"
+    },
+    {
+     "tarih": "2026-10-19",
+     "ev": "Tottenham",
+     "deplasman": "Coventry",
+     "skor": "3-1"
+    },
+    {
+     "tarih": "2026-10-18",
+     "ev": "Nott'm Forest",
+     "deplasman": "Arsenal",
+     "skor": "0-1"
+    },
+    {
+     "tarih": "2026-10-18",
+     "ev": "Leeds",
+     "deplasman": "Man United",
+     "skor": "1-1"
+    },
+    {
+     "tarih": "2026-10-18",
+     "ev": "Brighton",
+     "deplasman": "Crystal Palace",
+     "skor": "5-0"
+    },
+    {
+     "tarih": "2026-10-18",
+     "ev": "Bournemouth",
+     "deplasman": "Sunderland",
+     "skor": "2-0"
+    },
+    {
+     "tarih": "2026-10-17",
+     "ev": "Fulham",
+     "deplasman": "Hull",
+     "skor": "1-0"
+    },
+    {
+     "tarih": "2026-10-17",
+     "ev": "Everton",
+     "deplasman": "Chelsea",
+     "skor": "0-2"
+    },
+    {
+     "tarih": "2026-10-17",
+     "ev": "Brentford",
+     "deplasman": "Liverpool",
+     "skor": "1-2"
+    },
+    {
+     "tarih": "2026-10-17",
+     "ev": "Man City",
+     "deplasman": "Ipswich",
+     "skor": "3-2"
+    },
+    {
+     "tarih": "2026-10-17",
+     "ev": "Newcastle",
+     "deplasman": "Aston Villa",
+     "skor": "0-1"
+    },
+    {
+     "tarih": "2026-10-12",
+     "ev": "Coventry",
+     "deplasman": "Newcastle",
+     "skor": "4-1"
+    },
+    {
+     "tarih": "2026-10-11",
+     "ev": "Liverpool",
+     "deplasman": "Man City",
+     "skor": "0-3"
+    },
+    {
+     "tarih": "2026-10-11",
+     "ev": "Hull",
+     "deplasman": "Everton",
+     "skor": "2-2"
+    },
+    {
+     "tarih": "2026-10-11",
+     "ev": "Crystal Palace",
+     "deplasman": "Nott'm Forest",
+     "skor": "3-1"
+    },
+    {
+     "tarih": "2026-10-10",
+     "ev": "Ipswich",
+     "deplasman": "Fulham",
+     "skor": "2-1"
+    },
+    {
+     "tarih": "2026-10-10",
+     "ev": "Arsenal",
+     "deplasman": "Leeds",
+     "skor": "2-1"
+    },
+    {
+     "tarih": "2026-10-10",
+     "ev": "Aston Villa",
+     "deplasman": "Brentford",
+     "skor": "2-2"
+    },
+    {
+     "tarih": "2026-10-10",
+     "ev": "Chelsea",
+     "deplasman": "Bournemouth",
+     "skor": "5-1"
+    },
+    {
+     "tarih": "2026-10-10",
+     "ev": "Sunderland",
+     "deplasman": "Brighton",
+     "skor": "0-2"
+    },
+    {
+     "tarih": "2026-10-10",
+     "ev": "Man United",
+     "deplasman": "Tottenham",
+     "skor": "1-1"
+    },
+    {
+     "tarih": "2026-09-20",
+     "ev": "Fulham",
+     "deplasman": "Man United",
+     "skor": "1-1"
+    },
+    {
+     "tarih": "2026-09-20",
+     "ev": "Man City",
+     "deplasman": "Sunderland",
+     "skor": "5-3"
+    },
+    {
+     "tarih": "2026-09-20",
+     "ev": "Leeds",
+     "deplasman": "Crystal Palace",
+     "skor": "0-0"
+    },
+    {
+     "tarih": "2026-09-20",
+     "ev": "Bournemouth",
+     "deplasman": "Liverpool",
+     "skor": "0-1"
+    },
+    {
+     "tarih": "2026-09-19",
+     "ev": "Tottenham",
+     "deplasman": "Aston Villa",
+     "skor": "2-3"
+    },
+    {
+     "tarih": "2026-09-19",
+     "ev": "Nott'm Forest",
+     "deplasman": "Coventry",
+     "skor": "0-1"
+    },
+    {
+     "tarih": "2026-09-19",
+     "ev": "Newcastle",
+     "deplasman": "Hull",
+     "skor": "2-1"
+    },
+    {
+     "tarih": "2026-09-19",
+     "ev": "Everton",
+     "deplasman": "Ipswich",
+     "skor": "1-0"
+    },
+    {
+     "tarih": "2026-09-19",
+     "ev": "Brighton",
+     "deplasman": "Arsenal",
+     "skor": "3-0"
+    },
+    {
+     "tarih": "2026-09-18",
+     "ev": "Brentford",
+     "deplasman": "Chelsea",
+     "skor": "3-0"
+    },
+    {
+     "tarih": "2026-09-14",
+     "ev": "Leeds",
+     "deplasman": "Newcastle",
+     "skor": "4-1"
+    },
+    {
+     "tarih": "2026-09-13",
+     "ev": "Man United",
+     "deplasman": "Man City",
+     "skor": "0-1"
+    },
+    {
+     "tarih": "2026-09-13",
+     "ev": "Coventry",
+     "deplasman": "Brighton",
+     "skor": "0-5"
+    },
+    {
+     "tarih": "2026-09-12",
+     "ev": "Crystal Palace",
+     "deplasman": "Ipswich",
+     "skor": "2-3"
+    },
+    {
+     "tarih": "2026-09-12",
+     "ev": "Aston Villa",
+     "deplasman": "Nott'm Forest",
+     "skor": "1-2"
+    },
+    {
+     "tarih": "2026-09-12",
+     "ev": "Chelsea",
+     "deplasman": "Hull",
+     "skor": "2-2"
+    },
+    {
+     "tarih": "2026-09-12",
+     "ev": "Bournemouth",
+     "deplasman": "Brentford",
+     "skor": "2-2"
+    },
+    {
+     "tarih": "2026-09-12",
+     "ev": "Liverpool",
+     "deplasman": "Fulham",
+     "skor": "0-0"
+    },
+    {
+     "tarih": "2026-09-12",
+     "ev": "Tottenham",
+     "deplasman": "Everton",
+     "skor": "0-0"
+    },
+    {
+     "tarih": "2026-09-12",
+     "ev": "Sunderland",
+     "deplasman": "Arsenal",
+     "skor": "0-2"
+    },
+    {
+     "tarih": "2026-09-06",
+     "ev": "Arsenal",
+     "deplasman": "Chelsea",
+     "skor": "2-1"
+    },
+    {
+     "tarih": "2026-09-06",
+     "ev": "Everton",
+     "deplasman": "Man United",
+     "skor": "2-2"
+    },
+    {
+     "tarih": "2026-09-05",
+     "ev": "Newcastle",
+     "deplasman": "Bournemouth",
+     "skor": "2-2"
+    },
+    {
+     "tarih": "2026-09-05",
+     "ev": "Hull",
+     "deplasman": "Aston Villa",
+     "skor": "0-0"
+    },
+    {
+     "tarih": "2026-09-05",
+     "ev": "Nott'm Forest",
+     "deplasman": "Tottenham",
+     "skor": "0-0"
+    },
+    {
+     "tarih": "2026-09-05",
+     "ev": "Man City",
+     "deplasman": "Coventry",
+     "skor": "1-0"
+    },
+    {
+     "tarih": "2026-09-05",
+     "ev": "Fulham",
+     "deplasman": "Crystal Palace",
+     "skor": "2-3"
+    },
+    {
+     "tarih": "2026-09-05",
+     "ev": "Brighton",
+     "deplasman": "Leeds",
+     "skor": "1-1"
+    },
+    {
+     "tarih": "2026-09-05",
+     "ev": "Brentford",
+     "deplasman": "Sunderland",
+     "skor": "1-1"
+    },
+    {
+     "tarih": "2026-09-04",
+     "ev": "Ipswich",
+     "deplasman": "Liverpool",
+     "skor": "0-2"
+    },
+    {
+     "tarih": "2026-08-31",
+     "ev": "Aston Villa",
+     "deplasman": "Arsenal",
+     "skor": "0-1"
+    },
+    {
+     "tarih": "2026-08-30",
+     "ev": "Man United",
+     "deplasman": "Ipswich",
+     "skor": "5-2"
+    },
+    {
+     "tarih": "2026-08-30",
+     "ev": "Sunderland",
+     "deplasman": "Fulham",
+     "skor": "1-0"
+    },
+    {
+     "tarih": "2026-08-30",
+     "ev": "Leeds",
+     "deplasman": "Brentford",
+     "skor": "1-1"
+    },
+    {
+     "tarih": "2026-08-30",
+     "ev": "Chelsea",
+     "deplasman": "Brighton",
+     "skor": "4-3"
+    },
+    {
+     "tarih": "2026-08-29",
+     "ev": "Tottenham",
+     "deplasman": "Newcastle",
+     "skor": "0-2"
+    },
+    {
+     "tarih": "2026-08-29",
+     "ev": "Coventry",
+     "deplasman": "Hull",
+     "skor": "0-1"
+    },
+    {
+     "tarih": "2026-08-29",
+     "ev": "Bournemouth",
+     "deplasman": "Everton",
+     "skor": "1-1"
+    },
+    {
+     "tarih": "2026-08-29",
+     "ev": "Liverpool",
+     "deplasman": "Nott'm Forest",
+     "skor": "2-2"
+    },
+    {
+     "tarih": "2026-08-28",
+     "ev": "Crystal Palace",
+     "deplasman": "Man City",
+     "skor": "1-4"
+    },
+    {
+     "tarih": "2026-08-24",
+     "ev": "Fulham",
+     "deplasman": "Chelsea",
+     "skor": "2-3"
+    },
+    {
+     "tarih": "2026-08-23",
+     "ev": "Newcastle",
+     "deplasman": "Liverpool",
+     "skor": "2-2"
+    },
+    {
+     "tarih": "2026-08-23",
+     "ev": "Man City",
+     "deplasman": "Bournemouth",
+     "skor": "2-1"
+    },
+    {
+     "tarih": "2026-08-23",
+     "ev": "Brighton",
+     "deplasman": "Aston Villa",
+     "skor": "4-0"
+    },
+    {
+     "tarih": "2026-08-22",
+     "ev": "Ipswich",
+     "deplasman": "Sunderland",
+     "skor": "2-1"
+    },
+    {
+     "tarih": "2026-08-22",
+     "ev": "Everton",
+     "deplasman": "Crystal Palace",
+     "skor": "2-0"
+    },
+    {
+     "tarih": "2026-08-22",
+     "ev": "Hull",
+     "deplasman": "Man United",
+     "skor": "2-0"
+    },
+    {
+     "tarih": "2026-08-22",
+     "ev": "Nott'm Forest",
+     "deplasman": "Leeds",
+     "skor": "0-1"
+    },
+    {
+     "tarih": "2026-08-22",
+     "ev": "Brentford",
+     "deplasman": "Tottenham",
+     "skor": "3-0"
+    },
+    {
+     "tarih": "2026-08-21",
+     "ev": "Arsenal",
+     "deplasman": "Coventry",
+     "skor": "3-0"
+    }
+   ]
+  },
+  {
+   "lig": "La Liga",
+   "lig_kodu": "SP1",
+   "takimlar": [
+    "Alaves",
+    "Ath Bilbao",
+    "Ath Madrid",
+    "Barcelona",
+    "Betis",
+    "Celta",
+    "Elche",
+    "Espanol",
+    "Getafe",
+    "La Coruna",
+    "Levante",
+    "Malaga",
+    "Osasuna",
+    "Real Madrid",
+    "Santander",
+    "Sevilla",
+    "Sociedad",
+    "Valencia",
+    "Vallecano",
+    "Villarreal"
+   ],
+   "maclar": [
+    {
+     "tarih": "2026-10-26",
+     "ev": "Sevilla",
+     "deplasman": "Osasuna",
+     "skor": "2-0"
+    },
+    {
+     "tarih": "2026-10-25",
+     "ev": "Barcelona",
+     "deplasman": "Real Madrid",
+     "skor": "1-2"
+    },
+    {
+     "tarih": "2026-10-25",
+     "ev": "Sociedad",
+     "deplasman": "Levante",
+     "skor": "2-1"
+    },
+    {
+     "tarih": "2026-10-25",
+     "ev": "Celta",
+     "deplasman": "Betis",
+     "skor": "0-0"
+    },
+    {
+     "tarih": "2026-10-25",
+     "ev": "Ath Bilbao",
+     "deplasman": "Getafe",
+     "skor": "4-0"
+    },
+    {
+     "tarih": "2026-10-24",
+     "ev": "Ath Madrid",
+     "deplasman": "La Coruna",
+     "skor": "1-0"
+    },
+    {
+     "tarih": "2026-10-24",
+     "ev": "Valencia",
+     "deplasman": "Villarreal",
+     "skor": "1-2"
+    },
+    {
+     "tarih": "2026-10-24",
+     "ev": "Santander",
+     "deplasman": "Espanol",
+     "skor": "2-1"
+    },
+    {
+     "tarih": "2026-10-24",
+     "ev": "Vallecano",
+     "deplasman": "Elche",
+     "skor": "0-3"
+    },
+    {
+     "tarih": "2026-10-23",
+     "ev": "Alaves",
+     "deplasman": "Malaga",
+     "skor": "1-1"
+    },
+    {
+     "tarih": "2026-10-21",
+     "ev": "Levante",
+     "deplasman": "Ath Bilbao",
+     "skor": "3-1"
+    },
+    {
+     "tarih": "2026-10-19",
+     "ev": "Getafe",
+     "deplasman": "Vallecano",
+     "skor": "1-1"
+    },
+    {
+     "tarih": "2026-10-18",
+     "ev": "Real Madrid",
+     "deplasman": "Sevilla",
+     "skor": "4-1"
+    },
+    {
+     "tarih": "2026-10-18",
+     "ev": "Malaga",
+     "deplasman": "Sociedad",
+     "skor": "2-5"
+    },
+    {
+     "tarih": "2026-10-18",
+     "ev": "Celta",
+     "deplasman": "Alaves",
+     "skor": "2-1"
+    },
+    {
+     "tarih": "2026-10-18",
+     "ev": "Osasuna",
+     "deplasman": "Santander",
+     "skor": "2-0"
+    },
+    {
+     "tarih": "2026-10-17",
+     "ev": "Valencia",
+     "deplasman": "Ath Bilbao",
+     "skor": "0-0"
+    },
+    {
+     "tarih": "2026-10-17",
+     "ev": "Betis",
+     "deplasman": "Barcelona",
+     "skor": "2-5"
+    },
+    {
+     "tarih": "2026-10-17",
+     "ev": "Villarreal",
+     "deplasman": "Elche",
+     "skor": "0-0"
+    },
+    {
+     "tarih": "2026-10-17",
+     "ev": "Espanol",
+     "deplasman": "Ath Madrid",
+     "skor": "0-1"
+    },
+    {
+     "tarih": "2026-10-16",
+     "ev": "La Coruna",
+     "deplasman": "Levante",
+     "skor": "1-1"
+    },
+    {
+     "tarih": "2026-10-12",
+     "ev": "Levante",
+     "deplasman": "Sevilla",
+     "skor": "3-3"
+    },
+    {
+     "tarih": "2026-10-11",
+     "ev": "Sociedad",
+     "deplasman": "La Coruna",
+     "skor": "3-2"
+    },
+    {
+     "tarih": "2026-10-11",
+     "ev": "Elche",
+     "deplasman": "Celta",
+     "skor": "0-0"
+    },
+    {
+     "tarih": "2026-10-11",
+     "ev": "Betis",
+     "deplasman": "Osasuna",
+     "skor": "5-2"
+    },
+    {
+     "tarih": "2026-10-11",
+     "ev": "Santander",
+     "deplasman": "Valencia",
+     "skor": "2-2"
+    },
+    {
+     "tarih": "2026-10-10",
+     "ev": "Real Madrid",
+     "deplasman": "Villarreal",
+     "skor": "1-0"
+    },
+    {
+     "tarih": "2026-10-10",
+     "ev": "Barcelona",
+     "deplasman": "Getafe",
+     "skor": "3-0"
+    },
+    {
+     "tarih": "2026-10-10",
+     "ev": "Alaves",
+     "deplasman": "Ath Madrid",
+     "skor": "1-2"
+    },
+    {
+     "tarih": "2026-10-09",
+     "ev": "Malaga",
+     "deplasman": "Espanol",
+     "skor": "1-1"
+    },
+    {
+     "tarih": "2026-09-20",
+     "ev": "Getafe",
+     "deplasman": "Malaga",
+     "skor": "1-0"
+    },
+    {
+     "tarih": "2026-09-20",
+     "ev": "Valencia",
+     "deplasman": "Sociedad",
+     "skor": "2-3"
+    },
+    {
+     "tarih": "2026-09-20",
+     "ev": "Villarreal",
+     "deplasman": "Levante",
+     "skor": "3-1"
+    },
+    {
+     "tarih": "2026-09-20",
+     "ev": "La Coruna",
+     "deplasman": "Betis",
+     "skor": "1-1"
+    },
+    {
+     "tarih": "2026-09-20",
+     "ev": "Ath Madrid",
+     "deplasman": "Real Madrid",
+     "skor": "2-1"
+    },
+    {
+     "tarih": "2026-09-19",
+     "ev": "Osasuna",
+     "deplasman": "Vallecano",
+     "skor": "1-1"
+    },
+    {
+     "tarih": "2026-09-19",
+     "ev": "Ath Bilbao",
+     "deplasman": "Alaves",
+     "skor": "0-0"
+    },
+    {
+     "tarih": "2026-09-19",
+     "ev": "Celta",
+     "deplasman": "Santander",
+     "skor": "5-0"
+    },
+    {
+     "tarih": "2026-09-19",
+     "ev": "Sevilla",
+     "deplasman": "Barcelona",
+     "skor": "1-3"
+    },
+    {
+     "tarih": "2026-09-18",
+     "ev": "Espanol",
+     "deplasman": "Elche",
+     "skor": "1-3"
+    },
+    {
+     "tarih": "2026-09-17",
+     "ev": "Malaga",
+     "deplasman": "Villarreal",
+     "skor": "1-3"
+    },
+    {
+     "tarih": "2026-09-17",
+     "ev": "Betis",
+     "deplasman": "Getafe",
+     "skor": "1-0"
+    },
+    {
+     "tarih": "2026-09-16",
+     "ev": "Barcelona",
+     "deplasman": "Santander",
+     "skor": "7-2"
+    },
+    {
+     "tarih": "2026-09-16",
+     "ev": "La Coruna",
+     "deplasman": "Sevilla",
+     "skor": "0-1"
+    },
+    {
+     "tarih": "2026-09-16",
+     "ev": "Ath Madrid",
+     "deplasman": "Osasuna",
+     "skor": "4-0"
+    },
+    {
+     "tarih": "2026-09-15",
+     "ev": "Alaves",
+     "deplasman": "Valencia",
+     "skor": "0-1"
+    },
+    {
+     "tarih": "2026-09-15",
+     "ev": "Vallecano",
+     "deplasman": "Espanol",
+     "skor": "2-1"
+    },
+    {
+     "tarih": "2026-09-15",
+     "ev": "Elche",
+     "deplasman": "Real Madrid",
+     "skor": "2-3"
+    },
+    {
+     "tarih": "2026-09-14",
+     "ev": "Villarreal",
+     "deplasman": "Betis",
+     "skor": "1-2"
+    },
+    {
+     "tarih": "2026-09-13",
+     "ev": "Sociedad",
+     "deplasman": "Ath Madrid",
+     "skor": "0-3"
+    },
+    {
+     "tarih": "2026-09-13",
+     "ev": "Levante",
+     "deplasman": "Barcelona",
+     "skor": "2-4"
+    },
+    {
+     "tarih": "2026-09-13",
+     "ev": "Celta",
+     "deplasman": "Malaga",
+     "skor": "1-1"
+    },
+    {
+     "tarih": "2026-09-13",
+     "ev": "Getafe",
+     "deplasman": "La Coruna",
+     "skor": "1-1"
+    },
+    {
+     "tarih": "2026-09-12",
+     "ev": "Real Madrid",
+     "deplasman": "Vallecano",
+     "skor": "4-1"
+    },
+    {
+     "tarih": "2026-09-12",
+     "ev": "Ath Bilbao",
+     "deplasman": "Elche",
+     "skor": "1-1"
+    },
+    {
+     "tarih": "2026-09-12",
+     "ev": "Osasuna",
+     "deplasman": "Espanol",
+     "skor": "0-2"
+    },
+    {
+     "tarih": "2026-09-12",
+     "ev": "Santander",
+     "deplasman": "Alaves",
+     "skor": "2-1"
+    },
+    {
+     "tarih": "2026-09-11",
+     "ev": "Sevilla",
+     "deplasman": "Valencia",
+     "skor": "1-0"
+    },
+    {
+     "tarih": "2026-09-07",
+     "ev": "Getafe",
+     "deplasman": "Celta",
+     "skor": "1-1"
+    },
+    {
+     "tarih": "2026-09-07",
+     "ev": "Elche",
+     "deplasman": "Sociedad",
+     "skor": "2-3"
+    },
+    {
+     "tarih": "2026-09-06",
+     "ev": "Alaves",
+     "deplasman": "Osasuna",
+     "skor": "5-2"
+    },
+    {
+     "tarih": "2026-09-06",
+     "ev": "Valencia",
+     "deplasman": "Barcelona",
+     "skor": "0-5"
+    },
+    {
+     "tarih": "2026-09-06",
+     "ev": "Espanol",
+     "deplasman": "Sevilla",
+     "skor": "1-1"
+    },
+    {
+     "tarih": "2026-09-06",
+     "ev": "Malaga",
+     "deplasman": "Levante",
+     "skor": "0-0"
+    },
+    {
+     "tarih": "2026-09-05",
+     "ev": "Villarreal",
+     "deplasman": "La Coruna",
+     "skor": "2-3"
+    },
+    {
+     "tarih": "2026-09-05",
+     "ev": "Vallecano",
+     "deplasman": "Santander",
+     "skor": "3-2"
+    },
+    {
+     "tarih": "2026-09-05",
+     "ev": "Ath Bilbao",
+     "deplasman": "Ath Madrid",
+     "skor": "3-0"
+    },
+    {
+     "tarih": "2026-09-04",
+     "ev": "Betis",
+     "deplasman": "Real Madrid",
+     "skor": "1-0"
+    },
+    {
+     "tarih": "2026-09-03",
+     "ev": "Sociedad",
+     "deplasman": "Celta",
+     "skor": "0-0"
+    },
+    {
+     "tarih": "2026-08-31",
+     "ev": "Barcelona",
+     "deplasman": "Vallecano",
+     "skor": "5-2"
+    },
+    {
+     "tarih": "2026-08-31",
+     "ev": "Osasuna",
+     "deplasman": "Getafe",
+     "skor": "1-0"
+    },
+    {
+     "tarih": "2026-08-30",
+     "ev": "Real Madrid",
+     "deplasman": "Malaga",
+     "skor": "4-0"
+    },
+    {
+     "tarih": "2026-08-30",
+     "ev": "La Coruna",
+     "deplasman": "Valencia",
+     "skor": "3-1"
+    },
+    {
+     "tarih": "2026-08-30",
+     "ev": "Celta",
+     "deplasman": "Ath Bilbao",
+     "skor": "0-2"
+    },
+    {
+     "tarih": "2026-08-29",
+     "ev": "Sevilla",
+     "deplasman": "Ath Madrid",
+     "skor": "1-3"
+    },
+    {
+     "tarih": "2026-08-29",
+     "ev": "Sociedad",
+     "deplasman": "Espanol",
+     "skor": "2-1"
+    },
+    {
+     "tarih": "2026-08-29",
+     "ev": "Levante",
+     "deplasman": "Betis",
+     "skor": "5-2"
+    },
+    {
+     "tarih": "2026-08-28",
+     "ev": "Alaves",
+     "deplasman": "Villarreal",
+     "skor": "1-0"
+    },
+    {
+     "tarih": "2026-08-28",
+     "ev": "Santander",
+     "deplasman": "Elche",
+     "skor": "3-2"
+    },
+    {
+     "tarih": "2026-08-27",
+     "ev": "Barcelona",
+     "deplasman": "Ath Bilbao",
+     "skor": "2-0"
+    },
+    {
+     "tarih": "2026-08-27",
+     "ev": "Celta",
+     "deplasman": "Osasuna",
+     "skor": "1-2"
+    },
+    {
+     "tarih": "2026-08-26",
+     "ev": "Real Madrid",
+     "deplasman": "Sociedad",
+     "skor": "4-1"
+    },
+    {
+     "tarih": "2026-08-25",
+     "ev": "Valencia",
+     "deplasman": "Betis",
+     "skor": "0-1"
+    },
+    {
+     "tarih": "2026-08-24",
+     "ev": "Osasuna",
+     "deplasman": "Levante",
+     "skor": "0-0"
+    },
+    {
+     "tarih": "2026-08-24",
+     "ev": "Malaga",
+     "deplasman": "La Coruna",
+     "skor": "1-1"
+    },
+    {
+     "tarih": "2026-08-23",
+     "ev": "Elche",
+     "deplasman": "Barcelona",
+     "skor": "0-5"
+    },
+    {
+     "tarih": "2026-08-23",
+     "ev": "Getafe",
+     "deplasman": "Santander",
+     "skor": "1-0"
+    },
+    {
+     "tarih": "2026-08-23",
+     "ev": "Ath Madrid",
+     "deplasman": "Villarreal",
+     "skor": "2-2"
+    },
+    {
+     "tarih": "2026-08-22",
+     "ev": "Espanol",
+     "deplasman": "Real Madrid",
+     "skor": "1-2"
+    },
+    {
+     "tarih": "2026-08-22",
+     "ev": "Valencia",
+     "deplasman": "Celta",
+     "skor": "0-0"
+    },
+    {
+     "tarih": "2026-08-22",
+     "ev": "Ath Bilbao",
+     "deplasman": "Sevilla",
+     "skor": "1-3"
+    },
+    {
+     "tarih": "2026-08-21",
+     "ev": "Betis",
+     "deplasman": "Sociedad",
+     "skor": "1-0"
+    },
+    {
+     "tarih": "2026-08-20",
+     "ev": "Vallecano",
+     "deplasman": "Alaves",
+     "skor": "1-1"
+    },
+    {
+     "tarih": "2026-08-19",
+     "ev": "Ath Madrid",
+     "deplasman": "Malaga",
+     "skor": "2-0"
+    },
+    {
+     "tarih": "2026-08-17",
+     "ev": "La Coruna",
+     "deplasman": "Elche",
+     "skor": "1-1"
+    },
+    {
+     "tarih": "2026-08-16",
+     "ev": "Santander",
+     "deplasman": "Villarreal",
+     "skor": "2-2"
+    },
+    {
+     "tarih": "2026-08-16",
+     "ev": "Espanol",
+     "deplasman": "Levante",
+     "skor": "3-0"
+    },
+    {
+     "tarih": "2026-08-15",
+     "ev": "Sevilla",
+     "deplasman": "Vallecano",
+     "skor": "2-1"
+    },
+    {
+     "tarih": "2026-08-15",
+     "ev": "Alaves",
+     "deplasman": "Getafe",
+     "skor": "3-0"
+    }
+   ]
+  },
+  {
+   "lig": "Serie A",
+   "lig_kodu": "I1",
+   "takimlar": [
+    "Atalanta",
+    "Bologna",
+    "Cagliari",
+    "Como",
+    "Fiorentina",
+    "Frosinone",
+    "Genoa",
+    "Inter",
+    "Juventus",
+    "Lazio",
+    "Lecce",
+    "Milan",
+    "Monza",
+    "Napoli",
+    "Parma",
+    "Roma",
+    "Sassuolo",
+    "Torino",
+    "Udinese",
+    "Venezia"
+   ],
+   "maclar": [
+    {
+     "tarih": "2026-10-25",
+     "ev": "Udinese",
+     "deplasman": "Milan",
+     "skor": "0-2"
+    },
+    {
+     "tarih": "2026-10-25",
+     "ev": "Lecce",
+     "deplasman": "Juventus",
+     "skor": "0-2"
+    },
+    {
+     "tarih": "2026-10-25",
+     "ev": "Genoa",
+     "deplasman": "Venezia",
+     "skor": "1-0"
+    },
+    {
+     "tarih": "2026-10-25",
+     "ev": "Atalanta",
+     "deplasman": "Frosinone",
+     "skor": "4-4"
+    },
+    {
+     "tarih": "2026-10-25",
+     "ev": "Inter",
+     "deplasman": "Fiorentina",
+     "skor": "2-1"
+    },
+    {
+     "tarih": "2026-10-24",
+     "ev": "Napoli",
+     "deplasman": "Roma",
+     "skor": "3-3"
+    },
+    {
+     "tarih": "2026-10-24",
+     "ev": "Cagliari",
+     "deplasman": "Bologna",
+     "skor": "0-2"
+    },
+    {
+     "tarih": "2026-10-24",
+     "ev": "Como",
+     "deplasman": "Sassuolo",
+     "skor": "2-0"
+    },
+    {
+     "tarih": "2026-10-24",
+     "ev": "Lazio",
+     "deplasman": "Parma",
+     "skor": "2-1"
+    },
+    {
+     "tarih": "2026-10-23",
+     "ev": "Torino",
+     "deplasman": "Monza",
+     "skor": "3-2"
+    },
+    {
+     "tarih": "2026-10-19",
+     "ev": "Parma",
+     "deplasman": "Torino",
+     "skor": "0-3"
+    },
+    {
+     "tarih": "2026-10-19",
+     "ev": "Monza",
+     "deplasman": "Cagliari",
+     "skor": "4-0"
+    },
+    {
+     "tarih": "2026-10-18",
+     "ev": "Juventus",
+     "deplasman": "Lazio",
+     "skor": "0-3"
+    },
+    {
+     "tarih": "2026-10-18",
+     "ev": "Milan",
+     "deplasman": "Atalanta",
+     "skor": "3-2"
+    },
+    {
+     "tarih": "2026-10-18",
+     "ev": "Fiorentina",
+     "deplasman": "Como",
+     "skor": "1-3"
+    },
+    {
+     "tarih": "2026-10-18",
+     "ev": "Udinese",
+     "deplasman": "Lecce",
+     "skor": "0-3"
+    },
+    {
+     "tarih": "2026-10-17",
+     "ev": "Bologna",
+     "deplasman": "Inter",
+     "skor": "1-3"
+    },
+    {
+     "tarih": "2026-10-17",
+     "ev": "Venezia",
+     "deplasman": "Napoli",
+     "skor": "1-0"
+    },
+    {
+     "tarih": "2026-10-17",
+     "ev": "Roma",
+     "deplasman": "Genoa",
+     "skor": "2-0"
+    },
+    {
+     "tarih": "2026-10-16",
+     "ev": "Frosinone",
+     "deplasman": "Sassuolo",
+     "skor": "4-2"
+    },
+    {
+     "tarih": "2026-10-12",
+     "ev": "Torino",
+     "deplasman": "Udinese",
+     "skor": "2-1"
+    },
+    {
+     "tarih": "2026-10-12",
+     "ev": "Atalanta",
+     "deplasman": "Venezia",
+     "skor": "3-1"
+    },
+    {
+     "tarih": "2026-10-11",
+     "ev": "Cagliari",
+     "deplasman": "Juventus",
+     "skor": "1-1"
+    },
+    {
+     "tarih": "2026-10-11",
+     "ev": "Sassuolo",
+     "deplasman": "Milan",
+     "skor": "1-1"
+    },
+    {
+     "tarih": "2026-10-11",
+     "ev": "Lecce",
+     "deplasman": "Bologna",
+     "skor": "1-2"
+    },
+    {
+     "tarih": "2026-10-11",
+     "ev": "Lazio",
+     "deplasman": "Monza",
+     "skor": "3-1"
+    },
+    {
+     "tarih": "2026-10-11",
+     "ev": "Como",
+     "deplasman": "Roma",
+     "skor": "0-0"
+    },
+    {
+     "tarih": "2026-10-10",
+     "ev": "Inter",
+     "deplasman": "Parma",
+     "skor": "3-0"
+    },
+    {
+     "tarih": "2026-10-10",
+     "ev": "Genoa",
+     "deplasman": "Fiorentina",
+     "skor": "2-1"
+    },
+    {
+     "tarih": "2026-10-10",
+     "ev": "Napoli",
+     "deplasman": "Frosinone",
+     "skor": "3-0"
+    },
+    {
+     "tarih": "2026-09-20",
+     "ev": "Milan",
+     "deplasman": "Lecce",
+     "skor": "3-0"
+    },
+    {
+     "tarih": "2026-09-20",
+     "ev": "Juventus",
+     "deplasman": "Atalanta",
+     "skor": "2-0"
+    },
+    {
+     "tarih": "2026-09-20",
+     "ev": "Parma",
+     "deplasman": "Genoa",
+     "skor": "2-1"
+    },
+    {
+     "tarih": "2026-09-20",
+     "ev": "Frosinone",
+     "deplasman": "Como",
+     "skor": "2-0"
+    },
+    {
+     "tarih": "2026-09-20",
+     "ev": "Fiorentina",
+     "deplasman": "Napoli",
+     "skor": "1-1"
+    },
+    {
+     "tarih": "2026-09-19",
+     "ev": "Bologna",
+     "deplasman": "Torino",
+     "skor": "1-1"
+    },
+    {
+     "tarih": "2026-09-19",
+     "ev": "Venezia",
+     "deplasman": "Lazio",
+     "skor": "0-2"
+    },
+    {
+     "tarih": "2026-09-19",
+     "ev": "Roma",
+     "deplasman": "Inter",
+     "skor": "2-2"
+    },
+    {
+     "tarih": "2026-09-19",
+     "ev": "Udinese",
+     "deplasman": "Cagliari",
+     "skor": "0-1"
+    },
+    {
+     "tarih": "2026-09-18",
+     "ev": "Monza",
+     "deplasman": "Sassuolo",
+     "skor": "2-1"
+    },
+    {
+     "tarih": "2026-09-14",
+     "ev": "Inter",
+     "deplasman": "Udinese",
+     "skor": "5-3"
+    },
+    {
+     "tarih": "2026-09-14",
+     "ev": "Torino",
+     "deplasman": "Roma",
+     "skor": "0-2"
+    },
+    {
+     "tarih": "2026-09-14",
+     "ev": "Como",
+     "deplasman": "Parma",
+     "skor": "2-1"
+    },
+    {
+     "tarih": "2026-09-13",
+     "ev": "Sassuolo",
+     "deplasman": "Juventus",
+     "skor": "3-2"
+    },
+    {
+     "tarih": "2026-09-13",
+     "ev": "Napoli",
+     "deplasman": "Bologna",
+     "skor": "1-0"
+    },
+    {
+     "tarih": "2026-09-13",
+     "ev": "Lecce",
+     "deplasman": "Monza",
+     "skor": "3-2"
+    },
+    {
+     "tarih": "2026-09-12",
+     "ev": "Lazio",
+     "deplasman": "Milan",
+     "skor": "2-2"
+    },
+    {
+     "tarih": "2026-09-12",
+     "ev": "Genoa",
+     "deplasman": "Frosinone",
+     "skor": "1-1"
+    },
+    {
+     "tarih": "2026-09-12",
+     "ev": "Atalanta",
+     "deplasman": "Cagliari",
+     "skor": "1-2"
+    },
+    {
+     "tarih": "2026-09-11",
+     "ev": "Venezia",
+     "deplasman": "Fiorentina",
+     "skor": "2-4"
+    },
+    {
+     "tarih": "2026-09-07",
+     "ev": "Udinese",
+     "deplasman": "Lazio",
+     "skor": "1-2"
+    },
+    {
+     "tarih": "2026-09-07",
+     "ev": "Cagliari",
+     "deplasman": "Lecce",
+     "skor": "1-0"
+    },
+    {
+     "tarih": "2026-09-06",
+     "ev": "Juventus",
+     "deplasman": "Milan",
+     "skor": "1-1"
+    },
+    {
+     "tarih": "2026-09-06",
+     "ev": "Bologna",
+     "deplasman": "Sassuolo",
+     "skor": "2-2"
+    },
+    {
+     "tarih": "2026-09-06",
+     "ev": "Parma",
+     "deplasman": "Monza",
+     "skor": "1-1"
+    },
+    {
+     "tarih": "2026-09-06",
+     "ev": "Frosinone",
+     "deplasman": "Venezia",
+     "skor": "3-2"
+    },
+    {
+     "tarih": "2026-09-05",
+     "ev": "Fiorentina",
+     "deplasman": "Torino",
+     "skor": "1-2"
+    },
+    {
+     "tarih": "2026-09-05",
+     "ev": "Roma",
+     "deplasman": "Atalanta",
+     "skor": "2-1"
+    },
+    {
+     "tarih": "2026-09-05",
+     "ev": "Inter",
+     "deplasman": "Napoli",
+     "skor": "3-2"
+    },
+    {
+     "tarih": "2026-09-04",
+     "ev": "Genoa",
+     "deplasman": "Como",
+     "skor": "1-4"
+    },
+    {
+     "tarih": "2026-08-31",
+     "ev": "Lecce",
+     "deplasman": "Roma",
+     "skor": "0-4"
+    },
+    {
+     "tarih": "2026-08-31",
+     "ev": "Atalanta",
+     "deplasman": "Bologna",
+     "skor": "1-0"
+    },
+    {
+     "tarih": "2026-08-30",
+     "ev": "Lazio",
+     "deplasman": "Genoa",
+     "skor": "1-0"
+    },
+    {
+     "tarih": "2026-08-30",
+     "ev": "Cagliari",
+     "deplasman": "Inter",
+     "skor": "0-1"
+    },
+    {
+     "tarih": "2026-08-30",
+     "ev": "Napoli",
+     "deplasman": "Como",
+     "skor": "1-2"
+    },
+    {
+     "tarih": "2026-08-29",
+     "ev": "Monza",
+     "deplasman": "Udinese",
+     "skor": "2-3"
+    },
+    {
+     "tarih": "2026-08-29",
+     "ev": "Juventus",
+     "deplasman": "Parma",
+     "skor": "2-0"
+    },
+    {
+     "tarih": "2026-08-29",
+     "ev": "Sassuolo",
+     "deplasman": "Torino",
+     "skor": "2-1"
+    },
+    {
+     "tarih": "2026-08-29",
+     "ev": "Fiorentina",
+     "deplasman": "Frosinone",
+     "skor": "0-3"
+    },
+    {
+     "tarih": "2026-08-28",
+     "ev": "Milan",
+     "deplasman": "Venezia",
+     "skor": "2-0"
+    },
+    {
+     "tarih": "2026-08-24",
+     "ev": "Roma",
+     "deplasman": "Fiorentina",
+     "skor": "4-0"
+    },
+    {
+     "tarih": "2026-08-24",
+     "ev": "Bologna",
+     "deplasman": "Lazio",
+     "skor": "0-1"
+    },
+    {
+     "tarih": "2026-08-23",
+     "ev": "Atalanta",
+     "deplasman": "Sassuolo",
+     "skor": "2-1"
+    },
+    {
+     "tarih": "2026-08-23",
+     "ev": "Venezia",
+     "deplasman": "Lecce",
+     "skor": "0-2"
+    },
+    {
+     "tarih": "2026-08-23",
+     "ev": "Frosinone",
+     "deplasman": "Juventus",
+     "skor": "0-1"
+    },
+    {
+     "tarih": "2026-08-23",
+     "ev": "Torino",
+     "deplasman": "Milan",
+     "skor": "1-2"
+    },
+    {
+     "tarih": "2026-08-22",
+     "ev": "Genoa",
+     "deplasman": "Napoli",
+     "skor": "0-2"
+    },
+    {
+     "tarih": "2026-08-22",
+     "ev": "Udinese",
+     "deplasman": "Como",
+     "skor": "1-1"
+    },
+    {
+     "tarih": "2026-08-22",
+     "ev": "Parma",
+     "deplasman": "Cagliari",
+     "skor": "0-1"
+    },
+    {
+     "tarih": "2026-08-22",
+     "ev": "Inter",
+     "deplasman": "Monza",
+     "skor": "4-1"
+    }
+   ]
+  }
+ ]
+}

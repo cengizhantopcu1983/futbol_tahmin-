@@ -1,0 +1,145 @@
+Date,Comp,HomeTeam,AwayTeam,HomeAlt,AwayAlt
+2026-09-08,CL,Club Brugge,Aston Villa,Club Brugge KV,Aston Villa FC
+2026-09-08,CL,PAE AEK,LASK,PAE AEK,LASK Linz
+2026-09-08,CL,Real Madrid,Inter,Real Madrid CF,FC Internazionale Milano
+2026-09-08,CL,Porto,Man City,FC Porto,Manchester City FC
+2026-09-08,CL,Dortmund,Villarreal,Borussia Dortmund,Villarreal CF
+2026-09-08,CL,Lille,Real Betis,Lille OSC,Real Betis Balompié
+2026-09-09,CL,Barça,Feyenoord,FC Barcelona,Feyenoord Rotterdam
+2026-09-09,CL,Stuttgart,Viking,VfB Stuttgart,Viking FK
+2026-09-09,CL,Liverpool,Atleti,Liverpool FC,Club Atlético de Madrid
+2026-09-09,CL,PSG,Sl. Bratislava,Paris Saint-Germain FC,ŠK Slovan Bratislava
+2026-09-09,CL,Napoli,Arsenal,SSC Napoli,Arsenal FC
+2026-09-09,CL,Sporting CP,Galatasaray,Sporting Clube de Portugal,Galatasaray SK
+2026-09-10,CL,Fenerbahçe,Roma,Fenerbahçe SK,AS Roma
+2026-09-10,CL,PSV,Shaktar,PSV,FK Shakhtar Donetsk
+2026-09-10,CL,Bayern,Bodø/Glimt,FC Bayern München,FK Bodø/Glimt
+2026-09-10,CL,Man United,Sabah FK,Manchester United FC,Sabah FK
+2026-09-10,CL,Como 1907,RB Leipzig,Como 1907,RB Leipzig
+2026-09-10,CL,Slavia Praha,RC Lens,SK Slavia Praha,Racing Club de Lens
+2026-10-13,CL,RC Lens,Sporting CP,Racing Club de Lens,Sporting Clube de Portugal
+2026-10-13,CL,Sabah FK,Slavia Praha,Sabah FK,SK Slavia Praha
+2026-10-13,CL,Inter,Club Brugge,FC Internazionale Milano,Club Brugge KV
+2026-10-13,CL,Galatasaray,Barça,Galatasaray SK,FC Barcelona
+2026-10-13,CL,Atleti,Man United,Club Atlético de Madrid,Manchester United FC
+2026-10-13,CL,Arsenal,Lille,Arsenal FC,Lille OSC
+2026-10-13,CL,Viking,Bayern,Viking FK,FC Bayern München
+2026-10-13,CL,RB Leipzig,PSV,RB Leipzig,PSV
+2026-10-13,CL,Villarreal,Napoli,Villarreal CF,SSC Napoli
+2026-10-14,CL,LASK,Liverpool,LASK Linz,Liverpool FC
+2026-10-14,CL,Feyenoord,Como 1907,Feyenoord Rotterdam,Como 1907
+2026-10-14,CL,Roma,Real Madrid,AS Roma,Real Madrid CF
+2026-10-14,CL,Man City,PSG,Manchester City FC,Paris Saint-Germain FC
+2026-10-14,CL,Bodø/Glimt,Dortmund,FK Bodø/Glimt,Borussia Dortmund
+2026-10-14,CL,Aston Villa,Fenerbahçe,Aston Villa FC,Fenerbahçe SK
+2026-10-14,CL,Real Betis,Porto,Real Betis Balompié,FC Porto
+2026-10-14,CL,Shaktar,PAE AEK,FK Shakhtar Donetsk,PAE AEK
+2026-10-14,CL,Sl. Bratislava,Stuttgart,ŠK Slovan Bratislava,VfB Stuttgart
+2026-10-20,CL,Sabah FK,Dortmund,Sabah FK,Borussia Dortmund
+2026-10-20,CL,Fenerbahçe,Slavia Praha,Fenerbahçe SK,SK Slavia Praha
+2026-10-20,CL,Man City,PAE AEK,Manchester City FC,PAE AEK
+2026-10-20,CL,Stuttgart,Atleti,VfB Stuttgart,Club Atlético de Madrid
+2026-10-20,CL,Liverpool,Villarreal,Liverpool FC,Villarreal CF
+2026-10-20,CL,Roma,Sl. Bratislava,AS Roma,ŠK Slovan Bratislava
+2026-10-20,CL,Porto,PSV,FC Porto,PSV
+2026-10-20,CL,Napoli,Bodø/Glimt,SSC Napoli,FK Bodø/Glimt
+2026-10-20,CL,PSG,Barça,Paris Saint-Germain FC,FC Barcelona
+2026-10-21,CL,Como 1907,Man United,Como 1907,Manchester United FC
+2026-10-21,CL,Lille,Galatasaray,Lille OSC,Galatasaray SK
+2026-10-21,CL,Real Madrid,RB Leipzig,Real Madrid CF,RB Leipzig
+2026-10-21,CL,Inter,Shaktar,FC Internazionale Milano,FK Shakhtar Donetsk
+2026-10-21,CL,Bayern,Arsenal,FC Bayern München,Arsenal FC
+2026-10-21,CL,Club Brugge,RC Lens,Club Brugge KV,Racing Club de Lens
+2026-10-21,CL,Aston Villa,Viking,Aston Villa FC,Viking FK
+2026-10-21,CL,Sporting CP,LASK,Sporting Clube de Portugal,LASK Linz
+2026-10-21,CL,Real Betis,Feyenoord,Real Betis Balompié,Feyenoord Rotterdam
+2026-11-03,CL,Shaktar,Sporting CP,FK Shakhtar Donetsk,Sporting Clube de Portugal
+2026-11-03,CL,Galatasaray,Stuttgart,Galatasaray SK,VfB Stuttgart
+2026-11-03,CL,Feyenoord,Inter,Feyenoord Rotterdam,FC Internazionale Milano
+2026-11-03,CL,Barça,Aston Villa,FC Barcelona,Aston Villa FC
+2026-11-03,CL,Atleti,Bayern,Club Atlético de Madrid,FC Bayern München
+2026-11-03,CL,Villarreal,PSG,Villarreal CF,Paris Saint-Germain FC
+2026-11-03,CL,Man United,Roma,Manchester United FC,AS Roma
+2026-11-03,CL,Bodø/Glimt,Lille,FK Bodø/Glimt,Lille OSC
+2026-11-03,CL,LASK,Sl. Bratislava,LASK Linz,ŠK Slovan Bratislava
+2026-11-04,CL,PAE AEK,Real Madrid,PAE AEK,Real Madrid CF
+2026-11-04,CL,Fenerbahçe,Liverpool,Fenerbahçe SK,Liverpool FC
+2026-11-04,CL,RB Leipzig,Man City,RB Leipzig,Manchester City FC
+2026-11-04,CL,Slavia Praha,Arsenal,SK Slavia Praha,Arsenal FC
+2026-11-04,CL,PSV,Club Brugge,PSV,Club Brugge KV
+2026-11-04,CL,Dortmund,Real Betis,Borussia Dortmund,Real Betis Balompié
+2026-11-04,CL,Porto,Napoli,FC Porto,SSC Napoli
+2026-11-04,CL,RC Lens,Como 1907,Racing Club de Lens,Como 1907
+2026-11-04,CL,Viking,Sabah FK,Viking FK,Sabah FK
+2026-11-24,CL,Galatasaray,Aston Villa,Galatasaray SK,Aston Villa FC
+2026-11-24,CL,Bodø/Glimt,LASK,FK Bodø/Glimt,LASK Linz
+2026-11-24,CL,Real Madrid,PSV,Real Madrid CF,PSV
+2026-11-24,CL,Man City,Napoli,Manchester City FC,SSC Napoli
+2026-11-24,CL,Arsenal,Dortmund,Arsenal FC,Borussia Dortmund
+2026-11-24,CL,Feyenoord,Porto,Feyenoord Rotterdam,FC Porto
+2026-11-24,CL,Sl. Bratislava,Real Betis,ŠK Slovan Bratislava,Real Betis Balompié
+2026-11-24,CL,RB Leipzig,RC Lens,RB Leipzig,Racing Club de Lens
+2026-11-24,CL,Como 1907,PAE AEK,Como 1907,PAE AEK
+2026-11-25,CL,Sabah FK,Barça,Sabah FK,FC Barcelona
+2026-11-25,CL,Slavia Praha,Villarreal,SK Slavia Praha,Villarreal CF
+2026-11-25,CL,Inter,Stuttgart,FC Internazionale Milano,VfB Stuttgart
+2026-11-25,CL,Atleti,Viking,Club Atlético de Madrid,Viking FK
+2026-11-25,CL,PSG,Roma,Paris Saint-Germain FC,AS Roma
+2026-11-25,CL,Club Brugge,Liverpool,Club Brugge KV,Liverpool FC
+2026-11-25,CL,Lille,Bayern,Lille OSC,FC Bayern München
+2026-11-25,CL,Sporting CP,Man United,Sporting Clube de Portugal,Manchester United FC
+2026-11-25,CL,Shaktar,Fenerbahçe,FK Shakhtar Donetsk,Fenerbahçe SK
+2026-12-08,CL,Villarreal,Sabah FK,Villarreal CF,Sabah FK
+2026-12-08,CL,Viking,Feyenoord,Viking FK,Feyenoord Rotterdam
+2026-12-08,CL,Barça,Man City,FC Barcelona,Manchester City FC
+2026-12-08,CL,Aston Villa,PSG,Aston Villa FC,Paris Saint-Germain FC
+2026-12-08,CL,Bayern,Slavia Praha,FC Bayern München,SK Slavia Praha
+2026-12-08,CL,Napoli,Club Brugge,SSC Napoli,Club Brugge KV
+2026-12-08,CL,Roma,Sporting CP,AS Roma,Sporting Clube de Portugal
+2026-12-08,CL,Man United,RB Leipzig,Manchester United FC,RB Leipzig
+2026-12-08,CL,PAE AEK,Galatasaray,PAE AEK,Galatasaray SK
+2026-12-09,CL,Real Betis,Como 1907,Real Betis Balompié,Como 1907
+2026-12-09,CL,Sl. Bratislava,Shaktar,ŠK Slovan Bratislava,FK Shakhtar Donetsk
+2026-12-09,CL,Arsenal,Real Madrid,Arsenal FC,Real Madrid CF
+2026-12-09,CL,Dortmund,Inter,Borussia Dortmund,FC Internazionale Milano
+2026-12-09,CL,PSV,Atleti,PSV,Club Atlético de Madrid
+2026-12-09,CL,Liverpool,Porto,Liverpool FC,FC Porto
+2026-12-09,CL,RC Lens,Bodø/Glimt,Racing Club de Lens,FK Bodø/Glimt
+2026-12-09,CL,LASK,Fenerbahçe,LASK Linz,Fenerbahçe SK
+2026-12-09,CL,Stuttgart,Lille,VfB Stuttgart,Lille OSC
+2027-01-19,CL,Bodø/Glimt,Atleti,FK Bodø/Glimt,Club Atlético de Madrid
+2027-01-19,CL,Galatasaray,Feyenoord,Galatasaray SK,Feyenoord Rotterdam
+2027-01-19,CL,Real Madrid,LASK,Real Madrid CF,LASK Linz
+2027-01-19,CL,Inter,Liverpool,FC Internazionale Milano,Liverpool FC
+2027-01-19,CL,Stuttgart,Club Brugge,VfB Stuttgart,Club Brugge KV
+2027-01-19,CL,Aston Villa,Dortmund,Aston Villa FC,Borussia Dortmund
+2027-01-19,CL,PAE AEK,Roma,PAE AEK,AS Roma
+2027-01-19,CL,Porto,Slavia Praha,FC Porto,SK Slavia Praha
+2027-01-19,CL,Lille,Sl. Bratislava,Lille OSC,ŠK Slovan Bratislava
+2027-01-20,CL,Fenerbahçe,Villarreal,Fenerbahçe SK,Villarreal CF
+2027-01-20,CL,Sabah FK,Napoli,Sabah FK,SSC Napoli
+2027-01-20,CL,RC Lens,Man City,Racing Club de Lens,Manchester City FC
+2027-01-20,CL,Sporting CP,Barça,Sporting Clube de Portugal,FC Barcelona
+2027-01-20,CL,Como 1907,PSG,Como 1907,Paris Saint-Germain FC
+2027-01-20,CL,Real Betis,Arsenal,Real Betis Balompié,Arsenal FC
+2027-01-20,CL,Man United,Bayern,Manchester United FC,FC Bayern München
+2027-01-20,CL,Viking,PSV,Viking FK,PSV
+2027-01-20,CL,RB Leipzig,Shaktar,RB Leipzig,FK Shakhtar Donetsk
+2027-01-27,CL,Shaktar,Real Madrid,FK Shakhtar Donetsk,Real Madrid CF
+2027-01-27,CL,Man City,Sporting CP,Manchester City FC,Sporting Clube de Portugal
+2027-01-27,CL,Sl. Bratislava,Inter,ŠK Slovan Bratislava,FC Internazionale Milano
+2027-01-27,CL,Barça,Como 1907,FC Barcelona,Como 1907
+2027-01-27,CL,Atleti,Fenerbahçe,Club Atlético de Madrid,Fenerbahçe SK
+2027-01-27,CL,PSG,Galatasaray,Paris Saint-Germain FC,Galatasaray SK
+2027-01-27,CL,Liverpool,RC Lens,Liverpool FC,Racing Club de Lens
+2027-01-27,CL,Arsenal,Sabah FK,Arsenal FC,Sabah FK
+2027-01-27,CL,Bayern,Real Betis,FC Bayern München,Real Betis Balompié
+2027-01-27,CL,Club Brugge,Bodø/Glimt,Club Brugge KV,FK Bodø/Glimt
+2027-01-27,CL,Dortmund,PAE AEK,Borussia Dortmund,PAE AEK
+2027-01-27,CL,Slavia Praha,Aston Villa,SK Slavia Praha,Aston Villa FC
+2027-01-27,CL,Roma,Lille,AS Roma,Lille OSC
+2027-01-27,CL,LASK,Porto,LASK Linz,FC Porto
+2027-01-27,CL,Villarreal,Man United,Villarreal CF,Manchester United FC
+2027-01-27,CL,PSV,Stuttgart,PSV,VfB Stuttgart
+2027-01-27,CL,Feyenoord,RB Leipzig,Feyenoord Rotterdam,RB Leipzig
+2027-01-27,CL,Napoli,Viking,SSC Napoli,Viking FK
