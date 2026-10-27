@@ -3,14 +3,17 @@
 Dosya biçimi (uygulama yazar, burada sadece okunur):
 {
   "maclar":   {"T1|2026-10-25|Galatasaray|Fenerbahce": {"ev_xg": 1.84, "dep_xg": 0.92}},
-  "takimlar": {"T1": {"Galatasaray": {"xg": 1.95, "xga": 0.88}}}
+  "takimlar": {"T1": {"Galatasaray": {"ic_xg": 2.3, "ic_xga": 0.7, "dis_xg": 1.6, "dis_xga": 1.1}}}
 }
 - maclar: biten bir maçın iki takımının xG'si (anahtar: lig|tarih|ev|deplasman, adlar
   bitenler.json'daki gibi).
-- takimlar: takımın bu sezon maç başına ortalama attığı (xg) ve yediği (xga) xG.
+- takimlar: takımın bu sezon maç başına ortalama attığı (xg) ve yediği (xga) xG,
+  iç saha (ic_) ve dış saha (dis_) için ayrı. Eski biçim ({"xg", "xga"}) de okunur;
+  o durumda iç ve dış saha için aynı değer kullanılır.
 
-Maç xG'si girilmemiş bu sezon maçları için, iki takımın ortalamalarından tahmini bir xG
-hesaplanır:  ev xG ≈ ev takımının xG ort. × deplasmanın xGA ort. / lig ortalaması.
+Maç xG'si girilmemiş bu sezon maçları için, iki takımın ortalamalarından tahmini xG:
+  ev xG  ≈ ev takımının İÇ SAHA xG'si × deplasmanın DIŞ SAHA xGA'sı / ligin ev sahibi xG ort.
+  dep xG ≈ deplasmanın DIŞ SAHA xG'si × ev takımının İÇ SAHA xGA'sı / ligin deplasman xG ort.
 Bu veriler "gölge model"e girer; ana tahmin değişmez, karnede ikisi karşılaştırılır.
 """
 from __future__ import annotations
@@ -55,11 +58,17 @@ def add_manual_xg(df: pd.DataFrame, code: str, manual: dict, season: str | None 
     if not len(df):
         return df
     season = season or df["Season"].iloc[-1]
-    teams_avg = {t: (_num(v.get("xg")), _num(v.get("xga")))
-                 for t, v in (manual.get("takimlar", {}).get(code) or {}).items() if isinstance(v, dict)}
-    teams_avg = {t: v for t, v in teams_avg.items() if v[0] is not None and v[1] is not None}
-    league_avg = float(np.mean([v[0] for v in teams_avg.values()] + [v[1] for v in teams_avg.values()])) \
-        if len(teams_avg) >= 4 else None
+    teams_avg = {}
+    for t, v in (manual.get("takimlar", {}).get(code) or {}).items():
+        sp = team_split(v)
+        if sp:
+            teams_avg[t] = sp
+    # ligin ev sahibi ve deplasman xG ortalamaları (ev xG'si ~ deplasmanların dış saha xGA'sı)
+    if len(teams_avg) >= 4:
+        avg_home = float(np.mean([v["ic_xg"] for v in teams_avg.values()] + [v["dis_xga"] for v in teams_avg.values()]))
+        avg_away = float(np.mean([v["dis_xg"] for v in teams_avg.values()] + [v["ic_xga"] for v in teams_avg.values()]))
+    else:
+        avg_home = avg_away = None
     games = manual.get("maclar", {})
     n = len(df)
     hx, ax = np.full(n, np.nan), np.full(n, np.nan)
@@ -72,10 +81,26 @@ def add_manual_xg(df: pd.DataFrame, code: str, manual: dict, season: str | None 
             hx[i], ax[i], src[i] = _num(g["ev_xg"]), _num(g["dep_xg"]), "mac"
             continue
         h, a = teams_avg.get(r.HomeTeam), teams_avg.get(r.AwayTeam)
-        if h and a and league_avg:
-            hx[i], ax[i], src[i] = h[0] * a[1] / league_avg, a[0] * h[1] / league_avg, "ortalama"
+        if h and a and avg_home and avg_away:
+            hx[i] = h["ic_xg"] * a["dis_xga"] / avg_home
+            ax[i] = a["dis_xg"] * h["ic_xga"] / avg_away
+            src[i] = "ortalama"
     df["HXG"], df["AXG"], df["XGSrc"] = hx, ax, src
     return df
+
+
+def team_split(v) -> dict | None:
+    """Takım ortalamalarını {ic_xg, ic_xga, dis_xg, dis_xga} biçimine getirir; eksikse None."""
+    if not isinstance(v, dict):
+        return None
+    keys = ("ic_xg", "ic_xga", "dis_xg", "dis_xga")
+    vals = {k: _num(v.get(k)) for k in keys}
+    if all(x is not None for x in vals.values()):
+        return vals
+    xg, xga = _num(v.get("xg")), _num(v.get("xga"))  # eski biçim: iç = dış
+    if xg is not None and xga is not None:
+        return {"ic_xg": xg, "ic_xga": xga, "dis_xg": xg, "dis_xga": xga}
+    return None
 
 
 def shadow_weights(sot: float, bc: float) -> tuple[float, float, float]:
