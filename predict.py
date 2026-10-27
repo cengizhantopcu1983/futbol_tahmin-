@@ -18,9 +18,12 @@ import sys
 import numpy as np
 import pandas as pd
 
-from data import (FIXTURE_COLS, LEAGUES, TZ_TR, find_team, load_fixtures, load_fixtures_api,
-                  load_league, resolve_league, resolve_team)
+from data import (FIXTURE_COLS, LEAGUES, TZ_TR, current_season_start, find_team, load_fixtures,
+                  load_fixtures_api, load_league, resolve_league, resolve_team, season_code)
+from yorgunluk import TIRED_DAYS
 from ekstra import Extras
+from manuel_xg import add_manual_xg, load_manual, shadow_weights
+from yorgunluk import RestCalendar
 from models import DixonColes, compute_elo, elo_expectation, head_to_head, team_form
 
 try:
@@ -38,7 +41,7 @@ def pct(p: float) -> str:
 
 
 SETTINGS_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "ayarlar.json")
-DEFAULTS = {"xi": 0.0019, "reg": 1.0, "sot": 0.0, "bc": 0.0, "sd": 0.10}
+DEFAULTS = {"xi": 0.0019, "reg": 1.0, "sot": 0.0, "bc": 0.0, "sd": 0.10, "fatigue": False}
 
 
 def league_params(code: str, args) -> dict:
@@ -47,7 +50,8 @@ def league_params(code: str, args) -> dict:
     try:
         with open(SETTINGS_FILE, encoding="utf-8") as f:
             saved = json.load(f).get(code, {})
-        p.update({k: float(saved[k]) for k in DEFAULTS if k in saved})
+        p.update({k: float(saved[k]) for k in DEFAULTS if k in saved and k != "fatigue"})
+        p["fatigue"] = bool(saved.get("fatigue", False))
     except (OSError, ValueError):
         pass
     for key, arg in (("xi", "xi"), ("reg", "reg"), ("sot", "sut"), ("bc", "buyuk_sans"), ("sd", "belirsizlik")):
@@ -66,11 +70,35 @@ class LeagueModel:
         self.sd = self.params["sd"]
         self.df = load_league(code, n_seasons=args.sezon_sayisi)
         self.model = DixonColes(xi=self.params["xi"], reg=self.params["reg"],
-                                sot=self.params["sot"], bc=self.params["bc"]).fit(self.df)
+                                sot=self.params["sot"], bc=self.params["bc"],
+                                fatigue=self.params["fatigue"]).fit(self.df)
         self.extras = Extras().fit(self.df, xi=self.params["xi"])
+        self._fit_shadow()
         self.elo, _ = compute_elo(self.df)
         self.current_teams = sorted(set(self.df[self.df["Season"] == self.df["Season"].iloc[-1]]
                                         [["HomeTeam", "AwayTeam"]].to_numpy().ravel()))
+
+    def _fit_shadow(self):
+        """Elle girilen xG ile 'gölge model' (ana tahmini değiştirmez, karnede kıyaslanır)."""
+        self.shadow, self.shadow_n, self.shadow_w = None, 0, 0.0
+        manual = load_manual()
+        if not manual["maclar"] and not manual["takimlar"].get(self.code):
+            return
+        dfx = add_manual_xg(self.df, self.code, manual)
+        n = int(dfx["HXG"].notna().sum())
+        if n < 20:
+            return
+        sot, bc, wx = shadow_weights(self.params["sot"], self.params["bc"])
+        try:
+            m = DixonColes(xi=self.params["xi"], reg=self.params["reg"], sot=sot, bc=bc, xg=wx,
+                           fatigue=self.params["fatigue"]).fit(dfx)
+        except Exception as e:
+            print(f"  (xG'li gölge model kurulamadı: {e})")
+            return
+        if m.xg_used > 0:
+            self.shadow, self.shadow_n, self.shadow_w = m, n, wx
+            self.shadow_detail = {"mac": int((dfx["XGSrc"] == "mac").sum()),
+                                  "ortalama": int((dfx["XGSrc"] == "ortalama").sum())}
 
     def extra(self, r: dict, referee: str | None = None) -> dict:
         """İlk yarı, İY/MS, gol zamanlaması ve kart/korner/şut tahminleri."""
@@ -187,12 +215,16 @@ def run_fixtures(args):
         try:
             lm = LeagueModel(code, args)
             p = lm.params
-            print(f"  ayarlar: xi={p['xi']}, reg={p['reg']}, isabetli şut={p['sot']}, büyük şans={p['bc']}, belirsizlik={p['sd']}")
+            print(f"  ayarlar: xi={p['xi']}, reg={p['reg']}, isabetli şut={p['sot']}, büyük şans={p['bc']}, "
+                  f"belirsizlik={p['sd']}, yorgunluk={'açık' if p['fatigue'] else 'kapalı'}")
+            if lm.shadow is not None:
+                print(f"  xG'li gölge model: {lm.shadow_n} maçta xG (elle: {lm.shadow_detail['mac']}, "
+                      f"ortalamadan: {lm.shadow_detail['ortalama']}), ağırlık {lm.shadow_w}")
         except Exception as e:  # bir lig hata verirse diğerleri yine çalışsın
             print(f"  atlandı: {e}")
             continue
         teams = sorted(set(lm.model.teams) | set(lm.current_teams))
-        seen = set()
+        seen, items = set(), []
         for m in fx[fx["Div"] == code].itertuples(index=False):
             try:
                 home = resolve_team(m.HomeNames, teams)
@@ -204,7 +236,31 @@ def run_fixtures(args):
             if key in seen:
                 continue  # aynı maç iki kaynakta da var
             seen.add(key)
-            r = lm.model.predict(home, away, sd=lm.sd, n_sim=0)
+            items.append((m, home, away))
+        # dinlenme takvimi: geçmiş lig maçları + Avrupa maçları + bu listedeki yaklaşan maçlar
+        upcoming = pd.DataFrame([{"Date": m.Date, "HomeTeam": h, "AwayTeam": a} for m, h, a in items
+                                 if m.Date == m.Date], columns=["Date", "HomeTeam", "AwayTeam"])
+        try:
+            cal = RestCalendar(lm.df, extra=upcoming)
+        except Exception as e:
+            print(f"  (dinlenme takvimi kurulamadı: {e})")
+            cal = None
+        for m, home, away in items:
+            hr, he = cal.rest(home, m.Date) if cal and m.Date == m.Date else (None, False)
+            ar, ae = cal.rest(away, m.Date) if cal and m.Date == m.Date else (None, False)
+            ht = int(hr is not None and hr <= TIRED_DAYS)
+            at = int(ar is not None and ar <= TIRED_DAYS)
+            use_fat = lm.params["fatigue"]
+            r = lm.model.predict(home, away, sd=lm.sd, n_sim=0,
+                                 h_tired=ht if use_fat else 0, a_tired=at if use_fat else 0)
+            shadow = None
+            if lm.shadow is not None:
+                rs = lm.shadow.predict(home, away, sd=lm.sd, n_sim=0,
+                                       h_tired=ht if use_fat else 0, a_tired=at if use_fat else 0)
+                shadow = {"p_ev": round(rs["pH"], 4), "p_beraberlik": round(rs["pD"], 4),
+                          "p_deplasman": round(rs["pA"], 4), "xg_ev": round(rs["xg_home"], 2),
+                          "xg_deplasman": round(rs["xg_away"], 2), "mac_sayisi": lm.shadow_n,
+                          "agirlik": lm.shadow_w}
             ts = consistent_score(r)
             date = f"{m.Date:%d.%m}" if m.Date == m.Date else "??"
             print(f"  {date} {m.Time!s:>5}  {home[:16]:>16} - {away[:16]:<16} "
@@ -232,6 +288,10 @@ def run_fixtures(args):
                 "az_veri": r["unknown"],
                 # ilk_yari, iy_ms, gol_dakika, istatistikler
                 **lm.extra(r, referee=(m.Referee or None) if isinstance(m.Referee, str) else None),
+                "yorgunluk": {"ev_dinlenme": hr, "dep_dinlenme": ar, "ev_avrupa": bool(he and ht),
+                              "dep_avrupa": bool(ae and at), "ev_yorgun": bool(ht), "dep_yorgun": bool(at),
+                              "etki_uygulandi": bool(use_fat and (ht or at))},
+                "xg_modeli": shadow,
             })
     output.sort(key=lambda o: (o["tarih"] or "9999", o["saat"] or "", o["lig_kodu"]))
     if args.json:
@@ -240,6 +300,29 @@ def run_fixtures(args):
         with open(args.json, "w", encoding="utf-8") as f:
             json.dump(payload, f, ensure_ascii=False, indent=2)
         print(f"\n{len(output)} maç {args.json} dosyasına yazıldı.")
+        write_finished(os.path.join(os.path.dirname(os.path.abspath(args.json)), "bitenler.json"))
+
+
+def write_finished(path: str) -> None:
+    """Bu sezonun biten maçları ve takım listeleri (uygulamadaki 'Biten maçlar' ekranı için)."""
+    sc = season_code(current_season_start())
+    out = {"olusturulma": dt.datetime.now(TZ_TR).isoformat(timespec="minutes"), "sezon": sc, "ligler": []}
+    for code, name in LEAGUES.items():
+        try:
+            df = load_league(code, seasons=[sc], use_sm=False)
+        except Exception as e:
+            print(f"  (biten maçlar: {name} atlandı: {e})")
+            continue
+        df = df.sort_values("Date", ascending=False)
+        out["ligler"].append({
+            "lig": name, "lig_kodu": code,
+            "takimlar": sorted(set(df["HomeTeam"]) | set(df["AwayTeam"])),
+            "maclar": [{"tarih": f"{r.Date:%Y-%m-%d}", "ev": r.HomeTeam, "deplasman": r.AwayTeam,
+                        "skor": f"{int(r.FTHG)}-{int(r.FTAG)}"} for r in df.itertuples(index=False)],
+        })
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(out, f, ensure_ascii=False, indent=1)
+    print(f"Biten maçlar: {sum(len(l['maclar']) for l in out['ligler'])} maç {os.path.basename(path)} dosyasına yazıldı.")
 
 
 def main():
