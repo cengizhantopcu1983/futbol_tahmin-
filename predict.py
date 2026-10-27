@@ -22,7 +22,7 @@ from data import (FIXTURE_COLS, LEAGUES, TZ_TR, current_season_start, find_team,
                   load_fixtures_api, load_league, resolve_league, resolve_team, season_code)
 from yorgunluk import TIRED_DAYS
 from ekstra import Extras
-from manuel_xg import add_manual_xg, load_manual, shadow_weights
+from manuel_xg import add_manual_xg, finishing_factors, load_manual, match_multipliers, shadow_weights
 from yorgunluk import RestCalendar
 from models import DixonColes, compute_elo, elo_expectation, head_to_head, team_form
 
@@ -81,6 +81,7 @@ class LeagueModel:
     def _fit_shadow(self):
         """Elle girilen xG ile 'gölge model' (ana tahmini değiştirmez, karnede kıyaslanır)."""
         self.shadow, self.shadow_n, self.shadow_w = None, 0, 0.0
+        self.finish = {}
         manual = load_manual()
         if not manual["maclar"] and not manual["takimlar"].get(self.code):
             return
@@ -97,6 +98,8 @@ class LeagueModel:
             return
         if m.xg_used > 0:
             self.shadow, self.shadow_n, self.shadow_w = m, n, wx
+            # bitiricilik: bu sezonun gerçek golleri / elle girilen xG (küçültülmüş çarpanlar)
+            self.finish = finishing_factors(self.df, self.code, manual)
             self.shadow_detail = {"mac": int((dfx["XGSrc"] == "mac").sum()),
                                   "ortalama": int((dfx["XGSrc"] == "ortalama").sum())}
 
@@ -255,12 +258,18 @@ def run_fixtures(args):
                                  h_tired=ht if use_fat else 0, a_tired=at if use_fat else 0)
             shadow = None
             if lm.shadow is not None:
+                mult = match_multipliers(lm.finish, home, away)
                 rs = lm.shadow.predict(home, away, sd=lm.sd, n_sim=0,
-                                       h_tired=ht if use_fat else 0, a_tired=at if use_fat else 0)
+                                       h_tired=ht if use_fat else 0, a_tired=at if use_fat else 0,
+                                       mult=mult)
                 shadow = {"p_ev": round(rs["pH"], 4), "p_beraberlik": round(rs["pD"], 4),
                           "p_deplasman": round(rs["pA"], 4), "xg_ev": round(rs["xg_home"], 2),
                           "xg_deplasman": round(rs["xg_away"], 2), "mac_sayisi": lm.shadow_n,
-                          "agirlik": lm.shadow_w}
+                          "agirlik": lm.shadow_w,
+                          # ev sahibinin iç saha, konuğun dış saha bitiricilik/savunma verileri
+                          "bitiricilik": {"ev": lm.finish.get(home, {}).get("ic"),
+                                          "dep": lm.finish.get(away, {}).get("dis"),
+                                          "carpan_ev": round(mult[0], 3), "carpan_dep": round(mult[1], 3)}}
             ts = consistent_score(r)
             date = f"{m.Date:%d.%m}" if m.Date == m.Date else "??"
             print(f"  {date} {m.Time!s:>5}  {home[:16]:>16} - {away[:16]:<16} "
