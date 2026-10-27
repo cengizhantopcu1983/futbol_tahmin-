@@ -1,5 +1,5 @@
 {
- "olusturulma": "2026-10-27T13:01+03:00",
+ "olusturulma": "2026-10-27T17:12+03:00",
  "ozet": {
   "mac": 39,
   "dogru": 22,
@@ -9,7 +9,14 @@
   "en_olasi_skor_tuttu": 5,
   "piyasa_mac": 39,
   "piyasa_isabet": 0.641,
-  "model_isabet_ayni_maclar": 0.5641
+  "model_isabet_ayni_maclar": 0.5641,
+  "piyasa_rps": 0.1956,
+  "model_rps_piyasa_maclar": 0.2043,
+  "golge_mac": 0,
+  "golge_isabet": null,
+  "golge_rps": null,
+  "model_isabet_golge_maclar": null,
+  "model_rps_golge_maclar": null
  },
  "bekleyen": 40,
  "ligler": [
@@ -19,12 +26,19 @@
    "mac": 9,
    "dogru": 7,
    "isabet": 0.7778,
-   "rps": 0.2164,
+   "rps": 0.2163,
    "skor_tuttu": 3,
    "en_olasi_skor_tuttu": 0,
    "piyasa_mac": 9,
    "piyasa_isabet": 0.7778,
-   "model_isabet_ayni_maclar": 0.7778
+   "model_isabet_ayni_maclar": 0.7778,
+   "piyasa_rps": 0.2044,
+   "model_rps_piyasa_maclar": 0.2163,
+   "golge_mac": 0,
+   "golge_isabet": null,
+   "golge_rps": null,
+   "model_isabet_golge_maclar": null,
+   "model_rps_golge_maclar": null
   },
   {
    "lig": "Premier League",
@@ -37,7 +51,14 @@
    "en_olasi_skor_tuttu": 2,
    "piyasa_mac": 10,
    "piyasa_isabet": 0.4,
-   "model_isabet_ayni_maclar": 0.2
+   "model_isabet_ayni_maclar": 0.2,
+   "piyasa_rps": 0.2444,
+   "model_rps_piyasa_maclar": 0.2505,
+   "golge_mac": 0,
+   "golge_isabet": null,
+   "golge_rps": null,
+   "model_isabet_golge_maclar": null,
+   "model_rps_golge_maclar": null
   },
   {
    "lig": "La Liga",
@@ -50,7 +71,14 @@
    "en_olasi_skor_tuttu": 1,
    "piyasa_mac": 10,
    "piyasa_isabet": 0.6,
-   "model_isabet_ayni_maclar": 0.5
+   "model_isabet_ayni_maclar": 0.5,
+   "piyasa_rps": 0.2067,
+   "model_rps_piyasa_maclar": 0.2195,
+   "golge_mac": 0,
+   "golge_isabet": null,
+   "golge_rps": null,
+   "model_isabet_golge_maclar": null,
+   "model_rps_golge_maclar": null
   },
   {
    "lig": "Serie A",
@@ -63,7 +91,14 @@
    "en_olasi_skor_tuttu": 2,
    "piyasa_mac": 10,
    "piyasa_isabet": 0.8,
-   "model_isabet_ayni_maclar": 0.8
+   "model_isabet_ayni_maclar": 0.8,
+   "piyasa_rps": 0.1279,
+   "model_rps_piyasa_maclar": 0.132,
+   "golge_mac": 0,
+   "golge_isabet": null,
+   "golge_rps": null,
+   "model_isabet_golge_maclar": null,
+   "model_rps_golge_maclar": null
   }
  ],
  "haftalar": [
@@ -78,7 +113,14 @@
    "en_olasi_skor_tuttu": 0,
    "piyasa_mac": 4,
    "piyasa_isabet": 1.0,
-   "model_isabet_ayni_maclar": 1.0
+   "model_isabet_ayni_maclar": 1.0,
+   "piyasa_rps": 0.1515,
+   "model_rps_piyasa_maclar": 0.1774,
+   "golge_mac": 0,
+   "golge_isabet": null,
+   "golge_rps": null,
+   "model_isabet_golge_maclar": null,
+   "model_rps_golge_maclar": null
   },
   {
    "hafta_baslangic": "2026-10-19",
@@ -91,7 +133,14 @@
    "en_olasi_skor_tuttu": 5,
    "piyasa_mac": 35,
    "piyasa_isabet": 0.6,
-   "model_isabet_ayni_maclar": 0.5143
+   "model_isabet_ayni_maclar": 0.5143,
+   "piyasa_rps": 0.2006,
+   "model_rps_piyasa_maclar": 0.2073,
+   "golge_mac": 0,
+   "golge_isabet": null,
+   "golge_rps": null,
+   "model_isabet_golge_maclar": null,
+   "model_rps_golge_maclar": null
   }
  ],
  "son_maclar": [
@@ -114,7 +163,9 @@
    "en_olasi_skor": "1-1",
    "en_olasi_skor_tuttu": false,
    "piyasa_tahmin": "1",
-   "piyasa_tuttu": true
+   "piyasa_tuttu": true,
+   "golge_tahmin": null,
+   "golge_tuttu": null
   },
   {
    "lig": "Süper Lig",
@@ -135,7 +186,9 @@
    "en_olasi_skor": "1-1",
    "en_olasi_skor_tuttu": false,
    "piyasa_tahmin": "1",
-   "piyasa_tuttu": true
+   "piyasa_tuttu": true,
+   "golge_tahmin": null,
+   "golge_tuttu": null
   },
   {
    "lig": "Süper Lig",
@@ -156,7 +209,9 @@
    "en_olasi_skor": "1-1",
    "en_olasi_skor_tuttu": false,
    "piyasa_tahmin": "1",
-   "piyasa_tuttu": true
+   "piyasa_tuttu": true,
+   "golge_tahmin": null,
+   "golge_tuttu": null
   },
   {
    "lig": "Süper Lig",
@@ -177,7 +232,9 @@
    "en_olasi_skor": "1-1",
    "en_olasi_skor_tuttu": false,
    "piyasa_tahmin": "2",
-   "piyasa_tuttu": true
+   "piyasa_tuttu": true,
+   "golge_tahmin": null,
+   "golge_tuttu": null
   },
   {
    "lig": "La Liga",
@@ -198,7 +255,9 @@
    "en_olasi_skor": "2-1",
    "en_olasi_skor_tuttu": false,
    "piyasa_tahmin": "1",
-   "piyasa_tuttu": false
+   "piyasa_tuttu": false,
+   "golge_tahmin": null,
+   "golge_tuttu": null
   },
   {
    "lig": "Serie A",
@@ -219,7 +278,9 @@
    "en_olasi_skor": "1-1",
    "en_olasi_skor_tuttu": false,
    "piyasa_tahmin": "2",
-   "piyasa_tuttu": true
+   "piyasa_tuttu": true,
+   "golge_tahmin": null,
+   "golge_tuttu": null
   },
   {
    "lig": "La Liga",
@@ -240,7 +301,9 @@
    "en_olasi_skor": "2-1",
    "en_olasi_skor_tuttu": true,
    "piyasa_tahmin": "1",
-   "piyasa_tuttu": true
+   "piyasa_tuttu": true,
+   "golge_tahmin": null,
+   "golge_tuttu": null
   },
   {
    "lig": "Serie A",
@@ -261,7 +324,9 @@
    "en_olasi_skor": "0-1",
    "en_olasi_skor_tuttu": false,
    "piyasa_tahmin": "2",
-   "piyasa_tuttu": true
+   "piyasa_tuttu": true,
+   "golge_tahmin": null,
+   "golge_tuttu": null
   },
   {
    "lig": "Premier League",
@@ -282,7 +347,9 @@
    "en_olasi_skor": "1-1",
    "en_olasi_skor_tuttu": false,
    "piyasa_tahmin": "2",
-   "piyasa_tuttu": false
+   "piyasa_tuttu": false,
+   "golge_tahmin": null,
+   "golge_tuttu": null
   },
   {
    "lig": "Süper Lig",
@@ -303,7 +370,9 @@
    "en_olasi_skor": "2-1",
    "en_olasi_skor_tuttu": false,
    "piyasa_tahmin": "1",
-   "piyasa_tuttu": true
+   "piyasa_tuttu": true,
+   "golge_tahmin": null,
+   "golge_tuttu": null
   },
   {
    "lig": "La Liga",
@@ -324,7 +393,9 @@
    "en_olasi_skor": "1-1",
    "en_olasi_skor_tuttu": false,
    "piyasa_tahmin": "2",
-   "piyasa_tuttu": false
+   "piyasa_tuttu": false,
+   "golge_tahmin": null,
+   "golge_tuttu": null
   },
   {
    "lig": "Premier League",
@@ -345,7 +416,9 @@
    "en_olasi_skor": "1-1",
    "en_olasi_skor_tuttu": false,
    "piyasa_tahmin": "2",
-   "piyasa_tuttu": true
+   "piyasa_tuttu": true,
+   "golge_tahmin": null,
+   "golge_tuttu": null
   },
   {
    "lig": "Premier League",
@@ -366,7 +439,9 @@
    "en_olasi_skor": "1-1",
    "en_olasi_skor_tuttu": true,
    "piyasa_tahmin": "2",
-   "piyasa_tuttu": false
+   "piyasa_tuttu": false,
+   "golge_tahmin": null,
+   "golge_tuttu": null
   },
   {
    "lig": "Premier League",
@@ -387,7 +462,9 @@
    "en_olasi_skor": "1-1",
    "en_olasi_skor_tuttu": false,
    "piyasa_tahmin": "1",
-   "piyasa_tuttu": true
+   "piyasa_tuttu": true,
+   "golge_tahmin": null,
+   "golge_tuttu": null
   },
   {
    "lig": "Premier League",
@@ -408,7 +485,9 @@
    "en_olasi_skor": "1-1",
    "en_olasi_skor_tuttu": false,
    "piyasa_tahmin": "1",
-   "piyasa_tuttu": false
+   "piyasa_tuttu": false,
+   "golge_tahmin": null,
+   "golge_tuttu": null
   },
   {
    "lig": "Serie A",
@@ -429,7 +508,9 @@
    "en_olasi_skor": "1-1",
    "en_olasi_skor_tuttu": false,
    "piyasa_tahmin": "1",
-   "piyasa_tuttu": false
+   "piyasa_tuttu": false,
+   "golge_tahmin": null,
+   "golge_tuttu": null
   },
   {
    "lig": "Serie A",
@@ -450,7 +531,9 @@
    "en_olasi_skor": "1-0",
    "en_olasi_skor_tuttu": true,
    "piyasa_tahmin": "1",
-   "piyasa_tuttu": true
+   "piyasa_tuttu": true,
+   "golge_tahmin": null,
+   "golge_tuttu": null
   },
   {
    "lig": "La Liga",
@@ -471,7 +554,9 @@
    "en_olasi_skor": "1-0",
    "en_olasi_skor_tuttu": false,
    "piyasa_tahmin": "1",
-   "piyasa_tuttu": true
+   "piyasa_tuttu": true,
+   "golge_tahmin": null,
+   "golge_tuttu": null
   },
   {
    "lig": "Süper Lig",
@@ -492,7 +577,9 @@
    "en_olasi_skor": "1-1",
    "en_olasi_skor_tuttu": false,
    "piyasa_tahmin": "1",
-   "piyasa_tuttu": true
+   "piyasa_tuttu": true,
+   "golge_tahmin": null,
+   "golge_tuttu": null
   },
   {
    "lig": "Serie A",
@@ -513,7 +600,9 @@
    "en_olasi_skor": "2-0",
    "en_olasi_skor_tuttu": false,
    "piyasa_tahmin": "1",
-   "piyasa_tuttu": true
+   "piyasa_tuttu": true,
+   "golge_tahmin": null,
+   "golge_tuttu": null
   },
   {
    "lig": "La Liga",
@@ -534,7 +623,9 @@
    "en_olasi_skor": "2-0",
    "en_olasi_skor_tuttu": false,
    "piyasa_tahmin": "1",
-   "piyasa_tuttu": true
+   "piyasa_tuttu": true,
+   "golge_tahmin": null,
+   "golge_tuttu": null
   },
   {
    "lig": "Serie A",
@@ -555,7 +646,9 @@
    "en_olasi_skor": "1-0",
    "en_olasi_skor_tuttu": false,
    "piyasa_tahmin": "1",
-   "piyasa_tuttu": true
+   "piyasa_tuttu": true,
+   "golge_tahmin": null,
+   "golge_tuttu": null
   },
   {
    "lig": "Premier League",
@@ -576,7 +669,9 @@
    "en_olasi_skor": "1-1",
    "en_olasi_skor_tuttu": false,
    "piyasa_tahmin": "1",
-   "piyasa_tuttu": false
+   "piyasa_tuttu": false,
+   "golge_tahmin": null,
+   "golge_tuttu": null
   },
   {
    "lig": "La Liga",
@@ -597,7 +692,9 @@
    "en_olasi_skor": "1-1",
    "en_olasi_skor_tuttu": false,
    "piyasa_tahmin": "2",
-   "piyasa_tuttu": true
+   "piyasa_tuttu": true,
+   "golge_tahmin": null,
+   "golge_tuttu": null
   },
   {
    "lig": "Serie A",
@@ -618,7 +715,9 @@
    "en_olasi_skor": "1-1",
    "en_olasi_skor_tuttu": false,
    "piyasa_tahmin": "2",
-   "piyasa_tuttu": false
+   "piyasa_tuttu": false,
+   "golge_tahmin": null,
+   "golge_tuttu": null
   },
   {
    "lig": "Süper Lig",
@@ -639,7 +738,9 @@
    "en_olasi_skor": "1-1",
    "en_olasi_skor_tuttu": false,
    "piyasa_tahmin": "2",
-   "piyasa_tuttu": true
+   "piyasa_tuttu": true,
+   "golge_tahmin": null,
+   "golge_tuttu": null
   },
   {
    "lig": "La Liga",
@@ -660,7 +761,9 @@
    "en_olasi_skor": "1-1",
    "en_olasi_skor_tuttu": false,
    "piyasa_tahmin": "1",
-   "piyasa_tuttu": true
+   "piyasa_tuttu": true,
+   "golge_tahmin": null,
+   "golge_tuttu": null
   },
   {
    "lig": "Premier League",
@@ -681,7 +784,9 @@
    "en_olasi_skor": "1-0",
    "en_olasi_skor_tuttu": false,
    "piyasa_tahmin": "1",
-   "piyasa_tuttu": true
+   "piyasa_tuttu": true,
+   "golge_tahmin": null,
+   "golge_tuttu": null
   },
   {
    "lig": "Premier League",
@@ -702,7 +807,9 @@
    "en_olasi_skor": "1-1",
    "en_olasi_skor_tuttu": false,
    "piyasa_tahmin": "2",
-   "piyasa_tuttu": true
+   "piyasa_tuttu": true,
+   "golge_tahmin": null,
+   "golge_tuttu": null
   },
   {
    "lig": "Serie A",
@@ -723,7 +830,9 @@
    "en_olasi_skor": "1-1",
    "en_olasi_skor_tuttu": false,
    "piyasa_tahmin": "2",
-   "piyasa_tuttu": true
+   "piyasa_tuttu": true,
+   "golge_tahmin": null,
+   "golge_tuttu": null
   },
   {
    "lig": "Serie A",
@@ -744,7 +853,9 @@
    "en_olasi_skor": "2-0",
    "en_olasi_skor_tuttu": true,
    "piyasa_tahmin": "1",
-   "piyasa_tuttu": true
+   "piyasa_tuttu": true,
+   "golge_tahmin": null,
+   "golge_tuttu": null
   },
   {
    "lig": "Süper Lig",
@@ -765,7 +876,9 @@
    "en_olasi_skor": "1-0",
    "en_olasi_skor_tuttu": false,
    "piyasa_tahmin": "1",
-   "piyasa_tuttu": false
+   "piyasa_tuttu": false,
+   "golge_tahmin": null,
+   "golge_tuttu": null
   },
   {
    "lig": "La Liga",
@@ -786,7 +899,9 @@
    "en_olasi_skor": "1-1",
    "en_olasi_skor_tuttu": false,
    "piyasa_tahmin": "1",
-   "piyasa_tuttu": false
+   "piyasa_tuttu": false,
+   "golge_tahmin": null,
+   "golge_tuttu": null
   },
   {
    "lig": "Premier League",
@@ -807,7 +922,9 @@
    "en_olasi_skor": "1-1",
    "en_olasi_skor_tuttu": false,
    "piyasa_tahmin": "2",
-   "piyasa_tuttu": false
+   "piyasa_tuttu": false,
+   "golge_tahmin": null,
+   "golge_tuttu": null
   },
   {
    "lig": "Süper Lig",
@@ -828,7 +945,9 @@
    "en_olasi_skor": "1-1",
    "en_olasi_skor_tuttu": false,
    "piyasa_tahmin": "2",
-   "piyasa_tuttu": true
+   "piyasa_tuttu": true,
+   "golge_tahmin": null,
+   "golge_tuttu": null
   },
   {
    "lig": "Premier League",
@@ -849,7 +968,9 @@
    "en_olasi_skor": "1-1",
    "en_olasi_skor_tuttu": true,
    "piyasa_tahmin": "2",
-   "piyasa_tuttu": false
+   "piyasa_tuttu": false,
+   "golge_tahmin": null,
+   "golge_tuttu": null
   },
   {
    "lig": "La Liga",
@@ -870,7 +991,9 @@
    "en_olasi_skor": "1-0",
    "en_olasi_skor_tuttu": false,
    "piyasa_tahmin": "1",
-   "piyasa_tuttu": false
+   "piyasa_tuttu": false,
+   "golge_tahmin": null,
+   "golge_tuttu": null
   },
   {
    "lig": "Serie A",
@@ -891,7 +1014,9 @@
    "en_olasi_skor": "1-1",
    "en_olasi_skor_tuttu": false,
    "piyasa_tahmin": "1",
-   "piyasa_tuttu": true
+   "piyasa_tuttu": true,
+   "golge_tahmin": null,
+   "golge_tuttu": null
   },
   {
    "lig": "Süper Lig",
@@ -912,7 +1037,9 @@
    "en_olasi_skor": "0-0",
    "en_olasi_skor_tuttu": false,
    "piyasa_tahmin": "1",
-   "piyasa_tuttu": false
+   "piyasa_tuttu": false,
+   "golge_tahmin": null,
+   "golge_tuttu": null
   }
  ]
 }

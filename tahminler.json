@@ -1,5 +1,5 @@
 {
-  "olusturulma": "2026-10-27T13:01+03:00",
+  "olusturulma": "2026-10-27T17:12+03:00",
   "model": "dixon-coles-v1",
   "maclar": [
     {
@@ -47,7 +47,11 @@
       "form_deplasman": "B G G G G",
       "elo_ev": 1458,
       "elo_deplasman": 1583,
-      "piyasa": null,
+      "piyasa": {
+        "ev": 0.283,
+        "beraberlik": 0.2662,
+        "deplasman": 0.4509
+      },
       "skor_matrisi": [
         [
           0.0691,
@@ -235,7 +239,17 @@
           "p_en_az_bir": 0.149,
           "dusuk_guven": true
         }
-      }
+      },
+      "yorgunluk": {
+        "ev_dinlenme": 3,
+        "dep_dinlenme": 3,
+        "ev_avrupa": false,
+        "dep_avrupa": false,
+        "ev_yorgun": true,
+        "dep_yorgun": true,
+        "etki_uygulandi": false
+      },
+      "xg_modeli": null
     },
     {
       "lig": "Serie A",
@@ -282,7 +296,11 @@
       "form_deplasman": "G G B M M",
       "elo_ev": 1635,
       "elo_deplasman": 1450,
-      "piyasa": null,
+      "piyasa": {
+        "ev": 0.7212,
+        "beraberlik": 0.1773,
+        "deplasman": 0.1015
+      },
       "skor_matrisi": [
         [
           0.0737,
@@ -470,7 +488,17 @@
           "p_en_az_bir": 0.1433,
           "dusuk_guven": true
         }
-      }
+      },
+      "yorgunluk": {
+        "ev_dinlenme": 3,
+        "dep_dinlenme": 3,
+        "ev_avrupa": false,
+        "dep_avrupa": false,
+        "ev_yorgun": true,
+        "dep_yorgun": true,
+        "etki_uygulandi": false
+      },
+      "xg_modeli": null
     },
     {
       "lig": "Serie A",
@@ -517,7 +545,11 @@
       "form_deplasman": "G M B G G",
       "elo_ev": 1484,
       "elo_deplasman": 1608,
-      "piyasa": null,
+      "piyasa": {
+        "ev": 0.2096,
+        "beraberlik": 0.2482,
+        "deplasman": 0.5421
+      },
       "skor_matrisi": [
         [
           0.0762,
@@ -705,7 +737,17 @@
           "p_en_az_bir": 0.1406,
           "dusuk_guven": true
         }
-      }
+      },
+      "yorgunluk": {
+        "ev_dinlenme": 4,
+        "dep_dinlenme": 3,
+        "ev_avrupa": false,
+        "dep_avrupa": false,
+        "ev_yorgun": true,
+        "dep_yorgun": true,
+        "etki_uygulandi": false
+      },
+      "xg_modeli": null
     },
     {
       "lig": "Serie A",
@@ -752,7 +794,11 @@
       "form_deplasman": "M B G M G",
       "elo_ev": 1592,
       "elo_deplasman": 1494,
-      "piyasa": null,
+      "piyasa": {
+        "ev": 0.5814,
+        "beraberlik": 0.2409,
+        "deplasman": 0.1777
+      },
       "skor_matrisi": [
         [
           0.0849,
@@ -940,242 +986,17 @@
           "p_en_az_bir": 0.1419,
           "dusuk_guven": true
         }
-      }
-    },
-    {
-      "lig": "Serie A",
-      "lig_kodu": "I1",
-      "tarih": "2026-10-28",
-      "saat": "20:30",
-      "ev": "Venezia",
-      "deplasman": "Inter",
-      "p_ev": 0.0884,
-      "p_beraberlik": 0.1487,
-      "p_deplasman": 0.7629,
-      "xg_ev": 0.79,
-      "xg_deplasman": 2.61,
-      "ust_2_5": 0.66,
-      "kg_var": 0.5061,
-      "olasi_skorlar": [
-        {
-          "skor": "0-2",
-          "p": 0.1139
-        },
-        {
-          "skor": "0-3",
-          "p": 0.0991
-        },
-        {
-          "skor": "1-2",
-          "p": 0.0897
-        },
-        {
-          "skor": "0-1",
-          "p": 0.0862
-        },
-        {
-          "skor": "1-3",
-          "p": 0.0781
-        }
-      ],
-      "tutarli_skor": {
-        "sonuc": "2",
-        "skor": "0-2",
-        "p": 0.1139
       },
-      "form_ev": "M M M G M",
-      "form_deplasman": "G B G G G",
-      "elo_ev": 1379,
-      "elo_deplasman": 1690,
-      "piyasa": null,
-      "skor_matrisi": [
-        [
-          0.0344,
-          0.0862,
-          0.1139,
-          0.0991,
-          0.0647,
-          0.0338
-        ],
-        [
-          0.0253,
-          0.0697,
-          0.0897,
-          0.0781,
-          0.051,
-          0.0266
-        ],
-        [
-          0.0104,
-          0.0271,
-          0.0353,
-          0.0308,
-          0.0201,
-          0.0105
-        ],
-        [
-          0.0027,
-          0.0071,
-          0.0093,
-          0.0081,
-          0.0053,
-          0.0028
-        ],
-        [
-          0.0005,
-          0.0014,
-          0.0018,
-          0.0016,
-          0.001,
-          0.0005
-        ],
-        [
-          0.0001,
-          0.0002,
-          0.0003,
-          0.0003,
-          0.0002,
-          0.0001
-        ]
-      ],
-      "az_veri": [],
-      "ilk_yari": {
-        "p_ev": 0.1112,
-        "p_beraberlik": 0.3287,
-        "p_deplasman": 0.5601,
-        "xg_ev": 0.34,
-        "xg_deplasman": 1.13,
-        "ust_0_5": 0.7689,
-        "ust_1_5": 0.4304,
-        "ilk_yari_gol_payi": 0.431
+      "yorgunluk": {
+        "ev_dinlenme": 3,
+        "dep_dinlenme": 4,
+        "ev_avrupa": false,
+        "dep_avrupa": false,
+        "ev_yorgun": true,
+        "dep_yorgun": true,
+        "etki_uygulandi": false
       },
-      "iy_ms": [
-        {
-          "kod": "2/2",
-          "p": 0.5218
-        },
-        {
-          "kod": "X/2",
-          "p": 0.2071
-        },
-        {
-          "kod": "X/X",
-          "p": 0.0859
-        },
-        {
-          "kod": "1/1",
-          "p": 0.0458
-        },
-        {
-          "kod": "X/1",
-          "p": 0.0356
-        },
-        {
-          "kod": "1/2",
-          "p": 0.034
-        },
-        {
-          "kod": "1/X",
-          "p": 0.0314
-        },
-        {
-          "kod": "2/X",
-          "p": 0.0314
-        },
-        {
-          "kod": "2/1",
-          "p": 0.007
-        }
-      ],
-      "gol_dakika": {
-        "araliklar": [
-          {
-            "aralik": "0-15",
-            "p_gol": 0.3405
-          },
-          {
-            "aralik": "16-30",
-            "p_gol": 0.383
-          },
-          {
-            "aralik": "31-45+",
-            "p_gol": 0.4322
-          },
-          {
-            "aralik": "46-60",
-            "p_gol": 0.4245
-          },
-          {
-            "aralik": "61-75",
-            "p_gol": 0.444
-          },
-          {
-            "aralik": "76-90+",
-            "p_gol": 0.548
-          }
-        ],
-        "ilk_gol_30_once": 0.593,
-        "golsuz": 0.0344,
-        "ilk_golu_ev": 0.2238,
-        "ilk_golu_deplasman": 0.7418
-      },
-      "istatistikler": {
-        "sari_kart": {
-          "ev": 1.77,
-          "deplasman": 1.35,
-          "toplam": 3.12,
-          "cizgiler": [
-            {
-              "cizgi": 3.5,
-              "ust": 0.3796
-            },
-            {
-              "cizgi": 4.5,
-              "ust": 0.2053
-            },
-            {
-              "cizgi": 5.5,
-              "ust": 0.0965
-            }
-          ]
-        },
-        "korner": {
-          "ev": 3.38,
-          "deplasman": 6.05,
-          "toplam": 9.43,
-          "cizgiler": [
-            {
-              "cizgi": 8.5,
-              "ust": 0.586
-            },
-            {
-              "cizgi": 9.5,
-              "ust": 0.4645
-            },
-            {
-              "cizgi": 10.5,
-              "ust": 0.3507
-            }
-          ]
-        },
-        "sut": {
-          "ev": 10.52,
-          "deplasman": 18.25,
-          "toplam": 28.76
-        },
-        "isabetli_sut": {
-          "ev": 3.24,
-          "deplasman": 7.29,
-          "toplam": 10.53
-        },
-        "kirmizi_kart": {
-          "ev": 0.08,
-          "deplasman": 0.08,
-          "toplam": 0.16,
-          "p_en_az_bir": 0.1386,
-          "dusuk_guven": true
-        }
-      }
+      "xg_modeli": null
     },
     {
       "lig": "Serie A",
@@ -1222,7 +1043,11 @@
       "form_deplasman": "M M M M M",
       "elo_ev": 1407,
       "elo_deplasman": 1427,
-      "piyasa": null,
+      "piyasa": {
+        "ev": 0.3238,
+        "beraberlik": 0.2991,
+        "deplasman": 0.3771
+      },
       "skor_matrisi": [
         [
           0.1116,
@@ -1410,7 +1235,266 @@
           "p_en_az_bir": 0.1437,
           "dusuk_guven": true
         }
-      }
+      },
+      "yorgunluk": {
+        "ev_dinlenme": 4,
+        "dep_dinlenme": 3,
+        "ev_avrupa": false,
+        "dep_avrupa": false,
+        "ev_yorgun": true,
+        "dep_yorgun": true,
+        "etki_uygulandi": false
+      },
+      "xg_modeli": null
+    },
+    {
+      "lig": "Serie A",
+      "lig_kodu": "I1",
+      "tarih": "2026-10-28",
+      "saat": "20:30",
+      "ev": "Venezia",
+      "deplasman": "Inter",
+      "p_ev": 0.0884,
+      "p_beraberlik": 0.1487,
+      "p_deplasman": 0.7629,
+      "xg_ev": 0.79,
+      "xg_deplasman": 2.61,
+      "ust_2_5": 0.66,
+      "kg_var": 0.5061,
+      "olasi_skorlar": [
+        {
+          "skor": "0-2",
+          "p": 0.1139
+        },
+        {
+          "skor": "0-3",
+          "p": 0.0991
+        },
+        {
+          "skor": "1-2",
+          "p": 0.0897
+        },
+        {
+          "skor": "0-1",
+          "p": 0.0862
+        },
+        {
+          "skor": "1-3",
+          "p": 0.0781
+        }
+      ],
+      "tutarli_skor": {
+        "sonuc": "2",
+        "skor": "0-2",
+        "p": 0.1139
+      },
+      "form_ev": "M M M G M",
+      "form_deplasman": "G B G G G",
+      "elo_ev": 1379,
+      "elo_deplasman": 1690,
+      "piyasa": {
+        "ev": 0.1216,
+        "beraberlik": 0.1718,
+        "deplasman": 0.7066
+      },
+      "skor_matrisi": [
+        [
+          0.0344,
+          0.0862,
+          0.1139,
+          0.0991,
+          0.0647,
+          0.0338
+        ],
+        [
+          0.0253,
+          0.0697,
+          0.0897,
+          0.0781,
+          0.051,
+          0.0266
+        ],
+        [
+          0.0104,
+          0.0271,
+          0.0353,
+          0.0308,
+          0.0201,
+          0.0105
+        ],
+        [
+          0.0027,
+          0.0071,
+          0.0093,
+          0.0081,
+          0.0053,
+          0.0028
+        ],
+        [
+          0.0005,
+          0.0014,
+          0.0018,
+          0.0016,
+          0.001,
+          0.0005
+        ],
+        [
+          0.0001,
+          0.0002,
+          0.0003,
+          0.0003,
+          0.0002,
+          0.0001
+        ]
+      ],
+      "az_veri": [],
+      "ilk_yari": {
+        "p_ev": 0.1112,
+        "p_beraberlik": 0.3287,
+        "p_deplasman": 0.5601,
+        "xg_ev": 0.34,
+        "xg_deplasman": 1.13,
+        "ust_0_5": 0.7689,
+        "ust_1_5": 0.4304,
+        "ilk_yari_gol_payi": 0.431
+      },
+      "iy_ms": [
+        {
+          "kod": "2/2",
+          "p": 0.5218
+        },
+        {
+          "kod": "X/2",
+          "p": 0.2071
+        },
+        {
+          "kod": "X/X",
+          "p": 0.0859
+        },
+        {
+          "kod": "1/1",
+          "p": 0.0458
+        },
+        {
+          "kod": "X/1",
+          "p": 0.0356
+        },
+        {
+          "kod": "1/2",
+          "p": 0.034
+        },
+        {
+          "kod": "1/X",
+          "p": 0.0314
+        },
+        {
+          "kod": "2/X",
+          "p": 0.0314
+        },
+        {
+          "kod": "2/1",
+          "p": 0.007
+        }
+      ],
+      "gol_dakika": {
+        "araliklar": [
+          {
+            "aralik": "0-15",
+            "p_gol": 0.3405
+          },
+          {
+            "aralik": "16-30",
+            "p_gol": 0.383
+          },
+          {
+            "aralik": "31-45+",
+            "p_gol": 0.4322
+          },
+          {
+            "aralik": "46-60",
+            "p_gol": 0.4245
+          },
+          {
+            "aralik": "61-75",
+            "p_gol": 0.444
+          },
+          {
+            "aralik": "76-90+",
+            "p_gol": 0.548
+          }
+        ],
+        "ilk_gol_30_once": 0.593,
+        "golsuz": 0.0344,
+        "ilk_golu_ev": 0.2238,
+        "ilk_golu_deplasman": 0.7418
+      },
+      "istatistikler": {
+        "sari_kart": {
+          "ev": 1.77,
+          "deplasman": 1.35,
+          "toplam": 3.12,
+          "cizgiler": [
+            {
+              "cizgi": 3.5,
+              "ust": 0.3796
+            },
+            {
+              "cizgi": 4.5,
+              "ust": 0.2053
+            },
+            {
+              "cizgi": 5.5,
+              "ust": 0.0965
+            }
+          ]
+        },
+        "korner": {
+          "ev": 3.38,
+          "deplasman": 6.05,
+          "toplam": 9.43,
+          "cizgiler": [
+            {
+              "cizgi": 8.5,
+              "ust": 0.586
+            },
+            {
+              "cizgi": 9.5,
+              "ust": 0.4645
+            },
+            {
+              "cizgi": 10.5,
+              "ust": 0.3507
+            }
+          ]
+        },
+        "sut": {
+          "ev": 10.52,
+          "deplasman": 18.25,
+          "toplam": 28.76
+        },
+        "isabetli_sut": {
+          "ev": 3.24,
+          "deplasman": 7.29,
+          "toplam": 10.53
+        },
+        "kirmizi_kart": {
+          "ev": 0.08,
+          "deplasman": 0.08,
+          "toplam": 0.16,
+          "p_en_az_bir": 0.1386,
+          "dusuk_guven": true
+        }
+      },
+      "yorgunluk": {
+        "ev_dinlenme": 3,
+        "dep_dinlenme": 3,
+        "ev_avrupa": false,
+        "dep_avrupa": false,
+        "ev_yorgun": true,
+        "dep_yorgun": true,
+        "etki_uygulandi": false
+      },
+      "xg_modeli": null
     },
     {
       "lig": "Serie A",
@@ -1457,7 +1541,11 @@
       "form_deplasman": "M G B M G",
       "elo_ev": 1430,
       "elo_deplasman": 1572,
-      "piyasa": null,
+      "piyasa": {
+        "ev": 0.1819,
+        "beraberlik": 0.2574,
+        "deplasman": 0.5607
+      },
       "skor_matrisi": [
         [
           0.1041,
@@ -1645,7 +1733,17 @@
           "p_en_az_bir": 0.1412,
           "dusuk_guven": true
         }
-      }
+      },
+      "yorgunluk": {
+        "ev_dinlenme": 3,
+        "dep_dinlenme": 3,
+        "ev_avrupa": false,
+        "dep_avrupa": false,
+        "ev_yorgun": true,
+        "dep_yorgun": true,
+        "etki_uygulandi": false
+      },
+      "xg_modeli": null
     },
     {
       "lig": "Serie A",
@@ -1692,7 +1790,11 @@
       "form_deplasman": "G B G M B",
       "elo_ev": 1403,
       "elo_deplasman": 1574,
-      "piyasa": null,
+      "piyasa": {
+        "ev": 0.2165,
+        "beraberlik": 0.2421,
+        "deplasman": 0.5413
+      },
       "skor_matrisi": [
         [
           0.0574,
@@ -1880,7 +1982,17 @@
           "p_en_az_bir": 0.1389,
           "dusuk_guven": true
         }
-      }
+      },
+      "yorgunluk": {
+        "ev_dinlenme": 5,
+        "dep_dinlenme": 4,
+        "ev_avrupa": false,
+        "dep_avrupa": false,
+        "ev_yorgun": false,
+        "dep_yorgun": true,
+        "etki_uygulandi": false
+      },
+      "xg_modeli": null
     },
     {
       "lig": "Serie A",
@@ -1927,7 +2039,11 @@
       "form_deplasman": "G M M G M",
       "elo_ev": 1506,
       "elo_deplasman": 1426,
-      "piyasa": null,
+      "piyasa": {
+        "ev": 0.5644,
+        "beraberlik": 0.2269,
+        "deplasman": 0.2087
+      },
       "skor_matrisi": [
         [
           0.0507,
@@ -2115,7 +2231,17 @@
           "p_en_az_bir": 0.1408,
           "dusuk_guven": true
         }
-      }
+      },
+      "yorgunluk": {
+        "ev_dinlenme": 4,
+        "dep_dinlenme": 4,
+        "ev_avrupa": false,
+        "dep_avrupa": false,
+        "ev_yorgun": true,
+        "dep_yorgun": true,
+        "etki_uygulandi": false
+      },
+      "xg_modeli": null
     },
     {
       "lig": "Serie A",
@@ -2162,7 +2288,11 @@
       "form_deplasman": "M M G M B",
       "elo_ev": 1445,
       "elo_deplasman": 1527,
-      "piyasa": null,
+      "piyasa": {
+        "ev": 0.4298,
+        "beraberlik": 0.2589,
+        "deplasman": 0.3113
+      },
       "skor_matrisi": [
         [
           0.0585,
@@ -2350,7 +2480,17 @@
           "p_en_az_bir": 0.1399,
           "dusuk_guven": true
         }
-      }
+      },
+      "yorgunluk": {
+        "ev_dinlenme": 4,
+        "dep_dinlenme": 4,
+        "ev_avrupa": false,
+        "dep_avrupa": false,
+        "ev_yorgun": true,
+        "dep_yorgun": true,
+        "etki_uygulandi": false
+      },
+      "xg_modeli": null
     },
     {
       "lig": "La Liga",
@@ -2585,7 +2725,17 @@
           "p_en_az_bir": 0.2198,
           "dusuk_guven": true
         }
-      }
+      },
+      "yorgunluk": {
+        "ev_dinlenme": 6,
+        "dep_dinlenme": 6,
+        "ev_avrupa": false,
+        "dep_avrupa": false,
+        "ev_yorgun": false,
+        "dep_yorgun": false,
+        "etki_uygulandi": false
+      },
+      "xg_modeli": null
     },
     {
       "lig": "Premier League",
@@ -2820,7 +2970,17 @@
           "p_en_az_bir": 0.1244,
           "dusuk_guven": true
         }
-      }
+      },
+      "yorgunluk": {
+        "ev_dinlenme": 7,
+        "dep_dinlenme": 6,
+        "ev_avrupa": false,
+        "dep_avrupa": false,
+        "ev_yorgun": false,
+        "dep_yorgun": false,
+        "etki_uygulandi": false
+      },
+      "xg_modeli": null
     },
     {
       "lig": "La Liga",
@@ -3055,7 +3215,17 @@
           "p_en_az_bir": 0.2234,
           "dusuk_guven": true
         }
-      }
+      },
+      "yorgunluk": {
+        "ev_dinlenme": 6,
+        "dep_dinlenme": 7,
+        "ev_avrupa": false,
+        "dep_avrupa": false,
+        "ev_yorgun": false,
+        "dep_yorgun": false,
+        "etki_uygulandi": false
+      },
+      "xg_modeli": null
     },
     {
       "lig": "Serie A",
@@ -3290,7 +3460,17 @@
           "p_en_az_bir": 0.1425,
           "dusuk_guven": true
         }
-      }
+      },
+      "yorgunluk": {
+        "ev_dinlenme": 3,
+        "dep_dinlenme": 3,
+        "ev_avrupa": false,
+        "dep_avrupa": false,
+        "ev_yorgun": true,
+        "dep_yorgun": true,
+        "etki_uygulandi": false
+      },
+      "xg_modeli": null
     },
     {
       "lig": "Premier League",
@@ -3525,7 +3705,17 @@
           "p_en_az_bir": 0.122,
           "dusuk_guven": true
         }
-      }
+      },
+      "yorgunluk": {
+        "ev_dinlenme": 7,
+        "dep_dinlenme": 6,
+        "ev_avrupa": false,
+        "dep_avrupa": false,
+        "ev_yorgun": false,
+        "dep_yorgun": false,
+        "etki_uygulandi": false
+      },
+      "xg_modeli": null
     },
     {
       "lig": "Premier League",
@@ -3760,7 +3950,17 @@
           "p_en_az_bir": 0.121,
           "dusuk_guven": true
         }
-      }
+      },
+      "yorgunluk": {
+        "ev_dinlenme": 6,
+        "dep_dinlenme": 6,
+        "ev_avrupa": false,
+        "dep_avrupa": false,
+        "ev_yorgun": false,
+        "dep_yorgun": false,
+        "etki_uygulandi": false
+      },
+      "xg_modeli": null
     },
     {
       "lig": "Premier League",
@@ -3995,7 +4195,17 @@
           "p_en_az_bir": 0.1229,
           "dusuk_guven": true
         }
-      }
+      },
+      "yorgunluk": {
+        "ev_dinlenme": 7,
+        "dep_dinlenme": 6,
+        "ev_avrupa": false,
+        "dep_avrupa": false,
+        "ev_yorgun": false,
+        "dep_yorgun": false,
+        "etki_uygulandi": false
+      },
+      "xg_modeli": null
     },
     {
       "lig": "Premier League",
@@ -4230,7 +4440,17 @@
           "p_en_az_bir": 0.1225,
           "dusuk_guven": true
         }
-      }
+      },
+      "yorgunluk": {
+        "ev_dinlenme": 6,
+        "dep_dinlenme": 8,
+        "ev_avrupa": false,
+        "dep_avrupa": false,
+        "ev_yorgun": false,
+        "dep_yorgun": false,
+        "etki_uygulandi": false
+      },
+      "xg_modeli": null
     },
     {
       "lig": "Premier League",
@@ -4465,7 +4685,17 @@
           "p_en_az_bir": 0.1193,
           "dusuk_guven": true
         }
-      }
+      },
+      "yorgunluk": {
+        "ev_dinlenme": 6,
+        "dep_dinlenme": 8,
+        "ev_avrupa": false,
+        "dep_avrupa": false,
+        "ev_yorgun": false,
+        "dep_yorgun": false,
+        "etki_uygulandi": false
+      },
+      "xg_modeli": null
     },
     {
       "lig": "La Liga",
@@ -4700,7 +4930,17 @@
           "p_en_az_bir": 0.2262,
           "dusuk_guven": true
         }
-      }
+      },
+      "yorgunluk": {
+        "ev_dinlenme": 7,
+        "dep_dinlenme": 6,
+        "ev_avrupa": false,
+        "dep_avrupa": false,
+        "ev_yorgun": false,
+        "dep_yorgun": false,
+        "etki_uygulandi": false
+      },
+      "xg_modeli": null
     },
     {
       "lig": "Serie A",
@@ -4935,7 +5175,17 @@
           "p_en_az_bir": 0.1428,
           "dusuk_guven": true
         }
-      }
+      },
+      "yorgunluk": {
+        "ev_dinlenme": 3,
+        "dep_dinlenme": 4,
+        "ev_avrupa": false,
+        "dep_avrupa": false,
+        "ev_yorgun": true,
+        "dep_yorgun": true,
+        "etki_uygulandi": false
+      },
+      "xg_modeli": null
     },
     {
       "lig": "Premier League",
@@ -5170,7 +5420,17 @@
           "p_en_az_bir": 0.1225,
           "dusuk_guven": true
         }
-      }
+      },
+      "yorgunluk": {
+        "ev_dinlenme": 7,
+        "dep_dinlenme": 6,
+        "ev_avrupa": false,
+        "dep_avrupa": false,
+        "ev_yorgun": false,
+        "dep_yorgun": false,
+        "etki_uygulandi": false
+      },
+      "xg_modeli": null
     },
     {
       "lig": "La Liga",
@@ -5405,7 +5665,17 @@
           "p_en_az_bir": 0.2154,
           "dusuk_guven": true
         }
-      }
+      },
+      "yorgunluk": {
+        "ev_dinlenme": 6,
+        "dep_dinlenme": 8,
+        "ev_avrupa": false,
+        "dep_avrupa": false,
+        "ev_yorgun": false,
+        "dep_yorgun": false,
+        "etki_uygulandi": false
+      },
+      "xg_modeli": null
     },
     {
       "lig": "Serie A",
@@ -5640,7 +5910,17 @@
           "p_en_az_bir": 0.1386,
           "dusuk_guven": true
         }
-      }
+      },
+      "yorgunluk": {
+        "ev_dinlenme": 3,
+        "dep_dinlenme": 3,
+        "ev_avrupa": false,
+        "dep_avrupa": false,
+        "ev_yorgun": true,
+        "dep_yorgun": true,
+        "etki_uygulandi": false
+      },
+      "xg_modeli": null
     },
     {
       "lig": "Premier League",
@@ -5875,7 +6155,17 @@
           "p_en_az_bir": 0.1208,
           "dusuk_guven": true
         }
-      }
+      },
+      "yorgunluk": {
+        "ev_dinlenme": 7,
+        "dep_dinlenme": 7,
+        "ev_avrupa": false,
+        "dep_avrupa": false,
+        "ev_yorgun": false,
+        "dep_yorgun": false,
+        "etki_uygulandi": false
+      },
+      "xg_modeli": null
     },
     {
       "lig": "La Liga",
@@ -6110,7 +6400,17 @@
           "p_en_az_bir": 0.2201,
           "dusuk_guven": true
         }
-      }
+      },
+      "yorgunluk": {
+        "ev_dinlenme": 6,
+        "dep_dinlenme": 8,
+        "ev_avrupa": false,
+        "dep_avrupa": false,
+        "ev_yorgun": false,
+        "dep_yorgun": false,
+        "etki_uygulandi": false
+      },
+      "xg_modeli": null
     },
     {
       "lig": "Serie A",
@@ -6345,7 +6645,17 @@
           "p_en_az_bir": 0.1442,
           "dusuk_guven": true
         }
-      }
+      },
+      "yorgunluk": {
+        "ev_dinlenme": 5,
+        "dep_dinlenme": 4,
+        "ev_avrupa": false,
+        "dep_avrupa": false,
+        "ev_yorgun": false,
+        "dep_yorgun": true,
+        "etki_uygulandi": false
+      },
+      "xg_modeli": null
     },
     {
       "lig": "La Liga",
@@ -6580,7 +6890,17 @@
           "p_en_az_bir": 0.2316,
           "dusuk_guven": true
         }
-      }
+      },
+      "yorgunluk": {
+        "ev_dinlenme": 7,
+        "dep_dinlenme": 6,
+        "ev_avrupa": false,
+        "dep_avrupa": false,
+        "ev_yorgun": false,
+        "dep_yorgun": false,
+        "etki_uygulandi": false
+      },
+      "xg_modeli": null
     },
     {
       "lig": "Serie A",
@@ -6815,7 +7135,17 @@
           "p_en_az_bir": 0.1369,
           "dusuk_guven": true
         }
-      }
+      },
+      "yorgunluk": {
+        "ev_dinlenme": 3,
+        "dep_dinlenme": 5,
+        "ev_avrupa": false,
+        "dep_avrupa": false,
+        "ev_yorgun": true,
+        "dep_yorgun": false,
+        "etki_uygulandi": false
+      },
+      "xg_modeli": null
     },
     {
       "lig": "Serie A",
@@ -7050,7 +7380,17 @@
           "p_en_az_bir": 0.1486,
           "dusuk_guven": true
         }
-      }
+      },
+      "yorgunluk": {
+        "ev_dinlenme": 5,
+        "dep_dinlenme": 5,
+        "ev_avrupa": false,
+        "dep_avrupa": false,
+        "ev_yorgun": false,
+        "dep_yorgun": false,
+        "etki_uygulandi": false
+      },
+      "xg_modeli": null
     },
     {
       "lig": "La Liga",
@@ -7285,7 +7625,17 @@
           "p_en_az_bir": 0.2262,
           "dusuk_guven": true
         }
-      }
+      },
+      "yorgunluk": {
+        "ev_dinlenme": 8,
+        "dep_dinlenme": 7,
+        "ev_avrupa": false,
+        "dep_avrupa": false,
+        "ev_yorgun": false,
+        "dep_yorgun": false,
+        "etki_uygulandi": false
+      },
+      "xg_modeli": null
     },
     {
       "lig": "Premier League",
@@ -7520,7 +7870,17 @@
           "p_en_az_bir": 0.1225,
           "dusuk_guven": true
         }
-      }
+      },
+      "yorgunluk": {
+        "ev_dinlenme": 7,
+        "dep_dinlenme": 8,
+        "ev_avrupa": false,
+        "dep_avrupa": false,
+        "ev_yorgun": false,
+        "dep_yorgun": false,
+        "etki_uygulandi": false
+      },
+      "xg_modeli": null
     },
     {
       "lig": "Serie A",
@@ -7755,7 +8115,17 @@
           "p_en_az_bir": 0.1419,
           "dusuk_guven": true
         }
-      }
+      },
+      "yorgunluk": {
+        "ev_dinlenme": 3,
+        "dep_dinlenme": 4,
+        "ev_avrupa": false,
+        "dep_avrupa": false,
+        "ev_yorgun": true,
+        "dep_yorgun": true,
+        "etki_uygulandi": false
+      },
+      "xg_modeli": null
     },
     {
       "lig": "La Liga",
@@ -7990,7 +8360,17 @@
           "p_en_az_bir": 0.2227,
           "dusuk_guven": true
         }
-      }
+      },
+      "yorgunluk": {
+        "ev_dinlenme": 8,
+        "dep_dinlenme": 8,
+        "ev_avrupa": false,
+        "dep_avrupa": false,
+        "ev_yorgun": false,
+        "dep_yorgun": false,
+        "etki_uygulandi": false
+      },
+      "xg_modeli": null
     },
     {
       "lig": "Serie A",
@@ -8225,7 +8605,17 @@
           "p_en_az_bir": 0.1382,
           "dusuk_guven": true
         }
-      }
+      },
+      "yorgunluk": {
+        "ev_dinlenme": 4,
+        "dep_dinlenme": 4,
+        "ev_avrupa": false,
+        "dep_avrupa": false,
+        "ev_yorgun": true,
+        "dep_yorgun": true,
+        "etki_uygulandi": false
+      },
+      "xg_modeli": null
     },
     {
       "lig": "La Liga",
@@ -8460,7 +8850,17 @@
           "p_en_az_bir": 0.2236,
           "dusuk_guven": true
         }
-      }
+      },
+      "yorgunluk": {
+        "ev_dinlenme": 7,
+        "dep_dinlenme": 7,
+        "ev_avrupa": false,
+        "dep_avrupa": false,
+        "ev_yorgun": false,
+        "dep_yorgun": false,
+        "etki_uygulandi": false
+      },
+      "xg_modeli": null
     },
     {
       "lig": "Serie A",
@@ -8695,7 +9095,17 @@
           "p_en_az_bir": 0.1412,
           "dusuk_guven": true
         }
-      }
+      },
+      "yorgunluk": {
+        "ev_dinlenme": 6,
+        "dep_dinlenme": 4,
+        "ev_avrupa": false,
+        "dep_avrupa": false,
+        "ev_yorgun": false,
+        "dep_yorgun": true,
+        "etki_uygulandi": false
+      },
+      "xg_modeli": null
     },
     {
       "lig": "Serie A",
@@ -8930,7 +9340,17 @@
           "p_en_az_bir": 0.1425,
           "dusuk_guven": true
         }
-      }
+      },
+      "yorgunluk": {
+        "ev_dinlenme": 4,
+        "dep_dinlenme": 5,
+        "ev_avrupa": false,
+        "dep_avrupa": false,
+        "ev_yorgun": true,
+        "dep_yorgun": false,
+        "etki_uygulandi": false
+      },
+      "xg_modeli": null
     },
     {
       "lig": "Premier League",
@@ -9165,7 +9585,17 @@
           "p_en_az_bir": 0.1202,
           "dusuk_guven": true
         }
-      }
+      },
+      "yorgunluk": {
+        "ev_dinlenme": 8,
+        "dep_dinlenme": 9,
+        "ev_avrupa": false,
+        "dep_avrupa": false,
+        "ev_yorgun": false,
+        "dep_yorgun": false,
+        "etki_uygulandi": false
+      },
+      "xg_modeli": null
     },
     {
       "lig": "La Liga",
@@ -9400,7 +9830,17 @@
           "p_en_az_bir": 0.2233,
           "dusuk_guven": true
         }
-      }
+      },
+      "yorgunluk": {
+        "ev_dinlenme": 9,
+        "dep_dinlenme": 7,
+        "ev_avrupa": false,
+        "dep_avrupa": false,
+        "ev_yorgun": false,
+        "dep_yorgun": false,
+        "etki_uygulandi": false
+      },
+      "xg_modeli": null
     }
   ]
 }
