@@ -156,11 +156,11 @@ def parse_fixture(f: dict) -> dict | None:
 
 
 # ---------------- indirme ----------------
-def fixtures_between(lid: int, a: dt.date, b: dt.date) -> list[dict]:
+def fixtures_between(lid: int, a: dt.date, b: dt.date, includes: str = INCLUDES) -> list[dict]:
     out, page = [], 1
     while True:
         resp = get(f"/fixtures/between/{a}/{b}", {"filters": f"fixtureLeagues:{lid}",
-                                                   "include": INCLUDES, "per_page": 50, "page": page})
+                                                   "include": includes, "per_page": 50, "page": page})
         out.extend(resp.get("data") or [])
         if not (resp.get("pagination") or {}).get("has_more"):
             return out
