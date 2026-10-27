@@ -26,6 +26,13 @@ jobs:
           SPORTMONKS_TOKEN: ${{ secrets.SPORTMONKS_TOKEN }}
         run: python sportmonks.py
 
+      - name: Avrupa kupasi maclarini guncelle
+        continue-on-error: true  # kaynak yanit vermezse model dinlenme verisi olmadan devam eder
+        env:
+          SPORTMONKS_TOKEN: ${{ secrets.SPORTMONKS_TOKEN }}
+          FOOTBALL_DATA_ORG_KEY: ${{ secrets.FOOTBALL_DATA_ORG_KEY }}
+        run: python yorgunluk.py
+
       - name: Ayarlari ara
         run: |
           python tune.py --hepsi | tee ayar_sonuc.txt
@@ -42,6 +49,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add ayarlar.json ayar_sonuc.txt
           if [ -d data_sm ]; then git add data_sm/; fi
+          if [ -d data_euro ]; then git add data_euro/; fi
           git diff --staged --quiet || git commit -m "Model ayarlari guncellendi"
           git pull --rebase
           git push
