@@ -65,7 +65,9 @@ def _token() -> str:
 
 def get(path: str, params: dict | None = None, tries: int = 4) -> dict:
     """Token başlıkta gider (URL'de değil), böylece loglara düşmez."""
-    url = BASE_URL + path + ("?" + urllib.parse.urlencode(params, safe=";:,") if params else "")
+    # yoldaki boşluk vb. karakterler kodlanır (ör. "/leagues/search/Europa League")
+    url = (BASE_URL + urllib.parse.quote(path, safe="/:,;")
+           + ("?" + urllib.parse.urlencode(params, safe=";:,") if params else ""))
     req = urllib.request.Request(url, headers={"Authorization": _token(), "Accept": "application/json",
                                                "User-Agent": "futbol-tahmin/1.0"})
     for attempt in range(tries):
