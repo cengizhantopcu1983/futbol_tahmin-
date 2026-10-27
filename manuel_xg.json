@@ -1,6 +1,43 @@
 {
- "guncelleme": "2026-10-27T17:44",
- "maclar": {},
+ "guncelleme": "2026-10-27T19:31",
+ "maclar": {
+  "T1|2026-10-23|Alanyaspor|Kocaelispor": {
+   "ev_xg": 1.17,
+   "dep_xg": 1.71
+  },
+  "T1|2026-10-24|Eyupspor|Kasimpasa": {
+   "ev_xg": 1.42,
+   "dep_xg": 1.21
+  },
+  "T1|2026-10-24|Gaziantep|Erzurumspor": {
+   "ev_xg": 2.17,
+   "dep_xg": 1.03
+  },
+  "T1|2026-10-24|Samsunspor|Amedspor": {
+   "ev_xg": 1.84,
+   "dep_xg": 0.76
+  },
+  "T1|2026-10-25|Goztep|Corum": {
+   "ev_xg": 1.89,
+   "dep_xg": 1.44
+  },
+  "T1|2026-10-25|Konyaspor|Genclerbirligi": {
+   "ev_xg": 1.84,
+   "dep_xg": 0.76
+  },
+  "T1|2026-10-26|Besiktas|Buyuksehyr": {
+   "ev_xg": 1.9,
+   "dep_xg": 1.03
+  },
+  "T1|2026-10-26|Galatasaray|Fenerbahce": {
+   "ev_xg": 2.43,
+   "dep_xg": 0.67
+  },
+  "T1|2026-10-26|Rizespor|Trabzonspor": {
+   "ev_xg": 1.27,
+   "dep_xg": 1.68
+  }
+ },
  "takimlar": {
   "T1": {
    "Alanyaspor": {
