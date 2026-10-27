@@ -117,3 +117,56 @@ def summary(code: str, manual: dict) -> dict:
     games = [k for k in manual.get("maclar", {}) if k.startswith(code + "|")]
     teams = manual.get("takimlar", {}).get(code) or {}
     return {"mac": len(games), "takim": len(teams)}
+
+
+# ---------------- bitiricilik: gerçekleşen gol / xG ----------------
+SHRINK_XG = 40.0  # küçültme gücü (xG birimi). Simülasyonla seçildi: ham oran çok gürültülü, k=40 her senaryoda en iyiye yakın.
+
+
+def _ratio(goals: float, xg: float, k: float = SHRINK_XG) -> float:
+    """Küçültülmüş oran: (gol + k) / (xG + k). Az veride 1'e yakın, çok veride gol/xG'ye yaklaşır."""
+    return (goals + k) / (xg + k)
+
+
+def finishing_factors(df: pd.DataFrame, code: str, manual: dict, season: str | None = None,
+                      k: float = SHRINK_XG) -> dict:
+    """Bu sezonun iç/dış saha gerçek golleri ile elle girilen xG ortalamalarından takım çarpanları.
+
+    Her takım için (iç saha 'ic', dış saha 'dis'):
+      atak    = attığı gol / ürettiği xG       (> 1: xG'sinden fazla gol atıyor)
+      savunma = yediği gol / rakibe verdiği xGA (> 1: xGA'sından fazla gol yiyor, ör. kaleci)
+    'carpan' değerleri küçültülmüştür ve modele bunlar girer.
+    """
+    out: dict = {}
+    if not len(df):
+        return out
+    season = season or df["Season"].iloc[-1]
+    cur = df[df["Season"] == season]
+    for t, v in (manual.get("takimlar", {}).get(code) or {}).items():
+        sp = team_split(v)
+        if not sp:
+            continue
+        home, away = cur[cur["HomeTeam"] == t], cur[cur["AwayTeam"] == t]
+        res = {}
+        for yer, games, gf_col, ga_col in (("ic", home, "FTHG", "FTAG"), ("dis", away, "FTAG", "FTHG")):
+            n = len(games)
+            if n == 0:
+                continue
+            gf, ga = float(games[gf_col].sum()), float(games[ga_col].sum())
+            xgf, xga = sp[f"{yer}_xg"] * n, sp[f"{yer}_xga"] * n
+            res[yer] = {"mac": n, "gol": int(gf), "xg": round(xgf, 2), "yenilen": int(ga), "xga": round(xga, 2),
+                        "atak_oran": round(gf / xgf, 3) if xgf > 0 else None,
+                        "savunma_oran": round(ga / xga, 3) if xga > 0 else None,
+                        "atak_carpan": round(_ratio(gf, xgf, k), 3),
+                        "savunma_carpan": round(_ratio(ga, xga, k), 3)}
+        if res:
+            out[t] = res
+    return out
+
+
+def match_multipliers(factors: dict, home: str, away: str) -> tuple[float, float]:
+    """Gölge modelin beklenen gollerine uygulanacak çarpanlar (ev, deplasman)."""
+    h, a = factors.get(home, {}), factors.get(away, {})
+    fh = h.get("ic", {}).get("atak_carpan", 1.0) * a.get("dis", {}).get("savunma_carpan", 1.0)
+    fa = a.get("dis", {}).get("atak_carpan", 1.0) * h.get("ic", {}).get("savunma_carpan", 1.0)
+    return float(fh), float(fa)
