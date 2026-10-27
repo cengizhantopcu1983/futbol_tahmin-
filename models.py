@@ -173,13 +173,15 @@ class DixonColes:
         return float(lam), float(mu)
 
     def score_matrix(self, home: str, away: str, sd: float = 0.10, n_draws: int = 400,
-                     seed: int = 0, h_tired: float = 0, a_tired: float = 0) -> np.ndarray:
+                     seed: int = 0, h_tired: float = 0, a_tired: float = 0, mult=None) -> np.ndarray:
         """Skor olasılık matrisi: satır = ev sahibi golü, sütun = deplasman golü.
 
         sd > 0 ise beklenen gollere belirsizlik eklenir (sakatlık, kadro, şans vb.)
         ve sonuç bu senaryoların ortalamasıdır.
         """
         lam, mu = self.expected_goals(home, away, h_tired, a_tired)
+        if mult is not None:  # dışarıdan çarpan (ör. bitiricilik)
+            lam, mu = lam * mult[0], mu * mult[1]
         if sd > 0:
             rng = np.random.default_rng(seed)
             f = np.exp(rng.normal(-sd ** 2 / 2, sd, size=(n_draws, 2)))
@@ -200,10 +202,12 @@ class DixonColes:
         return mats.mean(axis=0)
 
     def predict(self, home: str, away: str, sd: float = 0.10, n_sim: int = 10000,
-                seed: int = 0, h_tired: float = 0, a_tired: float = 0) -> dict:
-        mat = self.score_matrix(home, away, sd=sd, seed=seed, h_tired=h_tired, a_tired=a_tired)
+                seed: int = 0, h_tired: float = 0, a_tired: float = 0, mult=None) -> dict:
+        mat = self.score_matrix(home, away, sd=sd, seed=seed, h_tired=h_tired, a_tired=a_tired, mult=mult)
         out = summarize(mat)
         lam, mu = self.expected_goals(home, away, h_tired, a_tired)
+        if mult is not None:
+            lam, mu = lam * mult[0], mu * mult[1]
         out.update(home=home, away=away, xg_home=lam, xg_away=mu,
                    unknown=[t for t in (home, away) if t not in self.att])
         if n_sim:
