@@ -6,7 +6,9 @@ Dosya biçimi (uygulama yazar, burada sadece okunur):
   "takimlar": {"T1": {"Galatasaray": {"ic_xg": 2.3, "ic_xga": 0.7, "dis_xg": 1.6, "dis_xga": 1.1}}}
 }
 - maclar: biten bir maçın iki takımının xG'si (anahtar: lig|tarih|ev|deplasman, adlar
-  bitenler.json'daki gibi).
+  bitenler.json'daki gibi). Aynı kayıtta isteğe bağlı maç istatistikleri de olabilir:
+  "ev_is"/"dep_is" (isabetli şut), "ev_bs"/"dep_bs" (büyük şans), "ev_top"/"dep_top" (topla oynama %).
+  Bunlar Sportmonks/football-data'da olmayan maçlarda ana modele girer (add_manual_stats).
 - takimlar: takımın bu sezon maç başına ortalama attığı (xg) ve yediği (xga) xG,
   iç saha (ic_) ve dış saha (dis_) için ayrı. Eski biçim ({"xg", "xga"}) de okunur;
   o durumda iç ve dış saha için aynı değer kullanılır.
@@ -170,3 +172,44 @@ def match_multipliers(factors: dict, home: str, away: str) -> tuple[float, float
     fh = h.get("ic", {}).get("atak_carpan", 1.0) * a.get("dis", {}).get("savunma_carpan", 1.0)
     fa = a.get("dis", {}).get("atak_carpan", 1.0) * h.get("ic", {}).get("savunma_carpan", 1.0)
     return float(fh), float(fa)
+
+
+# elle girilen maç istatistikleri: json alanı -> (ev sütunu, dep sütunu, en büyük geçerli değer)
+STAT_FIELDS = {"is": ("HST", "AST", 40), "bs": ("HBC", "ABC", 15), "top": ("HPOS", "APOS", 100)}
+
+
+def add_manual_stats(df: pd.DataFrame, code: str, manual: dict | None = None) -> pd.DataFrame:
+    """Elle girilen isabetli şut / büyük şans / topla oynama değerlerini boş olan hücrelere yazar."""
+    manual = manual if manual is not None else load_manual()
+    games = {k: v for k, v in (manual.get("maclar") or {}).items() if k.startswith(code + "|") and isinstance(v, dict)}
+    if not games or not len(df):
+        return df
+    df = df.copy()
+    for hc, ac, _ in STAT_FIELDS.values():
+        for c in (hc, ac):
+            if c not in df.columns:
+                df[c] = np.nan
+            df[c] = pd.to_numeric(df[c], errors="coerce")
+    index = {match_key(code, r.Date, r.HomeTeam, r.AwayTeam): i
+             for i, r in enumerate(df[["Date", "HomeTeam", "AwayTeam"]].itertuples(index=False))}
+    n = 0
+    for key, g in games.items():
+        i = index.get(key)
+        if i is None:
+            continue
+        for f, (hc, ac, mx) in STAT_FIELDS.items():
+            hv, av = g.get(f"ev_{f}"), g.get(f"dep_{f}")
+            try:
+                hv, av = float(hv), float(av)
+            except (TypeError, ValueError):
+                continue
+            if not (0 <= hv <= mx and 0 <= av <= mx):
+                continue
+            if f == "top" and not 90 <= hv + av <= 110:
+                continue  # topla oynama toplamı ~100 olmalı
+            hi, ai = df.columns.get_loc(hc), df.columns.get_loc(ac)
+            if pd.isna(df.iat[i, hi]) or pd.isna(df.iat[i, ai]):
+                df.iat[i, hi], df.iat[i, ai] = hv, av
+                n += 1
+    df.attrs["manual_stats"] = n
+    return df
