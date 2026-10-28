@@ -23,6 +23,7 @@ from data import (FIXTURE_COLS, LEAGUES, TZ_TR, current_season_start, find_team,
 from yorgunluk import TIRED_DAYS
 from ekstra import Extras
 from ozellikler import H2HIndex, h2h_mult, possession_diff
+from eksik import W_ATT, W_DEF, build as build_strength, load_manual_lineups, team_sheet, upcoming_missing
 from manuel_xg import add_manual_xg, finishing_factors, load_manual, match_multipliers, shadow_weights
 from yorgunluk import RestCalendar
 from models import DixonColes, compute_elo, elo_expectation, head_to_head, team_form
@@ -43,7 +44,7 @@ def pct(p: float) -> str:
 
 SETTINGS_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "ayarlar.json")
 DEFAULTS = {"xi": 0.0019, "reg": 1.0, "sot": 0.0, "bc": 0.0, "sd": 0.10,
-            "fatigue": False, "pos": False, "h2h": False}
+            "fatigue": False, "pos": False, "h2h": False, "lineup": None}
 FLAGS = ("fatigue", "pos", "h2h")
 
 
@@ -53,8 +54,9 @@ def league_params(code: str, args) -> dict:
     try:
         with open(SETTINGS_FILE, encoding="utf-8") as f:
             saved = json.load(f).get(code, {})
-        p.update({k: float(saved[k]) for k in DEFAULTS if k in saved and k not in FLAGS})
+        p.update({k: float(saved[k]) for k in DEFAULTS if k in saved and k not in FLAGS and k != "lineup"})
         p.update({k: bool(saved.get(k, False)) for k in FLAGS})
+        p["lineup"] = saved.get("lineup") if saved.get("lineup") in ("xi", "side") else None
     except (OSError, ValueError):
         pass
     for key, arg in (("xi", "xi"), ("reg", "reg"), ("sot", "sut"), ("bc", "buyuk_sans"), ("sd", "belirsizlik")):
@@ -74,8 +76,17 @@ class LeagueModel:
         self.df = load_league(code, n_seasons=args.sezon_sayisi)
         self.model = DixonColes(xi=self.params["xi"], reg=self.params["reg"],
                                 sot=self.params["sot"], bc=self.params["bc"],
-                                fatigue=self.params["fatigue"], pos=self.params["pos"]).fit(self.df)
+                                fatigue=self.params["fatigue"], pos=self.params["pos"],
+                                lineup=self.params["lineup"]).fit(self.df)
         self.h2h_index = H2HIndex(self.df)
+        # oyuncu önemleri ve kadrolar (eksik oyuncu etkisi ve uygulamadaki kadro seçimi için)
+        self.lineups = load_manual_lineups()
+        self.miss_center = self.df.attrs.get("miss_center", {})
+        try:
+            self.strength, self.squads = build_strength(self.df, code, self.lineups)
+        except Exception as e:
+            print(f"  (oyuncu verisi okunamadı: {e})")
+            self.strength, self.squads = None, {}
         self.extras = Extras().fit(self.df, xi=self.params["xi"])
         self._fit_shadow()
         self.elo, _ = compute_elo(self.df)
@@ -96,7 +107,8 @@ class LeagueModel:
         sot, bc, wx = shadow_weights(self.params["sot"], self.params["bc"])
         try:
             m = DixonColes(xi=self.params["xi"], reg=self.params["reg"], sot=sot, bc=bc, xg=wx,
-                           fatigue=self.params["fatigue"], pos=self.params["pos"]).fit(dfx)
+                           fatigue=self.params["fatigue"], pos=self.params["pos"],
+                           lineup=self.params["lineup"]).fit(dfx)
         except Exception as e:
             print(f"  (xG'li gölge model kurulamadı: {e})")
             return
@@ -216,7 +228,7 @@ def run_fixtures(args):
     fx = collect_fixtures()
     if not len(fx):
         print("Yaklaşan maç bulunamadı.")
-    output = []
+    output, kadro_ligler = [], {}
     for code in [c for c in LEAGUES if c in set(fx["Div"])]:
         print(f"\n### {LEAGUES[code]}")
         try:
@@ -224,7 +236,9 @@ def run_fixtures(args):
             p = lm.params
             print(f"  ayarlar: xi={p['xi']}, reg={p['reg']}, isabetli şut={p['sot']}, büyük şans={p['bc']}, "
                   f"belirsizlik={p['sd']}, yorgunluk={'açık' if p['fatigue'] else 'kapalı'}, "
-                  f"topla oynama={'açık' if p['pos'] else 'kapalı'}, eşleşme={'açık' if p['h2h'] else 'kapalı'}")
+                  f"topla oynama={'açık' if p['pos'] else 'kapalı'}, eşleşme={'açık' if p['h2h'] else 'kapalı'}, "
+                  f"eksik oyuncu={ {'xi': 'ilk 11', 'side': 'sakat listesi'}.get(p['lineup'], 'kapalı') }"
+                  + (f" (hücum {lm.model.miss_att:+.3f}, savunma {lm.model.miss_def:+.3f})" if lm.model.lineup_used else ""))
             if lm.shadow is not None:
                 print(f"  xG'li gölge model: {lm.shadow_n} maçta xG (elle: {lm.shadow_detail['mac']}, "
                       f"ortalamadan: {lm.shadow_detail['ortalama']}), ağırlık {lm.shadow_w}")
@@ -232,7 +246,7 @@ def run_fixtures(args):
             print(f"  atlandı: {e}")
             continue
         teams = sorted(set(lm.model.teams) | set(lm.current_teams))
-        seen, items = set(), []
+        seen, items, used_teams = set(), [], set()
         for m in fx[fx["Div"] == code].itertuples(index=False):
             try:
                 home = resolve_team(m.HomeNames, teams)
@@ -266,15 +280,31 @@ def run_fixtures(args):
             e_h, e_a, eslesme = h2h_mult(lm.h2h_index, home, away, lam0, mu0)
             eslesme["uygulandi"] = bool(lm.params["h2h"] and eslesme.get("mac", 0) > 0)
             mult_main = (e_h, e_a) if eslesme["uygulandi"] else None
+            # eksik oyuncu: uygulamadan girilen ilk 11 / eksikler (manuel_kadro.json)
+            date_s = m.Date.strftime("%Y-%m-%d") if m.Date == m.Date else ""
+            entry = (lm.lineups.get("maclar") or {}).get(f"{code}|{date_s}|{home}|{away}")
+            miss, lu_used = None, False
+            mode = lm.params["lineup"]
+            if isinstance(entry, dict) and mode and lm.model.lineup_used and lm.strength is not None:
+                cen = lm.miss_center.get(mode, (0.0, 0.0))
+                hm = upcoming_missing(lm.strength, home, entry.get("ev_11"), entry.get("ev_eksik"), mode, cen)
+                am = upcoming_missing(lm.strength, away, entry.get("dep_11"), entry.get("dep_eksik"), mode, cen)
+                if hm or am:
+                    miss = (*(hm or (0.0, 0.0)), *(am or (0.0, 0.0)))
+                    lu_used = True
+            lam_b, mu_b = lm.model.expected_goals(home, away, fh_t, fa_t, pdv)  # kadro etkisi hariç
+            if mult_main:
+                lam_b, mu_b = lam_b * mult_main[0], mu_b * mult_main[1]
             r = lm.model.predict(home, away, sd=lm.sd, n_sim=0, h_tired=fh_t, a_tired=fa_t,
-                                 pos_diff=pdv, mult=mult_main)
+                                 pos_diff=pdv, mult=mult_main, miss=miss)
+            used_teams.update((home, away))
             shadow = None
             if lm.shadow is not None:
                 mult = match_multipliers(lm.finish, home, away)
                 if mult_main:
                     mult = (mult[0] * mult_main[0], mult[1] * mult_main[1])
                 rs = lm.shadow.predict(home, away, sd=lm.sd, n_sim=0, h_tired=fh_t, a_tired=fa_t,
-                                       mult=mult, pos_diff=pdv)
+                                       mult=mult, pos_diff=pdv, miss=miss)
                 shadow = {"p_ev": round(rs["pH"], 4), "p_beraberlik": round(rs["pD"], 4),
                           "p_deplasman": round(rs["pA"], 4), "xg_ev": round(rs["xg_home"], 2),
                           "xg_deplasman": round(rs["xg_away"], 2), "mac_sayisi": lm.shadow_n,
@@ -316,15 +346,34 @@ def run_fixtures(args):
                 "xg_modeli": shadow,
                 "eslesme": eslesme,
                 "topla_oynama_farki": round(pdv, 2) if lm.params["pos"] else None,
+                # uygulamada kadro seçilince telefon tahmini bu değerlerle yeniden hesaplar
+                "kadro": {"lam": round(lam_b, 4), "mu": round(mu_b, 4), "uygulandi": lu_used,
+                          "girilen": entry if isinstance(entry, dict) else None},
             })
+        kadro_ligler[code] = league_lineup_info(lm, used_teams)
     output.sort(key=lambda o: (o["tarih"] or "9999", o["saat"] or "", o["lig_kodu"]))
     if args.json:
         payload = {"olusturulma": dt.datetime.now(TZ_TR).isoformat(timespec="minutes"),
-                   "model": "dixon-coles-v1", "maclar": output}
+                   "model": "dixon-coles-v1", "maclar": output, "kadro_ligler": kadro_ligler}
         with open(args.json, "w", encoding="utf-8") as f:
             json.dump(payload, f, ensure_ascii=False, indent=2)
         print(f"\n{len(output)} maç {args.json} dosyasına yazıldı.")
         write_finished(os.path.join(os.path.dirname(os.path.abspath(args.json)), "bitenler.json"))
+
+
+def league_lineup_info(lm, teams) -> dict:
+    """Uygulamadaki kadro seçimi için: takım listeleri (oyuncu önemiyle) ve modelin katsayıları."""
+    mode = lm.params["lineup"] if lm.model.lineup_used else None
+    sheets = {}
+    if lm.strength is not None:
+        for t in sorted(teams):
+            sheet = team_sheet(lm.strength, lm.squads, t)
+            if sheet:
+                sheets[t] = sheet
+    cen = lm.miss_center.get(mode or "xi", (0.0, 0.0))
+    return {"mod": mode, "katsayi_hucum": round(lm.model.miss_att, 4), "katsayi_savunma": round(lm.model.miss_def, 4),
+            "merkez": [round(cen[0], 4), round(cen[1], 4)], "rho": round(lm.model.rho, 4), "sd": lm.sd,
+            "agirlik_hucum": W_ATT, "agirlik_savunma": W_DEF, "takimlar": sheets}
 
 
 def write_finished(path: str) -> None:
