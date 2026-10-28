@@ -222,6 +222,11 @@ def load_league(code: str, seasons: list[str] | None = None, n_seasons: int = 4,
             df = add_fatigue(df)
         except ImportError:
             pass
+        try:  # topla oynama farkı (PosDiff)
+            from ozellikler import add_possession
+            df = add_possession(df)
+        except ImportError:
+            pass
     return df
 
 
