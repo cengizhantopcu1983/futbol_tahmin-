@@ -1,46 +1,62 @@
 
-=== Süper Lig (63 sn) ===
-  324 kombinasyon denendi (büyük şans verisi olan maç oranı, 2425: %88). Adaylar (RPS, küçük = iyi):
+=== Süper Lig (99 sn) ===
+  486 kombinasyon denendi (büyük şans verisi olan maç oranı, 2425: %88). Adaylar (RPS, küçük = iyi):
                                   2425    2526  Ortalama   ayar
     Varsayılan (sadece gol)     0.1983  0.1936    0.1961   xi=0.0019 reg=1.0 şut=0.0 b.şans=0.0 bel.=0.1
     Sadece gol (ayarlı)         0.1936  0.1941    0.1938   xi=0.0045 reg=3.0 şut=0.0 b.şans=0.0 bel.=0.0
-    Gol + isabetli şut          0.1925  0.1929    0.1927   xi=0.0045 reg=1.0 şut=0.5 b.şans=0.0 bel.=0.0
-    Gol + büyük şans            0.1907  0.1909    0.1908   xi=0.0045 reg=1.0 şut=0.0 b.şans=0.7 bel.=0.0 <-
-    Gol + şut + büyük şans      0.1908  0.1912    0.1910   xi=0.0045 reg=1.0 şut=0.2 b.şans=0.5 bel.=0.0
+    Gol + isabetli şut          0.1915  0.1933    0.1923   xi=0.009 reg=0.3 şut=0.7 b.şans=0.0 bel.=0.0
+    Gol + büyük şans            0.1900  0.1912    0.1906   xi=0.006 reg=1.0 şut=0.0 b.şans=0.7 bel.=0.0 <-
+    Gol + şut + büyük şans      0.1900  0.1914    0.1907   xi=0.006 reg=1.0 şut=0.2 b.şans=0.5 bel.=0.0
+    Ek etkiler (seçilen ayarın üstüne, sırayla):
+      + yorgunluk               0.1900  0.1918    0.1908   kapalı (iyileştirmedi) · maçların %12'inde bir takım ≤4 gün önce oynamış
+      + topla oynama            0.1901  0.1899    0.1900   AÇIK  (iyileştirdi) · maçların %83'inde veri var
+      + eşleşme (H2H)           0.1897  0.1964    0.1929   kapalı (iyileştirmedi) · aynı sahadaki geçmiş karşılaşmalar
     Bahis piyasası                      0.1858
-  Karar: Gol + büyük şans  ->  xi=0.0045, reg=1.0, isabetli şut=0.0, büyük şans=0.7, belirsizlik=0.0
+  Karar: Gol + büyük şans + topla oynama  ->  xi=0.006, reg=1.0, isabetli şut=0.0, büyük şans=0.7, belirsizlik=0.0, yorgunluk=kapalı, topla oynama=açık, eşleşme=kapalı
 
-=== Premier League (66 sn) ===
-  324 kombinasyon denendi (büyük şans verisi olan maç oranı, 2425: %98). Adaylar (RPS, küçük = iyi):
+=== Premier League (105 sn) ===
+  486 kombinasyon denendi (büyük şans verisi olan maç oranı, 2425: %98). Adaylar (RPS, küçük = iyi):
                                   2425    2526  Ortalama   ayar
     Varsayılan (sadece gol)     0.2021  0.2085    0.2053   xi=0.0019 reg=1.0 şut=0.0 b.şans=0.0 bel.=0.1
     Sadece gol (ayarlı)         0.2000  0.2090    0.2045   xi=0.0045 reg=0.3 şut=0.0 b.şans=0.0 bel.=0.1
-    Gol + isabetli şut          0.1986  0.2064    0.2025   xi=0.0045 reg=0.3 şut=0.5 b.şans=0.0 bel.=0.1
-    Gol + büyük şans            0.1954  0.2072    0.2013   xi=0.0045 reg=0.3 şut=0.0 b.şans=0.7 bel.=0.1
-    Gol + şut + büyük şans      0.1958  0.2064    0.2011   xi=0.0045 reg=0.3 şut=0.2 b.şans=0.5 bel.=0.1 <-
+    Gol + isabetli şut          0.1980  0.2079    0.2029   xi=0.009 reg=0.3 şut=0.7 b.şans=0.0 bel.=0.1
+    Gol + büyük şans            0.1948  0.2078    0.2013   xi=0.006 reg=0.3 şut=0.0 b.şans=0.7 bel.=0.0
+    Gol + şut + büyük şans      0.1950  0.2071    0.2011   xi=0.006 reg=0.3 şut=0.2 b.şans=0.5 bel.=0.1 <-
+    Ek etkiler (seçilen ayarın üstüne, sırayla):
+      + yorgunluk               0.1952  0.2072    0.2012   kapalı (iyileştirmedi) · maçların %24'inde bir takım ≤4 gün önce oynamış
+      + topla oynama            0.1959  0.2066    0.2012   kapalı (iyileştirmedi) · maçların %94'inde veri var
+      + eşleşme (H2H)           0.1965  0.2080    0.2022   kapalı (iyileştirmedi) · aynı sahadaki geçmiş karşılaşmalar
     Bahis piyasası                      0.2053
-  Karar: Gol + şut + büyük şans  ->  xi=0.0045, reg=0.3, isabetli şut=0.2, büyük şans=0.5, belirsizlik=0.1
+  Karar: Gol + şut + büyük şans  ->  xi=0.006, reg=0.3, isabetli şut=0.2, büyük şans=0.5, belirsizlik=0.1, yorgunluk=kapalı, topla oynama=kapalı, eşleşme=kapalı
 
-=== La Liga (67 sn) ===
-  324 kombinasyon denendi (büyük şans verisi olan maç oranı, 2425: %98). Adaylar (RPS, küçük = iyi):
+=== La Liga (104 sn) ===
+  486 kombinasyon denendi (büyük şans verisi olan maç oranı, 2425: %98). Adaylar (RPS, küçük = iyi):
                                   2425    2526  Ortalama   ayar
     Varsayılan (sadece gol)     0.1960  0.2009    0.1984   xi=0.0019 reg=1.0 şut=0.0 b.şans=0.0 bel.=0.1
     Sadece gol (ayarlı)         0.1959  0.2007    0.1983   xi=0.0019 reg=0.3 şut=0.0 b.şans=0.0 bel.=0.0
     Gol + isabetli şut          0.1959  0.2000    0.1979   xi=0.0019 reg=0.3 şut=0.3 b.şans=0.0 bel.=0.0
     Gol + büyük şans            0.1958  0.1998    0.1978   xi=0.0019 reg=0.3 şut=0.0 b.şans=0.3 bel.=0.0
     Gol + şut + büyük şans      0.1958  0.1997    0.1978   xi=0.003 reg=0.3 şut=0.3 b.şans=0.3 bel.=0.0 <-
+    Ek etkiler (seçilen ayarın üstüne, sırayla):
+      + yorgunluk               0.1967  0.1995    0.1981   kapalı (iyileştirmedi) · maçların %19'inde bir takım ≤4 gün önce oynamış
+      + topla oynama            0.1958  0.1998    0.1978   kapalı (iyileştirmedi) · maçların %94'inde veri var
+      + eşleşme (H2H)           0.2008  0.2021    0.2014   kapalı (iyileştirmedi) · aynı sahadaki geçmiş karşılaşmalar
     Bahis piyasası                      0.1957
-  Karar: Gol + şut + büyük şans  ->  xi=0.003, reg=0.3, isabetli şut=0.3, büyük şans=0.3, belirsizlik=0.0
+  Karar: Gol + şut + büyük şans  ->  xi=0.003, reg=0.3, isabetli şut=0.3, büyük şans=0.3, belirsizlik=0.0, yorgunluk=kapalı, topla oynama=kapalı, eşleşme=kapalı
 
-=== Serie A (66 sn) ===
-  324 kombinasyon denendi (büyük şans verisi olan maç oranı, 2425: %97). Adaylar (RPS, küçük = iyi):
+=== Serie A (105 sn) ===
+  486 kombinasyon denendi (büyük şans verisi olan maç oranı, 2425: %97). Adaylar (RPS, küçük = iyi):
                                   2425    2526  Ortalama   ayar
     Varsayılan (sadece gol)     0.1909  0.2014    0.1962   xi=0.0019 reg=1.0 şut=0.0 b.şans=0.0 bel.=0.1
     Sadece gol (ayarlı)         0.1906  0.2010    0.1958   xi=0.001 reg=3.0 şut=0.0 b.şans=0.0 bel.=0.0
     Gol + isabetli şut          0.1902  0.2012    0.1957   xi=0.0019 reg=1.0 şut=0.3 b.şans=0.0 bel.=0.0 <-
     Gol + büyük şans            0.1903  0.2028    0.1965   xi=0.001 reg=3.0 şut=0.0 b.şans=0.5 bel.=0.1
     Gol + şut + büyük şans      0.1900  0.2023    0.1962   xi=0.0019 reg=1.0 şut=0.3 b.şans=0.3 bel.=0.0
+    Ek etkiler (seçilen ayarın üstüne, sırayla):
+      + yorgunluk               0.1902  0.2014    0.1958   kapalı (iyileştirmedi) · maçların %14'inde bir takım ≤4 gün önce oynamış
+      + topla oynama            0.1890  0.2010    0.1950   AÇIK  (iyileştirdi) · maçların %94'inde veri var
+      + eşleşme (H2H)           0.1901  0.2046    0.1973   kapalı (iyileştirmedi) · aynı sahadaki geçmiş karşılaşmalar
     Bahis piyasası                      0.1966
-  Karar: Gol + isabetli şut  ->  xi=0.0019, reg=1.0, isabetli şut=0.3, büyük şans=0.0, belirsizlik=0.0
+  Karar: Gol + isabetli şut + topla oynama  ->  xi=0.0019, reg=1.0, isabetli şut=0.3, büyük şans=0.0, belirsizlik=0.0, yorgunluk=kapalı, topla oynama=açık, eşleşme=kapalı
 
 Ayarlar ayarlar.json dosyasına yazıldı.

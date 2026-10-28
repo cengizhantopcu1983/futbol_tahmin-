@@ -1,13 +1,16 @@
 {
   "T1": {
-    "xi": 0.0045,
+    "xi": 0.006,
     "reg": 1.0,
     "sot": 0.0,
     "bc": 0.7,
     "sd": 0.0,
+    "fatigue": false,
+    "pos": true,
+    "h2h": false,
     "lig": "Süper Lig",
     "rapor": {
-      "secilen_aile": "Gol + büyük şans",
+      "secilen_aile": "Gol + büyük şans + topla oynama",
       "adaylar": [
         {
           "aday": "Varsayılan (sadece gol)",
@@ -23,34 +26,37 @@
         },
         {
           "aday": "Gol + isabetli şut",
-          "ayar_rps": 0.19254,
-          "sinav_rps": 0.19292,
-          "ortalama": 0.19272
+          "ayar_rps": 0.19146,
+          "sinav_rps": 0.19328,
+          "ortalama": 0.19232
         },
         {
           "aday": "Gol + büyük şans",
-          "ayar_rps": 0.19066,
-          "sinav_rps": 0.19093,
-          "ortalama": 0.19078
+          "ayar_rps": 0.18995,
+          "sinav_rps": 0.19124,
+          "ortalama": 0.19056
         },
         {
           "aday": "Gol + şut + büyük şans",
-          "ayar_rps": 0.19078,
-          "sinav_rps": 0.19123,
-          "ortalama": 0.19099
+          "ayar_rps": 0.18996,
+          "sinav_rps": 0.19143,
+          "ortalama": 0.19065
         }
       ],
       "sinav_varsayilan_rps": 0.19358,
-      "sinav_secilen_rps": 0.19093,
+      "sinav_secilen_rps": 0.18991,
       "sinav_piyasa_rps": 0.18579
     }
   },
   "E0": {
-    "xi": 0.0045,
+    "xi": 0.006,
     "reg": 0.3,
     "sot": 0.2,
     "bc": 0.5,
     "sd": 0.1,
+    "fatigue": false,
+    "pos": false,
+    "h2h": false,
     "lig": "Premier League",
     "rapor": {
       "secilen_aile": "Gol + şut + büyük şans",
@@ -69,25 +75,25 @@
         },
         {
           "aday": "Gol + isabetli şut",
-          "ayar_rps": 0.19863,
-          "sinav_rps": 0.20644,
-          "ortalama": 0.20253
+          "ayar_rps": 0.19798,
+          "sinav_rps": 0.20788,
+          "ortalama": 0.20293
         },
         {
           "aday": "Gol + büyük şans",
-          "ayar_rps": 0.19535,
-          "sinav_rps": 0.20717,
-          "ortalama": 0.20126
+          "ayar_rps": 0.19478,
+          "sinav_rps": 0.20779,
+          "ortalama": 0.20128
         },
         {
           "aday": "Gol + şut + büyük şans",
-          "ayar_rps": 0.19577,
-          "sinav_rps": 0.20642,
-          "ortalama": 0.20109
+          "ayar_rps": 0.19504,
+          "sinav_rps": 0.2071,
+          "ortalama": 0.20107
         }
       ],
       "sinav_varsayilan_rps": 0.20847,
-      "sinav_secilen_rps": 0.20642,
+      "sinav_secilen_rps": 0.2071,
       "sinav_piyasa_rps": 0.20534
     }
   },
@@ -97,6 +103,9 @@
     "sot": 0.3,
     "bc": 0.3,
     "sd": 0.0,
+    "fatigue": false,
+    "pos": false,
+    "h2h": false,
     "lig": "La Liga",
     "rapor": {
       "secilen_aile": "Gol + şut + büyük şans",
@@ -143,9 +152,12 @@
     "sot": 0.3,
     "bc": 0.0,
     "sd": 0.0,
+    "fatigue": false,
+    "pos": true,
+    "h2h": false,
     "lig": "Serie A",
     "rapor": {
-      "secilen_aile": "Gol + isabetli şut",
+      "secilen_aile": "Gol + isabetli şut + topla oynama",
       "adaylar": [
         {
           "aday": "Varsayılan (sadece gol)",
@@ -179,9 +191,9 @@
         }
       ],
       "sinav_varsayilan_rps": 0.20139,
-      "sinav_secilen_rps": 0.20116,
+      "sinav_secilen_rps": 0.20101,
       "sinav_piyasa_rps": 0.19658
     }
   },
-  "_guncelleme": "2026-10-24T17:54"
+  "_guncelleme": "2026-10-28T07:38"
 }
