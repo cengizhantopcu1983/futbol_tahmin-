@@ -376,13 +376,30 @@ def league_lineup_info(lm, teams) -> dict:
             "agirlik_hucum": W_ATT, "agirlik_savunma": W_DEF, "takimlar": sheets}
 
 
+# biten maçlarda uygulamaya gönderilen kaynak istatistikleri: json adı -> sütun
+FINISHED_STATS = {"ev_is": "HST", "dep_is": "AST", "ev_bs": "HBC", "dep_bs": "ABC", "ev_top": "HPOS", "dep_top": "APOS"}
+
+
+def match_stats(r) -> dict:
+    out = {}
+    for k, c in FINISHED_STATS.items():
+        v = getattr(r, c, None)
+        try:
+            v = float(v)
+        except (TypeError, ValueError):
+            continue
+        if v == v:
+            out[k] = round(v, 1)
+    return out
+
+
 def write_finished(path: str) -> None:
     """Bu sezonun biten maçları ve takım listeleri (uygulamadaki 'Biten maçlar' ekranı için)."""
     sc = season_code(current_season_start())
     out = {"olusturulma": dt.datetime.now(TZ_TR).isoformat(timespec="minutes"), "sezon": sc, "ligler": []}
     for code, name in LEAGUES.items():
         try:
-            df = load_league(code, seasons=[sc], use_sm=False)
+            df = load_league(code, seasons=[sc], manual=False)  # Sportmonks istatistikleri dahil, elle girilenler hariç
         except Exception as e:
             print(f"  (biten maçlar: {name} atlandı: {e})")
             continue
@@ -391,7 +408,8 @@ def write_finished(path: str) -> None:
             "lig": name, "lig_kodu": code,
             "takimlar": sorted(set(df["HomeTeam"]) | set(df["AwayTeam"])),
             "maclar": [{"tarih": f"{r.Date:%Y-%m-%d}", "ev": r.HomeTeam, "deplasman": r.AwayTeam,
-                        "skor": f"{int(r.FTHG)}-{int(r.FTAG)}"} for r in df.itertuples(index=False)],
+                        "skor": f"{int(r.FTHG)}-{int(r.FTAG)}", "veri": match_stats(r)}
+                       for r in df.itertuples(index=False)],
         })
     with open(path, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
