@@ -1,81 +1,135 @@
 {
- "guncelleme": "2026-10-27T19:44",
+ "guncelleme": "2026-10-28T12:45",
  "maclar": {
   "I1|2026-10-23|Torino|Monza": {
-   "ev_xg": 1.85,
-   "dep_xg": 1.3
+   "dep_xg": 1.3,
+   "ev_xg": 1.85
   },
   "I1|2026-10-24|Cagliari|Bologna": {
-   "ev_xg": 0.75,
-   "dep_xg": 1.95
+   "dep_xg": 1.95,
+   "ev_xg": 0.75
   },
   "I1|2026-10-24|Como|Sassuolo": {
-   "ev_xg": 2.1,
-   "dep_xg": 1.15
+   "dep_xg": 1.15,
+   "ev_xg": 2.1
   },
   "I1|2026-10-24|Lazio|Parma": {
-   "ev_xg": 1.9,
-   "dep_xg": 1.05
+   "dep_xg": 1.05,
+   "ev_xg": 1.9
   },
   "I1|2026-10-24|Napoli|Roma": {
-   "ev_xg": 2.4,
-   "dep_xg": 2.25
+   "dep_xg": 2.25,
+   "ev_xg": 2.4
   },
   "I1|2026-10-25|Atalanta|Frosinone": {
-   "ev_xg": 3.2,
-   "dep_xg": 2.8
+   "dep_xg": 2.8,
+   "ev_xg": 3.2
   },
   "I1|2026-10-25|Genoa|Venezia": {
-   "ev_xg": 1.4,
-   "dep_xg": 0.95
+   "dep_xg": 0.95,
+   "ev_xg": 1.4
   },
   "I1|2026-10-25|Inter|Fiorentina": {
-   "ev_xg": 2.3,
-   "dep_xg": 1.1
+   "dep_xg": 1.1,
+   "ev_xg": 2.3
   },
   "I1|2026-10-25|Lecce|Juventus": {
-   "ev_xg": 0.65,
-   "dep_xg": 2.15
+   "dep_xg": 2.15,
+   "ev_xg": 0.65
   },
   "I1|2026-10-25|Udinese|Milan": {
-   "ev_xg": 0.8,
-   "dep_xg": 1.9
+   "dep_xg": 1.9,
+   "ev_xg": 0.8
   },
   "T1|2026-10-23|Alanyaspor|Kocaelispor": {
-   "ev_xg": 1.17,
-   "dep_xg": 1.71
+   "dep_bs": 2,
+   "dep_is": 4,
+   "dep_top": 42,
+   "dep_xg": 1.71,
+   "ev_bs": 2,
+   "ev_is": 5,
+   "ev_top": 58,
+   "ev_xg": 1.17
   },
   "T1|2026-10-24|Eyupspor|Kasimpasa": {
-   "ev_xg": 1.42,
-   "dep_xg": 1.21
+   "dep_bs": 2,
+   "dep_is": 4,
+   "dep_top": 48,
+   "dep_xg": 1.21,
+   "ev_bs": 1,
+   "ev_is": 3,
+   "ev_top": 52,
+   "ev_xg": 1.42
   },
   "T1|2026-10-24|Gaziantep|Erzurumspor": {
-   "ev_xg": 2.17,
-   "dep_xg": 1.03
+   "dep_bs": 3,
+   "dep_is": 6,
+   "dep_top": 54,
+   "dep_xg": 1.03,
+   "ev_bs": 1,
+   "ev_is": 3,
+   "ev_top": 46,
+   "ev_xg": 2.17
   },
   "T1|2026-10-24|Samsunspor|Amedspor": {
-   "ev_xg": 1.84,
-   "dep_xg": 0.76
+   "dep_bs": 2,
+   "dep_is": 5,
+   "dep_top": 49,
+   "dep_xg": 0.76,
+   "ev_bs": 1,
+   "ev_is": 4,
+   "ev_top": 51,
+   "ev_xg": 1.84
   },
   "T1|2026-10-25|Goztep|Corum": {
-   "ev_xg": 1.89,
-   "dep_xg": 1.44
+   "dep_bs": 1,
+   "dep_is": 2,
+   "dep_top": 45,
+   "dep_xg": 1.44,
+   "ev_bs": 3,
+   "ev_is": 6,
+   "ev_top": 55,
+   "ev_xg": 1.89
   },
   "T1|2026-10-25|Konyaspor|Genclerbirligi": {
-   "ev_xg": 1.84,
-   "dep_xg": 0.76
+   "dep_bs": 0,
+   "dep_is": 2,
+   "dep_top": 44,
+   "dep_xg": 0.76,
+   "ev_bs": 2,
+   "ev_is": 5,
+   "ev_top": 56,
+   "ev_xg": 1.84
   },
   "T1|2026-10-26|Besiktas|Buyuksehyr": {
-   "ev_xg": 1.9,
-   "dep_xg": 1.03
+   "dep_bs": 1,
+   "dep_is": 2,
+   "dep_top": 43,
+   "dep_xg": 1.03,
+   "ev_bs": 3,
+   "ev_is": 6,
+   "ev_top": 57,
+   "ev_xg": 1.9
   },
   "T1|2026-10-26|Galatasaray|Fenerbahce": {
-   "ev_xg": 2.43,
-   "dep_xg": 0.67
+   "dep_bs": 1,
+   "dep_is": 3,
+   "dep_top": 37,
+   "dep_xg": 0.67,
+   "ev_bs": 3,
+   "ev_is": 8,
+   "ev_top": 63,
+   "ev_xg": 2.43
   },
   "T1|2026-10-26|Rizespor|Trabzonspor": {
-   "ev_xg": 1.27,
-   "dep_xg": 1.68
+   "dep_bs": 4,
+   "dep_is": 7,
+   "dep_top": 52,
+   "dep_xg": 1.68,
+   "ev_bs": 2,
+   "ev_is": 5,
+   "ev_top": 48,
+   "ev_xg": 1.27
   }
  },
  "takimlar": {
