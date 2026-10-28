@@ -16,7 +16,7 @@ Elle girilen kadrolar (uygulama yazar): manuel_kadro.json
   "maclar": {"T1|2026-11-01|Galatasaray|Fenerbahce":
                {"ev_11": ["123", ...], "dep_11": [...], "ev_eksik": ["456"], "dep_eksik": []}},
   "ekle":  {"T1": {"Galatasaray": [{"id": "m:Ali Veli", "ad": "Ali Veli", "mevki": "F", "no": 9}]}},
-  "cikar": {"T1": {"Galatasaray": ["789"]}}
+  "cikar": {"T1": {"Galatasaray": [{"id": "789", "ad": "Eski Oyuncu"}]}}   (eski biçim: sadece id)
 }
 """
 from __future__ import annotations
@@ -46,6 +46,11 @@ def _read_json(path):
             return json.load(f)
     except (OSError, ValueError):
         return {}
+
+
+def _pid(x) -> str:
+    """Çıkarılan oyuncu kaydı: {"id": ..., "ad": ...} ya da sadece id."""
+    return str(x.get("id")) if isinstance(x, dict) else str(x)
 
 
 def load_manual_lineups(path: str | None = None) -> dict:
@@ -204,7 +209,7 @@ def build(df: pd.DataFrame, code: str, manual: dict | None = None):
     pl = load_players(code, teams, manual)
     squads = _squads_for(code, teams, manual)
     st = Strength(pl, _positions(pl, squads))
-    st.removed = {t: {str(x) for x in ids} for t, ids in ((manual.get("cikar") or {}).get(code) or {}).items()}
+    st.removed = {t: {_pid(x) for x in ids} for t, ids in ((manual.get("cikar") or {}).get(code) or {}).items()}
     return st, squads
 
 
@@ -253,7 +258,7 @@ def _squads_for(code: str, teams, manual: dict) -> dict:
     for team, players in ((manual.get("ekle") or {}).get(code) or {}).items():
         out[team].extend(p for p in players if isinstance(p, dict) and p.get("id"))
     for team, ids in ((manual.get("cikar") or {}).get(code) or {}).items():
-        drop = {str(x) for x in ids}
+        drop = {_pid(x) for x in ids}
         out[team] = [p for p in out.get(team, []) if str(p.get("id")) not in drop]
     return dict(out)
 
