@@ -29,13 +29,15 @@ import pandas as pd
 
 from data import LEAGUES, current_season_start, load_league, resolve_league, season_code, season_codes
 from models import DixonColes
+from ozellikler import H2HIndex, h2h_mult
 
 try:
     sys.stdout.reconfigure(encoding="utf-8")
 except Exception:
     pass
 
-XI_GRID = [0.0010, 0.0019, 0.0030, 0.0045]   # form ne kadar hızlı eskisin
+# form ne kadar hızlı eskisin (yarılanma: ~1,9 yıl, 1 yıl, 7,6 ay, 5 ay, 3,8 ay, 2,5 ay)
+XI_GRID = [0.0010, 0.0019, 0.0030, 0.0045, 0.0060, 0.0090]
 REG_GRID = [0.3, 1.0, 3.0]                   # az maçı olan takımları ne kadar ortalamaya çeksin
 SD_GRID = [0.0, 0.10, 0.20]                  # beklenen gole eklenen belirsizlik
 # (isabetli şut, büyük şans) ağırlıkları; (0, 0) = sadece goller
@@ -63,24 +65,38 @@ def accuracy(P: np.ndarray, o: np.ndarray) -> float:
     return float(np.mean(P.argmax(1) == o))
 
 
-def walk_forward(df, season, fit_configs, sds, refit_days, fatigue: bool = False):
+def predict_row(model, m, sd, extras: dict, h2h_index=None, n_draws=120):
+    """Bir maç için skor matrisi; extras: {"fatigue", "pos", "h2h"} açık/kapalı."""
+    ht = getattr(m, "HTired", 0) if extras.get("fatigue") else 0
+    at = getattr(m, "ATired", 0) if extras.get("fatigue") else 0
+    pdv = getattr(m, "PosDiff", 0.0) if extras.get("pos") else 0.0
+    pdv = 0.0 if pdv != pdv else pdv  # NaN -> 0
+    mult = None
+    if extras.get("h2h") and h2h_index is not None:
+        lam, mu = model.expected_goals(m.HomeTeam, m.AwayTeam, ht, at, pdv)
+        fh, fa, _ = h2h_mult(h2h_index, m.HomeTeam, m.AwayTeam, lam, mu, date=m.Date)
+        mult = (fh, fa)
+    return model.score_matrix(m.HomeTeam, m.AwayTeam, sd=sd, n_draws=n_draws, h_tired=ht, a_tired=at,
+                              mult=mult, pos_diff=pdv)
+
+
+def walk_forward(df, season, fit_configs, sds, refit_days, extras: dict | None = None):
     """Sezonu hafta hafta yürür; her (xi, reg, sot, bc) için modeli o güne kadarki veriyle eğitir."""
+    extras = extras or {}
     test = df[df["Season"] == season]
     preds = {(*cfg, sd): np.zeros((len(test), 3)) for cfg in fit_configs for sd in sds}
+    h2h_index = H2HIndex(df) if extras.get("h2h") else None
     t, end = test["Date"].min().normalize(), test["Date"].max()
     while t <= end:
         win = test[(test["Date"] >= t) & (test["Date"] < t + pd.Timedelta(days=refit_days))]
         if len(win):
             idx = test.index.get_indexer(win.index)
             for xi, reg, sot, bc in fit_configs:
-                model = DixonColes(xi=xi, reg=reg, sot=sot, bc=bc, fatigue=fatigue).fit(df, ref_date=t)
+                model = DixonColes(xi=xi, reg=reg, sot=sot, bc=bc, fatigue=bool(extras.get("fatigue")),
+                                   pos=bool(extras.get("pos"))).fit(df, ref_date=t)
                 for i, m in zip(idx, win.itertuples(index=False)):
-                    ht = getattr(m, "HTired", 0) if fatigue else 0
-                    at = getattr(m, "ATired", 0) if fatigue else 0
                     for sd in sds:
-                        mat = model.score_matrix(m.HomeTeam, m.AwayTeam, sd=sd, n_draws=120,
-                                                 h_tired=ht, a_tired=at)
-                        preds[(xi, reg, sot, bc, sd)][i] = probs(mat)
+                        preds[(xi, reg, sot, bc, sd)][i] = probs(predict_row(model, m, sd, extras, h2h_index))
         t += pd.Timedelta(days=refit_days)
     return test, preds
 
@@ -126,21 +142,38 @@ def tune_league(code: str, tune_season: str, test_season: str, refit_days: int, 
         rows.append((label, c, r1, r2, (r1 * n1 + r2 * n2) / (n1 + n2)))
     label_best, cfg_best, _, exam_best, _ = min(rows, key=lambda z: z[4])
     chosen = dict(zip(["xi", "reg", "sot", "bc", "sd"], cfg_best))
-    chosen["fatigue"] = False
 
-    # 3) Yorgunluk: seçilen ayara yorgunluk etkisi eklenince iki sezonda da iyileşiyor mu?
-    fat_row = None
+    # 3) Ek etkiler, sırayla: yorgunluk -> topla oynama -> eşleşme (H2H).
+    #    Her biri, o ana kadar seçilenlerin üstüne eklenince iki sezonun ortalamasında
+    #    iyileştiriyorsa açık kalır.
+    chosen.update(fatigue=False, pos=False, h2h=False)
+    extra_rows = []
+    cfg4, sd_b = cfg_best[:4], cfg_best[4]
+    current = next(z for z in rows if z[1] == cfg_best)[4]
     tired_share = float(df[["HTired", "ATired"]].to_numpy().mean()) if "HTired" in df.columns else 0.0
-    if tired_share > 0.02:
-        cfg4, sd_b = cfg_best[:4], cfg_best[4]
-        _, pf1 = walk_forward(df, tune_season, [cfg4], [sd_b], refit_days, fatigue=True)
-        _, pf2 = walk_forward(df, test_season, [cfg4], [sd_b], refit_days, fatigue=True)
+    pos_share = float((df.loc[df["Season"].isin([tune_season, test_season]), "PosDiff"] != 0).mean()) \
+        if "PosDiff" in df.columns else 0.0
+    checks = [("fatigue", "yorgunluk", tired_share > 0.02,
+               f"maçların %{100 * tired_share:.0f}'inde bir takım ≤4 gün önce oynamış"),
+              ("pos", "topla oynama", pos_share > 0.3, f"maçların %{100 * pos_share:.0f}'inde veri var"),
+              ("h2h", "eşleşme (H2H)", True, "aynı sahadaki geçmiş karşılaşmalar")]
+    adi = {"fatigue": "yorgunluk", "pos": "topla oynama", "h2h": "eşleşme"}
+    for key, ad, ok, note in checks:
+        if not ok:
+            extra_rows.append((f"  + {ad}", None, None, None, f"test edilemedi: veri yetersiz ({note})", False))
+            continue
+        trial = {k: chosen[k] for k in ("fatigue", "pos", "h2h")}
+        trial[key] = True
+        _, pf1 = walk_forward(df, tune_season, [cfg4], [sd_b], refit_days, extras=trial)
+        _, pf2 = walk_forward(df, test_season, [cfg4], [sd_b], refit_days, extras=trial)
         f1, f2 = rps(pf1[cfg_best], o), rps(pf2[cfg_best], o2)
-        best_row = next(z for z in rows if z[1] == cfg_best)
-        fat_row = ("  + yorgunluk etkisi", cfg_best, f1, f2, (f1 * n1 + f2 * n2) / (n1 + n2))
-        if fat_row[4] < best_row[4]:
-            chosen["fatigue"] = True
-            label_best, exam_best = label_best + " + yorgunluk", f2
+        avg = (f1 * n1 + f2 * n2) / (n1 + n2)
+        better = avg < current
+        extra_rows.append((f"  + {ad}", f1, f2, avg, note, better))
+        if better:
+            chosen[key] = True
+            current = avg
+            label_best, exam_best = label_best + f" + {adi[key]}", f2
     exam_def = next(z[3] for z in rows if z[1] == default_key)
 
     bk = test2[["bk_H", "bk_D", "bk_A"]].to_numpy()
@@ -153,20 +186,23 @@ def tune_league(code: str, tune_season: str, test_season: str, refit_days: int, 
           f"%{100 * bc_share:.0f}). Adaylar (RPS, küçük = iyi):")
     print(f"    {'':<26}{tune_season:>8}{test_season:>8}{'Ortalama':>10}   ayar")
     for label, c, r1, r2, avg in rows:
-        mark = " <-" if c == cfg_best and not chosen["fatigue"] else ""
+        mark = " <-" if c == cfg_best else ""
         print(f"    {label:<26}{r1:>8.4f}{r2:>8.4f}{avg:>10.4f}   "
               f"xi={c[0]} reg={c[1]} şut={c[2]} b.şans={c[3]} bel.={c[4]}{mark}")
-    if fat_row:
-        print(f"    {fat_row[0]:<26}{fat_row[2]:>8.4f}{fat_row[3]:>8.4f}{fat_row[4]:>10.4f}   "
-              f"(maçların %{100 * tired_share:.0f}'inde bir takım ≤4 gün önce oynamış)"
-              + (" <-" if chosen["fatigue"] else ""))
-    else:
-        print("    (yorgunluk testi yapılamadı: dinlenme verisi yetersiz)")
+    print("    Ek etkiler (seçilen ayarın üstüne, sırayla):")
+    for label, r1, r2, avg, note, better in extra_rows:
+        if r1 is None:
+            print(f"    {label:<26}   {note}")
+        else:
+            print(f"    {label:<26}{r1:>8.4f}{r2:>8.4f}{avg:>10.4f}   "
+                  f"{'AÇIK  (iyileştirdi)' if better else 'kapalı (iyileştirmedi)'} · {note}")
     if bk_rps is not None:
         print(f"    {'Bahis piyasası':<26}{'':>8}{bk_rps:>8.4f}")
     print(f"  Karar: {label_best}  ->  xi={chosen['xi']}, reg={chosen['reg']}, "
           f"isabetli şut={chosen['sot']}, büyük şans={chosen['bc']}, belirsizlik={chosen['sd']}, "
-          f"yorgunluk={'açık' if chosen['fatigue'] else 'kapalı'}")
+          f"yorgunluk={'açık' if chosen['fatigue'] else 'kapalı'}, "
+          f"topla oynama={'açık' if chosen['pos'] else 'kapalı'}, "
+          f"eşleşme={'açık' if chosen['h2h'] else 'kapalı'}")
     return chosen, {"secilen_aile": label_best,
                     "adaylar": [{"aday": l, "ayar_rps": round(a, 5), "sinav_rps": round(b, 5),
                                  "ortalama": round(m, 5)} for l, _, a, b, m in rows],
