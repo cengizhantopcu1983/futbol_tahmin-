@@ -28,7 +28,7 @@ import numpy as np
 import pandas as pd
 
 from data import LEAGUES, current_season_start, load_league, resolve_league, season_code, season_codes
-from models import DixonColes
+from models import MISS_COLS, DixonColes
 from ozellikler import H2HIndex, h2h_mult
 
 try:
@@ -71,13 +71,17 @@ def predict_row(model, m, sd, extras: dict, h2h_index=None, n_draws=120):
     at = getattr(m, "ATired", 0) if extras.get("fatigue") else 0
     pdv = getattr(m, "PosDiff", 0.0) if extras.get("pos") else 0.0
     pdv = 0.0 if pdv != pdv else pdv  # NaN -> 0
+    miss = None
+    if extras.get("lineup") in MISS_COLS:
+        miss = tuple(float(getattr(m, c, 0.0) or 0.0) for c in MISS_COLS[extras["lineup"]])
+        miss = tuple(0.0 if v != v else v for v in miss)
     mult = None
     if extras.get("h2h") and h2h_index is not None:
-        lam, mu = model.expected_goals(m.HomeTeam, m.AwayTeam, ht, at, pdv)
+        lam, mu = model.expected_goals(m.HomeTeam, m.AwayTeam, ht, at, pdv, miss)
         fh, fa, _ = h2h_mult(h2h_index, m.HomeTeam, m.AwayTeam, lam, mu, date=m.Date)
         mult = (fh, fa)
     return model.score_matrix(m.HomeTeam, m.AwayTeam, sd=sd, n_draws=n_draws, h_tired=ht, a_tired=at,
-                              mult=mult, pos_diff=pdv)
+                              mult=mult, pos_diff=pdv, miss=miss)
 
 
 def walk_forward(df, season, fit_configs, sds, refit_days, extras: dict | None = None):
@@ -93,7 +97,7 @@ def walk_forward(df, season, fit_configs, sds, refit_days, extras: dict | None =
             idx = test.index.get_indexer(win.index)
             for xi, reg, sot, bc in fit_configs:
                 model = DixonColes(xi=xi, reg=reg, sot=sot, bc=bc, fatigue=bool(extras.get("fatigue")),
-                                   pos=bool(extras.get("pos"))).fit(df, ref_date=t)
+                                   pos=bool(extras.get("pos")), lineup=extras.get("lineup")).fit(df, ref_date=t)
                 for i, m in zip(idx, win.itertuples(index=False)):
                     for sd in sds:
                         preds[(xi, reg, sot, bc, sd)][i] = probs(predict_row(model, m, sd, extras, h2h_index))
@@ -146,24 +150,35 @@ def tune_league(code: str, tune_season: str, test_season: str, refit_days: int, 
     # 3) Ek etkiler, sırayla: yorgunluk -> topla oynama -> eşleşme (H2H).
     #    Her biri, o ana kadar seçilenlerin üstüne eklenince iki sezonun ortalamasında
     #    iyileştiriyorsa açık kalır.
-    chosen.update(fatigue=False, pos=False, h2h=False)
+    chosen.update(fatigue=False, pos=False, h2h=False, lineup=None)
     extra_rows = []
     cfg4, sd_b = cfg_best[:4], cfg_best[4]
     current = next(z for z in rows if z[1] == cfg_best)[4]
     tired_share = float(df[["HTired", "ATired"]].to_numpy().mean()) if "HTired" in df.columns else 0.0
     pos_share = float((df.loc[df["Season"].isin([tune_season, test_season]), "PosDiff"] != 0).mean()) \
         if "PosDiff" in df.columns else 0.0
-    checks = [("fatigue", "yorgunluk", tired_share > 0.02,
+    two = df["Season"].isin([tune_season, test_season])
+
+    def miss_share(mode):
+        cols = [c for c in MISS_COLS[mode] if c in df.columns]
+        return float((df.loc[two, cols].abs().sum(1) > 0).mean()) if cols else 0.0
+
+    xi_share, side_share = miss_share("xi"), miss_share("side")
+    checks = [("fatigue", True, "yorgunluk", tired_share > 0.02,
                f"maçların %{100 * tired_share:.0f}'inde bir takım ≤4 gün önce oynamış"),
-              ("pos", "topla oynama", pos_share > 0.3, f"maçların %{100 * pos_share:.0f}'inde veri var"),
-              ("h2h", "eşleşme (H2H)", True, "aynı sahadaki geçmiş karşılaşmalar")]
-    adi = {"fatigue": "yorgunluk", "pos": "topla oynama", "h2h": "eşleşme"}
-    for key, ad, ok, note in checks:
+              ("pos", True, "topla oynama", pos_share > 0.3, f"maçların %{100 * pos_share:.0f}'inde veri var"),
+              ("h2h", True, "eşleşme (H2H)", True, "aynı sahadaki geçmiş karşılaşmalar"),
+              ("lineup", "xi", "eksik oyuncu (ilk 11)", xi_share > 0.5,
+               f"maçların %{100 * xi_share:.0f}'inde ilk 11 verisi var"),
+              ("lineup", "side", "eksik oyuncu (sakat l.)", side_share > 0.5,
+               f"maçların %{100 * side_share:.0f}'inde sakat listesi var")]
+    adi = {"fatigue": "yorgunluk", "pos": "topla oynama", "h2h": "eşleşme", "lineup": "eksik oyuncu"}
+    for key, val, ad, ok, note in checks:
         if not ok:
             extra_rows.append((f"  + {ad}", None, None, None, f"test edilemedi: veri yetersiz ({note})", False))
             continue
-        trial = {k: chosen[k] for k in ("fatigue", "pos", "h2h")}
-        trial[key] = True
+        trial = {k: chosen[k] for k in ("fatigue", "pos", "h2h", "lineup")}
+        trial[key] = val
         _, pf1 = walk_forward(df, tune_season, [cfg4], [sd_b], refit_days, extras=trial)
         _, pf2 = walk_forward(df, test_season, [cfg4], [sd_b], refit_days, extras=trial)
         f1, f2 = rps(pf1[cfg_best], o), rps(pf2[cfg_best], o2)
@@ -171,9 +186,10 @@ def tune_league(code: str, tune_season: str, test_season: str, refit_days: int, 
         better = avg < current
         extra_rows.append((f"  + {ad}", f1, f2, avg, note, better))
         if better:
-            chosen[key] = True
+            chosen[key] = val
             current = avg
-            label_best, exam_best = label_best + f" + {adi[key]}", f2
+            label_best = label_best.split(" + eksik oyuncu")[0] if key == "lineup" else label_best
+            label_best, exam_best = label_best + f" + {adi[key]}" + (f" ({ad.split('(')[1]}" if key == "lineup" else ""), f2
     exam_def = next(z[3] for z in rows if z[1] == default_key)
 
     bk = test2[["bk_H", "bk_D", "bk_A"]].to_numpy()
@@ -202,7 +218,8 @@ def tune_league(code: str, tune_season: str, test_season: str, refit_days: int, 
           f"isabetli şut={chosen['sot']}, büyük şans={chosen['bc']}, belirsizlik={chosen['sd']}, "
           f"yorgunluk={'açık' if chosen['fatigue'] else 'kapalı'}, "
           f"topla oynama={'açık' if chosen['pos'] else 'kapalı'}, "
-          f"eşleşme={'açık' if chosen['h2h'] else 'kapalı'}")
+          f"eşleşme={'açık' if chosen['h2h'] else 'kapalı'}, "
+          f"eksik oyuncu={ {'xi': 'ilk 11', 'side': 'sakat listesi'}.get(chosen['lineup'], 'kapalı') }")
     return chosen, {"secilen_aile": label_best,
                     "adaylar": [{"aday": l, "ayar_rps": round(a, 5), "sinav_rps": round(b, 5),
                                  "ortalama": round(m, 5)} for l, _, a, b, m in rows],
