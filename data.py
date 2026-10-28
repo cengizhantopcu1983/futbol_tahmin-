@@ -222,6 +222,16 @@ def load_league(code: str, seasons: list[str] | None = None, n_seasons: int = 4,
             df = add_fatigue(df)
         except ImportError:
             pass
+        try:  # uygulamadan elle girilen şut / büyük şans / topla oynama (manuel_xg.json)
+            from manuel_xg import add_manual_stats
+            df = add_manual_stats(df, code)
+        except ImportError:
+            pass
+        try:  # eksik oyuncu gücü (HMA..., HSA...; eksik.py)
+            from eksik import add_missing
+            df = add_missing(df, code)  # merkezler df.attrs["miss_center"] içinde
+        except ImportError:
+            pass
         try:  # topla oynama farkı (PosDiff)
             from ozellikler import add_possession
             df = add_possession(df)
