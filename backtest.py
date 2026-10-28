@@ -48,18 +48,21 @@ def league_settings(code: str, xi, reg, sot, sd, bc=None) -> dict:
     """Komut satırında verilmeyen ayarlar ayarlar.json'dan (tune.py çıktısı) ya da varsayılandan."""
     p = {"xi": 0.0019, "reg": 1.0, "sot": 0.0, "bc": 0.0, "sd": 0.10}
     flags = {"fatigue": False, "pos": False, "h2h": False}
+    lineup = None
     path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "ayarlar.json")
     try:
         with open(path, encoding="utf-8") as f:
             saved = json.load(f).get(code, {})
         p.update({k: float(saved[k]) for k in p if k in saved})
         flags = {k: bool(saved.get(k, False)) for k in flags}
+        lineup = saved.get("lineup") if saved.get("lineup") in ("xi", "side") else None
     except (OSError, ValueError):
         pass
     for k, v in (("xi", xi), ("reg", reg), ("sot", sot), ("bc", bc), ("sd", sd)):
         if v is not None:
             p[k] = v
     p.update(flags)
+    p["lineup"] = lineup
     return p
 
 
@@ -82,7 +85,8 @@ def backtest(code: str, season: str, history: int, refit_days: int, xi=None, sd=
         win = test[(test["Date"] >= t) & (test["Date"] < t + pd.Timedelta(days=refit_days))]
         if len(win):
             model = DixonColes(xi=xi, reg=cfg["reg"], sot=cfg["sot"], bc=cfg["bc"],
-                               fatigue=cfg["fatigue"], pos=cfg["pos"]).fit(df, ref_date=t)
+                               fatigue=cfg["fatigue"], pos=cfg["pos"],
+                               lineup=cfg["lineup"]).fit(df, ref_date=t)
             n_fit += 1
             for i, m in zip(test.index.get_indexer(win.index), win.itertuples(index=False)):
                 s = summarize(predict_row(model, m, sd, cfg, h2h_index, n_draws=200))
@@ -101,7 +105,8 @@ def backtest(code: str, season: str, history: int, refit_days: int, xi=None, sd=
     print(f"\n=== {LEAGUES[code]} {season}: {len(test)} maç, model {n_fit} kez yeniden eğitildi ===")
     print(f"  ayarlar: xi={cfg['xi']}, reg={cfg['reg']}, isabetli şut={cfg['sot']}, büyük şans={cfg['bc']}, belirsizlik={cfg['sd']}, "
           f"yorgunluk={'açık' if cfg['fatigue'] else 'kapalı'}, topla oynama={'açık' if cfg['pos'] else 'kapalı'}, "
-          f"eşleşme={'açık' if cfg['h2h'] else 'kapalı'}")
+          f"eşleşme={'açık' if cfg['h2h'] else 'kapalı'}, "
+          f"eksik oyuncu={ {'xi': 'ilk 11', 'side': 'sakat listesi'}.get(cfg['lineup'], 'kapalı') }")
     rows = {"Model": scores(preds[has_bk], o[has_bk]),
             "Bahis piyasası": scores(bk[has_bk], o[has_bk]) if has_bk.any() else None,
             "Referans (oranlar)": scores(np.tile(base, (has_bk.sum(), 1)), o[has_bk])}
