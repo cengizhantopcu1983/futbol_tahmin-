@@ -183,7 +183,7 @@ STAT_COLS = ["HTHG", "HTAG", "HS", "AS", "HST", "AST", "HC", "AC", "HY", "AY", "
 
 
 def load_league(code: str, seasons: list[str] | None = None, n_seasons: int = 4,
-                refresh: bool = True, use_sm: bool = True) -> pd.DataFrame:
+                refresh: bool = True, use_sm: bool = True, manual: bool = True) -> pd.DataFrame:
     """Bir ligin son n sezonunu (veya verilen sezonları) yükler, tarihe göre sıralı döner.
 
     use_sm: data_sm/ klasöründe Sportmonks verisi varsa (büyük şans, topla oynama, hakem,
@@ -222,16 +222,17 @@ def load_league(code: str, seasons: list[str] | None = None, n_seasons: int = 4,
             df = add_fatigue(df)
         except ImportError:
             pass
-        try:  # uygulamadan elle girilen şut / büyük şans / topla oynama (manuel_xg.json)
-            from manuel_xg import add_manual_stats
-            df = add_manual_stats(df, code)
-        except ImportError:
-            pass
-        try:  # eksik oyuncu gücü (HMA..., HSA...; eksik.py)
-            from eksik import add_missing
-            df = add_missing(df, code)  # merkezler df.attrs["miss_center"] içinde
-        except ImportError:
-            pass
+        if manual:  # manual=False: sadece kaynak verisi (uygulamadaki biten maçlar listesi için)
+            try:  # uygulamadan elle girilen şut / büyük şans / topla oynama (manuel_xg.json)
+                from manuel_xg import add_manual_stats
+                df = add_manual_stats(df, code)
+            except ImportError:
+                pass
+            try:  # eksik oyuncu gücü (HMA..., HSA...; eksik.py)
+                from eksik import add_missing
+                df = add_missing(df, code)  # merkezler df.attrs["miss_center"] içinde
+            except ImportError:
+                pass
         try:  # topla oynama farkı (PosDiff)
             from ozellikler import add_possession
             df = add_possession(df)
