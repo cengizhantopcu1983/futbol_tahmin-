@@ -29,6 +29,13 @@ jobs:
           SPORTMONKS_TOKEN: ${{ secrets.SPORTMONKS_TOKEN }}
         run: python sportmonks.py
 
+      - name: Oyuncu verisini guncelle
+        continue-on-error: true  # deneme biterse eldeki kadro/ilk 11 dosyalari kullanilir
+        timeout-minutes: 60
+        env:
+          SPORTMONKS_TOKEN: ${{ secrets.SPORTMONKS_TOKEN }}
+        run: python oyuncular.py
+
       - name: Avrupa kupasi maclarini guncelle
         continue-on-error: true  # kaynak yanit vermezse model dinlenme verisi olmadan devam eder
         env:
@@ -51,6 +58,8 @@ jobs:
           git add tahminler.json karne.json arsiv/
           if [ -d data_sm ]; then git add data_sm/; fi
           if [ -d data_euro ]; then git add data_euro/; fi
+          if [ -d data_players ]; then git add data_players/; fi
+          if [ -f kadrolar.json ]; then git add kadrolar.json; fi
           if [ -f bitenler.json ]; then git add bitenler.json; fi
           git diff --staged --quiet || git commit -m "Tahminler guncellendi"
           git pull --rebase
