@@ -17,7 +17,7 @@ MAX_GOALS = 10
 
 class DixonColes:
     def __init__(self, xi: float = 0.0019, reg: float = 1.0, sot: float = 0.0, bc: float = 0.0,
-                 xg: float = 0.0, fatigue: bool = False):
+                 xg: float = 0.0, fatigue: bool = False, pos: bool = False):
         # xi: günlük ağırlık azalması. 0.0019 => bir maçın ağırlığı ~1 yılda yarıya iner.
         # reg: az maçı olan takımların (ör. yeni çıkanlar) aşırı uç değer almasını engeller.
         # sot: isabetli şut ağırlığı, bc: büyük şans ağırlığı (toplamları en fazla 1).
@@ -36,6 +36,9 @@ class DixonColes:
         self.xg = xg
         self.fatigue = fatigue
         self.fat_att, self.fat_def = 0.0, 0.0
+        # pos: topla oynama farkı (PosDiff, ozellikler.py) gol beklentisini etkilesin mi
+        self.pos = pos
+        self.pos_coef = 0.0
         self.teams: list[str] = []
 
     # ---------- eğitim ----------
@@ -95,12 +98,17 @@ class DixonColes:
             th = ta = np.zeros_like(x)
         fat_reg = 5.0  # yorgunluk katsayılarını sıfıra yakın tutan düzenleme (az veride aşırı tepki olmasın)
 
+        # topla oynama farkı: ev sahibi lehine fark (puan/10); ev golünü +cp*pd, dep golünü -cp*pd etkiler
+        use_pos = self.pos and "PosDiff" in d.columns
+        pdv = pd.to_numeric(d["PosDiff"], errors="coerce").fillna(0).to_numpy(float) if use_pos else np.zeros_like(x)
+        use_pos = use_pos and np.count_nonzero(pdv) >= 50
+
         def nll_grad(p):
             r, dd, g, rho = p[:n], p[n:2 * n], p[2 * n], p[2 * n + 1]
-            ca, cd = p[2 * n + 2], p[2 * n + 3]
+            ca, cd, cp = p[2 * n + 2], p[2 * n + 3], p[2 * n + 4]
             att = r - r.mean()
-            lam = np.exp(g + att[h] + dd[a] + ca * th + cd * ta)
-            mu = np.exp(att[a] + dd[h] + ca * ta + cd * th)
+            lam = np.exp(g + att[h] + dd[a] + ca * th + cd * ta + cp * pdv)
+            mu = np.exp(att[a] + dd[h] + ca * ta + cd * th - cp * pdv)
             t = np.ones_like(lam)
             tl, tm, tr = np.zeros_like(lam), np.zeros_like(lam), np.zeros_like(lam)
 
@@ -128,16 +136,19 @@ class DixonColes:
             gd = np.bincount(a, gl, n) + np.bincount(h, gm, n)
             ga -= ga.mean()
             dc = dd - dd.mean()
-            nll = -ll.sum() + reg * (att @ att + dc @ dc) + fat_reg * (ca * ca + cd * cd)
+            nll = (-ll.sum() + reg * (att @ att + dc @ dc) + fat_reg * (ca * ca + cd * cd + cp * cp))
             g_ca = -(gl @ th + gm @ ta) + 2 * fat_reg * ca
             g_cd = -(gl @ ta + gm @ th) + 2 * fat_reg * cd
+            g_cp = -(gl @ pdv - gm @ pdv) + 2 * fat_reg * cp
             grad = np.concatenate([-ga + 2 * reg * att, -gd + 2 * reg * dc,
-                                   [-gl.sum(), -(w * tr).sum(), g_ca, g_cd]])
+                                   [-gl.sum(), -(w * tr).sum(), g_ca, g_cd, g_cp]])
             return nll, grad
 
-        p0 = np.concatenate([np.zeros(n), np.full(n, np.log(max(y.mean(), 0.2))), [0.25, -0.05, 0.0, 0.0]])
+        p0 = np.concatenate([np.zeros(n), np.full(n, np.log(max(y.mean(), 0.2))),
+                             [0.25, -0.05, 0.0, 0.0, 0.0]])
         fb = (-0.5, 0.5) if use_fat else (0.0, 0.0)
-        bounds = [(None, None)] * (2 * n + 1) + [(-0.25, 0.25), fb, fb]
+        pb = (-0.5, 0.5) if use_pos else (0.0, 0.0)
+        bounds = [(None, None)] * (2 * n + 1) + [(-0.25, 0.25), fb, fb, pb]
         res = minimize(nll_grad, p0, jac=True, method="L-BFGS-B", bounds=bounds,
                        options={"maxiter": 2000})
         p = res.x
@@ -148,6 +159,8 @@ class DixonColes:
         self.home_adv = float(p[2 * n])
         self.rho = float(p[2 * n + 1])
         self.fat_att, self.fat_def = float(p[2 * n + 2]), float(p[2 * n + 3])
+        self.pos_coef = float(p[2 * n + 4])
+        self.pos_used = bool(use_pos)
         self.fatigue_used = bool(use_fat)
         self.weight = dict(zip(teams, np.bincount(h, w, n) + np.bincount(a, w, n)))
         self.ref_date = ref_date
@@ -164,23 +177,27 @@ class DixonColes:
         return (float(np.mean([self.att[t] for t in net])),
                 float(np.mean([self.dfn[t] for t in net])), True)
 
-    def expected_goals(self, home: str, away: str, h_tired: float = 0, a_tired: float = 0):
-        """h_tired / a_tired: takım ≤4 gün önce maç oynadıysa 1 (yorgunluk etkisi)."""
+    def expected_goals(self, home: str, away: str, h_tired: float = 0, a_tired: float = 0,
+                       pos_diff: float = 0):
+        """h_tired / a_tired: takım ≤4 gün önce maç oynadıysa 1 (yorgunluk etkisi).
+        pos_diff: topla oynama farkı (ozellikler.possession_diff)."""
         ah, dh, _ = self._team_params(home)
         aa, da, _ = self._team_params(away)
-        lam = np.exp(self.home_adv + ah + da + self.fat_att * h_tired + self.fat_def * a_tired)
-        mu = np.exp(aa + dh + self.fat_att * a_tired + self.fat_def * h_tired)
+        cp = self.pos_coef * pos_diff
+        lam = np.exp(self.home_adv + ah + da + self.fat_att * h_tired + self.fat_def * a_tired + cp)
+        mu = np.exp(aa + dh + self.fat_att * a_tired + self.fat_def * h_tired - cp)
         return float(lam), float(mu)
 
     def score_matrix(self, home: str, away: str, sd: float = 0.10, n_draws: int = 400,
-                     seed: int = 0, h_tired: float = 0, a_tired: float = 0, mult=None) -> np.ndarray:
+                     seed: int = 0, h_tired: float = 0, a_tired: float = 0, mult=None,
+                     pos_diff: float = 0) -> np.ndarray:
         """Skor olasılık matrisi: satır = ev sahibi golü, sütun = deplasman golü.
 
         sd > 0 ise beklenen gollere belirsizlik eklenir (sakatlık, kadro, şans vb.)
         ve sonuç bu senaryoların ortalamasıdır.
         """
-        lam, mu = self.expected_goals(home, away, h_tired, a_tired)
-        if mult is not None:  # dışarıdan çarpan (ör. bitiricilik)
+        lam, mu = self.expected_goals(home, away, h_tired, a_tired, pos_diff)
+        if mult is not None:  # dışarıdan çarpan (ör. bitiricilik, eşleşme)
             lam, mu = lam * mult[0], mu * mult[1]
         if sd > 0:
             rng = np.random.default_rng(seed)
@@ -202,10 +219,12 @@ class DixonColes:
         return mats.mean(axis=0)
 
     def predict(self, home: str, away: str, sd: float = 0.10, n_sim: int = 10000,
-                seed: int = 0, h_tired: float = 0, a_tired: float = 0, mult=None) -> dict:
-        mat = self.score_matrix(home, away, sd=sd, seed=seed, h_tired=h_tired, a_tired=a_tired, mult=mult)
+                seed: int = 0, h_tired: float = 0, a_tired: float = 0, mult=None,
+                pos_diff: float = 0) -> dict:
+        mat = self.score_matrix(home, away, sd=sd, seed=seed, h_tired=h_tired, a_tired=a_tired, mult=mult,
+                                pos_diff=pos_diff)
         out = summarize(mat)
-        lam, mu = self.expected_goals(home, away, h_tired, a_tired)
+        lam, mu = self.expected_goals(home, away, h_tired, a_tired, pos_diff)
         if mult is not None:
             lam, mu = lam * mult[0], mu * mult[1]
         out.update(home=home, away=away, xg_home=lam, xg_away=mu,
