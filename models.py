@@ -13,11 +13,13 @@ from scipy.optimize import minimize
 from scipy.stats import poisson
 
 MAX_GOALS = 10
+# eksik oyuncu sütunları: (ev hücum, ev savunma, dep hücum, dep savunma)
+MISS_COLS = {"xi": ("HMA", "HMD", "AMA", "AMD"), "side": ("HSA", "HSD", "ASA", "ASD")}
 
 
 class DixonColes:
     def __init__(self, xi: float = 0.0019, reg: float = 1.0, sot: float = 0.0, bc: float = 0.0,
-                 xg: float = 0.0, fatigue: bool = False, pos: bool = False):
+                 xg: float = 0.0, fatigue: bool = False, pos: bool = False, lineup: str | None = None):
         # xi: günlük ağırlık azalması. 0.0019 => bir maçın ağırlığı ~1 yılda yarıya iner.
         # reg: az maçı olan takımların (ör. yeni çıkanlar) aşırı uç değer almasını engeller.
         # sot: isabetli şut ağırlığı, bc: büyük şans ağırlığı (toplamları en fazla 1).
@@ -39,6 +41,12 @@ class DixonColes:
         # pos: topla oynama farkı (PosDiff, ozellikler.py) gol beklentisini etkilesin mi
         self.pos = pos
         self.pos_coef = 0.0
+        # lineup: eksik oyuncu etkisi. "xi" = ilk 11'e göre (HMA/HMD/AMA/AMD sütunları),
+        #         "side" = sakat/cezalı listesine göre (HSA/HSD/ASA/ASD). None = kapalı.
+        #         Değerler eksik oyuncuların önem toplamıdır, lig ortalamasına göre merkezlenmiş (eksik.py).
+        self.lineup = lineup
+        self.miss_att, self.miss_def = 0.0, 0.0
+        self.lineup_used = False
         self.teams: list[str] = []
 
     # ---------- eğitim ----------
@@ -103,12 +111,22 @@ class DixonColes:
         pdv = pd.to_numeric(d["PosDiff"], errors="coerce").fillna(0).to_numpy(float) if use_pos else np.zeros_like(x)
         use_pos = use_pos and np.count_nonzero(pdv) >= 50
 
+        # eksik oyuncu: hma = ev sahibinin eksik hücum gücü, hmd = eksik savunma gücü (deplasman için ama/amd)
+        cols = MISS_COLS.get(self.lineup or "", ())
+        use_lu = bool(cols) and set(cols) <= set(d.columns)
+        if use_lu:
+            hma, hmd, ama, amd = (pd.to_numeric(d[c], errors="coerce").fillna(0).to_numpy(float) for c in cols)
+            use_lu = np.count_nonzero(hma + hmd + ama + amd) >= 100
+        if not use_lu:
+            hma = hmd = ama = amd = np.zeros_like(x)
+
         def nll_grad(p):
             r, dd, g, rho = p[:n], p[n:2 * n], p[2 * n], p[2 * n + 1]
             ca, cd, cp = p[2 * n + 2], p[2 * n + 3], p[2 * n + 4]
+            la, ld = p[2 * n + 5], p[2 * n + 6]
             att = r - r.mean()
-            lam = np.exp(g + att[h] + dd[a] + ca * th + cd * ta + cp * pdv)
-            mu = np.exp(att[a] + dd[h] + ca * ta + cd * th - cp * pdv)
+            lam = np.exp(g + att[h] + dd[a] + ca * th + cd * ta + cp * pdv + la * hma + ld * amd)
+            mu = np.exp(att[a] + dd[h] + ca * ta + cd * th - cp * pdv + la * ama + ld * hmd)
             t = np.ones_like(lam)
             tl, tm, tr = np.zeros_like(lam), np.zeros_like(lam), np.zeros_like(lam)
 
@@ -136,19 +154,22 @@ class DixonColes:
             gd = np.bincount(a, gl, n) + np.bincount(h, gm, n)
             ga -= ga.mean()
             dc = dd - dd.mean()
-            nll = (-ll.sum() + reg * (att @ att + dc @ dc) + fat_reg * (ca * ca + cd * cd + cp * cp))
+            nll = (-ll.sum() + reg * (att @ att + dc @ dc) + fat_reg * (ca * ca + cd * cd + cp * cp + la * la + ld * ld))
             g_ca = -(gl @ th + gm @ ta) + 2 * fat_reg * ca
             g_cd = -(gl @ ta + gm @ th) + 2 * fat_reg * cd
             g_cp = -(gl @ pdv - gm @ pdv) + 2 * fat_reg * cp
+            g_la = -(gl @ hma + gm @ ama) + 2 * fat_reg * la
+            g_ld = -(gl @ amd + gm @ hmd) + 2 * fat_reg * ld
             grad = np.concatenate([-ga + 2 * reg * att, -gd + 2 * reg * dc,
-                                   [-gl.sum(), -(w * tr).sum(), g_ca, g_cd, g_cp]])
+                                   [-gl.sum(), -(w * tr).sum(), g_ca, g_cd, g_cp, g_la, g_ld]])
             return nll, grad
 
         p0 = np.concatenate([np.zeros(n), np.full(n, np.log(max(y.mean(), 0.2))),
-                             [0.25, -0.05, 0.0, 0.0, 0.0]])
+                             [0.25, -0.05, 0.0, 0.0, 0.0, 0.0, 0.0]])
         fb = (-0.5, 0.5) if use_fat else (0.0, 0.0)
         pb = (-0.5, 0.5) if use_pos else (0.0, 0.0)
-        bounds = [(None, None)] * (2 * n + 1) + [(-0.25, 0.25), fb, fb, pb]
+        lb = (-0.5, 0.5) if use_lu else (0.0, 0.0)
+        bounds = [(None, None)] * (2 * n + 1) + [(-0.25, 0.25), fb, fb, pb, lb, lb]
         res = minimize(nll_grad, p0, jac=True, method="L-BFGS-B", bounds=bounds,
                        options={"maxiter": 2000})
         p = res.x
@@ -161,6 +182,8 @@ class DixonColes:
         self.fat_att, self.fat_def = float(p[2 * n + 2]), float(p[2 * n + 3])
         self.pos_coef = float(p[2 * n + 4])
         self.pos_used = bool(use_pos)
+        self.miss_att, self.miss_def = float(p[2 * n + 5]), float(p[2 * n + 6])
+        self.lineup_used = bool(use_lu)
         self.fatigue_used = bool(use_fat)
         self.weight = dict(zip(teams, np.bincount(h, w, n) + np.bincount(a, w, n)))
         self.ref_date = ref_date
@@ -178,25 +201,29 @@ class DixonColes:
                 float(np.mean([self.dfn[t] for t in net])), True)
 
     def expected_goals(self, home: str, away: str, h_tired: float = 0, a_tired: float = 0,
-                       pos_diff: float = 0):
+                       pos_diff: float = 0, miss=None):
         """h_tired / a_tired: takım ≤4 gün önce maç oynadıysa 1 (yorgunluk etkisi).
-        pos_diff: topla oynama farkı (ozellikler.possession_diff)."""
+        pos_diff: topla oynama farkı (ozellikler.possession_diff).
+        miss: (ev eksik hücum, ev eksik savunma, dep eksik hücum, dep eksik savunma), merkezlenmiş."""
         ah, dh, _ = self._team_params(home)
         aa, da, _ = self._team_params(away)
         cp = self.pos_coef * pos_diff
-        lam = np.exp(self.home_adv + ah + da + self.fat_att * h_tired + self.fat_def * a_tired + cp)
-        mu = np.exp(aa + dh + self.fat_att * a_tired + self.fat_def * h_tired - cp)
+        hma, hmd, ama, amd = miss if miss is not None else (0.0, 0.0, 0.0, 0.0)
+        lam = np.exp(self.home_adv + ah + da + self.fat_att * h_tired + self.fat_def * a_tired + cp
+                     + self.miss_att * hma + self.miss_def * amd)
+        mu = np.exp(aa + dh + self.fat_att * a_tired + self.fat_def * h_tired - cp
+                    + self.miss_att * ama + self.miss_def * hmd)
         return float(lam), float(mu)
 
     def score_matrix(self, home: str, away: str, sd: float = 0.10, n_draws: int = 400,
                      seed: int = 0, h_tired: float = 0, a_tired: float = 0, mult=None,
-                     pos_diff: float = 0) -> np.ndarray:
+                     pos_diff: float = 0, miss=None) -> np.ndarray:
         """Skor olasılık matrisi: satır = ev sahibi golü, sütun = deplasman golü.
 
         sd > 0 ise beklenen gollere belirsizlik eklenir (sakatlık, kadro, şans vb.)
         ve sonuç bu senaryoların ortalamasıdır.
         """
-        lam, mu = self.expected_goals(home, away, h_tired, a_tired, pos_diff)
+        lam, mu = self.expected_goals(home, away, h_tired, a_tired, pos_diff, miss)
         if mult is not None:  # dışarıdan çarpan (ör. bitiricilik, eşleşme)
             lam, mu = lam * mult[0], mu * mult[1]
         if sd > 0:
@@ -220,11 +247,11 @@ class DixonColes:
 
     def predict(self, home: str, away: str, sd: float = 0.10, n_sim: int = 10000,
                 seed: int = 0, h_tired: float = 0, a_tired: float = 0, mult=None,
-                pos_diff: float = 0) -> dict:
+                pos_diff: float = 0, miss=None) -> dict:
         mat = self.score_matrix(home, away, sd=sd, seed=seed, h_tired=h_tired, a_tired=a_tired, mult=mult,
-                                pos_diff=pos_diff)
+                                pos_diff=pos_diff, miss=miss)
         out = summarize(mat)
-        lam, mu = self.expected_goals(home, away, h_tired, a_tired, pos_diff)
+        lam, mu = self.expected_goals(home, away, h_tired, a_tired, pos_diff, miss)
         if mult is not None:
             lam, mu = lam * mult[0], mu * mult[1]
         out.update(home=home, away=away, xg_home=lam, xg_away=mu,
