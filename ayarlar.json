@@ -8,9 +8,10 @@
     "fatigue": false,
     "pos": true,
     "h2h": false,
+    "lineup": "side",
     "lig": "Süper Lig",
     "rapor": {
-      "secilen_aile": "Gol + büyük şans + topla oynama",
+      "secilen_aile": "Gol + büyük şans + topla oynama + eksik oyuncu (sakat l.)",
       "adaylar": [
         {
           "aday": "Varsayılan (sadece gol)",
@@ -44,7 +45,7 @@
         }
       ],
       "sinav_varsayilan_rps": 0.19358,
-      "sinav_secilen_rps": 0.18991,
+      "sinav_secilen_rps": 0.18928,
       "sinav_piyasa_rps": 0.18579
     }
   },
@@ -57,9 +58,10 @@
     "fatigue": false,
     "pos": false,
     "h2h": false,
+    "lineup": "xi",
     "lig": "Premier League",
     "rapor": {
-      "secilen_aile": "Gol + şut + büyük şans",
+      "secilen_aile": "Gol + şut + büyük şans + eksik oyuncu (ilk 11)",
       "adaylar": [
         {
           "aday": "Varsayılan (sadece gol)",
@@ -93,7 +95,7 @@
         }
       ],
       "sinav_varsayilan_rps": 0.20847,
-      "sinav_secilen_rps": 0.2071,
+      "sinav_secilen_rps": 0.20672,
       "sinav_piyasa_rps": 0.20534
     }
   },
@@ -106,9 +108,10 @@
     "fatigue": false,
     "pos": false,
     "h2h": false,
+    "lineup": "xi",
     "lig": "La Liga",
     "rapor": {
-      "secilen_aile": "Gol + şut + büyük şans",
+      "secilen_aile": "Gol + şut + büyük şans + eksik oyuncu (ilk 11)",
       "adaylar": [
         {
           "aday": "Varsayılan (sadece gol)",
@@ -142,7 +145,7 @@
         }
       ],
       "sinav_varsayilan_rps": 0.20088,
-      "sinav_secilen_rps": 0.19971,
+      "sinav_secilen_rps": 0.19981,
       "sinav_piyasa_rps": 0.19572
     }
   },
@@ -155,9 +158,10 @@
     "fatigue": false,
     "pos": true,
     "h2h": false,
+    "lineup": "xi",
     "lig": "Serie A",
     "rapor": {
-      "secilen_aile": "Gol + isabetli şut + topla oynama",
+      "secilen_aile": "Gol + isabetli şut + topla oynama + eksik oyuncu (ilk 11)",
       "adaylar": [
         {
           "aday": "Varsayılan (sadece gol)",
@@ -191,9 +195,9 @@
         }
       ],
       "sinav_varsayilan_rps": 0.20139,
-      "sinav_secilen_rps": 0.20101,
+      "sinav_secilen_rps": 0.19992,
       "sinav_piyasa_rps": 0.19658
     }
   },
-  "_guncelleme": "2026-10-28T07:38"
+  "_guncelleme": "2026-10-28T09:51"
 }
