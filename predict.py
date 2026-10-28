@@ -22,6 +22,7 @@ from data import (FIXTURE_COLS, LEAGUES, TZ_TR, current_season_start, find_team,
                   load_fixtures_api, load_league, resolve_league, resolve_team, season_code)
 from yorgunluk import TIRED_DAYS
 from ekstra import Extras
+from ozellikler import H2HIndex, h2h_mult, possession_diff
 from manuel_xg import add_manual_xg, finishing_factors, load_manual, match_multipliers, shadow_weights
 from yorgunluk import RestCalendar
 from models import DixonColes, compute_elo, elo_expectation, head_to_head, team_form
@@ -41,7 +42,9 @@ def pct(p: float) -> str:
 
 
 SETTINGS_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "ayarlar.json")
-DEFAULTS = {"xi": 0.0019, "reg": 1.0, "sot": 0.0, "bc": 0.0, "sd": 0.10, "fatigue": False}
+DEFAULTS = {"xi": 0.0019, "reg": 1.0, "sot": 0.0, "bc": 0.0, "sd": 0.10,
+            "fatigue": False, "pos": False, "h2h": False}
+FLAGS = ("fatigue", "pos", "h2h")
 
 
 def league_params(code: str, args) -> dict:
@@ -50,8 +53,8 @@ def league_params(code: str, args) -> dict:
     try:
         with open(SETTINGS_FILE, encoding="utf-8") as f:
             saved = json.load(f).get(code, {})
-        p.update({k: float(saved[k]) for k in DEFAULTS if k in saved and k != "fatigue"})
-        p["fatigue"] = bool(saved.get("fatigue", False))
+        p.update({k: float(saved[k]) for k in DEFAULTS if k in saved and k not in FLAGS})
+        p.update({k: bool(saved.get(k, False)) for k in FLAGS})
     except (OSError, ValueError):
         pass
     for key, arg in (("xi", "xi"), ("reg", "reg"), ("sot", "sut"), ("bc", "buyuk_sans"), ("sd", "belirsizlik")):
@@ -71,7 +74,8 @@ class LeagueModel:
         self.df = load_league(code, n_seasons=args.sezon_sayisi)
         self.model = DixonColes(xi=self.params["xi"], reg=self.params["reg"],
                                 sot=self.params["sot"], bc=self.params["bc"],
-                                fatigue=self.params["fatigue"]).fit(self.df)
+                                fatigue=self.params["fatigue"], pos=self.params["pos"]).fit(self.df)
+        self.h2h_index = H2HIndex(self.df)
         self.extras = Extras().fit(self.df, xi=self.params["xi"])
         self._fit_shadow()
         self.elo, _ = compute_elo(self.df)
@@ -92,7 +96,7 @@ class LeagueModel:
         sot, bc, wx = shadow_weights(self.params["sot"], self.params["bc"])
         try:
             m = DixonColes(xi=self.params["xi"], reg=self.params["reg"], sot=sot, bc=bc, xg=wx,
-                           fatigue=self.params["fatigue"]).fit(dfx)
+                           fatigue=self.params["fatigue"], pos=self.params["pos"]).fit(dfx)
         except Exception as e:
             print(f"  (xG'li gölge model kurulamadı: {e})")
             return
@@ -219,7 +223,8 @@ def run_fixtures(args):
             lm = LeagueModel(code, args)
             p = lm.params
             print(f"  ayarlar: xi={p['xi']}, reg={p['reg']}, isabetli şut={p['sot']}, büyük şans={p['bc']}, "
-                  f"belirsizlik={p['sd']}, yorgunluk={'açık' if p['fatigue'] else 'kapalı'}")
+                  f"belirsizlik={p['sd']}, yorgunluk={'açık' if p['fatigue'] else 'kapalı'}, "
+                  f"topla oynama={'açık' if p['pos'] else 'kapalı'}, eşleşme={'açık' if p['h2h'] else 'kapalı'}")
             if lm.shadow is not None:
                 print(f"  xG'li gölge model: {lm.shadow_n} maçta xG (elle: {lm.shadow_detail['mac']}, "
                       f"ortalamadan: {lm.shadow_detail['ortalama']}), ağırlık {lm.shadow_w}")
@@ -254,14 +259,22 @@ def run_fixtures(args):
             ht = int(hr is not None and hr <= TIRED_DAYS)
             at = int(ar is not None and ar <= TIRED_DAYS)
             use_fat = lm.params["fatigue"]
-            r = lm.model.predict(home, away, sd=lm.sd, n_sim=0,
-                                 h_tired=ht if use_fat else 0, a_tired=at if use_fat else 0)
+            fh_t, fa_t = (ht, at) if use_fat else (0, 0)
+            pdv = possession_diff(lm.df, home, away) if lm.params["pos"] else 0.0
+            # eşleşme (H2H): aynı sahadaki geçmiş karşılaşmalar; etki sadece ayar açıksa uygulanır
+            lam0, mu0 = lm.model.expected_goals(home, away, fh_t, fa_t, pdv)
+            e_h, e_a, eslesme = h2h_mult(lm.h2h_index, home, away, lam0, mu0)
+            eslesme["uygulandi"] = bool(lm.params["h2h"] and eslesme.get("mac", 0) > 0)
+            mult_main = (e_h, e_a) if eslesme["uygulandi"] else None
+            r = lm.model.predict(home, away, sd=lm.sd, n_sim=0, h_tired=fh_t, a_tired=fa_t,
+                                 pos_diff=pdv, mult=mult_main)
             shadow = None
             if lm.shadow is not None:
                 mult = match_multipliers(lm.finish, home, away)
-                rs = lm.shadow.predict(home, away, sd=lm.sd, n_sim=0,
-                                       h_tired=ht if use_fat else 0, a_tired=at if use_fat else 0,
-                                       mult=mult)
+                if mult_main:
+                    mult = (mult[0] * mult_main[0], mult[1] * mult_main[1])
+                rs = lm.shadow.predict(home, away, sd=lm.sd, n_sim=0, h_tired=fh_t, a_tired=fa_t,
+                                       mult=mult, pos_diff=pdv)
                 shadow = {"p_ev": round(rs["pH"], 4), "p_beraberlik": round(rs["pD"], 4),
                           "p_deplasman": round(rs["pA"], 4), "xg_ev": round(rs["xg_home"], 2),
                           "xg_deplasman": round(rs["xg_away"], 2), "mac_sayisi": lm.shadow_n,
@@ -301,6 +314,8 @@ def run_fixtures(args):
                               "dep_avrupa": bool(ae and at), "ev_yorgun": bool(ht), "dep_yorgun": bool(at),
                               "etki_uygulandi": bool(use_fat and (ht or at))},
                 "xg_modeli": shadow,
+                "eslesme": eslesme,
+                "topla_oynama_farki": round(pdv, 2) if lm.params["pos"] else None,
             })
     output.sort(key=lambda o: (o["tarih"] or "9999", o["saat"] or "", o["lig_kodu"]))
     if args.json:
