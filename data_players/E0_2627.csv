@@ -2197,7 +2197,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19722153,2026-10-10,Arsenal,home,530762,Martín Zubimendi,M,SUB,
 19722153,2026-10-10,Arsenal,home,459145,Bruno Guimarães,M,SUB,27.0
 19722153,2026-10-10,Arsenal,home,5273,Declan Rice,M,XI,90.0
-19722153,2026-10-10,Arsenal,home,37568815,Myles Anthony Lewis-Skelly,M,XI,63.0
+19722153,2026-10-10,Arsenal,home,37568815,Myles Lewis-Skelly,M,XI,63.0
 19722153,2026-10-10,Arsenal,home,37720618,Max Dowman,F,SUB,
 19722153,2026-10-10,Leeds United,away,28575686,James Trafford,G,XI,90.0
 19722153,2026-10-10,Leeds United,away,581158,Jayden Bogle,M,XI,86.0
@@ -2290,7 +2290,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19722147,2026-10-10,Fulham,away,62337,Timothy Castagne,D,SUB,
 19722147,2026-10-10,Fulham,away,37259638,David Affengruber,D,XI,90.0
 19722147,2026-10-10,Fulham,away,95093,Benjamin Lecomte,G,SUB,
-19722147,2026-10-10,Fulham,away,37656924,Joshua David Steven King,M,XI,76.0
+19722147,2026-10-10,Fulham,away,37656924,Josh King,M,XI,76.0
 19722147,2026-10-10,Fulham,away,6610,Ryan Sessegnon,D,XI,90.0
 19722147,2026-10-10,Fulham,away,1494446,Emile Smith Rowe,M,SUB,3.0
 19722147,2026-10-10,Ipswich Town,home,4507,Darnell Furlong,D,SUB,
@@ -2418,9 +2418,9 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19722145,2026-10-10,Tottenham Hotspur,away,24818803,Jan Paul van Hecke,D,XI,90.0
 19722145,2026-10-10,Tottenham Hotspur,away,1494245,Conor Gallagher,M,XI,74.0
 19722145,2026-10-10,Tottenham Hotspur,away,6838,James Maddison,M,SUB,16.0
-19722145,2026-10-10,Tottenham Hotspur,away,37531504,Mathys Henri Tel,F,SUB,
+19722145,2026-10-10,Tottenham Hotspur,away,37531504,Mathys Tel,F,SUB,
 19722145,2026-10-10,Tottenham Hotspur,away,32777506,Destiny Udogie,D,XI,74.0
-19722145,2026-10-10,Tottenham Hotspur,away,37581741,Archie James Francis Gray,D,XI,90.0
+19722145,2026-10-10,Tottenham Hotspur,away,37581741,Archie Gray,D,XI,90.0
 19722145,2026-10-10,Tottenham Hotspur,away,37607151,Lucas Bergvall,M,XI,66.0
 19722145,2026-10-10,Tottenham Hotspur,away,2823228,Sandro Tonali,M,XI,90.0
 19722145,2026-10-10,Tottenham Hotspur,away,37527169,Savinho,M,XI,90.0
@@ -2443,7 +2443,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19722145,2026-10-10,Manchester United,home,1846739,Matheus Cunha,M,XI,90.0
 19722145,2026-10-10,Manchester United,home,9605680,Joshua Zirkzee,F,SUB,31.0
 19722145,2026-10-10,Manchester United,home,1397,Karl Darlow,G,SUB,
-19722145,2026-10-10,Manchester United,home,37600357,Leny Jean-Luc Yoro,D,XI,59.0
+19722145,2026-10-10,Manchester United,home,37600357,Leny Yoro,D,XI,59.0
 19722145,2026-10-10,Manchester United,home,37317015,Amad Diallo,M,XI,59.0
 19722145,2026-10-10,Manchester United,home,37562129,Andrey Santos,M,SUB,
 19722145,2026-10-10,Manchester United,home,62342,Youri Tielemans,M,XI,59.0
@@ -3324,7 +3324,6 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19722131,2026-10-24,Chelsea,home,37316840,,,OUT,0.0
 19722131,2026-10-24,Chelsea,home,1343,,,OUT,0.0
 19722131,2026-10-24,Chelsea,home,581220,,,OUT,0.0
-19722131,2026-10-24,Chelsea,home,37400423,,,OUT,0.0
 19722131,2026-10-24,Chelsea,home,21803152,,,OUT,0.0
 19722131,2026-10-24,Chelsea,home,28931574,,,OUT,0.0
 19722125,2026-10-25,Manchester United,home,23269670,Senne Lammens,G,XI,90.0
