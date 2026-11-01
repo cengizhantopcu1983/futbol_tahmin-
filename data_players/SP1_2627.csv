@@ -4987,8 +4987,8 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732636,2026-10-31,Atlético de Madrid,away,38205278,Jorge Domínguez,D,SUB,
 19732636,2026-10-31,Atlético de Madrid,away,37656197,Dani Martinez,D,SUB,
 19732636,2026-10-31,Atlético de Madrid,away,185571,,,OUT,0.0
-19732636,2026-10-31,Levante,home,37317478,,,OUT,0.0
 19732636,2026-10-31,Atlético de Madrid,away,37261342,,,OUT,0.0
+19732636,2026-10-31,Levante,home,23269641,,,OUT,0.0
 19732634,2026-10-31,Celta de Vigo,away,438751,Altay Bayındır,G,SUB,
 19732634,2026-10-31,Celta de Vigo,away,1128,Marcos Alonso,D,SUB,
 19732634,2026-10-31,Celta de Vigo,away,37715699,Abdoulaye Faye,D,SUB,
@@ -5019,10 +5019,10 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732634,2026-10-31,Rayo Vallecano,home,461664,Alemão,F,SUB,11.0
 19732634,2026-10-31,Rayo Vallecano,home,7698443,Sergio Camello,F,XI,61.0
 19732634,2026-10-31,Rayo Vallecano,home,10319453,Randy Nteka,M,SUB,
-19732634,2026-10-31,Rayo Vallecano,home,537257,Giorgi Tsitaishvili,F,SUB,45.0
+19732634,2026-10-31,Rayo Vallecano,home,537257,Giorgi Tsitaishvili,F,SUB,44.0
 19732634,2026-10-31,Rayo Vallecano,home,2510840,Mujaid Sadick,D,XI,90.0
 19732634,2026-10-31,Rayo Vallecano,home,532358,Adrià Pedrosa,D,XI,61.0
-19732634,2026-10-31,Rayo Vallecano,home,186358,Álvaro García,F,XI,45.0
+19732634,2026-10-31,Rayo Vallecano,home,186358,Álvaro García,F,XI,46.0
 19732634,2026-10-31,Rayo Vallecano,home,447094,Jorge de Frutos,F,XI,90.0
 19732634,2026-10-31,Rayo Vallecano,home,96719,Iván Balliu,D,SUB,
 19732634,2026-10-31,Rayo Vallecano,home,23278664,Fran Pérez,F,SUB,
@@ -5042,3 +5042,109 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732634,2026-10-31,Rayo Vallecano,home,132577,,,OUT,0.0
 19732634,2026-10-31,Rayo Vallecano,home,2511096,,,OUT,0.0
 19732634,2026-10-31,Celta de Vigo,away,25922180,,,OUT,0.0
+19732641,2026-10-31,Málaga,away,446609,Alfonso Herrero,G,XI,90.0
+19732641,2026-10-31,Málaga,away,194768,Jens Cajuste,M,SUB,10.0
+19732641,2026-10-31,Málaga,away,37297497,Carlos Puga,D,XI,90.0
+19732641,2026-10-31,Málaga,away,188749,Einar Galilea,D,XI,90.0
+19732641,2026-10-31,Málaga,away,20334484,Álex Pastor,D,SUB,
+19732641,2026-10-31,Málaga,away,31217483,Ramón Enríquez,M,XI,61.0
+19732641,2026-10-31,Málaga,away,37552479,Haitam Abaida,F,SUB,
+19732641,2026-10-31,Málaga,away,37316508,Carlos Dotor,M,XI,80.0
+19732641,2026-10-31,Málaga,away,37640769,Chupe,F,SUB,30.0
+19732641,2026-10-31,Málaga,away,37308393,David Larrubia,M,XI,60.0
+19732641,2026-10-31,Málaga,away,37325831,José Salinas,D,SUB,
+19732641,2026-10-31,Málaga,away,37603155,Carlos López,G,SUB,
+19732641,2026-10-31,Málaga,away,37592574,Rafa Rodríguez,M,SUB,29.0
+19732641,2026-10-31,Málaga,away,446977,Eneko Jauregi,F,SUB,4.0
+19732641,2026-10-31,Málaga,away,445831,Fernando Calero,D,XI,79.0
+19732641,2026-10-31,Málaga,away,37656201,Adrián Niño Heredia,F,XI,86.0
+19732641,2026-10-31,Málaga,away,37594411,Dani Lorenzo,M,XI,90.0
+19732641,2026-10-31,Málaga,away,37666757,Izan Merino,M,SUB,
+19732641,2026-10-31,Málaga,away,540208,Juan Berrocal,D,SUB,
+19732641,2026-10-31,Málaga,away,37558956,Andrés Céspedes,G,SUB,
+19732641,2026-10-31,Málaga,away,37718104,Rafita Garrido,D,XI,90.0
+19732641,2026-10-31,Málaga,away,37777466,Juan Francisco Fernández Martin,F,SUB,11.0
+19732641,2026-10-31,Málaga,away,37650058,Adam Aznou,M,XI,90.0
+19732641,2026-10-31,Real Betis,home,450028,Álvaro Valles,G,XI,90.0
+19732641,2026-10-31,Real Betis,home,1899,Héctor Bellerín,D,XI,83.0
+19732641,2026-10-31,Real Betis,home,186595,Diego Llorente,D,SUB,
+19732641,2026-10-31,Real Betis,home,37402346,Natan,D,XI,90.0
+19732641,2026-10-31,Real Betis,home,32399,Marc Bartra,D,XI,90.0
+19732641,2026-10-31,Real Betis,home,12393293,Antony,F,SUB,29.0
+19732641,2026-10-31,Real Betis,home,186815,Pablo Fornals,M,XI,84.0
+19732641,2026-10-31,Real Betis,home,37297124,Abde Ezzalzouli,M,XI,90.0
+19732641,2026-10-31,Real Betis,home,537666,Fran García,D,XI,90.0
+19732641,2026-10-31,Real Betis,home,37592956,Ángel Ortiz,D,SUB,7.0
+19732641,2026-10-31,Real Betis,home,537203,Diego Conde,G,SUB,
+19732641,2026-10-31,Real Betis,home,447092,Álvaro Fidalgo,M,SUB,
+19732641,2026-10-31,Real Betis,home,37619560,Valentín Gómez,D,SUB,
+19732641,2026-10-31,Real Betis,home,4536517,Rodrigo Riquelme,M,XI,61.0
+19732641,2026-10-31,Real Betis,home,37555046,Nelson Deossa,M,SUB,6.0
+19732641,2026-10-31,Real Betis,home,23277907,Troy Parrott,F,XI,75.0
+19732641,2026-10-31,Real Betis,home,97664,Giovani Lo Celso,M,SUB,
+19732641,2026-10-31,Real Betis,home,186922,Marc Roca,M,XI,90.0
+19732641,2026-10-31,Real Betis,home,185972,Isco,M,XI,62.0
+19732641,2026-10-31,Real Betis,home,448107,Aitor Ruibal,F,SUB,15.0
+19732641,2026-10-31,Real Betis,home,186734,Dani Ceballos,M,SUB,28.0
+19732641,2026-10-31,Real Betis,home,37786808,José Antonio Morante,F,SUB,
+19732641,2026-10-31,Real Betis,home,37738518,Manu González,G,SUB,
+19732641,2026-10-31,Málaga,away,27797020,,,OUT,0.0
+19732641,2026-10-31,Málaga,away,37723837,,,OUT,0.0
+19732641,2026-10-31,Málaga,away,37336532,,,OUT,0.0
+19732641,2026-10-31,Real Betis,home,449187,,,OUT,0.0
+19732641,2026-10-31,Real Betis,home,37571856,,,OUT,0.0
+19732641,2026-10-31,Real Betis,home,240195,,,OUT,0.0
+19732638,2026-10-31,FC Barcelona,home,16475841,Joan García,G,XI,90.0
+19732638,2026-10-31,FC Barcelona,home,160956,João Cancelo,D,XI,62.0
+19732638,2026-10-31,FC Barcelona,home,37316480,Alejandro Balde,D,SUB,28.0
+19732638,2026-10-31,FC Barcelona,home,37719044,Brian Fariñas,D,XI,90.0
+19732638,2026-10-31,FC Barcelona,home,37656790,Pau Cubarsí,D,XI,90.0
+19732638,2026-10-31,FC Barcelona,home,37459030,Gavi,M,SUB,
+19732638,2026-10-31,FC Barcelona,home,37596363,Fermín López,M,XI,90.0
+19732638,2026-10-31,FC Barcelona,home,37288001,Pedri,M,XI,46.0
+19732638,2026-10-31,FC Barcelona,home,5329,Gabriel Jesus,F,SUB,28.0
+19732638,2026-10-31,FC Barcelona,home,37656179,Lamine Yamal,F,XI,74.0
+19732638,2026-10-31,FC Barcelona,home,160258,Raphinha,F,XI,62.0
+19732638,2026-10-31,FC Barcelona,home,805,Wojciech Szczesny,G,SUB,
+19732638,2026-10-31,FC Barcelona,home,15040126,Karim Adeyemi,F,XI,90.0
+19732638,2026-10-31,FC Barcelona,home,186910,Rodri,M,XI,90.0
+19732638,2026-10-31,FC Barcelona,home,9611543,Anthony Gordon,F,SUB,16.0
+19732638,2026-10-31,FC Barcelona,home,37357510,Gerard Martín,D,SUB,8.0
+19732638,2026-10-31,FC Barcelona,home,26536,Frenkie de Jong,D,XI,82.0
+19732638,2026-10-31,FC Barcelona,home,37710798,Marc Bernal Casas,M,SUB,44.0
+19732638,2026-10-31,FC Barcelona,home,73721,Dominik Livakovic,G,SUB,
+19732638,2026-10-31,FC Barcelona,home,37913575,Hamza Abdelkarim,F,SUB,
+19732638,2026-10-31,FC Barcelona,home,38205325,Ebrima Tunkara,M,SUB,
+19732638,2026-10-31,FC Barcelona,home,37726576,Guillem Víctor,D,SUB,
+19732638,2026-10-31,FC Barcelona,home,37788342,Álex Campos,D,SUB,
+19732638,2026-10-31,Deportivo Alavés,away,187158,Antonio Sivera,G,XI,90.0
+19732638,2026-10-31,Deportivo Alavés,away,37567268,Nicolás Valentini,D,SUB,
+19732638,2026-10-31,Deportivo Alavés,away,37624126,Youssef Enríquez,D,XI,90.0
+19732638,2026-10-31,Deportivo Alavés,away,4439,Denis Suárez,M,XI,55.0
+19732638,2026-10-31,Deportivo Alavés,away,447166,Ander Guevara,M,XI,90.0
+19732638,2026-10-31,Deportivo Alavés,away,37587454,Ángel Pérez,M,XI,74.0
+19732638,2026-10-31,Deportivo Alavés,away,4545461,Antonio Blanco,M,SUB,
+19732638,2026-10-31,Deportivo Alavés,away,186936,Mariano Díaz,F,SUB,16.0
+19732638,2026-10-31,Deportivo Alavés,away,187098,Carles Aleñá,M,SUB,
+19732638,2026-10-31,Deportivo Alavés,away,10692,Toni Martínez,F,SUB,44.0
+19732638,2026-10-31,Deportivo Alavés,away,37316454,Hugo Novoa,F,SUB,16.0
+19732638,2026-10-31,Deportivo Alavés,away,25548784,Adrián Rodríguez,G,SUB,
+19732638,2026-10-31,Deportivo Alavés,away,443792,Nahuel Tenaglia,D,XI,90.0
+19732638,2026-10-31,Deportivo Alavés,away,129862,Lucas Boyé,F,XI,74.0
+19732638,2026-10-31,Deportivo Alavés,away,16488582,Ville Koski,D,XI,90.0
+19732638,2026-10-31,Deportivo Alavés,away,186426,Jonny Otto,D,XI,90.0
+19732638,2026-10-31,Deportivo Alavés,away,37249198,Pablo Ibáñez,M,SUB,35.0
+19732638,2026-10-31,Deportivo Alavés,away,37584717,Aitor Mañas,F,SUB,35.0
+19732638,2026-10-31,Deportivo Alavés,away,26523850,Abde Rebbach,M,XI,55.0
+19732638,2026-10-31,Deportivo Alavés,away,24468972,Miguel Rodríguez,F,SUB,
+19732638,2026-10-31,Deportivo Alavés,away,261130,Carlos Protesoni,M,XI,46.0
+19732638,2026-10-31,Deportivo Alavés,away,37554535,Selu Diallo,M,SUB,
+19732638,2026-10-31,Deportivo Alavés,away,37655904,Xanet Oláiz,D,SUB,
+19732638,2026-10-31,FC Barcelona,home,37598766,,,OUT,0.0
+19732638,2026-10-31,Deportivo Alavés,away,37591023,,,OUT,0.0
+19732638,2026-10-31,Deportivo Alavés,away,522619,,,OUT,0.0
+19732638,2026-10-31,FC Barcelona,home,4460,,,OUT,0.0
+19732638,2026-10-31,FC Barcelona,home,4545389,,,OUT,0.0
+19732638,2026-10-31,FC Barcelona,home,337394,,,OUT,0.0
+19732638,2026-10-31,FC Barcelona,home,74060,,,OUT,0.0
+19732638,2026-10-31,FC Barcelona,home,37719662,,,OUT,0.0

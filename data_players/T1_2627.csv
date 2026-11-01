@@ -3962,15 +3962,15 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746566,2026-10-31,Rizespor,away,37615913,Moussa Diakité,M,XI,90.0
 19746566,2026-10-31,Rizespor,away,6013442,Valentin Mihăilă,F,SUB,24.0
 19746566,2026-10-31,Rizespor,away,37259244,Dal Varesanovic,M,SUB,2.0
-19746566,2026-10-31,Rizespor,away,132244,Ali Sowe,F,SUB,45.0
+19746566,2026-10-31,Rizespor,away,132244,Ali Sowe,F,SUB,44.0
 19746566,2026-10-31,Rizespor,away,37369292,Ibrahim Olawoyin,M,XI,88.0
-19746566,2026-10-31,Rizespor,away,37336898,Adedire Mebude,M,XI,45.0
+19746566,2026-10-31,Rizespor,away,37336898,Adedire Mebude,M,XI,46.0
 19746566,2026-10-31,Rizespor,away,201516,Taylan Antalyalı,M,SUB,10.0
 19746566,2026-10-31,Rizespor,away,37616144,Zakaria Ariss,D,XI,90.0
 19746566,2026-10-31,Rizespor,away,78462,Qazim Laci,M,XI,80.0
 19746566,2026-10-31,Rizespor,away,37655846,Siaka Bakayoko,D,XI,90.0
-19746566,2026-10-31,Rizespor,away,3862121,Ahmed Kutucu,F,SUB,45.0
-19746566,2026-10-31,Rizespor,away,32404530,Gennaro Borrelli,F,XI,45.0
+19746566,2026-10-31,Rizespor,away,3862121,Ahmed Kutucu,F,SUB,44.0
+19746566,2026-10-31,Rizespor,away,32404530,Gennaro Borrelli,F,XI,46.0
 19746566,2026-10-31,Rizespor,away,14685552,Zafer Görgen,G,XI,90.0
 19746566,2026-10-31,Rizespor,away,31226692,Taha Şahin,D,SUB,
 19746566,2026-10-31,Rizespor,away,37308595,Mithat Pala,D,XI,90.0
@@ -3984,7 +3984,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746566,2026-10-31,Kocaelispor,home,37528918,Matej Maglica,D,SUB,
 19746566,2026-10-31,Kocaelispor,home,5381,Dan Agyei,F,SUB,27.0
 19746566,2026-10-31,Kocaelispor,home,37315654,Tobias Gulliksen,M,SUB,1.0
-19746566,2026-10-31,Kocaelispor,home,37520128,Berkan Kutlu,M,XI,89.0
+19746566,2026-10-31,Kocaelispor,home,37520128,Berkan Kutlu,M,XI,90.0
 19746566,2026-10-31,Kocaelispor,home,37673619,Gonçalo Sousa,F,XI,63.0
 19746566,2026-10-31,Kocaelispor,home,1507167,Show,M,XI,90.0
 19746566,2026-10-31,Kocaelispor,home,37745146,Haydar Karataş,M,SUB,
@@ -4004,3 +4004,54 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746566,2026-10-31,Kocaelispor,home,1376,,,OUT,0.0
 19746566,2026-10-31,Rizespor,away,23637680,,,OUT,0.0
 19746566,2026-10-31,Rizespor,away,21762190,,,OUT,0.0
+19746567,2026-10-31,Fenerbahçe,home,22528506,İsmail Yüksek,M,SUB,
+19746567,2026-10-31,Fenerbahçe,home,97087,Mattéo Guendouzi,M,XI,90.0
+19746567,2026-10-31,Fenerbahçe,home,534383,Kerem Aktürkoğlu,M,XI,83.0
+19746567,2026-10-31,Fenerbahçe,home,391441,Mert Hakan Yandaş,M,SUB,
+19746567,2026-10-31,Fenerbahçe,home,995,Romelu Lukaku,F,XI,90.0
+19746567,2026-10-31,Fenerbahçe,home,1512208,Tarık Çetin,G,SUB,
+19746567,2026-10-31,Fenerbahçe,home,37568397,Yiğit Efe Demir,D,SUB,7.0
+19746567,2026-10-31,Fenerbahçe,home,201444,İrfan Can Kahveci,M,XI,90.0
+19746567,2026-10-31,Fenerbahçe,home,2510388,Mert Müldür,D,SUB,25.0
+19746567,2026-10-31,Fenerbahçe,home,49353,Vedat Muriqi,F,SUB,7.0
+19746567,2026-10-31,Fenerbahçe,home,37678433,Kojo Oppong,D,XI,83.0
+19746567,2026-10-31,Fenerbahçe,home,3862139,Levent Mercan,D,XI,90.0
+19746567,2026-10-31,Fenerbahçe,home,160110,Nélson Semedo,D,XI,65.0
+19746567,2026-10-31,Fenerbahçe,home,37317375,Bartuğ Elmaz,M,SUB,
+19746567,2026-10-31,Fenerbahçe,home,159142,Ederson,G,XI,90.0
+19746567,2026-10-31,Fenerbahçe,home,200715,Mert Günok,G,SUB,
+19746567,2026-10-31,Fenerbahçe,home,130142,Milan Škriniar,D,XI,90.0
+19746567,2026-10-31,Fenerbahçe,home,37555777,Dorgeles Nene,F,SUB,6.0
+19746567,2026-10-31,Fenerbahçe,home,10967396,Oğuz Aydın,M,XI,84.0
+19746567,2026-10-31,Fenerbahçe,home,37597972,Ognjen Mimović,D,SUB,
+19746567,2026-10-31,Fenerbahçe,home,1193,N'Golo Kanté,M,XI,90.0
+19746567,2026-10-31,Göztepe,away,24817287,Arda Özçimen,G,XI,90.0
+19746567,2026-10-31,Göztepe,away,37375221,Arda Okan Kurtulan,M,XI,90.0
+19746567,2026-10-31,Göztepe,away,31607879,Allan Godói,D,SUB,1.0
+19746567,2026-10-31,Göztepe,away,37423121,Taha Altıkardeş,D,XI,90.0
+19746567,2026-10-31,Göztepe,away,10967436,Rhaldney,M,XI,90.0
+19746567,2026-10-31,Göztepe,away,37545764,Alex Matos,M,SUB,
+19746567,2026-10-31,Göztepe,away,37426978,André Henrique,F,SUB,25.0
+19746567,2026-10-31,Göztepe,away,2206568,Alexis Antunes,F,XI,74.0
+19746567,2026-10-31,Göztepe,away,37451261,Juan,F,XI,74.0
+19746567,2026-10-31,Göztepe,away,43244,Efkan Bekiroğlu,M,SUB,1.0
+19746567,2026-10-31,Göztepe,away,37674862,Richard Akonnor,M,XI,90.0
+19746567,2026-10-31,Göztepe,away,37714842,Ege Yıldırım,D,SUB,
+19746567,2026-10-31,Göztepe,away,526418,Bekir Turaç Böke,F,SUB,
+19746567,2026-10-31,Göztepe,away,3219737,Gökdeniz Bayrakdar,F,SUB,
+19746567,2026-10-31,Göztepe,away,6599974,Tino Anjorin,M,SUB,16.0
+19746567,2026-10-31,Göztepe,away,191018,Noah Sonko Sundberg,D,XI,90.0
+19746567,2026-10-31,Göztepe,away,37560901,Novatus Miroshi,M,XI,90.0
+19746567,2026-10-31,Göztepe,away,37354878,Sinclair Armstrong,F,SUB,16.0
+19746567,2026-10-31,Göztepe,away,9307576,Malcom Bokele,D,XI,90.0
+19746567,2026-10-31,Göztepe,away,37631598,Şamil Öztürk,G,SUB,
+19746567,2026-10-31,Göztepe,away,37615973,Janderson,F,XI,65.0
+19746567,2026-10-31,Göztepe,away,3510206,,,OUT,0.0
+19746567,2026-10-31,Göztepe,away,106673,,,OUT,0.0
+19746567,2026-10-31,Fenerbahçe,home,37694321,,,OUT,0.0
+19746567,2026-10-31,Fenerbahçe,home,37529658,,,OUT,0.0
+19746567,2026-10-31,Göztepe,away,37710344,,,OUT,0.0
+19746567,2026-10-31,Fenerbahçe,home,186668,,,OUT,0.0
+19746567,2026-10-31,Fenerbahçe,home,1869,,,OUT,0.0
+19746567,2026-10-31,Fenerbahçe,home,28912973,,,OUT,0.0
+19746567,2026-10-31,Fenerbahçe,home,20333643,,,OUT,0.0
