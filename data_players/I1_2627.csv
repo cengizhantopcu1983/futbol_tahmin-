@@ -5193,7 +5193,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19713521,2026-11-01,Genoa,away,37343968,Tommaso Baldanzi,M,SUB,
 19713521,2026-11-01,Genoa,away,37538647,Vitinha,F,SUB,30.0
 19713521,2026-11-01,Genoa,away,2511125,Junior Messias,F,XI,86.0
-19713521,2026-11-01,Genoa,away,37761121,Franz-Ethan Meichtry,M,SUB,4.0
+19713521,2026-11-01,Genoa,away,37761121,Franz-Ethan Meichtry,M,SUB,8.0
 19713521,2026-11-01,Genoa,away,37636185,Lukas Klišys,D,SUB,
 19713521,2026-11-01,Genoa,away,21412958,Cody Drameh,D,SUB,
 19713521,2026-11-01,Genoa,away,5283704,Milutin Osmajic,F,XI,86.0
@@ -5201,7 +5201,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19713521,2026-11-01,Genoa,away,1525399,Johan Vásquez,D,XI,90.0
 19713521,2026-11-01,Genoa,away,2511082,Hamed Traoré,M,XI,80.0
 19713521,2026-11-01,Genoa,away,37539460,Alessandro Marcandalli,D,XI,90.0
-19713521,2026-11-01,Genoa,away,32777439,Lorenzo Colombo,F,SUB,4.0
+19713521,2026-11-01,Genoa,away,32777439,Lorenzo Colombo,F,SUB,8.0
 19713521,2026-11-01,Genoa,away,37589379,David Puczka,D,SUB,
 19713521,2026-11-01,Genoa,away,11705287,Morten Frendrup,M,XI,90.0
 19713521,2026-11-01,Genoa,away,37657515,Sebastian Otoa,D,SUB,
@@ -5242,17 +5242,17 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19713521,2026-11-01,Lecce,home,37551656,,,OUT,0.0
 19713521,2026-11-01,Lecce,home,2206983,,,OUT,0.0
 19713523,2026-11-01,Napoli,away,129638,Alex Meret,G,XI,90.0
-19713523,2026-11-01,Napoli,away,6599973,Billy Gilmour,M,SUB,44.0
+19713523,2026-11-01,Napoli,away,6599973,Billy Gilmour,M,SUB,45.0
 19713523,2026-11-01,Napoli,away,455376,Scott McTominay,M,XI,90.0
-19713523,2026-11-01,Napoli,away,1371,Kevin De Bruyne,M,XI,46.0
-19713523,2026-11-01,Napoli,away,49420,Amir Rrahmani,D,SUB,44.0
+19713523,2026-11-01,Napoli,away,1371,Kevin De Bruyne,M,XI,45.0
+19713523,2026-11-01,Napoli,away,49420,Amir Rrahmani,D,SUB,45.0
 19713523,2026-11-01,Napoli,away,133603,Nikita Contini,G,SUB,
 19713523,2026-11-01,Napoli,away,32819198,Rafa Marín,D,XI,90.0
 19713523,2026-11-01,Napoli,away,260904,Mathías Olivera,D,XI,79.0
 19713523,2026-11-01,Napoli,away,37756455,Francisco Baridó,M,SUB,
 19713523,2026-11-01,Napoli,away,11669604,Lorenzo Lucca,F,XI,90.0
 19713523,2026-11-01,Napoli,away,129926,Matteo Politano,F,XI,61.0
-19713523,2026-11-01,Napoli,away,132721,Giovanni Di Lorenzo,D,XI,46.0
+19713523,2026-11-01,Napoli,away,132721,Giovanni Di Lorenzo,D,XI,45.0
 19713523,2026-11-01,Napoli,away,37568721,Giovane,F,SUB,11.0
 19713523,2026-11-01,Napoli,away,37607444,Antonio Vergara,M,SUB,29.0
 19713523,2026-11-01,Napoli,away,3187861,Sam Beukema,D,SUB,11.0
@@ -5265,7 +5265,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19713523,2026-11-01,Napoli,away,31439,Noa Lang,F,XI,90.0
 19713523,2026-11-01,Napoli,away,96804,Frank Anguissa,M,XI,79.0
 19713523,2026-11-01,Juventus,home,1167415,Bremer,D,XI,90.0
-19713523,2026-11-01,Juventus,home,37533245,Federico Gatti,D,SUB,44.0
+19713523,2026-11-01,Juventus,home,37533245,Federico Gatti,D,SUB,45.0
 19713523,2026-11-01,Juventus,home,7655,Lloyd Kelly,D,SUB,18.0
 19713523,2026-11-01,Juventus,home,29184,Teun Koopmeiners,M,XI,90.0
 19713523,2026-11-01,Juventus,home,432872,Randal Kolo Muani,F,XI,59.0
@@ -5276,7 +5276,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19713523,2026-11-01,Juventus,home,37649990,Kerim Alajbegovic,M,XI,72.0
 19713523,2026-11-01,Juventus,home,37732903,Jeff Ekhator,F,SUB,
 19713523,2026-11-01,Juventus,home,37260234,Andrea Cambiaso,D,SUB,8.0
-19713523,2026-11-01,Juventus,home,608189,Weston McKennie,M,XI,46.0
+19713523,2026-11-01,Juventus,home,608189,Weston McKennie,M,XI,45.0
 19713523,2026-11-01,Juventus,home,130701,Carlo Pinsoglio,G,SUB,
 19713523,2026-11-01,Juventus,home,129624,Daniele Rugani,D,SUB,
 19713523,2026-11-01,Juventus,home,133779,Guglielmo Vicario,G,XI,90.0
@@ -5301,3 +5301,113 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19713523,2026-11-01,Napoli,away,129433,,,OUT,0.0
 19713523,2026-11-01,Napoli,away,27850,,,OUT,0.0
 19713523,2026-11-01,Napoli,away,155896,,,OUT,0.0
+19713519,2026-11-02,Fiorentina,away,219486,Dodô,D,SUB,
+19713519,2026-11-02,Fiorentina,away,23715982,Radu Drăgușin,D,XI,90.0
+19713519,2026-11-02,Fiorentina,away,20333755,Marco Brescianini,M,XI,77.0
+19713519,2026-11-02,Fiorentina,away,4545434,João Mário,D,XI,90.0
+19713519,2026-11-02,Fiorentina,away,129766,Luca Lezzerini,G,SUB,
+19713519,2026-11-02,Fiorentina,away,37584705,Alejandro Jiménez Sánchez,D,XI,90.0
+19713519,2026-11-02,Fiorentina,away,37765134,Víctor Valdepeñas,D,SUB,7.0
+19713519,2026-11-02,Fiorentina,away,21773178,Beto,F,SUB,13.0
+19713519,2026-11-02,Fiorentina,away,37653223,Alieu Njie,F,XI,63.0
+19713519,2026-11-02,Fiorentina,away,37568690,Cher Ndour,M,XI,90.0
+19713519,2026-11-02,Fiorentina,away,3169778,Pedro Gonçalves,M,SUB,13.0
+19713519,2026-11-02,Fiorentina,away,37316986,Wilfried Gnonto,F,SUB,27.0
+19713519,2026-11-02,Fiorentina,away,37729623,Franco Mastantuono,F,XI,89.0
+19713519,2026-11-02,Fiorentina,away,37553010,Mateo Pellegrino,F,XI,77.0
+19713519,2026-11-02,Fiorentina,away,37701232,Viery,D,XI,90.0
+19713519,2026-11-02,Fiorentina,away,37761103,Christ Inao Oulaï,M,SUB,27.0
+19713519,2026-11-02,Fiorentina,away,832,David de Gea,G,XI,90.0
+19713519,2026-11-02,Fiorentina,away,4536538,Nicolò Fagioli,M,XI,63.0
+19713519,2026-11-02,Fiorentina,away,85808,Oliver Christensen,G,SUB,
+19713519,2026-11-02,Fiorentina,away,37778598,Federico Croci,F,SUB,
+19713519,2026-11-02,Fiorentina,away,37911180,Dennis Beldenti,D,SUB,
+19713519,2026-11-02,Fiorentina,away,37771392,Salvatore Cianciulli,M,SUB,
+19713519,2026-11-02,Sassuolo,home,37260591,Josh Doig,D,XI,77.0
+19713519,2026-11-02,Sassuolo,home,1872672,Fali Candé,D,XI,90.0
+19713519,2026-11-02,Sassuolo,home,1452150,Sebastian Walukiewicz,D,XI,77.0
+19713519,2026-11-02,Sassuolo,home,36097548,Andrea Ghion,M,SUB,
+19713519,2026-11-02,Sassuolo,home,25954296,Kieron Bowie,F,SUB,31.0
+19713519,2026-11-02,Sassuolo,home,129553,Domenico Berardi,F,XI,90.0
+19713519,2026-11-02,Sassuolo,home,133785,Giacomo Satalino,G,SUB,
+19713519,2026-11-02,Sassuolo,home,37779011,Gabriel Kulla,F,SUB,1.0
+19713519,2026-11-02,Sassuolo,home,52573,Duje Caleta-Car,D,SUB,
+19713519,2026-11-02,Sassuolo,home,37598836,Vasilije Adžić,M,XI,59.0
+19713519,2026-11-02,Sassuolo,home,1335,Nemanja Matić,M,XI,90.0
+19713519,2026-11-02,Sassuolo,home,27088972,Ignace Van der Brempt,D,SUB,
+19713519,2026-11-02,Sassuolo,home,16120447,Jay Idzes,D,XI,90.0
+19713519,2026-11-02,Sassuolo,home,37607194,Benja Domínguez,F,SUB,
+19713519,2026-11-02,Sassuolo,home,37257608,Cas Odenthal,D,SUB,
+19713519,2026-11-02,Sassuolo,home,37459022,Rafael Obrador Burguera,D,SUB,13.0
+19713519,2026-11-02,Sassuolo,home,37599992,Luca Lipani,M,SUB,
+19713519,2026-11-02,Sassuolo,home,432840,Armand Laurienté,F,XI,90.0
+19713519,2026-11-02,Sassuolo,home,37653198,Simone Cinquegrano,M,SUB,13.0
+19713519,2026-11-02,Sassuolo,home,538038,Arijanet Murić,G,SUB,
+19713519,2026-11-02,Sassuolo,home,37737405,Darryl Bakola,M,SUB,45.0
+19713519,2026-11-02,Sassuolo,home,37616125,Ibrahim Sulemana,M,XI,45.0
+19713519,2026-11-02,Sassuolo,home,37596518,Edoardo Pieragnolo,D,SUB,
+19713519,2026-11-02,Sassuolo,home,133680,Nicholas Pierini,F,SUB,
+19713519,2026-11-02,Sassuolo,home,2511148,Stefano Turati,G,XI,90.0
+19713519,2026-11-02,Sassuolo,home,23288058,Sebastiano Esposito,F,XI,89.0
+19713519,2026-11-02,Sassuolo,home,741626,,,OUT,0.0
+19713519,2026-11-02,Fiorentina,away,37289275,,,OUT,0.0
+19713519,2026-11-02,Sassuolo,home,37582178,,,OUT,0.0
+19713519,2026-11-02,Fiorentina,away,37607729,,,OUT,0.0
+19713519,2026-11-02,Sassuolo,home,37459055,,,OUT,0.0
+19713519,2026-11-02,Fiorentina,away,3181368,,,OUT,0.0
+19713519,2026-11-02,Fiorentina,away,36681,,,OUT,0.0
+19713519,2026-11-02,Sassuolo,home,12016844,,,OUT,0.0
+19713527,2026-11-02,Parma,away,36074594,Abdoulaye Ndiaye,D,SUB,45.0
+19713527,2026-11-02,Parma,away,198045,Vincent Sierro,M,XI,89.0
+19713527,2026-11-02,Parma,away,37708073,Ousmane Diallo,F,SUB,
+19713527,2026-11-02,Parma,away,37625886,Benja Cremaschi,M,SUB,
+19713527,2026-11-02,Parma,away,37396586,David Romero,F,SUB,
+19713527,2026-11-02,Parma,away,460392,Pontus Almqvist,F,SUB,
+19713527,2026-11-02,Parma,away,2816035,Emanuele Valeri,M,XI,90.0
+19713527,2026-11-02,Parma,away,14337998,Enrico Delprato,D,XI,90.0
+19713527,2026-11-02,Parma,away,37564372,Mandela Keita,M,XI,90.0
+19713527,2026-11-02,Parma,away,30446920,El Bilal Touré,F,XI,74.0
+19713527,2026-11-02,Parma,away,37548503,Matija Frigan,F,SUB,16.0
+19713527,2026-11-02,Parma,away,134070,Simone Ghidotti,G,SUB,
+19713527,2026-11-02,Parma,away,37556736,Nesta Elphege,F,SUB,16.0
+19713527,2026-11-02,Parma,away,37904226,Sascha Britschgi,M,XI,90.0
+19713527,2026-11-02,Parma,away,37445076,Franco Carboni,D,SUB,
+19713527,2026-11-02,Parma,away,37592757,Giovanni Daffara,G,XI,90.0
+19713527,2026-11-02,Parma,away,37625756,Christian Ordóñez,M,SUB,23.0
+19713527,2026-11-02,Parma,away,96689,Diego Carlos,D,SUB,
+19713527,2026-11-02,Parma,away,37705907,Mariano Troilo,D,XI,90.0
+19713527,2026-11-02,Parma,away,37257777,Edoardo Corvi,G,SUB,
+19713527,2026-11-02,Parma,away,4536540,Hans Nicolussi Caviglia,M,SUB,1.0
+19713527,2026-11-02,Parma,away,37694317,Abdou-Salam Konate,M,SUB,
+19713527,2026-11-02,Parma,away,37725147,Dominik Drobnic,D,XI,45.0
+19713527,2026-11-02,Parma,away,37722655,Simone Lontani,F,XI,67.0
+19713527,2026-11-02,Parma,away,37529791,Giovanni Fabbian,M,XI,74.0
+19713527,2026-11-02,Atalanta,home,37438667,Kamaldeen Sulemana,F,SUB,23.0
+19713527,2026-11-02,Atalanta,home,73603,Mario Pašalić,M,XI,90.0
+19713527,2026-11-02,Atalanta,home,23707373,Lazar Samardžić,M,SUB,14.0
+19713527,2026-11-02,Atalanta,home,34455209,Jonathan Rowe,M,XI,67.0
+19713527,2026-11-02,Atalanta,home,545244,Éderson,M,XI,62.0
+19713527,2026-11-02,Atalanta,home,23269660,Charles De Ketelaere,M,XI,90.0
+19713527,2026-11-02,Atalanta,home,22878016,Marco Carnesecchi,G,XI,90.0
+19713527,2026-11-02,Atalanta,home,37673342,Relja Obrić,D,XI,90.0
+19713527,2026-11-02,Atalanta,home,37770688,Javison Idele,M,SUB,14.0
+19713527,2026-11-02,Atalanta,home,37343966,Giorgio Scalvini,D,XI,90.0
+19713527,2026-11-02,Atalanta,home,37688869,Sergej Levak,M,SUB,
+19713527,2026-11-02,Atalanta,home,37343963,Lorenzo Bernasconi,D,XI,90.0
+19713527,2026-11-02,Atalanta,home,37773483,Mattia Sonzogni,G,SUB,
+19713527,2026-11-02,Atalanta,home,37678619,Matteo Plaia,D,SUB,
+19713527,2026-11-02,Atalanta,home,129436,Marco Sportiello,G,SUB,
+19713527,2026-11-02,Atalanta,home,23288607,Nicola Zalewski,M,XI,76.0
+19713527,2026-11-02,Atalanta,home,129440,Davide Zappacosta,D,XI,76.0
+19713527,2026-11-02,Atalanta,home,149150,Nikola Krstović,F,XI,90.0
+19713527,2026-11-02,Atalanta,home,338180,Eljif Elmas,M,SUB,28.0
+19713527,2026-11-02,Atalanta,home,689021,,,OUT,0.0
+19713527,2026-11-02,Atalanta,home,28931733,,,OUT,0.0
+19713527,2026-11-02,Atalanta,home,37784805,,,OUT,0.0
+19713527,2026-11-02,Atalanta,home,129906,,,OUT,0.0
+19713527,2026-11-02,Atalanta,home,13238937,,,OUT,0.0
+19713527,2026-11-02,Atalanta,home,31661,,,OUT,0.0
+19713527,2026-11-02,Atalanta,home,8417828,,,OUT,0.0
+19713527,2026-11-02,Atalanta,home,30178,,,OUT,0.0
+19713527,2026-11-02,Atalanta,home,37539577,,,OUT,0.0
+19713527,2026-11-02,Atalanta,home,4545327,,,OUT,0.0

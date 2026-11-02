@@ -2074,20 +2074,20 @@
    "saat": "22:45",
    "ev": "Venezia",
    "deplasman": "Udinese",
-   "p_ev": 0.3115,
-   "p_beraberlik": 0.2843,
-   "p_deplasman": 0.4042,
-   "xg_ev": 1.07,
+   "p_ev": 0.3122,
+   "p_beraberlik": 0.2846,
+   "p_deplasman": 0.4032,
+   "xg_ev": 1.06,
    "xg_deplasman": 1.25,
    "olasi_skor": "0-1",
    "en_olasi_skor": "1-1",
    "piyasa": null,
    "golge": {
-    "p_ev": 0.3002,
-    "p_beraberlik": 0.2597,
-    "p_deplasman": 0.4402
+    "p_ev": 0.3008,
+    "p_beraberlik": 0.2599,
+    "p_deplasman": 0.4393
    },
-   "kayit": "2026-11-02T15:49+03:00"
+   "kayit": "2026-11-03T01:28+03:00"
   },
   "E0|2026-11-06|Everton|Coventry": {
    "lig": "Premier League",
@@ -2096,16 +2096,16 @@
    "saat": "23:00",
    "ev": "Everton",
    "deplasman": "Coventry",
-   "p_ev": 0.4636,
-   "p_beraberlik": 0.3016,
-   "p_deplasman": 0.2348,
+   "p_ev": 0.4634,
+   "p_beraberlik": 0.3013,
+   "p_deplasman": 0.2353,
    "xg_ev": 1.35,
    "xg_deplasman": 0.88,
    "olasi_skor": "1-0",
    "en_olasi_skor": "1-1",
    "piyasa": null,
    "golge": null,
-   "kayit": "2026-11-02T15:49+03:00"
+   "kayit": "2026-11-03T01:28+03:00"
   },
   "SP1|2026-11-06|Sevilla|Alaves": {
    "lig": "La Liga",
@@ -2114,16 +2114,16 @@
    "saat": "23:00",
    "ev": "Sevilla",
    "deplasman": "Alaves",
-   "p_ev": 0.4354,
-   "p_beraberlik": 0.2787,
-   "p_deplasman": 0.2859,
+   "p_ev": 0.4352,
+   "p_beraberlik": 0.2786,
+   "p_deplasman": 0.2862,
    "xg_ev": 1.38,
-   "xg_deplasman": 1.06,
+   "xg_deplasman": 1.07,
    "olasi_skor": "1-0",
    "en_olasi_skor": "1-1",
    "piyasa": null,
    "golge": null,
-   "kayit": "2026-11-02T15:49+03:00"
+   "kayit": "2026-11-03T01:28+03:00"
   },
   "T1|2026-10-30|Konyaspor|Galatasaray": {
    "lig": "Süper Lig",
@@ -2398,16 +2398,16 @@
    "saat": "15:30",
    "ev": "Leeds",
    "deplasman": "Tottenham",
-   "p_ev": 0.3414,
+   "p_ev": 0.3425,
    "p_beraberlik": 0.3175,
-   "p_deplasman": 0.3411,
+   "p_deplasman": 0.3401,
    "xg_ev": 1.09,
-   "xg_deplasman": 1.08,
+   "xg_deplasman": 1.07,
    "olasi_skor": "1-0",
    "en_olasi_skor": "1-1",
    "piyasa": null,
    "golge": null,
-   "kayit": "2026-11-02T15:49+03:00"
+   "kayit": "2026-11-03T01:28+03:00"
   },
   "SP1|2026-11-07|Malaga|Santander": {
    "lig": "La Liga",
@@ -2417,15 +2417,15 @@
    "ev": "Malaga",
    "deplasman": "Santander",
    "p_ev": 0.372,
-   "p_beraberlik": 0.2571,
-   "p_deplasman": 0.3709,
+   "p_beraberlik": 0.257,
+   "p_deplasman": 0.371,
    "xg_ev": 1.44,
    "xg_deplasman": 1.44,
    "olasi_skor": "2-1",
    "en_olasi_skor": "1-1",
    "piyasa": null,
    "golge": null,
-   "kayit": "2026-11-02T15:49+03:00"
+   "kayit": "2026-11-03T01:28+03:00"
   },
   "I1|2026-11-07|Torino|Lecce": {
    "lig": "Serie A",
@@ -2434,20 +2434,20 @@
    "saat": "17:00",
    "ev": "Torino",
    "deplasman": "Lecce",
-   "p_ev": 0.5043,
-   "p_beraberlik": 0.268,
-   "p_deplasman": 0.2277,
+   "p_ev": 0.505,
+   "p_beraberlik": 0.2677,
+   "p_deplasman": 0.2273,
    "xg_ev": 1.47,
-   "xg_deplasman": 0.9,
+   "xg_deplasman": 0.89,
    "olasi_skor": "1-0",
    "en_olasi_skor": "1-0",
    "piyasa": null,
    "golge": {
-    "p_ev": 0.5025,
-    "p_beraberlik": 0.2596,
-    "p_deplasman": 0.2378
+    "p_ev": 0.5031,
+    "p_beraberlik": 0.2594,
+    "p_deplasman": 0.2375
    },
-   "kayit": "2026-11-02T15:49+03:00"
+   "kayit": "2026-11-03T01:28+03:00"
   },
   "I1|2026-11-07|Cagliari|Frosinone": {
    "lig": "Serie A",
@@ -2456,20 +2456,20 @@
    "saat": "17:00",
    "ev": "Cagliari",
    "deplasman": "Frosinone",
-   "p_ev": 0.2963,
-   "p_beraberlik": 0.229,
-   "p_deplasman": 0.4746,
+   "p_ev": 0.2969,
+   "p_beraberlik": 0.2289,
+   "p_deplasman": 0.4743,
    "xg_ev": 1.42,
    "xg_deplasman": 1.85,
    "olasi_skor": "1-2",
    "en_olasi_skor": "1-1",
    "piyasa": null,
    "golge": {
-    "p_ev": 0.2766,
-    "p_beraberlik": 0.23,
+    "p_ev": 0.2767,
+    "p_beraberlik": 0.2298,
     "p_deplasman": 0.4935
    },
-   "kayit": "2026-11-02T15:49+03:00"
+   "kayit": "2026-11-03T01:28+03:00"
   },
   "E0|2026-11-07|Arsenal|Hull": {
    "lig": "Premier League",
@@ -2478,16 +2478,16 @@
    "saat": "18:00",
    "ev": "Arsenal",
    "deplasman": "Hull",
-   "p_ev": 0.7315,
-   "p_beraberlik": 0.1952,
-   "p_deplasman": 0.0733,
-   "xg_ev": 2.08,
+   "p_ev": 0.7305,
+   "p_beraberlik": 0.1957,
+   "p_deplasman": 0.0737,
+   "xg_ev": 2.07,
    "xg_deplasman": 0.51,
    "olasi_skor": "2-0",
    "en_olasi_skor": "2-0",
    "piyasa": null,
    "golge": null,
-   "kayit": "2026-11-02T15:49+03:00"
+   "kayit": "2026-11-03T01:28+03:00"
   },
   "E0|2026-11-07|Fulham|Newcastle": {
    "lig": "Premier League",
@@ -2496,16 +2496,16 @@
    "saat": "18:00",
    "ev": "Fulham",
    "deplasman": "Newcastle",
-   "p_ev": 0.3541,
-   "p_beraberlik": 0.2859,
-   "p_deplasman": 0.36,
-   "xg_ev": 1.29,
-   "xg_deplasman": 1.3,
+   "p_ev": 0.3537,
+   "p_beraberlik": 0.2874,
+   "p_deplasman": 0.3589,
+   "xg_ev": 1.28,
+   "xg_deplasman": 1.28,
    "olasi_skor": "0-1",
    "en_olasi_skor": "1-1",
    "piyasa": null,
    "golge": null,
-   "kayit": "2026-11-02T15:49+03:00"
+   "kayit": "2026-11-03T01:28+03:00"
   },
   "SP1|2026-11-07|Espanol|La Coruna": {
    "lig": "La Liga",
@@ -2514,16 +2514,16 @@
    "saat": "18:15",
    "ev": "Espanol",
    "deplasman": "La Coruna",
-   "p_ev": 0.3937,
-   "p_beraberlik": 0.2882,
-   "p_deplasman": 0.3181,
+   "p_ev": 0.3936,
+   "p_beraberlik": 0.2881,
+   "p_deplasman": 0.3182,
    "xg_ev": 1.25,
    "xg_deplasman": 1.1,
    "olasi_skor": "1-0",
    "en_olasi_skor": "1-1",
    "piyasa": null,
    "golge": null,
-   "kayit": "2026-11-02T15:49+03:00"
+   "kayit": "2026-11-03T01:28+03:00"
   },
   "I1|2026-11-07|Parma|Bologna": {
    "lig": "Serie A",
@@ -2532,20 +2532,20 @@
    "saat": "20:00",
    "ev": "Parma",
    "deplasman": "Bologna",
-   "p_ev": 0.2287,
-   "p_beraberlik": 0.2864,
-   "p_deplasman": 0.4849,
-   "xg_ev": 0.82,
-   "xg_deplasman": 1.33,
+   "p_ev": 0.2283,
+   "p_beraberlik": 0.2867,
+   "p_deplasman": 0.485,
+   "xg_ev": 0.81,
+   "xg_deplasman": 1.32,
    "olasi_skor": "0-1",
    "en_olasi_skor": "0-1",
    "piyasa": null,
    "golge": {
-    "p_ev": 0.2217,
-    "p_beraberlik": 0.2833,
-    "p_deplasman": 0.495
+    "p_ev": 0.221,
+    "p_beraberlik": 0.2834,
+    "p_deplasman": 0.4957
    },
-   "kayit": "2026-11-02T15:49+03:00"
+   "kayit": "2026-11-03T01:28+03:00"
   },
   "E0|2026-11-07|Nott'm Forest|Man City": {
    "lig": "Premier League",
@@ -2554,16 +2554,16 @@
    "saat": "20:30",
    "ev": "Nott'm Forest",
    "deplasman": "Man City",
-   "p_ev": 0.2672,
-   "p_beraberlik": 0.2612,
-   "p_deplasman": 0.4716,
-   "xg_ev": 1.21,
+   "p_ev": 0.2662,
+   "p_beraberlik": 0.2614,
+   "p_deplasman": 0.4724,
+   "xg_ev": 1.2,
    "xg_deplasman": 1.66,
    "olasi_skor": "1-2",
    "en_olasi_skor": "1-1",
    "piyasa": null,
    "golge": null,
-   "kayit": "2026-11-02T15:49+03:00"
+   "kayit": "2026-11-03T01:28+03:00"
   },
   "SP1|2026-11-07|Osasuna|Ath Bilbao": {
    "lig": "La Liga",
@@ -2572,16 +2572,16 @@
    "saat": "20:30",
    "ev": "Osasuna",
    "deplasman": "Ath Bilbao",
-   "p_ev": 0.3458,
-   "p_beraberlik": 0.2881,
-   "p_deplasman": 0.3661,
+   "p_ev": 0.3467,
+   "p_beraberlik": 0.2885,
+   "p_deplasman": 0.3648,
    "xg_ev": 1.16,
    "xg_deplasman": 1.2,
    "olasi_skor": "0-1",
    "en_olasi_skor": "1-1",
    "piyasa": null,
    "golge": null,
-   "kayit": "2026-11-02T15:49+03:00"
+   "kayit": "2026-11-03T01:28+03:00"
   },
   "I1|2026-11-07|Roma|Sassuolo": {
    "lig": "Serie A",
@@ -2590,20 +2590,20 @@
    "saat": "22:45",
    "ev": "Roma",
    "deplasman": "Sassuolo",
-   "p_ev": 0.6591,
-   "p_beraberlik": 0.1936,
-   "p_deplasman": 0.1473,
-   "xg_ev": 2.2,
-   "xg_deplasman": 0.94,
+   "p_ev": 0.6612,
+   "p_beraberlik": 0.1917,
+   "p_deplasman": 0.1472,
+   "xg_ev": 2.23,
+   "xg_deplasman": 0.95,
    "olasi_skor": "2-0",
    "en_olasi_skor": "2-0",
    "piyasa": null,
    "golge": {
-    "p_ev": 0.7072,
-    "p_beraberlik": 0.169,
-    "p_deplasman": 0.1238
+    "p_ev": 0.7102,
+    "p_beraberlik": 0.167,
+    "p_deplasman": 0.1228
    },
-   "kayit": "2026-11-02T15:49+03:00"
+   "kayit": "2026-11-03T01:28+03:00"
   },
   "SP1|2026-11-07|Valencia|Real Madrid": {
    "lig": "La Liga",
@@ -2612,16 +2612,16 @@
    "saat": "23:00",
    "ev": "Valencia",
    "deplasman": "Real Madrid",
-   "p_ev": 0.1846,
-   "p_beraberlik": 0.2426,
-   "p_deplasman": 0.5728,
+   "p_ev": 0.1845,
+   "p_beraberlik": 0.2425,
+   "p_deplasman": 0.573,
    "xg_ev": 0.88,
    "xg_deplasman": 1.74,
    "olasi_skor": "0-1",
    "en_olasi_skor": "0-1",
    "piyasa": null,
    "golge": null,
-   "kayit": "2026-11-02T15:49+03:00"
+   "kayit": "2026-11-03T01:28+03:00"
   },
   "I1|2026-11-08|Napoli|Lazio": {
    "lig": "Serie A",
@@ -2630,20 +2630,20 @@
    "saat": "14:30",
    "ev": "Napoli",
    "deplasman": "Lazio",
-   "p_ev": 0.4226,
-   "p_beraberlik": 0.2772,
+   "p_ev": 0.4225,
+   "p_beraberlik": 0.2773,
    "p_deplasman": 0.3002,
    "xg_ev": 1.33,
-   "xg_deplasman": 1.08,
+   "xg_deplasman": 1.07,
    "olasi_skor": "1-0",
    "en_olasi_skor": "1-1",
    "piyasa": null,
    "golge": {
-    "p_ev": 0.4074,
-    "p_beraberlik": 0.2723,
-    "p_deplasman": 0.3203
+    "p_ev": 0.4076,
+    "p_beraberlik": 0.2724,
+    "p_deplasman": 0.3201
    },
-   "kayit": "2026-11-02T15:49+03:00"
+   "kayit": "2026-11-03T01:28+03:00"
   },
   "SP1|2026-11-08|Elche|Betis": {
    "lig": "La Liga",
@@ -2661,7 +2661,7 @@
    "en_olasi_skor": "1-1",
    "piyasa": null,
    "golge": null,
-   "kayit": "2026-11-02T15:49+03:00"
+   "kayit": "2026-11-03T01:28+03:00"
   },
   "E0|2026-11-08|Crystal Palace|Liverpool": {
    "lig": "Premier League",
@@ -2670,16 +2670,16 @@
    "saat": "17:00",
    "ev": "Crystal Palace",
    "deplasman": "Liverpool",
-   "p_ev": 0.259,
-   "p_beraberlik": 0.2638,
-   "p_deplasman": 0.4772,
-   "xg_ev": 1.16,
-   "xg_deplasman": 1.64,
+   "p_ev": 0.2587,
+   "p_beraberlik": 0.263,
+   "p_deplasman": 0.4783,
+   "xg_ev": 1.17,
+   "xg_deplasman": 1.65,
    "olasi_skor": "1-2",
    "en_olasi_skor": "1-1",
    "piyasa": null,
    "golge": null,
-   "kayit": "2026-11-02T15:49+03:00"
+   "kayit": "2026-11-03T01:28+03:00"
   },
   "E0|2026-11-08|Sunderland|Chelsea": {
    "lig": "Premier League",
@@ -2688,16 +2688,16 @@
    "saat": "17:00",
    "ev": "Sunderland",
    "deplasman": "Chelsea",
-   "p_ev": 0.3013,
-   "p_beraberlik": 0.2576,
-   "p_deplasman": 0.4411,
+   "p_ev": 0.302,
+   "p_beraberlik": 0.2579,
+   "p_deplasman": 0.4401,
    "xg_ev": 1.35,
    "xg_deplasman": 1.66,
    "olasi_skor": "1-2",
    "en_olasi_skor": "1-1",
    "piyasa": null,
    "golge": null,
-   "kayit": "2026-11-02T15:49+03:00"
+   "kayit": "2026-11-03T01:28+03:00"
   },
   "E0|2026-11-08|Ipswich|Bournemouth": {
    "lig": "Premier League",
@@ -2706,16 +2706,16 @@
    "saat": "17:00",
    "ev": "Ipswich",
    "deplasman": "Bournemouth",
-   "p_ev": 0.2157,
-   "p_beraberlik": 0.2284,
-   "p_deplasman": 0.556,
+   "p_ev": 0.2141,
+   "p_beraberlik": 0.228,
+   "p_deplasman": 0.5579,
    "xg_ev": 1.22,
    "xg_deplasman": 2.04,
    "olasi_skor": "1-2",
    "en_olasi_skor": "1-1",
    "piyasa": null,
    "golge": null,
-   "kayit": "2026-11-02T15:49+03:00"
+   "kayit": "2026-11-03T01:28+03:00"
   },
   "E0|2026-11-08|Brighton|Brentford": {
    "lig": "Premier League",
@@ -2724,16 +2724,16 @@
    "saat": "17:00",
    "ev": "Brighton",
    "deplasman": "Brentford",
-   "p_ev": 0.499,
-   "p_beraberlik": 0.2493,
-   "p_deplasman": 0.2516,
+   "p_ev": 0.4977,
+   "p_beraberlik": 0.2496,
+   "p_deplasman": 0.2527,
    "xg_ev": 1.81,
    "xg_deplasman": 1.22,
    "olasi_skor": "2-1",
    "en_olasi_skor": "1-1",
    "piyasa": null,
    "golge": null,
-   "kayit": "2026-11-02T15:49+03:00"
+   "kayit": "2026-11-03T01:28+03:00"
   },
   "I1|2026-11-08|Genoa|Milan": {
    "lig": "Serie A",
@@ -2742,9 +2742,9 @@
    "saat": "17:00",
    "ev": "Genoa",
    "deplasman": "Milan",
-   "p_ev": 0.2084,
-   "p_beraberlik": 0.2482,
-   "p_deplasman": 0.5434,
+   "p_ev": 0.2082,
+   "p_beraberlik": 0.2477,
+   "p_deplasman": 0.5441,
    "xg_ev": 0.92,
    "xg_deplasman": 1.65,
    "olasi_skor": "0-1",
@@ -2752,10 +2752,10 @@
    "piyasa": null,
    "golge": {
     "p_ev": 0.2153,
-    "p_beraberlik": 0.2495,
-    "p_deplasman": 0.5352
+    "p_beraberlik": 0.2491,
+    "p_deplasman": 0.5356
    },
-   "kayit": "2026-11-02T15:49+03:00"
+   "kayit": "2026-11-03T01:28+03:00"
   },
   "I1|2026-11-08|Monza|Atalanta": {
    "lig": "Serie A",
@@ -2764,20 +2764,20 @@
    "saat": "17:00",
    "ev": "Monza",
    "deplasman": "Atalanta",
-   "p_ev": 0.2319,
-   "p_beraberlik": 0.2244,
-   "p_deplasman": 0.5437,
+   "p_ev": 0.2324,
+   "p_beraberlik": 0.2246,
+   "p_deplasman": 0.543,
    "xg_ev": 1.19,
    "xg_deplasman": 1.92,
    "olasi_skor": "1-2",
    "en_olasi_skor": "1-1",
    "piyasa": null,
    "golge": {
-    "p_ev": 0.2521,
-    "p_beraberlik": 0.228,
-    "p_deplasman": 0.5199
+    "p_ev": 0.2522,
+    "p_beraberlik": 0.2281,
+    "p_deplasman": 0.5198
    },
-   "kayit": "2026-11-02T15:49+03:00"
+   "kayit": "2026-11-03T01:28+03:00"
   },
   "SP1|2026-11-08|Sociedad|Vallecano": {
    "lig": "La Liga",
@@ -2786,16 +2786,16 @@
    "saat": "18:15",
    "ev": "Sociedad",
    "deplasman": "Vallecano",
-   "p_ev": 0.4777,
-   "p_beraberlik": 0.24,
-   "p_deplasman": 0.2823,
+   "p_ev": 0.4774,
+   "p_beraberlik": 0.2401,
+   "p_deplasman": 0.2825,
    "xg_ev": 1.77,
    "xg_deplasman": 1.32,
    "olasi_skor": "2-1",
    "en_olasi_skor": "1-1",
    "piyasa": null,
    "golge": null,
-   "kayit": "2026-11-02T15:49+03:00"
+   "kayit": "2026-11-03T01:28+03:00"
   },
   "E0|2026-11-08|Man United|Aston Villa": {
    "lig": "Premier League",
@@ -2804,16 +2804,16 @@
    "saat": "19:30",
    "ev": "Man United",
    "deplasman": "Aston Villa",
-   "p_ev": 0.4166,
-   "p_beraberlik": 0.2607,
-   "p_deplasman": 0.3227,
+   "p_ev": 0.417,
+   "p_beraberlik": 0.261,
+   "p_deplasman": 0.322,
    "xg_ev": 1.61,
    "xg_deplasman": 1.38,
    "olasi_skor": "2-1",
    "en_olasi_skor": "1-1",
    "piyasa": null,
    "golge": null,
-   "kayit": "2026-11-02T15:49+03:00"
+   "kayit": "2026-11-03T01:28+03:00"
   },
   "I1|2026-11-08|Inter|Como": {
    "lig": "Serie A",
@@ -2822,20 +2822,20 @@
    "saat": "20:00",
    "ev": "Inter",
    "deplasman": "Como",
-   "p_ev": 0.495,
-   "p_beraberlik": 0.2465,
-   "p_deplasman": 0.2585,
+   "p_ev": 0.4951,
+   "p_beraberlik": 0.2461,
+   "p_deplasman": 0.2588,
    "xg_ev": 1.66,
-   "xg_deplasman": 1.13,
+   "xg_deplasman": 1.14,
    "olasi_skor": "1-0",
    "en_olasi_skor": "1-1",
    "piyasa": null,
    "golge": {
-    "p_ev": 0.5241,
-    "p_beraberlik": 0.2271,
-    "p_deplasman": 0.2488
+    "p_ev": 0.5238,
+    "p_beraberlik": 0.2268,
+    "p_deplasman": 0.2494
    },
-   "kayit": "2026-11-02T15:49+03:00"
+   "kayit": "2026-11-03T01:28+03:00"
   },
   "SP1|2026-11-08|Celta|Levante": {
    "lig": "La Liga",
@@ -2844,16 +2844,16 @@
    "saat": "20:30",
    "ev": "Celta",
    "deplasman": "Levante",
-   "p_ev": 0.5104,
-   "p_beraberlik": 0.2461,
-   "p_deplasman": 0.2435,
+   "p_ev": 0.51,
+   "p_beraberlik": 0.2462,
+   "p_deplasman": 0.2438,
    "xg_ev": 1.72,
    "xg_deplasman": 1.12,
    "olasi_skor": "2-1",
    "en_olasi_skor": "1-1",
    "piyasa": null,
    "golge": null,
-   "kayit": "2026-11-02T15:49+03:00"
+   "kayit": "2026-11-03T01:28+03:00"
   },
   "SP1|2026-11-08|Villarreal|Getafe": {
    "lig": "La Liga",
@@ -2862,16 +2862,16 @@
    "saat": "20:30",
    "ev": "Villarreal",
    "deplasman": "Getafe",
-   "p_ev": 0.6371,
-   "p_beraberlik": 0.2351,
-   "p_deplasman": 0.1278,
+   "p_ev": 0.637,
+   "p_beraberlik": 0.2352,
+   "p_deplasman": 0.1279,
    "xg_ev": 1.74,
    "xg_deplasman": 0.64,
    "olasi_skor": "1-0",
    "en_olasi_skor": "1-0",
    "piyasa": null,
    "golge": null,
-   "kayit": "2026-11-02T15:49+03:00"
+   "kayit": "2026-11-03T01:28+03:00"
   },
   "I1|2026-11-08|Fiorentina|Juventus": {
    "lig": "Serie A",
@@ -2880,20 +2880,20 @@
    "saat": "22:45",
    "ev": "Fiorentina",
    "deplasman": "Juventus",
-   "p_ev": 0.2368,
-   "p_beraberlik": 0.2554,
-   "p_deplasman": 0.5078,
-   "xg_ev": 1.0,
+   "p_ev": 0.2369,
+   "p_beraberlik": 0.2552,
+   "p_deplasman": 0.5079,
+   "xg_ev": 0.99,
    "xg_deplasman": 1.58,
    "olasi_skor": "0-1",
    "en_olasi_skor": "1-1",
    "piyasa": null,
    "golge": {
-    "p_ev": 0.2129,
-    "p_beraberlik": 0.2419,
+    "p_ev": 0.213,
+    "p_beraberlik": 0.2417,
     "p_deplasman": 0.5452
    },
-   "kayit": "2026-11-02T15:49+03:00"
+   "kayit": "2026-11-03T01:28+03:00"
   },
   "SP1|2026-11-08|Ath Madrid|Barcelona": {
    "lig": "La Liga",
@@ -2902,16 +2902,16 @@
    "saat": "23:00",
    "ev": "Ath Madrid",
    "deplasman": "Barcelona",
-   "p_ev": 0.3591,
+   "p_ev": 0.3588,
    "p_beraberlik": 0.2329,
-   "p_deplasman": 0.4081,
+   "p_deplasman": 0.4084,
    "xg_ev": 1.64,
    "xg_deplasman": 1.76,
    "olasi_skor": "1-2",
    "en_olasi_skor": "1-1",
    "piyasa": null,
    "golge": null,
-   "kayit": "2026-11-02T15:49+03:00"
+   "kayit": "2026-11-03T01:28+03:00"
   }
  }
 }
