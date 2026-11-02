@@ -4470,19 +4470,19 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19713528,2026-10-28,Venezia,home,37726091,Toni Fernández,M,SUB,
 19713528,2026-10-28,Venezia,home,131615,Lorenzo Montipò,G,SUB,
 19713528,2026-10-28,Inter,away,529414,Josep Martínez,G,SUB,
-19713528,2026-10-28,Inter,away,37600650,Aleksandar Stanković,M,XI,46.0
+19713528,2026-10-28,Inter,away,37600650,Aleksandar Stanković,M,XI,45.0
 19713528,2026-10-28,Inter,away,129072,Piotr Zielinski,M,XI,90.0
-19713528,2026-10-28,Inter,away,37683059,Petar Sučić,M,XI,46.0
+19713528,2026-10-28,Inter,away,37683059,Petar Sučić,M,XI,45.0
 19713528,2026-10-28,Inter,away,99000,Marcus Thuram,F,XI,86.0
 19713528,2026-10-28,Inter,away,132278,Raffaele Di Gennaro,G,SUB,
 19713528,2026-10-28,Inter,away,37533560,Ange-Yoan Bonny,F,XI,65.0
 19713528,2026-10-28,Inter,away,37423138,Andy Diouf,M,XI,90.0
-19713528,2026-10-28,Inter,away,31825,Hakan Çalhanoğlu,M,SUB,44.0
+19713528,2026-10-28,Inter,away,31825,Hakan Çalhanoğlu,M,SUB,45.0
 19713528,2026-10-28,Inter,away,1835,Henrikh Mkhitaryan,M,SUB,
-19713528,2026-10-28,Inter,away,130117,Nicolò Barella,M,SUB,44.0
-19713528,2026-10-28,Inter,away,198062,Manuel Akanji,D,SUB,44.0
+19713528,2026-10-28,Inter,away,130117,Nicolò Barella,M,SUB,45.0
+19713528,2026-10-28,Inter,away,198062,Manuel Akanji,D,SUB,45.0
 19713528,2026-10-28,Inter,away,13591496,Carlos Augusto,D,XI,90.0
-19713528,2026-10-28,Inter,away,3861835,Yann Bisseck,D,XI,46.0
+19713528,2026-10-28,Inter,away,3861835,Yann Bisseck,D,XI,45.0
 19713528,2026-10-28,Inter,away,129842,Federico Dimarco,M,XI,90.0
 19713528,2026-10-28,Inter,away,37722641,Leonardo Bovio,D,SUB,
 19713528,2026-10-28,Inter,away,37716335,Mattia Mosconi,F,SUB,
@@ -4491,7 +4491,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19713528,2026-10-28,Inter,away,37745342,Matteo Lavelli,F,SUB,
 19713528,2026-10-28,Inter,away,37596506,Pio Esposito,F,SUB,25.0
 19713528,2026-10-28,Inter,away,133797,Alessandro Bastoni,D,XI,90.0
-19713528,2026-10-28,Inter,away,7026573,Djed Spence,D,SUB,4.0
+19713528,2026-10-28,Inter,away,7026573,Djed Spence,D,SUB,9.0
 19713528,2026-10-28,Venezia,home,35287,,,OUT,0.0
 19713528,2026-10-28,Venezia,home,8417254,,,OUT,0.0
 19713528,2026-10-28,Venezia,home,21054114,,,OUT,0.0
@@ -4516,11 +4516,11 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19713532,2026-10-28,Udinese,away,4765,Christian Kabasele,D,XI,90.0
 19713532,2026-10-28,Udinese,away,106821,Giorgi Chakvetadze,M,XI,83.0
 19713532,2026-10-28,Udinese,away,5270451,Jurgen Ekkelenkamp,F,XI,90.0
-19713532,2026-10-28,Udinese,away,37602122,Lennon Miller,M,SUB,7.0
+19713532,2026-10-28,Udinese,away,37602122,Lennon Miller,M,SUB,11.0
 19713532,2026-10-28,Udinese,away,540585,Maduka Okoye,G,XI,90.0
 19713532,2026-10-28,Udinese,away,1444076,Bartosz Mrozek,G,SUB,
 19713532,2026-10-28,Udinese,away,37783091,Giulio Vinciati,F,SUB,
-19713532,2026-10-28,Udinese,away,37590339,Unai Gómez,M,SUB,6.0
+19713532,2026-10-28,Udinese,away,37590339,Unai Gómez,M,SUB,10.0
 19713532,2026-10-28,Udinese,away,362741,Enzo Ebosse,D,SUB,19.0
 19713532,2026-10-28,Udinese,away,37671352,Lazar Jovanovic,F,SUB,
 19713532,2026-10-28,Udinese,away,128560,Daniele Padelli,G,SUB,
@@ -4530,7 +4530,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19713532,2026-10-28,Parma,home,37625886,Benja Cremaschi,M,SUB,
 19713532,2026-10-28,Parma,home,37396586,David Romero,F,XI,60.0
 19713532,2026-10-28,Parma,home,16837816,Adrián Bernabé,F,XI,74.0
-19713532,2026-10-28,Parma,home,460392,Pontus Almqvist,F,SUB,4.0
+19713532,2026-10-28,Parma,home,460392,Pontus Almqvist,F,SUB,8.0
 19713532,2026-10-28,Parma,home,2816035,Emanuele Valeri,D,SUB,30.0
 19713532,2026-10-28,Parma,home,14337998,Enrico Delprato,D,XI,90.0
 19713532,2026-10-28,Parma,home,37564372,Mandela Keita,M,XI,90.0
@@ -4561,10 +4561,10 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19713534,2026-10-28,AC Milan,home,23278610,Gonçalo Ramos,F,XI,87.0
 19713534,2026-10-28,AC Milan,home,32438,Christian Pulisic,M,SUB,32.0
 19713534,2026-10-28,AC Milan,home,37752312,Sankhoun Diawara,D,SUB,32.0
-19713534,2026-10-28,AC Milan,home,268,Luka Modrić,M,SUB,44.0
+19713534,2026-10-28,AC Milan,home,268,Luka Modrić,M,SUB,45.0
 19713534,2026-10-28,AC Milan,home,96227,Mike Maignan,G,XI,90.0
 19713534,2026-10-28,AC Milan,home,37536911,Omari Hutchinson,M,XI,58.0
-19713534,2026-10-28,AC Milan,home,4655,Fikayo Tomori,D,XI,46.0
+19713534,2026-10-28,AC Milan,home,4655,Fikayo Tomori,D,XI,45.0
 19713534,2026-10-28,AC Milan,home,38218688,Christian Comotto,M,SUB,3.0
 19713534,2026-10-28,AC Milan,home,37521581,Ardon Jashari,M,XI,90.0
 19713534,2026-10-28,AC Milan,home,25930711,Strahinja Pavlović,D,XI,90.0
@@ -4622,7 +4622,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19713533,2026-10-28,Napoli,away,6599973,Billy Gilmour,M,SUB,73.0
 19713533,2026-10-28,Napoli,away,455376,Scott McTominay,M,XI,90.0
 19713533,2026-10-28,Napoli,away,1371,Kevin De Bruyne,M,SUB,27.0
-19713533,2026-10-28,Napoli,away,49420,Amir Rrahmani,D,XI,46.0
+19713533,2026-10-28,Napoli,away,49420,Amir Rrahmani,D,XI,45.0
 19713533,2026-10-28,Napoli,away,133603,Nikita Contini,G,SUB,
 19713533,2026-10-28,Napoli,away,32819198,Rafa Marín,D,XI,90.0
 19713533,2026-10-28,Napoli,away,260904,Mathías Olivera,D,XI,90.0
@@ -4634,12 +4634,12 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19713533,2026-10-28,Napoli,away,37607444,Antonio Vergara,M,SUB,27.0
 19713533,2026-10-28,Napoli,away,3187861,Sam Beukema,D,SUB,
 19713533,2026-10-28,Napoli,away,155896,Vanja Milinković-Savić,G,XI,90.0
-19713533,2026-10-28,Napoli,away,37596532,Luca Marianucci,D,SUB,44.0
+19713533,2026-10-28,Napoli,away,37596532,Luca Marianucci,D,SUB,45.0
 19713533,2026-10-28,Napoli,away,27850,Stanislav Lobotka,M,XI,17.0
 19713533,2026-10-28,Napoli,away,31439,Noa Lang,F,XI,90.0
 19713533,2026-10-28,Napoli,away,96804,Frank Anguissa,M,XI,63.0
 19713533,2026-10-28,Monza,home,37395404,Noel Törnqvist,G,XI,90.0
-19713533,2026-10-28,Monza,home,37573971,Saba Goglichidze,D,XI,46.0
+19713533,2026-10-28,Monza,home,37573971,Saba Goglichidze,D,XI,45.0
 19713533,2026-10-28,Monza,home,37600933,Lorenzo Lucchesi,D,XI,74.0
 19713533,2026-10-28,Monza,home,1477610,Valentin Antov,D,SUB,16.0
 19713533,2026-10-28,Monza,home,537429,Ricardo Mangas,M,XI,90.0
@@ -4658,7 +4658,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19713533,2026-10-28,Monza,home,36565,Idrissa Touré,M,SUB,
 19713533,2026-10-28,Monza,home,16120895,Andrea Colpani,M,SUB,30.0
 19713533,2026-10-28,Monza,home,37658073,Aljaz Strajnar,G,SUB,
-19713533,2026-10-28,Monza,home,37391070,Andrea Carboni,D,SUB,44.0
+19713533,2026-10-28,Monza,home,37391070,Andrea Carboni,D,SUB,45.0
 19713533,2026-10-28,Monza,home,37617684,Jay Robinson,F,XI,69.0
 19713533,2026-10-28,Monza,home,132079,Dany Mota,F,SUB,
 19713533,2026-10-28,Monza,home,37729314,Eddy Kouadio,D,SUB,
@@ -4699,22 +4699,22 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19713535,2026-10-28,Genoa,home,32769,Djibril Sow,M,SUB,
 19713535,2026-10-28,Genoa,home,20333658,Franz Stolz,G,SUB,
 19713535,2026-10-28,Juventus,away,1167415,Bremer,D,XI,90.0
-19713535,2026-10-28,Juventus,away,37533245,Federico Gatti,D,XI,46.0
+19713535,2026-10-28,Juventus,away,37533245,Federico Gatti,D,XI,45.0
 19713535,2026-10-28,Juventus,away,7655,Lloyd Kelly,D,SUB,
 19713535,2026-10-28,Juventus,away,29184,Teun Koopmeiners,M,SUB,13.0
 19713535,2026-10-28,Juventus,away,432872,Randal Kolo Muani,F,XI,90.0
-19713535,2026-10-28,Juventus,away,2158213,Edon Zhegrova,F,SUB,44.0
+19713535,2026-10-28,Juventus,away,2158213,Edon Zhegrova,F,SUB,45.0
 19713535,2026-10-28,Juventus,away,225000,Douglas Luiz,M,XI,77.0
 19713535,2026-10-28,Juventus,away,4637,Jérémie Boga,F,SUB,31.0
 19713535,2026-10-28,Juventus,away,14726357,Pierre Kalulu,M,XI,90.0
-19713535,2026-10-28,Juventus,away,37649990,Kerim Alajbegovic,F,XI,46.0
+19713535,2026-10-28,Juventus,away,37649990,Kerim Alajbegovic,F,XI,45.0
 19713535,2026-10-28,Juventus,away,37260234,Andrea Cambiaso,M,XI,59.0
 19713535,2026-10-28,Juventus,away,608189,Weston McKennie,F,XI,90.0
 19713535,2026-10-28,Juventus,away,130701,Carlo Pinsoglio,G,SUB,
 19713535,2026-10-28,Juventus,away,129624,Daniele Rugani,D,SUB,
 19713535,2026-10-28,Juventus,away,133779,Guglielmo Vicario,G,XI,90.0
 19713535,2026-10-28,Juventus,away,237695,Jhon Lucumí,D,XI,90.0
-19713535,2026-10-28,Juventus,away,32777430,Nick Woltemade,F,SUB,44.0
+19713535,2026-10-28,Juventus,away,32777430,Nick Woltemade,F,SUB,45.0
 19713535,2026-10-28,Juventus,away,37342694,Pape Matar Sarr,M,XI,59.0
 19713535,2026-10-28,Juventus,away,37261430,Juan Cabal,D,SUB,31.0
 19713535,2026-10-28,Juventus,away,128798,Neto,G,SUB,
@@ -4761,9 +4761,9 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19713536,2026-10-29,Frosinone,home,37576621,Sebastiano Desplanches,G,SUB,
 19713536,2026-10-29,Lecce,away,366496,Marco Bleve,G,SUB,
 19713536,2026-10-29,Lecce,away,37613882,Ali Dembélé,D,SUB,
-19713536,2026-10-29,Lecce,away,32796802,Corrie Ndaba,D,XI,46.0
+19713536,2026-10-29,Lecce,away,32796802,Corrie Ndaba,D,XI,45.0
 19713536,2026-10-29,Lecce,away,33587448,Jamil Siebert,D,XI,90.0
-19713536,2026-10-29,Lecce,away,37603838,Amar Fatah,F,SUB,44.0
+19713536,2026-10-29,Lecce,away,37603838,Amar Fatah,F,SUB,45.0
 19713536,2026-10-29,Lecce,away,37538406,Sadik Fofana,M,SUB,
 19713536,2026-10-29,Lecce,away,37514220,Nikola Stulic,F,SUB,33.0
 19713536,2026-10-29,Lecce,away,30841465,Konan N’Dri,F,SUB,32.0
@@ -4778,7 +4778,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19713536,2026-10-29,Lecce,away,37709692,Elijah Scott,D,SUB,
 19713536,2026-10-29,Lecce,away,20693632,Alexandru Borbei,G,SUB,
 19713536,2026-10-29,Lecce,away,37737620,Tiago Gabriel,D,XI,90.0
-19713536,2026-10-29,Lecce,away,37407220,Mohamed Kaba,M,SUB,7.0
+19713536,2026-10-29,Lecce,away,37407220,Mohamed Kaba,M,SUB,12.0
 19713536,2026-10-29,Lecce,away,37592644,Oumar Ngom,M,XI,90.0
 19713536,2026-10-29,Lecce,away,37537730,Joël Monteiro,F,XI,83.0
 19713536,2026-10-29,Frosinone,home,32378,,,OUT,0.0
@@ -4800,17 +4800,17 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19713537,2026-10-29,Fiorentina,home,37568690,Cher Ndour,M,XI,90.0
 19713537,2026-10-29,Fiorentina,home,3169778,Pedro Gonçalves,M,SUB,1.0
 19713537,2026-10-29,Fiorentina,home,37316986,Wilfried Gnonto,F,SUB,21.0
-19713537,2026-10-29,Fiorentina,home,37729623,Franco Mastantuono,F,XI,90.0
-19713537,2026-10-29,Fiorentina,home,37553010,Mateo Pellegrino,F,XI,90.0
+19713537,2026-10-29,Fiorentina,home,37729623,Franco Mastantuono,F,XI,89.0
+19713537,2026-10-29,Fiorentina,home,37553010,Mateo Pellegrino,F,XI,89.0
 19713537,2026-10-29,Fiorentina,home,37701232,Viery,D,XI,90.0
-19713537,2026-10-29,Fiorentina,home,37761103,Christ Inao Oulaï,M,SUB,44.0
+19713537,2026-10-29,Fiorentina,home,37761103,Christ Inao Oulaï,M,SUB,45.0
 19713537,2026-10-29,Fiorentina,home,832,David de Gea,G,XI,90.0
-19713537,2026-10-29,Fiorentina,home,4536538,Nicolò Fagioli,M,XI,46.0
+19713537,2026-10-29,Fiorentina,home,4536538,Nicolò Fagioli,M,XI,45.0
 19713537,2026-10-29,Fiorentina,home,85808,Oliver Christensen,G,SUB,
 19713537,2026-10-29,Fiorentina,home,37911685,Brando Mazzeo,F,SUB,
 19713537,2026-10-29,Fiorentina,home,37789625,Antonio Pirrò,M,SUB,
 19713537,2026-10-29,Fiorentina,home,37911180,Dennis Beldenti,D,SUB,
-19713537,2026-10-29,Atalanta,away,37438667,Kamaldeen Sulemana,F,SUB,6.0
+19713537,2026-10-29,Atalanta,away,37438667,Kamaldeen Sulemana,F,SUB,10.0
 19713537,2026-10-29,Atalanta,away,73603,Mario Pašalić,M,SUB,33.0
 19713537,2026-10-29,Atalanta,away,23707373,Lazar Samardžić,M,SUB,
 19713537,2026-10-29,Atalanta,away,34455209,Jonathan Rowe,F,SUB,32.0
@@ -4856,14 +4856,14 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19713526,2026-10-31,Monza,away,132862,Samuele Birindelli,M,XI,90.0
 19713526,2026-10-31,Monza,away,133021,Demba Thiam,G,SUB,
 19713526,2026-10-31,Monza,away,37667128,Leonardo Colombo,M,XI,66.0
-19713526,2026-10-31,Monza,away,37343000,Exequiel Zeballos,F,XI,46.0
+19713526,2026-10-31,Monza,away,37343000,Exequiel Zeballos,F,XI,45.0
 19713526,2026-10-31,Monza,away,37653813,Adam Bakoune,D,SUB,
 19713526,2026-10-31,Monza,away,132539,Patrick Ciurria,F,SUB,
 19713526,2026-10-31,Monza,away,36565,Idrissa Touré,M,SUB,24.0
 19713526,2026-10-31,Monza,away,16120895,Andrea Colpani,M,SUB,
 19713526,2026-10-31,Monza,away,37658073,Aljaz Strajnar,G,SUB,
 19713526,2026-10-31,Monza,away,37391070,Andrea Carboni,D,SUB,
-19713526,2026-10-31,Monza,away,37617684,Jay Robinson,F,SUB,44.0
+19713526,2026-10-31,Monza,away,37617684,Jay Robinson,F,SUB,45.0
 19713526,2026-10-31,Monza,away,132079,Dany Mota,F,XI,71.0
 19713526,2026-10-31,Monza,away,37729314,Eddy Kouadio,D,XI,66.0
 19713526,2026-10-31,Monza,away,37784017,Mathis Mout,M,SUB,24.0
@@ -4873,8 +4873,8 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19713526,2026-10-31,Bologna,home,37692397,Eivind Helland,D,SUB,
 19713526,2026-10-31,Bologna,home,74957,Nikola Moro,M,SUB,
 19713526,2026-10-31,Bologna,home,132126,Riccardo Orsolini,F,SUB,
-19713526,2026-10-31,Bologna,home,37702869,Mikel Amondarain,M,SUB,7.0
-19713526,2026-10-31,Bologna,home,205978,Artem Dovbyk,F,SUB,7.0
+19713526,2026-10-31,Bologna,home,37702869,Mikel Amondarain,M,SUB,13.0
+19713526,2026-10-31,Bologna,home,205978,Artem Dovbyk,F,SUB,13.0
 19713526,2026-10-31,Bologna,home,129429,Federico Bernardeschi,F,XI,83.0
 19713526,2026-10-31,Bologna,home,37459063,Samuel Mbangula,F,SUB,26.0
 19713526,2026-10-31,Bologna,home,538449,Torbjørn Heggem,D,SUB,
@@ -4900,7 +4900,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19713526,2026-10-31,Bologna,home,37609025,,,OUT,0.0
 19713526,2026-10-31,Monza,away,368455,,,OUT,0.0
 19713518,2026-10-31,Roma,away,32777738,Devyne Rensch,D,SUB,11.0
-19713518,2026-10-31,Roma,away,37328010,Konstantinos Koulierakis,D,SUB,6.0
+19713518,2026-10-31,Roma,away,37328010,Konstantinos Koulierakis,D,SUB,11.0
 19713518,2026-10-31,Roma,away,129467,Bryan Cristante,M,XI,90.0
 19713518,2026-10-31,Roma,away,99534,Evan Ndicka,D,XI,90.0
 19713518,2026-10-31,Roma,away,37567337,Santiago Castro,F,SUB,31.0
@@ -4965,7 +4965,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19713520,2026-10-31,AC Milan,home,38218688,Christian Comotto,M,SUB,
 19713520,2026-10-31,AC Milan,home,37521581,Ardon Jashari,M,SUB,8.0
 19713520,2026-10-31,AC Milan,home,25930711,Strahinja Pavlović,D,XI,90.0
-19713520,2026-10-31,AC Milan,home,37643538,Davide Bartesaghi,D,SUB,7.0
+19713520,2026-10-31,AC Milan,home,37643538,Davide Bartesaghi,D,SUB,12.0
 19713520,2026-10-31,AC Milan,home,23278683,Mario Gila,D,XI,90.0
 19713520,2026-10-31,AC Milan,home,37786284,Valeri Vladimirov,D,SUB,
 19713520,2026-10-31,AC Milan,home,37774070,Lorenzo Ossola,M,SUB,
@@ -5184,3 +5184,120 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19713524,2026-11-01,Torino,away,31653,,,OUT,0.0
 19713524,2026-11-01,Torino,away,129512,,,OUT,0.0
 19713524,2026-11-01,Torino,away,37755168,,,OUT,0.0
+19713524,2026-11-01,Torino,away,129400,,,OUT,0.0
+19713521,2026-11-01,Genoa,away,25945,Justin Bijlow,G,XI,90.0
+19713521,2026-11-01,Genoa,away,24817045,Mario Mitaj,D,SUB,
+19713521,2026-11-01,Genoa,away,25187,Kingsley Ehizibue,D,SUB,30.0
+19713521,2026-11-01,Genoa,away,37680350,Amorim,M,SUB,
+19713521,2026-11-01,Genoa,away,524309,Leo Østigård,D,XI,90.0
+19713521,2026-11-01,Genoa,away,37343968,Tommaso Baldanzi,M,SUB,
+19713521,2026-11-01,Genoa,away,37538647,Vitinha,F,SUB,30.0
+19713521,2026-11-01,Genoa,away,2511125,Junior Messias,F,XI,86.0
+19713521,2026-11-01,Genoa,away,37761121,Franz-Ethan Meichtry,M,SUB,4.0
+19713521,2026-11-01,Genoa,away,37636185,Lukas Klišys,D,SUB,
+19713521,2026-11-01,Genoa,away,21412958,Cody Drameh,D,SUB,
+19713521,2026-11-01,Genoa,away,5283704,Milutin Osmajic,F,XI,86.0
+19713521,2026-11-01,Genoa,away,131637,Stefano Sabelli,D,SUB,
+19713521,2026-11-01,Genoa,away,1525399,Johan Vásquez,D,XI,90.0
+19713521,2026-11-01,Genoa,away,2511082,Hamed Traoré,M,XI,80.0
+19713521,2026-11-01,Genoa,away,37539460,Alessandro Marcandalli,D,XI,90.0
+19713521,2026-11-01,Genoa,away,32777439,Lorenzo Colombo,F,SUB,4.0
+19713521,2026-11-01,Genoa,away,37589379,David Puczka,D,SUB,
+19713521,2026-11-01,Genoa,away,11705287,Morten Frendrup,M,XI,90.0
+19713521,2026-11-01,Genoa,away,37657515,Sebastian Otoa,D,SUB,
+19713521,2026-11-01,Genoa,away,129514,Daniele Sommariva,G,SUB,
+19713521,2026-11-01,Genoa,away,37756488,Samuel Wiafe,F,XI,60.0
+19713521,2026-11-01,Genoa,away,16144551,Mikael Egill Ellertsson,M,XI,90.0
+19713521,2026-11-01,Genoa,away,96514,Stephan El Shaarawy,M,XI,60.0
+19713521,2026-11-01,Genoa,away,32769,Djibril Sow,M,SUB,10.0
+19713521,2026-11-01,Genoa,away,20333658,Franz Stolz,G,SUB,
+19713521,2026-11-01,Lecce,home,366496,Marco Bleve,G,SUB,
+19713521,2026-11-01,Lecce,home,37613882,Ali Dembélé,D,SUB,15.0
+19713521,2026-11-01,Lecce,home,32796802,Corrie Ndaba,D,SUB,
+19713521,2026-11-01,Lecce,home,33587448,Jamil Siebert,D,XI,90.0
+19713521,2026-11-01,Lecce,home,37603838,Amar Fatah,F,SUB,31.0
+19713521,2026-11-01,Lecce,home,37538406,Sadik Fofana,M,SUB,
+19713521,2026-11-01,Lecce,home,37514220,Nikola Stulic,F,XI,75.0
+19713521,2026-11-01,Lecce,home,30841465,Konan N’Dri,F,XI,75.0
+19713521,2026-11-01,Lecce,home,132249,Youssef Maleh,M,XI,75.0
+19713521,2026-11-01,Lecce,home,37260189,Omri Gandelman,M,SUB,15.0
+19713521,2026-11-01,Lecce,home,37344294,Danilo Veiga,D,XI,90.0
+19713521,2026-11-01,Lecce,home,21803015,Gaby Jean,D,SUB,
+19713521,2026-11-01,Lecce,home,37666027,Paco Esteban,F,SUB,15.0
+19713521,2026-11-01,Lecce,home,21054913,Antonino Gallo,D,XI,90.0
+19713521,2026-11-01,Lecce,home,37611782,Olaf Gorter,M,XI,56.0
+19713521,2026-11-01,Lecce,home,129272,Wladimiro Falcone,G,XI,90.0
+19713521,2026-11-01,Lecce,home,37709692,Elijah Scott,D,SUB,
+19713521,2026-11-01,Lecce,home,20693632,Alexandru Borbei,G,SUB,
+19713521,2026-11-01,Lecce,home,37737620,Tiago Gabriel,D,XI,90.0
+19713521,2026-11-01,Lecce,home,37407220,Mohamed Kaba,M,SUB,34.0
+19713521,2026-11-01,Lecce,home,37592644,Oumar Ngom,M,XI,90.0
+19713521,2026-11-01,Lecce,home,37537730,Joël Monteiro,F,XI,59.0
+19713521,2026-11-01,Genoa,away,37733888,,,OUT,0.0
+19713521,2026-11-01,Genoa,away,37327906,,,OUT,0.0
+19713521,2026-11-01,Lecce,home,37592696,,,OUT,0.0
+19713521,2026-11-01,Lecce,home,1359363,,,OUT,0.0
+19713521,2026-11-01,Lecce,home,96540,,,OUT,0.0
+19713521,2026-11-01,Lecce,home,33991731,,,OUT,0.0
+19713521,2026-11-01,Lecce,home,37551656,,,OUT,0.0
+19713521,2026-11-01,Lecce,home,2206983,,,OUT,0.0
+19713523,2026-11-01,Napoli,away,129638,Alex Meret,G,XI,90.0
+19713523,2026-11-01,Napoli,away,6599973,Billy Gilmour,M,SUB,44.0
+19713523,2026-11-01,Napoli,away,455376,Scott McTominay,M,XI,90.0
+19713523,2026-11-01,Napoli,away,1371,Kevin De Bruyne,M,XI,46.0
+19713523,2026-11-01,Napoli,away,49420,Amir Rrahmani,D,SUB,44.0
+19713523,2026-11-01,Napoli,away,133603,Nikita Contini,G,SUB,
+19713523,2026-11-01,Napoli,away,32819198,Rafa Marín,D,XI,90.0
+19713523,2026-11-01,Napoli,away,260904,Mathías Olivera,D,XI,79.0
+19713523,2026-11-01,Napoli,away,37756455,Francisco Baridó,M,SUB,
+19713523,2026-11-01,Napoli,away,11669604,Lorenzo Lucca,F,XI,90.0
+19713523,2026-11-01,Napoli,away,129926,Matteo Politano,F,XI,61.0
+19713523,2026-11-01,Napoli,away,132721,Giovanni Di Lorenzo,D,XI,46.0
+19713523,2026-11-01,Napoli,away,37568721,Giovane,F,SUB,11.0
+19713523,2026-11-01,Napoli,away,37607444,Antonio Vergara,M,SUB,29.0
+19713523,2026-11-01,Napoli,away,3187861,Sam Beukema,D,SUB,11.0
+19713523,2026-11-01,Napoli,away,37596532,Luca Marianucci,D,XI,75.0
+19713523,2026-11-01,Napoli,away,38210680,Milton Pereyra,F,SUB,
+19713523,2026-11-01,Napoli,away,37756518,Andrea Chiummariello,M,SUB,
+19713523,2026-11-01,Napoli,away,37783685,Nikita Melnyk,M,SUB,
+19713523,2026-11-01,Napoli,away,37756510,Claudio Lieto,D,SUB,
+19713523,2026-11-01,Napoli,away,38205366,David Spinelli,G,SUB,
+19713523,2026-11-01,Napoli,away,31439,Noa Lang,F,XI,90.0
+19713523,2026-11-01,Napoli,away,96804,Frank Anguissa,M,XI,79.0
+19713523,2026-11-01,Juventus,home,1167415,Bremer,D,XI,90.0
+19713523,2026-11-01,Juventus,home,37533245,Federico Gatti,D,SUB,44.0
+19713523,2026-11-01,Juventus,home,7655,Lloyd Kelly,D,SUB,18.0
+19713523,2026-11-01,Juventus,home,29184,Teun Koopmeiners,M,XI,90.0
+19713523,2026-11-01,Juventus,home,432872,Randal Kolo Muani,F,XI,59.0
+19713523,2026-11-01,Juventus,home,2158213,Edon Zhegrova,F,SUB,31.0
+19713523,2026-11-01,Juventus,home,225000,Douglas Luiz,M,XI,90.0
+19713523,2026-11-01,Juventus,home,4637,Jérémie Boga,F,SUB,18.0
+19713523,2026-11-01,Juventus,home,14726357,Pierre Kalulu,D,XI,90.0
+19713523,2026-11-01,Juventus,home,37649990,Kerim Alajbegovic,M,XI,72.0
+19713523,2026-11-01,Juventus,home,37732903,Jeff Ekhator,F,SUB,
+19713523,2026-11-01,Juventus,home,37260234,Andrea Cambiaso,D,SUB,8.0
+19713523,2026-11-01,Juventus,home,608189,Weston McKennie,M,XI,46.0
+19713523,2026-11-01,Juventus,home,130701,Carlo Pinsoglio,G,SUB,
+19713523,2026-11-01,Juventus,home,129624,Daniele Rugani,D,SUB,
+19713523,2026-11-01,Juventus,home,133779,Guglielmo Vicario,G,XI,90.0
+19713523,2026-11-01,Juventus,home,237695,Jhon Lucumí,D,XI,72.0
+19713523,2026-11-01,Juventus,home,32777430,Nick Woltemade,F,XI,90.0
+19713523,2026-11-01,Juventus,home,37342694,Pape Matar Sarr,M,SUB,
+19713523,2026-11-01,Juventus,home,37261430,Juan Cabal,D,XI,82.0
+19713523,2026-11-01,Juventus,home,128798,Neto,G,SUB,
+19713523,2026-11-01,Juventus,home,4545404,,,OUT,0.0
+19713523,2026-11-01,Napoli,away,134056,,,OUT,0.0
+19713523,2026-11-01,Juventus,home,37598725,,,OUT,0.0
+19713523,2026-11-01,Juventus,home,129890,,,OUT,0.0
+19713523,2026-11-01,Juventus,home,1494392,,,OUT,0.0
+19713523,2026-11-01,Napoli,away,37608597,,,OUT,0.0
+19713523,2026-11-01,Juventus,home,25355,,,OUT,0.0
+19713523,2026-11-01,Napoli,away,27133,,,OUT,0.0
+19713523,2026-11-01,Juventus,home,37328006,,,OUT,0.0
+19713523,2026-11-01,Napoli,away,37566882,,,OUT,0.0
+19713523,2026-11-01,Juventus,home,215532,,,OUT,0.0
+19713523,2026-11-01,Juventus,home,450031,,,OUT,0.0
+19713523,2026-11-01,Napoli,away,4545394,,,OUT,0.0
+19713523,2026-11-01,Napoli,away,129433,,,OUT,0.0
+19713523,2026-11-01,Napoli,away,27850,,,OUT,0.0
+19713523,2026-11-01,Napoli,away,155896,,,OUT,0.0
