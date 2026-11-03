@@ -1,5 +1,5 @@
 {
- "guncelleme": "2026-10-28T12:45",
+ "guncelleme": "2026-11-03T11:21",
  "maclar": {
   "I1|2026-10-23|Torino|Monza": {
    "dep_xg": 1.3,
@@ -130,6 +130,42 @@
    "ev_is": 5,
    "ev_top": 48,
    "ev_xg": 1.27
+  },
+  "T1|2026-10-30|Konyaspor|Galatasaray": {
+   "dep_xg": 1.88,
+   "ev_xg": 0.92
+  },
+  "T1|2026-10-31|Erzurumspor|Corum": {
+   "dep_xg": 0.8,
+   "ev_xg": 1.41
+  },
+  "T1|2026-10-31|Fenerbahce|Goztep": {
+   "dep_xg": 1.41,
+   "ev_xg": 1.89
+  },
+  "T1|2026-10-31|Kocaelispor|Rizespor": {
+   "dep_xg": 1.63,
+   "ev_xg": 1.47
+  },
+  "T1|2026-11-01|Amedspor|Eyupspor": {
+   "dep_xg": 1.14,
+   "ev_xg": 1.53
+  },
+  "T1|2026-11-01|Buyuksehyr|Samsunspor": {
+   "dep_bs": 2,
+   "dep_top": 42,
+   "dep_xg": 1.23,
+   "ev_bs": 5,
+   "ev_top": 58,
+   "ev_xg": 1.52
+  },
+  "T1|2026-11-01|Kasimpasa|Besiktas": {
+   "dep_xg": 1.79,
+   "ev_xg": 1.47
+  },
+  "T1|2026-11-01|Trabzonspor|Gaziantep": {
+   "dep_xg": 1.19,
+   "ev_xg": 1.73
   }
  },
  "takimlar": {
