@@ -5301,13 +5301,14 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19713523,2026-11-01,Napoli,away,129433,,,OUT,0.0
 19713523,2026-11-01,Napoli,away,27850,,,OUT,0.0
 19713523,2026-11-01,Napoli,away,155896,,,OUT,0.0
+19713523,2026-11-01,Napoli,away,37325012,,,OUT,0.0
 19713519,2026-11-02,Fiorentina,away,219486,Dodô,D,SUB,
 19713519,2026-11-02,Fiorentina,away,23715982,Radu Drăgușin,D,XI,90.0
 19713519,2026-11-02,Fiorentina,away,20333755,Marco Brescianini,M,XI,77.0
 19713519,2026-11-02,Fiorentina,away,4545434,João Mário,D,XI,90.0
 19713519,2026-11-02,Fiorentina,away,129766,Luca Lezzerini,G,SUB,
 19713519,2026-11-02,Fiorentina,away,37584705,Alejandro Jiménez Sánchez,D,XI,90.0
-19713519,2026-11-02,Fiorentina,away,37765134,Víctor Valdepeñas,D,SUB,7.0
+19713519,2026-11-02,Fiorentina,away,37765134,Víctor Valdepeñas,D,SUB,1.0
 19713519,2026-11-02,Fiorentina,away,21773178,Beto,F,SUB,13.0
 19713519,2026-11-02,Fiorentina,away,37653223,Alieu Njie,F,XI,63.0
 19713519,2026-11-02,Fiorentina,away,37568690,Cher Ndour,M,XI,90.0
@@ -5343,8 +5344,8 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19713519,2026-11-02,Sassuolo,home,432840,Armand Laurienté,F,XI,90.0
 19713519,2026-11-02,Sassuolo,home,37653198,Simone Cinquegrano,M,SUB,13.0
 19713519,2026-11-02,Sassuolo,home,538038,Arijanet Murić,G,SUB,
-19713519,2026-11-02,Sassuolo,home,37737405,Darryl Bakola,M,SUB,45.0
-19713519,2026-11-02,Sassuolo,home,37616125,Ibrahim Sulemana,M,XI,45.0
+19713519,2026-11-02,Sassuolo,home,37737405,Darryl Bakola,M,SUB,44.0
+19713519,2026-11-02,Sassuolo,home,37616125,Ibrahim Sulemana,M,XI,46.0
 19713519,2026-11-02,Sassuolo,home,37596518,Edoardo Pieragnolo,D,SUB,
 19713519,2026-11-02,Sassuolo,home,133680,Nicholas Pierini,F,SUB,
 19713519,2026-11-02,Sassuolo,home,2511148,Stefano Turati,G,XI,90.0
@@ -5357,7 +5358,8 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19713519,2026-11-02,Fiorentina,away,3181368,,,OUT,0.0
 19713519,2026-11-02,Fiorentina,away,36681,,,OUT,0.0
 19713519,2026-11-02,Sassuolo,home,12016844,,,OUT,0.0
-19713527,2026-11-02,Parma,away,36074594,Abdoulaye Ndiaye,D,SUB,45.0
+19713519,2026-11-02,Sassuolo,home,37599458,,,OUT,0.0
+19713527,2026-11-02,Parma,away,36074594,Abdoulaye Ndiaye,D,SUB,44.0
 19713527,2026-11-02,Parma,away,198045,Vincent Sierro,M,XI,89.0
 19713527,2026-11-02,Parma,away,37708073,Ousmane Diallo,F,SUB,
 19713527,2026-11-02,Parma,away,37625886,Benja Cremaschi,M,SUB,
@@ -5379,7 +5381,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19713527,2026-11-02,Parma,away,37257777,Edoardo Corvi,G,SUB,
 19713527,2026-11-02,Parma,away,4536540,Hans Nicolussi Caviglia,M,SUB,1.0
 19713527,2026-11-02,Parma,away,37694317,Abdou-Salam Konate,M,SUB,
-19713527,2026-11-02,Parma,away,37725147,Dominik Drobnic,D,XI,45.0
+19713527,2026-11-02,Parma,away,37725147,Dominik Drobnic,D,XI,46.0
 19713527,2026-11-02,Parma,away,37722655,Simone Lontani,F,XI,67.0
 19713527,2026-11-02,Parma,away,37529791,Giovanni Fabbian,M,XI,74.0
 19713527,2026-11-02,Atalanta,home,37438667,Kamaldeen Sulemana,F,SUB,23.0
@@ -5411,3 +5413,4 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19713527,2026-11-02,Atalanta,home,30178,,,OUT,0.0
 19713527,2026-11-02,Atalanta,home,37539577,,,OUT,0.0
 19713527,2026-11-02,Atalanta,home,4545327,,,OUT,0.0
+19713527,2026-11-02,Parma,away,16837816,,,OUT,0.0
