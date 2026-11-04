@@ -1,5 +1,5 @@
 {
-  "olusturulma": "2026-11-03T23:16+03:00",
+  "olusturulma": "2026-11-04T15:29+03:00",
   "model": "dixon-coles-v1",
   "maclar": [
     {
@@ -9153,7 +9153,7 @@
           {
             "id": "27067062",
             "ad": "Kevin Schade",
-            "mevki": "M",
+            "mevki": "F",
             "no": 7,
             "onem": 0.868
           },
@@ -9174,7 +9174,7 @@
           {
             "id": "37543248",
             "ad": "Dango Ouattara",
-            "mevki": "M",
+            "mevki": "F",
             "no": 11,
             "onem": 0.543
           },
@@ -9216,7 +9216,7 @@
           {
             "id": "27440826",
             "ad": "Aaron Hickey",
-            "mevki": "M",
+            "mevki": "D",
             "no": 2,
             "onem": 0.372
           },
@@ -9364,7 +9364,7 @@
           },
           {
             "id": "2461",
-            "ad": "Ivaylo Ivanov",
+            "ad": "Lewis Dunk",
             "mevki": "D",
             "no": 5,
             "onem": 0.832
@@ -9414,7 +9414,7 @@
           {
             "id": "24082563",
             "ad": "Mats Wieffer",
-            "mevki": "D",
+            "mevki": "M",
             "no": 27,
             "onem": 0.304
           },
@@ -9577,7 +9577,7 @@
           {
             "id": "4592198",
             "ad": "Morgan Rogers",
-            "mevki": "F",
+            "mevki": "M",
             "no": 17,
             "onem": 0.881
           },
@@ -9591,7 +9591,7 @@
           {
             "id": "496775",
             "ad": "Pedro Neto",
-            "mevki": "M",
+            "mevki": "F",
             "no": 7,
             "onem": 0.831
           },
@@ -9675,7 +9675,7 @@
           {
             "id": "21803152",
             "ad": "Pep Chavarría",
-            "mevki": "M",
+            "mevki": "D",
             "no": 29,
             "onem": 0.348
           },
@@ -9696,7 +9696,7 @@
           {
             "id": "37701999",
             "ad": "Estêvão",
-            "mevki": "F",
+            "mevki": "M",
             "no": 41,
             "onem": 0.149
           },
@@ -9764,6 +9764,13 @@
             "onem": 0.0
           },
           {
+            "id": "37740888",
+            "ad": "Olutayo Subuloye",
+            "mevki": "D",
+            "no": 37,
+            "onem": 0.0
+          },
+          {
             "id": "37700784",
             "ad": "Aarón Anselmino",
             "mevki": "D",
@@ -9774,7 +9781,7 @@
             "id": "37400423",
             "ad": "Emmanuel Emegha",
             "mevki": "F",
-            "no": null,
+            "no": 22,
             "onem": 0.0
           },
           {
@@ -9845,7 +9852,7 @@
           {
             "id": "9543",
             "ad": "Brandon Thomas-Asante",
-            "mevki": "M",
+            "mevki": "F",
             "no": 23,
             "onem": 0.594
           },
@@ -9922,7 +9929,7 @@
           {
             "id": "17168898",
             "ad": "Yann Gboho",
-            "mevki": "F",
+            "mevki": "M",
             "no": 34,
             "onem": 0.089
           },
@@ -10036,7 +10043,7 @@
           {
             "id": "37595860",
             "ad": "Anan Khalaili",
-            "mevki": "M",
+            "mevki": "D",
             "no": 25,
             "onem": 0.756
           },
@@ -10176,7 +10183,7 @@
           {
             "id": "537595",
             "ad": "Óscar Mingueza",
-            "mevki": "D",
+            "mevki": "M",
             "no": 30,
             "onem": 0.084
           },
@@ -10290,7 +10297,7 @@
           {
             "id": "37266009",
             "ad": "Merlin Röhl",
-            "mevki": "D",
+            "mevki": "M",
             "no": 34,
             "onem": 0.649
           },
@@ -10299,12 +10306,12 @@
             "ad": "Tyrique George",
             "mevki": "M",
             "no": 19,
-            "onem": 0.643
+            "onem": 0.642
           },
           {
             "id": "25930790",
             "ad": "Brennan Johnson",
-            "mevki": "M",
+            "mevki": "F",
             "no": 22,
             "onem": 0.453
           },
@@ -11159,7 +11166,7 @@
           {
             "id": "4552689",
             "ad": "Brenden Aaronson",
-            "mevki": "F",
+            "mevki": "M",
             "no": 11,
             "onem": 0.426
           },
@@ -11371,7 +11378,7 @@
           {
             "id": "37595819",
             "ad": "Víctor Muñoz",
-            "mevki": "M",
+            "mevki": "F",
             "no": 23,
             "onem": 0.486
           },
@@ -11583,7 +11590,7 @@
           {
             "id": "23661272",
             "ad": "Iliman Ndiaye",
-            "mevki": "M",
+            "mevki": "F",
             "no": 7,
             "onem": 0.556
           },
@@ -11611,7 +11618,7 @@
           {
             "id": "23697990",
             "ad": "Jérémy Doku ",
-            "mevki": "M",
+            "mevki": "F",
             "no": 11,
             "onem": 0.354
           },
@@ -11788,7 +11795,7 @@
           {
             "id": "1846739",
             "ad": "Matheus Cunha",
-            "mevki": "F",
+            "mevki": "M",
             "no": 10,
             "onem": 0.691
           },
@@ -12028,7 +12035,7 @@
           {
             "id": "28912805",
             "ad": "Anthony Elanga",
-            "mevki": "F",
+            "mevki": "M",
             "no": 19,
             "onem": 0.388
           },
@@ -12079,14 +12086,14 @@
             "ad": "Jacob Ramsey",
             "mevki": "M",
             "no": 41,
-            "onem": 0.208
+            "onem": 0.217
           },
           {
             "id": "37658280",
             "ad": "Bazoumana Touré",
             "mevki": "F",
             "no": 17,
-            "onem": 0.131
+            "onem": 0.142
           },
           {
             "id": "32777430",
@@ -12247,14 +12254,14 @@
           {
             "id": "524045",
             "ad": "Daniel Muñoz",
-            "mevki": "M",
+            "mevki": "D",
             "no": 27,
             "onem": 0.577
           },
           {
             "id": "1956",
             "ad": "Ola Aina",
-            "mevki": "D",
+            "mevki": "M",
             "no": 34,
             "onem": 0.486
           },
@@ -12431,7 +12438,7 @@
           {
             "id": "61517",
             "ad": "Thomas Meunier",
-            "mevki": "M",
+            "mevki": "D",
             "no": 12,
             "onem": 0.498
           },
@@ -12608,28 +12615,28 @@
           {
             "id": "37581741",
             "ad": "Archie Gray",
-            "mevki": "M",
+            "mevki": "D",
             "no": 14,
             "onem": 0.703
           },
           {
             "id": "294000",
             "ad": "Omar Marmoush",
-            "mevki": "F",
+            "mevki": "M",
             "no": 22,
             "onem": 0.66
           },
           {
             "id": "1078",
             "ad": "Andrew Robertson",
-            "mevki": "M",
+            "mevki": "D",
             "no": 3,
             "onem": 0.642
           },
           {
             "id": "37531504",
             "ad": "Mathys Tel",
-            "mevki": "F",
+            "mevki": "M",
             "no": 11,
             "onem": 0.579
           },
@@ -12880,7 +12887,7 @@
           {
             "id": "26523850",
             "ad": "Abde Rebbach",
-            "mevki": "D",
+            "mevki": "M",
             "no": 21,
             "onem": 0.846
           },
@@ -12901,7 +12908,7 @@
           {
             "id": "37587454",
             "ad": "Ángel Pérez",
-            "mevki": "D",
+            "mevki": "M",
             "no": 7,
             "onem": 0.724
           },
@@ -13099,22 +13106,22 @@
           {
             "id": "37297544",
             "ad": "Nico Williams",
-            "mevki": "F",
+            "mevki": "M",
             "no": 10,
             "onem": 0.589
-          },
-          {
-            "id": "22158925",
-            "ad": "Oihan Sancet",
-            "mevki": "M",
-            "no": 8,
-            "onem": 0.573
           },
           {
             "id": "37714620",
             "ad": "Peio Canales Urtasun",
             "mevki": "M",
             "no": 28,
+            "onem": 0.573
+          },
+          {
+            "id": "22158925",
+            "ad": "Oihan Sancet",
+            "mevki": "M",
+            "no": 8,
             "onem": 0.573
           },
           {
@@ -13162,7 +13169,7 @@
           {
             "id": "37603817",
             "ad": "J. Louis-Jean",
-            "mevki": "M",
+            "mevki": "D",
             "no": 31,
             "onem": 0.309
           },
@@ -13290,7 +13297,7 @@
           {
             "id": "37577657",
             "ad": "Giuliano Simeone",
-            "mevki": "F",
+            "mevki": "M",
             "no": 20,
             "onem": 0.821
           },
@@ -13621,7 +13628,7 @@
           {
             "id": "26536",
             "ad": "Frenkie de Jong ",
-            "mevki": "M",
+            "mevki": "D",
             "no": 21,
             "onem": 0.109
           },
@@ -13635,7 +13642,7 @@
           {
             "id": "37719044",
             "ad": "Brian Fariñas",
-            "mevki": "M",
+            "mevki": "D",
             "no": 4,
             "onem": 0.1
           },
@@ -13682,10 +13689,24 @@
             "onem": 0.0
           },
           {
+            "id": "37726576",
+            "ad": "Guillem Víctor",
+            "mevki": "D",
+            "no": 40,
+            "onem": 0.0
+          },
+          {
             "id": "37788342",
             "ad": "Álex Campos",
             "mevki": "D",
             "no": 41,
+            "onem": 0.0
+          },
+          {
+            "id": "38205325",
+            "ad": "Ebrima Tunkara",
+            "mevki": "M",
+            "no": 30,
             "onem": 0.0
           },
           {
@@ -13763,7 +13784,7 @@
           {
             "id": "12393293",
             "ad": "Antony",
-            "mevki": "M",
+            "mevki": "F",
             "no": 7,
             "onem": 0.6
           },
@@ -13791,7 +13812,7 @@
           {
             "id": "37555046",
             "ad": "Nelson Deossa",
-            "mevki": "F",
+            "mevki": "M",
             "no": 18,
             "onem": 0.482
           },
@@ -14495,6 +14516,13 @@
             "onem": 0.132
           },
           {
+            "id": "38231735",
+            "ad": "Alejandro Santiago",
+            "mevki": "M",
+            "no": 36,
+            "onem": 0.086
+          },
+          {
             "id": "186694",
             "ad": "Pere Milla",
             "mevki": "M",
@@ -14507,6 +14535,13 @@
             "mevki": "F",
             "no": 7,
             "onem": 0.039
+          },
+          {
+            "id": "37908281",
+            "ad": "Jan Peries",
+            "mevki": "F",
+            "no": 33,
+            "onem": 0.014
           },
           {
             "id": "30851996",
@@ -14530,17 +14565,17 @@
             "onem": 0.0
           },
           {
+            "id": "37722298",
+            "ad": "Adama Timera",
+            "mevki": "D",
+            "no": 27,
+            "onem": 0.0
+          },
+          {
             "id": "2775",
             "ad": "Kike García ",
             "mevki": "F",
             "no": 19,
-            "onem": 0.0
-          },
-          {
-            "id": "37722298",
-            "ad": "Adama Timera",
-            "mevki": "F",
-            "no": 27,
             "onem": 0.0
           }
         ],
@@ -14562,7 +14597,7 @@
           {
             "id": "24071",
             "ad": "Nemanja Gudelj",
-            "mevki": "D",
+            "mevki": "M",
             "no": 8,
             "onem": 0.816
           },
@@ -14597,7 +14632,7 @@
           {
             "id": "37656468",
             "ad": "Andrés García",
-            "mevki": "D",
+            "mevki": "M",
             "no": 21,
             "onem": 0.707
           },
@@ -14763,6 +14798,13 @@
             "onem": 0.0
           },
           {
+            "id": "38219936",
+            "ad": "Ibrahima Danfakha",
+            "mevki": "F",
+            "no": 36,
+            "onem": 0.0
+          },
+          {
             "id": "38221107",
             "ad": "Ebrahima Drammeh",
             "mevki": "F",
@@ -14802,7 +14844,7 @@
           {
             "id": "37380652",
             "ad": "Iván Romero",
-            "mevki": "F",
+            "mevki": "M",
             "no": 9,
             "onem": 0.799
           },
@@ -15240,7 +15282,7 @@
           {
             "id": "186329",
             "ad": "Rubén García",
-            "mevki": "F",
+            "mevki": "M",
             "no": 14,
             "onem": 0.606
           },
@@ -15713,7 +15755,7 @@
           {
             "id": "37718995",
             "ad": "Iker Luque",
-            "mevki": "F",
+            "mevki": "M",
             "no": 19,
             "onem": 0.278
           },
@@ -16116,7 +16158,7 @@
           {
             "id": "22528446",
             "ad": "Luka Sucic",
-            "mevki": "M",
+            "mevki": "F",
             "no": 24,
             "onem": 0.768
           },
@@ -16151,7 +16193,7 @@
           {
             "id": "27440827",
             "ad": "Ander Barrenetxea",
-            "mevki": "F",
+            "mevki": "M",
             "no": 7,
             "onem": 0.552
           },
@@ -16261,6 +16303,13 @@
             "onem": 0.022
           },
           {
+            "id": "37595294",
+            "ad": "Aitor Fraga",
+            "mevki": "G",
+            "no": 32,
+            "onem": 0.0
+          },
+          {
             "id": "187232",
             "ad": "Álvaro Odriozola ",
             "mevki": "D",
@@ -16307,7 +16356,7 @@
           {
             "id": "187167",
             "ad": "Pepelu",
-            "mevki": "M",
+            "mevki": "D",
             "no": 18,
             "onem": 0.931
           },
@@ -16335,7 +16384,7 @@
           {
             "id": "2060",
             "ad": "Pablo Maffeo",
-            "mevki": "D",
+            "mevki": "M",
             "no": 24,
             "onem": 0.692
           },
@@ -16568,14 +16617,14 @@
           {
             "id": "186358",
             "ad": "Álvaro García",
-            "mevki": "M",
+            "mevki": "F",
             "no": 18,
             "onem": 0.828
           },
           {
             "id": "7698443",
             "ad": "Sergio Camello",
-            "mevki": "M",
+            "mevki": "F",
             "no": 10,
             "onem": 0.74
           },
@@ -17244,6 +17293,13 @@
             "mevki": "M",
             "no": 49,
             "onem": 0.0
+          },
+          {
+            "id": "37688869",
+            "ad": "Sergej Levak",
+            "mevki": "M",
+            "no": 46,
+            "onem": 0.0
           }
         ],
         "Bologna": [
@@ -17278,7 +17334,7 @@
           {
             "id": "3510260",
             "ad": "Juan Miranda",
-            "mevki": "M",
+            "mevki": "D",
             "no": 33,
             "onem": 0.757
           },
@@ -17355,7 +17411,7 @@
           {
             "id": "37550824",
             "ad": "Rahim Alhassane",
-            "mevki": "D",
+            "mevki": "M",
             "no": 23,
             "onem": 0.243
           },
@@ -17455,6 +17511,13 @@
             "ad": "Matteo Franceschelli",
             "mevki": "G",
             "no": 82,
+            "onem": 0.0
+          },
+          {
+            "id": "37779379",
+            "ad": "Luca Lo Monaco",
+            "mevki": "M",
+            "no": 43,
             "onem": 0.0
           }
         ],
@@ -17943,6 +18006,13 @@
             "mevki": "F",
             "no": 23,
             "onem": 0.0
+          },
+          {
+            "id": "38218632",
+            "ad": "Zebedee Kennedy",
+            "mevki": "F",
+            "no": 58,
+            "onem": 0.0
           }
         ],
         "Fiorentina": [
@@ -18014,7 +18084,7 @@
             "ad": "Víctor Valdepeñas",
             "mevki": "D",
             "no": 21,
-            "onem": 0.49
+            "onem": 0.497
           },
           {
             "id": "20333755",
@@ -18143,6 +18213,13 @@
             "onem": 0.0
           },
           {
+            "id": "37911180",
+            "ad": "Dennis Beldenti",
+            "mevki": "D",
+            "no": 75,
+            "onem": 0.0
+          },
+          {
             "id": "37529791",
             "ad": "Giovanni Fabbian",
             "mevki": "M",
@@ -18154,6 +18231,13 @@
             "ad": "Antonio Pirrò",
             "mevki": "M",
             "no": 73,
+            "onem": 0.0
+          },
+          {
+            "id": "37771392",
+            "ad": "Salvatore Cianciulli",
+            "mevki": "M",
+            "no": 76,
             "onem": 0.0
           },
           {
@@ -18464,7 +18548,7 @@
           {
             "id": "37343968",
             "ad": "Tommaso Baldanzi",
-            "mevki": "M",
+            "mevki": "F",
             "no": 8,
             "onem": 0.438
           },
@@ -18478,7 +18562,7 @@
           {
             "id": "25187",
             "ad": "Kingsley Ehizibue",
-            "mevki": "D",
+            "mevki": "M",
             "no": 3,
             "onem": 0.36
           },
@@ -18541,7 +18625,7 @@
           {
             "id": "24817045",
             "ad": "Mario Mitaj",
-            "mevki": "M",
+            "mevki": "D",
             "no": 2,
             "onem": 0.144
           },
@@ -18711,7 +18795,7 @@
           {
             "id": "129842",
             "ad": "Federico Dimarco",
-            "mevki": "D",
+            "mevki": "M",
             "no": 32,
             "onem": 0.633
           },
@@ -18725,7 +18809,7 @@
           {
             "id": "13591496",
             "ad": "Carlos Augusto",
-            "mevki": "M",
+            "mevki": "D",
             "no": 30,
             "onem": 0.594
           },
@@ -18828,6 +18912,13 @@
             "onem": 0.018
           },
           {
+            "id": "37729673",
+            "ad": "Alain Taho",
+            "mevki": "G",
+            "no": 40,
+            "onem": 0.0
+          },
+          {
             "id": "132278",
             "ad": "Raffaele Di Gennaro",
             "mevki": "G",
@@ -18916,7 +19007,7 @@
           {
             "id": "608189",
             "ad": "Weston McKennie ",
-            "mevki": "M",
+            "mevki": "F",
             "no": 22,
             "onem": 0.596
           },
@@ -19121,6 +19212,13 @@
             "ad": "Jeff Ekhator ",
             "mevki": "F",
             "no": 18,
+            "onem": 0.0
+          },
+          {
+            "id": "37725157",
+            "ad": "Arman Durmiši",
+            "mevki": "F",
+            "no": 47,
             "onem": 0.0
           }
         ],
@@ -19685,7 +19783,7 @@
           {
             "id": "32438",
             "ad": "Christian Pulisic",
-            "mevki": "F",
+            "mevki": "M",
             "no": 11,
             "onem": 0.522
           },
@@ -19741,7 +19839,7 @@
           {
             "id": "37536911",
             "ad": "Omari Hutchinson",
-            "mevki": "F",
+            "mevki": "M",
             "no": 20,
             "onem": 0.208
           },
@@ -19755,7 +19853,7 @@
           {
             "id": "4655",
             "ad": "Fikayo Tomori",
-            "mevki": "M",
+            "mevki": "D",
             "no": 23,
             "onem": 0.144
           },
@@ -19869,7 +19967,7 @@
           {
             "id": "132862",
             "ad": "Samuele Birindelli",
-            "mevki": "M",
+            "mevki": "D",
             "no": 19,
             "onem": 0.993
           },
@@ -19967,7 +20065,7 @@
           {
             "id": "37653813",
             "ad": "Adam Bakoune",
-            "mevki": "D",
+            "mevki": "M",
             "no": 24,
             "onem": 0.307
           },
@@ -20303,6 +20401,13 @@
             "onem": 0.0
           },
           {
+            "id": "38205366",
+            "ad": "David Spinelli",
+            "mevki": "G",
+            "no": 41,
+            "onem": 0.0
+          },
+          {
             "id": "37726063",
             "ad": "Christian Garofalo",
             "mevki": "D",
@@ -20314,6 +20419,34 @@
             "ad": "Alessandro Buongiorno ",
             "mevki": "D",
             "no": 4,
+            "onem": 0.0
+          },
+          {
+            "id": "37756510",
+            "ad": "Claudio Lieto",
+            "mevki": "D",
+            "no": 40,
+            "onem": 0.0
+          },
+          {
+            "id": "37756455",
+            "ad": "Francisco Baridó",
+            "mevki": "M",
+            "no": 18,
+            "onem": 0.0
+          },
+          {
+            "id": "37756518",
+            "ad": "Andrea Chiummariello",
+            "mevki": "M",
+            "no": 38,
+            "onem": 0.0
+          },
+          {
+            "id": "37783685",
+            "ad": "Nikita Melnyk",
+            "mevki": "M",
+            "no": 39,
             "onem": 0.0
           },
           {
@@ -20349,7 +20482,7 @@
           {
             "id": "2816035",
             "ad": "Emanuele Valeri",
-            "mevki": "D",
+            "mevki": "M",
             "no": 14,
             "onem": 0.933
           },
@@ -20370,7 +20503,7 @@
           {
             "id": "37904226",
             "ad": "Sascha Britschgi",
-            "mevki": "D",
+            "mevki": "M",
             "no": 27,
             "onem": 0.564
           },
@@ -20393,7 +20526,7 @@
             "ad": "Dominik Drobnic",
             "mevki": "D",
             "no": 72,
-            "onem": 0.501
+            "onem": 0.5
           },
           {
             "id": "96689",
@@ -20412,7 +20545,7 @@
           {
             "id": "16837816",
             "ad": "Adrián Bernabé",
-            "mevki": "M",
+            "mevki": "F",
             "no": 10,
             "onem": 0.443
           },
@@ -20463,7 +20596,7 @@
             "ad": "Abdoulaye Ndiaye",
             "mevki": "D",
             "no": 3,
-            "onem": 0.149
+            "onem": 0.15
           },
           {
             "id": "37694317",
@@ -20780,7 +20913,7 @@
           {
             "id": "432840",
             "ad": "Armand Laurienté",
-            "mevki": "M",
+            "mevki": "F",
             "no": 45,
             "onem": 0.901
           },
@@ -20803,7 +20936,7 @@
             "ad": "Darryl Bakola",
             "mevki": "M",
             "no": 50,
-            "onem": 0.729
+            "onem": 0.73
           },
           {
             "id": "538038",
@@ -20815,14 +20948,14 @@
           {
             "id": "129553",
             "ad": "Domenico Berardi ",
-            "mevki": "M",
+            "mevki": "F",
             "no": 10,
             "onem": 0.689
           },
           {
             "id": "37653198",
             "ad": "Simone Cinquegrano",
-            "mevki": "D",
+            "mevki": "M",
             "no": 46,
             "onem": 0.627
           },
@@ -20936,7 +21069,7 @@
             "ad": "Ibrahim Sulemana",
             "mevki": "M",
             "no": 55,
-            "onem": 0.134
+            "onem": 0.133
           },
           {
             "id": "1452150",
@@ -21344,7 +21477,7 @@
           {
             "id": "44824",
             "ad": "Mërgim Vojvoda",
-            "mevki": "M",
+            "mevki": "D",
             "no": 23,
             "onem": 0.857
           },
@@ -21379,7 +21512,7 @@
           {
             "id": "106821",
             "ad": "Giorgi Chakvetadze",
-            "mevki": "F",
+            "mevki": "M",
             "no": 30,
             "onem": 0.469
           },
@@ -21414,7 +21547,7 @@
           {
             "id": "133127",
             "ad": "Nicolò Zaniolo",
-            "mevki": "M",
+            "mevki": "F",
             "no": 10,
             "onem": 0.349
           },
@@ -21442,7 +21575,7 @@
           {
             "id": "37571579",
             "ad": "Nicolò Bertola",
-            "mevki": "D",
+            "mevki": "M",
             "no": 13,
             "onem": 0.161
           },
@@ -21619,7 +21752,7 @@
           {
             "id": "24935",
             "ad": "Ridgeciano Haps",
-            "mevki": "M",
+            "mevki": "D",
             "no": 5,
             "onem": 0.459
           },
@@ -21647,7 +21780,7 @@
           {
             "id": "430097",
             "ad": "Pasquale Mazzocchi",
-            "mevki": "D",
+            "mevki": "M",
             "no": 70,
             "onem": 0.227
           },
