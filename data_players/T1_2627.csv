@@ -4096,7 +4096,6 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746570,2026-11-01,Amed SK,home,37624889,Rayan Lutin,M,XI,90.0
 19746570,2026-11-01,Amed SK,home,37659071,Berk Kızıldemir,M,SUB,
 19746570,2026-11-01,Amed SK,home,37632306,Gift Orban,F,XI,78.0
-19746570,2026-11-01,Amed SK,home,37703784,,,OUT,0.0
 19746570,2026-11-01,Amed SK,home,37907265,,,OUT,0.0
 19746570,2026-11-01,Amed SK,home,202535,,,OUT,0.0
 19746570,2026-11-01,Eyüpspor,away,38210476,,,OUT,0.0
@@ -4104,6 +4103,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746570,2026-11-01,Eyüpspor,away,37580151,,,OUT,0.0
 19746570,2026-11-01,Eyüpspor,away,40570,,,OUT,0.0
 19746570,2026-11-01,Amed SK,home,22535472,,,OUT,0.0
+19746570,2026-11-01,Amed SK,home,37703784,,,OUT,0.0
 19746571,2026-11-01,Samsunspor,away,201473,Okan Kocuk,G,SUB,
 19746571,2026-11-01,Samsunspor,away,37723761,Joe Mendes,M,XI,90.0
 19746571,2026-11-01,Samsunspor,away,37611109,Igor Drapiński,D,XI,90.0
@@ -4269,6 +4269,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746572,2026-11-01,Kasımpaşa,home,4977653,,,OUT,0.0
 19746572,2026-11-01,Kasımpaşa,home,16496642,,,OUT,0.0
 19746572,2026-11-01,Beşiktaş,away,37568511,,,OUT,0.0
+19746572,2026-11-01,Beşiktaş,away,37606065,,,OUT,0.0
 19746569,2026-11-02,Gençlerbirliği,home,222272,Thalisson,D,XI,90.0
 19746569,2026-11-02,Gençlerbirliği,home,37926711,Hamza Aydar,D,XI,90.0
 19746569,2026-11-02,Gençlerbirliği,home,25548824,Tiago Gouveia,M,XI,81.0
