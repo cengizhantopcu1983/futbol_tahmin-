@@ -1,5 +1,5 @@
 {
-  "olusturulma": "2026-11-06T15:25+03:00",
+  "olusturulma": "2026-11-06T23:05+03:00",
   "model": "dixon-coles-v1",
   "maclar": [
     {
@@ -13048,32 +13048,25 @@
         ],
         "Gaziantep": [
           {
+            "id": "24817079",
+            "ad": "Kacper Kozłowski",
+            "mevki": "M",
+            "no": 10,
+            "onem": 0.939
+          },
+          {
             "id": "189707",
             "ad": "Luis Pérez",
             "mevki": "D",
             "no": 2,
-            "onem": 0.953
+            "onem": 0.923
           },
           {
             "id": "165701",
             "ad": "Deian Sorescu",
             "mevki": "M",
             "no": 18,
-            "onem": 0.93
-          },
-          {
-            "id": "24817079",
-            "ad": "Kacper Kozłowski",
-            "mevki": "M",
-            "no": 10,
-            "onem": 0.917
-          },
-          {
-            "id": "37544272",
-            "ad": "Kacper Tobiasz",
-            "mevki": "G",
-            "no": 25,
-            "onem": 0.9
+            "onem": 0.884
           },
           {
             "id": "26771",
@@ -13083,32 +13076,32 @@
             "onem": 0.85
           },
           {
-            "id": "31822",
-            "ad": "Alexandru Maxim",
-            "mevki": "M",
-            "no": 44,
-            "onem": 0.777
+            "id": "37544272",
+            "ad": "Kacper Tobiasz",
+            "mevki": "G",
+            "no": 25,
+            "onem": 0.8
           },
           {
             "id": "23277919",
             "ad": "Kerim Çalhanoğlu",
             "mevki": "D",
             "no": 23,
-            "onem": 0.646
+            "onem": 0.746
+          },
+          {
+            "id": "31822",
+            "ad": "Alexandru Maxim",
+            "mevki": "M",
+            "no": 44,
+            "onem": 0.727
           },
           {
             "id": "37732860",
             "ad": "Victor Gidado",
             "mevki": "M",
             "no": 8,
-            "onem": 0.636
-          },
-          {
-            "id": "14726292",
-            "ad": "Ulrich Meleke",
-            "mevki": "M",
-            "no": 6,
-            "onem": 0.61
+            "onem": 0.663
           },
           {
             "id": "23717944",
@@ -13118,60 +13111,74 @@
             "onem": 0.564
           },
           {
-            "id": "3510215",
-            "ad": "Arda Kızıldağ",
-            "mevki": "D",
-            "no": 4,
-            "onem": 0.428
-          },
-          {
-            "id": "37303949",
-            "ad": "Trivante Stewart",
-            "mevki": "F",
-            "no": 9,
-            "onem": 0.4
+            "id": "14726292",
+            "ad": "Ulrich Meleke",
+            "mevki": "M",
+            "no": 6,
+            "onem": 0.523
           },
           {
             "id": "37630141",
             "ad": "Abakar Sylla",
             "mevki": "D",
             "no": 21,
-            "onem": 0.382
+            "onem": 0.482
+          },
+          {
+            "id": "3510215",
+            "ad": "Arda Kızıldağ",
+            "mevki": "D",
+            "no": 4,
+            "onem": 0.414
+          },
+          {
+            "id": "37303949",
+            "ad": "Trivante Stewart",
+            "mevki": "F",
+            "no": 9,
+            "onem": 0.372
           },
           {
             "id": "25515",
             "ad": "Juninho Bacuna",
             "mevki": "M",
             "no": 7,
-            "onem": 0.352
+            "onem": 0.354
           },
           {
             "id": "3877087",
             "ad": "Halil Dervişoğlu",
             "mevki": "F",
             "no": 28,
-            "onem": 0.332
-          },
-          {
-            "id": "167842",
-            "ad": "Florin Ștefan",
-            "mevki": "D",
-            "no": 96,
-            "onem": 0.272
+            "onem": 0.33
           },
           {
             "id": "35180",
             "ad": "Serdar Dursun",
             "mevki": "F",
             "no": 19,
-            "onem": 0.239
+            "onem": 0.267
           },
           {
             "id": "37298037",
             "ad": "Ogün Özçiçek",
             "mevki": "M",
             "no": 61,
-            "onem": 0.173
+            "onem": 0.223
+          },
+          {
+            "id": "203344",
+            "ad": "Ataberk Dadakdeniz",
+            "mevki": "G",
+            "no": 35,
+            "onem": 0.2
+          },
+          {
+            "id": "167842",
+            "ad": "Florin Ștefan",
+            "mevki": "D",
+            "no": 96,
+            "onem": 0.172
           },
           {
             "id": "37684063",
@@ -13188,13 +13195,6 @@
             "onem": 0.123
           },
           {
-            "id": "203344",
-            "ad": "Ataberk Dadakdeniz",
-            "mevki": "G",
-            "no": 35,
-            "onem": 0.1
-          },
-          {
             "id": "37615037",
             "ad": "Efe Sarıkaya",
             "mevki": "D",
@@ -13206,7 +13206,7 @@
             "ad": "Sabahattin Destici",
             "mevki": "D",
             "no": 77,
-            "onem": 0.06
+            "onem": 0.086
           },
           {
             "id": "20355818",
@@ -13716,28 +13716,35 @@
             "ad": "Adrian Benedyczak",
             "mevki": "F",
             "no": 9,
-            "onem": 0.962
+            "onem": 0.958
           },
           {
             "id": "31854",
             "ad": "Kerem Demirbay",
             "mevki": "M",
             "no": 26,
-            "onem": 0.847
+            "onem": 0.947
           },
           {
             "id": "37717106",
             "ad": "Elson Mendes",
             "mevki": "M",
             "no": 51,
-            "onem": 0.818
+            "onem": 0.801
           },
           {
             "id": "7698449",
             "ad": "Ali Yavuz Kol",
             "mevki": "M",
             "no": 7,
-            "onem": 0.727
+            "onem": 0.797
+          },
+          {
+            "id": "37603238",
+            "ad": "Ayberk Karapo",
+            "mevki": "D",
+            "no": 45,
+            "onem": 0.781
           },
           {
             "id": "37667492",
@@ -13747,46 +13754,39 @@
             "onem": 0.703
           },
           {
-            "id": "37603238",
-            "ad": "Ayberk Karapo",
-            "mevki": "D",
-            "no": 45,
-            "onem": 0.69
-          },
-          {
             "id": "16496642",
             "ad": "Andri Fannar Baldursson",
             "mevki": "M",
             "no": 16,
-            "onem": 0.586
+            "onem": 0.486
           },
           {
             "id": "3862128",
             "ad": "Güven Yalçın",
             "mevki": "F",
             "no": 50,
-            "onem": 0.551
+            "onem": 0.464
           },
           {
             "id": "34455847",
             "ad": "Jesurun Rak-Sakyi",
             "mevki": "M",
             "no": 17,
-            "onem": 0.38
-          },
-          {
-            "id": "37705883",
-            "ad": "Jakob Jessen",
-            "mevki": "D",
-            "no": 5,
-            "onem": 0.351
+            "onem": 0.45
           },
           {
             "id": "37595901",
             "ad": "Marcus Rafferty",
             "mevki": "M",
             "no": 19,
-            "onem": 0.311
+            "onem": 0.328
+          },
+          {
+            "id": "62486",
+            "ad": "Haris Hajradinovic",
+            "mevki": "M",
+            "no": 10,
+            "onem": 0.323
           },
           {
             "id": "4977653",
@@ -13796,39 +13796,32 @@
             "onem": 0.309
           },
           {
-            "id": "62486",
-            "ad": "Haris Hajradinovic",
-            "mevki": "M",
-            "no": 10,
-            "onem": 0.277
+            "id": "37705883",
+            "ad": "Jakob Jessen",
+            "mevki": "D",
+            "no": 5,
+            "onem": 0.256
           },
           {
             "id": "97600",
             "ad": "Fousseni Diabaté",
             "mevki": "F",
             "no": 34,
-            "onem": 0.2
+            "onem": 0.149
           },
           {
             "id": "37583799",
             "ad": "Thiemoko Diarra",
             "mevki": "F",
             "no": 11,
-            "onem": 0.092
-          },
-          {
-            "id": "305950",
-            "ad": "Mortadha Ben Ouanes",
-            "mevki": "M",
-            "no": 12,
-            "onem": 0.087
+            "onem": 0.122
           },
           {
             "id": "37734110",
             "ad": "Emirhan Boz",
             "mevki": "M",
             "no": 66,
-            "onem": 0.08
+            "onem": 0.097
           },
           {
             "id": "37666314",
@@ -13843,13 +13836,6 @@
             "mevki": "M",
             "no": 8,
             "onem": 0.01
-          },
-          {
-            "id": "37632401",
-            "ad": "Sinan Alkaş",
-            "mevki": "F",
-            "no": 23,
-            "onem": 0.001
           },
           {
             "id": "205252",
@@ -13880,6 +13866,13 @@
             "onem": 0.0
           },
           {
+            "id": "305950",
+            "ad": "Mortadha Ben Ouanes",
+            "mevki": "M",
+            "no": 12,
+            "onem": 0.0
+          },
+          {
             "id": "37736141",
             "ad": "Sercan Deniz",
             "mevki": "F",
@@ -13891,6 +13884,13 @@
             "ad": "Emirhan Yiğit",
             "mevki": "F",
             "no": null,
+            "onem": 0.0
+          },
+          {
+            "id": "37632401",
+            "ad": "Sinan Alkaş",
+            "mevki": "F",
+            "no": 23,
             "onem": 0.0
           },
           {
