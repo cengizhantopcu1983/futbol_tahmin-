@@ -4512,7 +4512,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746558,2026-11-07,Amed SK,away,37598720,Ali Turap Bülbül,D,SUB,45.0
 19746558,2026-11-07,Amed SK,away,124327,Dia Saba,M,XI,90.0
 19746558,2026-11-07,Amed SK,away,37624889,Rayan Lutin,M,SUB,13.0
-19746558,2026-11-07,Amed SK,away,37632306,Gift Orban,M,XI,90.0
+19746558,2026-11-07,Amed SK,away,37632306,Gift Orban,F,XI,90.0
 19746558,2026-11-07,Amed SK,away,37907265,,,OUT,0.0
 19746558,2026-11-07,Amed SK,away,202535,,,OUT,0.0
 19746558,2026-11-07,Galatasaray,home,37706078,,,OUT,0.0
@@ -4570,3 +4570,4 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746560,2026-11-07,Göztepe,home,37710344,,,OUT,0.0
 19746560,2026-11-07,İstanbul Başakşehir,away,97319,,,OUT,0.0
 19746560,2026-11-07,İstanbul Başakşehir,away,391366,,,OUT,0.0
+19746560,2026-11-07,Göztepe,home,191018,,,OUT,0.0
