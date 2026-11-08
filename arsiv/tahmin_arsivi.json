@@ -3012,10 +3012,10 @@
    "saat": "22:45",
    "ev": "Fiorentina",
    "deplasman": "Juventus",
-   "p_ev": 0.2322,
-   "p_beraberlik": 0.252,
-   "p_deplasman": 0.5158,
-   "xg_ev": 1.0,
+   "p_ev": 0.232,
+   "p_beraberlik": 0.2527,
+   "p_deplasman": 0.5153,
+   "xg_ev": 0.99,
    "xg_deplasman": 1.61,
    "olasi_skor": "0-1",
    "en_olasi_skor": "1-1",
@@ -3025,11 +3025,11 @@
     "deplasman": 0.4552
    },
    "golge": {
-    "p_ev": 0.2083,
-    "p_beraberlik": 0.2402,
-    "p_deplasman": 0.5514
+    "p_ev": 0.2084,
+    "p_beraberlik": 0.2409,
+    "p_deplasman": 0.5507
    },
-   "kayit": "2026-11-08T14:29+03:00"
+   "kayit": "2026-11-08T21:30+03:00"
   },
   "SP1|2026-11-08|Ath Madrid|Barcelona": {
    "lig": "La Liga",
@@ -3038,9 +3038,9 @@
    "saat": "23:00",
    "ev": "Ath Madrid",
    "deplasman": "Barcelona",
-   "p_ev": 0.3601,
+   "p_ev": 0.3605,
    "p_beraberlik": 0.2328,
-   "p_deplasman": 0.4072,
+   "p_deplasman": 0.4068,
    "xg_ev": 1.64,
    "xg_deplasman": 1.76,
    "olasi_skor": "1-2",
@@ -3051,7 +3051,7 @@
     "deplasman": 0.5178
    },
    "golge": null,
-   "kayit": "2026-11-08T14:29+03:00"
+   "kayit": "2026-11-08T21:30+03:00"
   },
   "T1|2026-11-06|Gaziantep|Kasimpasa": {
    "lig": "Süper Lig",
