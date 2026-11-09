@@ -4618,6 +4618,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746561,2026-11-08,Rizespor,home,21762190,,,OUT,0.0
 19746561,2026-11-08,Rizespor,home,32404530,,,OUT,0.0
 19746561,2026-11-08,Rizespor,home,6013442,,,OUT,0.0
+19746561,2026-11-08,Rizespor,home,529405,,,OUT,0.0
 19746559,2026-11-08,Fenerbahçe,away,22528506,İsmail Yüksek,M,XI,90.0
 19746559,2026-11-08,Fenerbahçe,away,97087,Mattéo Guendouzi,M,XI,77.0
 19746559,2026-11-08,Fenerbahçe,away,534383,Kerem Aktürkoğlu,F,SUB,26.0
@@ -4721,3 +4722,53 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746562,2026-11-08,Trabzonspor,away,37566870,,,OUT,0.0
 19746562,2026-11-08,Trabzonspor,away,3509987,,,OUT,0.0
 19746562,2026-11-08,Alanyaspor,home,202046,,,OUT,0.0
+19746557,2026-11-08,Gençlerbirliği,away,222272,Thalisson,D,XI,27.0
+19746557,2026-11-08,Gençlerbirliği,away,37926711,Hamza Aydar,D,XI,90.0
+19746557,2026-11-08,Gençlerbirliği,away,25548824,Tiago Gouveia,M,XI,71.0
+19746557,2026-11-08,Gençlerbirliği,away,2483609,Pedro Mendes,F,XI,87.0
+19746557,2026-11-08,Gençlerbirliği,away,23278665,Franco Tongya,M,XI,90.0
+19746557,2026-11-08,Gençlerbirliği,away,37764801,Victor Orakpo,F,SUB,
+19746557,2026-11-08,Gençlerbirliği,away,430505,Adama Traoré,M,XI,71.0
+19746557,2026-11-08,Gençlerbirliği,away,37631973,Arda Çağan Çelik,D,XI,90.0
+19746557,2026-11-08,Gençlerbirliği,away,527534,Cheikh Niasse,M,XI,90.0
+19746557,2026-11-08,Gençlerbirliği,away,751437,Sékou Koïta,F,SUB,3.0
+19746557,2026-11-08,Gençlerbirliği,away,201680,Gökhan Akkan,G,SUB,
+19746557,2026-11-08,Gençlerbirliği,away,205067,Oğulcan Ülgün,M,XI,87.0
+19746557,2026-11-08,Gençlerbirliği,away,38209457,Ousmane Diabate,M,SUB,63.0
+19746557,2026-11-08,Gençlerbirliği,away,38208365,Prince Martor Jr.,F,SUB,
+19746557,2026-11-08,Gençlerbirliği,away,129416,Salih Uçan,M,SUB,3.0
+19746557,2026-11-08,Gençlerbirliği,away,37563342,Göktuğ Erdem,M,SUB,
+19746557,2026-11-08,Gençlerbirliği,away,202070,İrfan Can Eğribayat,G,XI,90.0
+19746557,2026-11-08,Gençlerbirliği,away,765766,Abdurrahim Dursun,D,SUB,
+19746557,2026-11-08,Gençlerbirliği,away,37597764,Rafael Luís,M,SUB,19.0
+19746557,2026-11-08,Gençlerbirliği,away,2483848,Fıratcan Üzüm,D,SUB,19.0
+19746557,2026-11-08,Gençlerbirliği,away,36084749,Metehan Baltacı,D,XI,22.0
+19746557,2026-11-08,Beşiktaş,home,32550,Alexander Nübel,G,XI,90.0
+19746557,2026-11-08,Beşiktaş,home,5319,Wilfred Ndidi,M,XI,70.0
+19746557,2026-11-08,Beşiktaş,home,32622,Salih Özcan,M,XI,90.0
+19746557,2026-11-08,Beşiktaş,home,5270487,Kartal Yılmaz,M,SUB,20.0
+19746557,2026-11-08,Beşiktaş,home,29735915,Hyeon-gyu Oh,F,SUB,
+19746557,2026-11-08,Beşiktaş,home,4545376,Orkun Kökçü,M,XI,70.0
+19746557,2026-11-08,Beşiktaş,home,37590868,Kassoum Ouattara,D,SUB,
+19746557,2026-11-08,Beşiktaş,home,37261923,Emmanuel Agbadou,D,XI,90.0
+19746557,2026-11-08,Beşiktaş,home,37572227,Junior Olaitan,M,SUB,20.0
+19746557,2026-11-08,Beşiktaş,home,37568511,Ernest Poku,F,SUB,13.0
+19746557,2026-11-08,Beşiktaş,home,25709,Vaclav Cerny,F,SUB,
+19746557,2026-11-08,Beşiktaş,home,61780,Leandro Trossard,M,XI,90.0
+19746557,2026-11-08,Beşiktaş,home,37650803,Taylan Bulut,D,SUB,20.0
+19746557,2026-11-08,Beşiktaş,home,177988,Dušan Vlahović,F,XI,86.0
+19746557,2026-11-08,Beşiktaş,home,37727058,İlhan Fakılı,M,XI,77.0
+19746557,2026-11-08,Beşiktaş,home,4545417,Rıdvan Yılmaz,D,XI,90.0
+19746557,2026-11-08,Beşiktaş,home,540319,Tiago Djaló,D,SUB,
+19746557,2026-11-08,Beşiktaş,home,3187864,Emirhan Topçu,D,XI,90.0
+19746557,2026-11-08,Beşiktaş,home,512560,Amir Murillo,D,XI,70.0
+19746557,2026-11-08,Beşiktaş,home,20673391,Doğan Alemdar,G,SUB,
+19746557,2026-11-08,Beşiktaş,home,37564566,Semih Kılıçsoy,F,SUB,4.0
+19746557,2026-11-08,Gençlerbirliği,away,37926713,,,OUT,0.0
+19746557,2026-11-08,Gençlerbirliği,away,95672,,,OUT,0.0
+19746557,2026-11-08,Gençlerbirliği,away,160568,,,OUT,0.0
+19746557,2026-11-08,Gençlerbirliği,away,129907,,,OUT,0.0
+19746557,2026-11-08,Beşiktaş,home,37316942,,,OUT,0.0
+19746557,2026-11-08,Gençlerbirliği,away,63184,,,OUT,0.0
+19746557,2026-11-08,Gençlerbirliği,away,36063543,,,OUT,0.0
+19746557,2026-11-08,Beşiktaş,home,37606065,,,OUT,0.0

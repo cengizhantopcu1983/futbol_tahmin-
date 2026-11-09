@@ -5456,6 +5456,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732625,2026-11-06,Sevilla,home,219730,,,OUT,0.0
 19732625,2026-11-06,Sevilla,home,37716641,,,OUT,0.0
 19732625,2026-11-06,Sevilla,home,27440264,,,OUT,0.0
+19732625,2026-11-06,Sevilla,home,37590292,,,OUT,0.0
 19732628,2026-11-07,Málaga,home,446609,Alfonso Herrero,G,XI,90.0
 19732628,2026-11-07,Málaga,home,194768,Jens Cajuste,M,SUB,
 19732628,2026-11-07,Málaga,home,188749,Einar Galilea,D,XI,72.0
@@ -5556,6 +5557,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732629,2026-11-07,Espanyol,home,2775,,,OUT,0.0
 19732629,2026-11-07,Espanyol,home,30851996,,,OUT,0.0
 19732629,2026-11-07,Deportivo A Coruña,away,37787869,,,OUT,0.0
+19732629,2026-11-07,Espanyol,home,37731254,,,OUT,0.0
 19732627,2026-11-07,Osasuna,home,189296,Sergio Herrera,G,SUB,
 19732627,2026-11-07,Osasuna,home,188626,Lucas Torró,M,XI,90.0
 19732627,2026-11-07,Osasuna,home,8092941,Jon Moncayola,M,XI,68.0
@@ -5760,3 +5762,156 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732626,2026-11-08,Rayo Vallecano,away,333778,,,OUT,0.0
 19732626,2026-11-08,Rayo Vallecano,away,132577,,,OUT,0.0
 19732626,2026-11-08,Rayo Vallecano,away,186358,,,OUT,0.0
+19732626,2026-11-08,Real Sociedad,home,186932,,,OUT,0.0
+19732623,2026-11-08,Getafe,away,20315950,Jiri Letacek,G,SUB,
+19732623,2026-11-08,Getafe,away,63020,Dakonam Djené,D,XI,90.0
+19732623,2026-11-08,Getafe,away,37757475,Davinchi,D,SUB,
+19732623,2026-11-08,Getafe,away,37291195,Saba Sazonov,D,SUB,
+19732623,2026-11-08,Getafe,away,21781710,Abdel Abqar,D,SUB,
+19732623,2026-11-08,Getafe,away,37601802,Mario Martín,M,XI,45.0
+19732623,2026-11-08,Getafe,away,24071,Nemanja Gudelj,M,XI,90.0
+19732623,2026-11-08,Getafe,away,37396571,Martín Satriano,F,XI,90.0
+19732623,2026-11-08,Getafe,away,37316612,Ramón Terrats,M,SUB,45.0
+19732623,2026-11-08,Getafe,away,186587,David Soria,G,XI,90.0
+19732623,2026-11-08,Getafe,away,31647,Daniel Carvajal,D,XI,90.0
+19732623,2026-11-08,Getafe,away,37571858,Sebastián Boselli,D,XI,90.0
+19732623,2026-11-08,Getafe,away,37332141,Francho Serrano,M,SUB,9.0
+19732623,2026-11-08,Getafe,away,185579,Kiko Femenía,D,SUB,9.0
+19732623,2026-11-08,Getafe,away,26354,Enes Ünal,F,XI,81.0
+19732623,2026-11-08,Getafe,away,37332149,Iván Azón,F,SUB,9.0
+19732623,2026-11-08,Getafe,away,37656468,Andrés García,M,XI,81.0
+19732623,2026-11-08,Getafe,away,186437,Johan Mojica,D,XI,90.0
+19732623,2026-11-08,Getafe,away,523939,Orel Mangala,M,XI,81.0
+19732623,2026-11-08,Getafe,away,37772769,Jean Ives Valou,D,SUB,
+19732623,2026-11-08,Getafe,away,37750089,Alberto Risco,M,SUB,
+19732623,2026-11-08,Getafe,away,37769397,Diego Ferrer,G,SUB,
+19732623,2026-11-08,Getafe,away,38219936,Ibrahima Danfakha,F,SUB,
+19732623,2026-11-08,Villarreal,home,37537789,Luiz Júnior,G,SUB,
+19732623,2026-11-08,Villarreal,home,12394069,Logan Costa,D,XI,90.0
+19732623,2026-11-08,Villarreal,home,37623379,Alex Freeman,D,SUB,26.0
+19732623,2026-11-08,Villarreal,home,37714190,Pau Navarro,D,SUB,
+19732623,2026-11-08,Villarreal,home,13963088,Georges Mikautadze,F,XI,84.0
+19732623,2026-11-08,Villarreal,home,37380649,Alberto Moleiro,M,XI,63.0
+19732623,2026-11-08,Villarreal,home,37593154,Renato Veiga,D,XI,90.0
+19732623,2026-11-08,Villarreal,home,37556968,Rubén Gómez,G,SUB,
+19732623,2026-11-08,Villarreal,home,189585,Santi Comesaña,M,SUB,26.0
+19732623,2026-11-08,Villarreal,home,37567261,Santiago Mouriño,D,XI,64.0
+19732623,2026-11-08,Villarreal,home,38206446,Carlos Macià,M,XI,64.0
+19732623,2026-11-08,Villarreal,home,31238822,Tajon Buchanan,M,XI,90.0
+19732623,2026-11-08,Villarreal,home,433169,Pape Gueye,M,XI,90.0
+19732623,2026-11-08,Villarreal,home,96656,Nicolas Pépé,F,SUB,14.0
+19732623,2026-11-08,Villarreal,home,31626779,Carlos Romero,D,XI,90.0
+19732623,2026-11-08,Villarreal,home,37614807,Tani Oluwaseyi,M,XI,76.0
+19732623,2026-11-08,Villarreal,home,1396,Ayoze Pérez,F,SUB,27.0
+19732623,2026-11-08,Villarreal,home,26328601,Sergi Cardona,D,SUB,
+19732623,2026-11-08,Villarreal,home,37551076,Nathan Saliba,M,SUB,6.0
+19732623,2026-11-08,Villarreal,home,2283,Péter Gulácsi,G,XI,90.0
+19732623,2026-11-08,Villarreal,home,37747465,Nizar El Jmili,F,SUB,
+19732623,2026-11-08,Getafe,away,37678216,,,OUT,0.0
+19732623,2026-11-08,Getafe,away,1410,,,OUT,0.0
+19732623,2026-11-08,Villarreal,home,37459024,,,OUT,0.0
+19732623,2026-11-08,Villarreal,home,37746954,,,OUT,0.0
+19732623,2026-11-08,Villarreal,home,335705,,,OUT,0.0
+19732623,2026-11-08,Villarreal,home,186552,,,OUT,0.0
+19732631,2026-11-08,Celta de Vigo,home,438751,Altay Bayındır,G,SUB,
+19732631,2026-11-08,Celta de Vigo,home,1128,Marcos Alonso,D,XI,90.0
+19732631,2026-11-08,Celta de Vigo,home,37715699,Abdoulaye Faye,D,SUB,
+19732631,2026-11-08,Celta de Vigo,home,6006071,Sergio Carreira,M,XI,90.0
+19732631,2026-11-08,Celta de Vigo,home,24799857,Ilaix Moriba,M,XI,90.0
+19732631,2026-11-08,Celta de Vigo,home,22859283,Ferran Jutglà,F,SUB,
+19732631,2026-11-08,Celta de Vigo,home,800,Iago Aspas,F,XI,76.0
+19732631,2026-11-08,Celta de Vigo,home,37585284,Pablo Durán,F,XI,90.0
+19732631,2026-11-08,Celta de Vigo,home,130199,Ionuț Radu,G,XI,90.0
+19732631,2026-11-08,Celta de Vigo,home,446998,Aleix Febas,M,SUB,
+19732631,2026-11-08,Celta de Vigo,home,37316546,Hugo González,F,SUB,14.0
+19732631,2026-11-08,Celta de Vigo,home,37316505,Javi Rueda,M,XI,45.0
+19732631,2026-11-08,Celta de Vigo,home,37586673,Yoel Lago,D,SUB,
+19732631,2026-11-08,Celta de Vigo,home,37528864,Williot Swedberg,F,SUB,14.0
+19732631,2026-11-08,Celta de Vigo,home,37652784,Javi Rodríguez,D,XI,45.0
+19732631,2026-11-08,Celta de Vigo,home,13653174,Sebastián Cáceres,D,XI,90.0
+19732631,2026-11-08,Celta de Vigo,home,190049,Javi Galán,D,SUB,45.0
+19732631,2026-11-08,Celta de Vigo,home,37586671,Hugo Álvarez,M,SUB,45.0
+19732631,2026-11-08,Celta de Vigo,home,37527863,Couhaib Driouech,F,XI,76.0
+19732631,2026-11-08,Celta de Vigo,home,186961,Iván Villar,G,SUB,
+19732631,2026-11-08,Celta de Vigo,home,37766765,Andrés Antañón,M,XI,64.0
+19732631,2026-11-08,Celta de Vigo,home,29720457,Hugo Burcio,M,SUB,26.0
+19732631,2026-11-08,Levante,away,37543908,Pablo Campos,G,SUB,
+19732631,2026-11-08,Levante,away,95635,Aïssa Mandi,D,XI,90.0
+19732631,2026-11-08,Levante,away,37661094,Ifeanyi Ndukwe,D,XI,45.0
+19732631,2026-11-08,Levante,away,4545454,Adrián Dela,D,SUB,45.0
+19732631,2026-11-08,Levante,away,37569279,Hugo Sotelo,M,XI,45.0
+19732631,2026-11-08,Levante,away,37662761,Daniel Requena Sánchez,M,XI,90.0
+19732631,2026-11-08,Levante,away,6984712,Roger Brugué,M,XI,90.0
+19732631,2026-11-08,Levante,away,22136693,Jon Ander Olasagasti,M,XI,90.0
+19732631,2026-11-08,Levante,away,37380652,Iván Romero,F,SUB,45.0
+19732631,2026-11-08,Levante,away,37556019,Petar Ratkov,F,SUB,
+19732631,2026-11-08,Levante,away,37769567,Yanis Musuayi,F,SUB,
+19732631,2026-11-08,Levante,away,62317,Mathew Ryan,G,XI,90.0
+19732631,2026-11-08,Levante,away,37684057,Jorge Cabello,D,SUB,
+19732631,2026-11-08,Levante,away,21539177,Víctor García,D,SUB,34.0
+19732631,2026-11-08,Levante,away,37317478,Enzo Bardeli,M,SUB,
+19732631,2026-11-08,Levante,away,537591,Oriol Rey,M,SUB,45.0
+19732631,2026-11-08,Levante,away,37646866,Karl Etta Eyong,F,XI,45.0
+19732631,2026-11-08,Levante,away,31855,Jeremy Toljan,D,XI,90.0
+19732631,2026-11-08,Levante,away,37625755,Thiago Fernández,M,XI,56.0
+19732631,2026-11-08,Levante,away,37739341,Paco Cortés,F,SUB,
+19732631,2026-11-08,Levante,away,37923034,Nacho Pérez,D,XI,77.0
+19732631,2026-11-08,Levante,away,38221506,Marc Santos,D,SUB,13.0
+19732631,2026-11-08,Levante,away,38206214,Huseini Nakoha,D,SUB,
+19732631,2026-11-08,Celta de Vigo,home,37616238,,,OUT,0.0
+19732631,2026-11-08,Celta de Vigo,home,37591583,,,OUT,0.0
+19732631,2026-11-08,Celta de Vigo,home,190919,,,OUT,0.0
+19732631,2026-11-08,Celta de Vigo,home,186864,,,OUT,0.0
+19732631,2026-11-08,Celta de Vigo,home,25922180,,,OUT,0.0
+19732632,2026-11-08,FC Barcelona,away,16475841,Joan García,G,XI,90.0
+19732632,2026-11-08,FC Barcelona,away,160956,João Cancelo,D,XI,60.0
+19732632,2026-11-08,FC Barcelona,away,37316480,Alejandro Balde,D,SUB,
+19732632,2026-11-08,FC Barcelona,away,37719044,Brian Fariñas,D,XI,45.0
+19732632,2026-11-08,FC Barcelona,away,37656790,Pau Cubarsí,D,XI,90.0
+19732632,2026-11-08,FC Barcelona,away,37459030,Gavi,M,SUB,16.0
+19732632,2026-11-08,FC Barcelona,away,37596363,Fermín López,M,XI,74.0
+19732632,2026-11-08,FC Barcelona,away,37288001,Pedri,M,XI,90.0
+19732632,2026-11-08,FC Barcelona,away,5329,Gabriel Jesus,F,SUB,
+19732632,2026-11-08,FC Barcelona,away,37656179,Lamine Yamal,M,XI,90.0
+19732632,2026-11-08,FC Barcelona,away,160258,Raphinha,F,XI,90.0
+19732632,2026-11-08,FC Barcelona,away,805,Wojciech Szczesny,G,SUB,
+19732632,2026-11-08,FC Barcelona,away,15040126,Karim Adeyemi,F,SUB,4.0
+19732632,2026-11-08,FC Barcelona,away,4460,Andreas Christensen,D,SUB,30.0
+19732632,2026-11-08,FC Barcelona,away,9611543,Anthony Gordon,M,XI,86.0
+19732632,2026-11-08,FC Barcelona,away,37357510,Gerard Martín,D,XI,90.0
+19732632,2026-11-08,FC Barcelona,away,26536,Frenkie de Jong,M,SUB,45.0
+19732632,2026-11-08,FC Barcelona,away,37710798,Marc Bernal Casas,M,XI,74.0
+19732632,2026-11-08,FC Barcelona,away,4545389,Eric García,D,SUB,16.0
+19732632,2026-11-08,FC Barcelona,away,73721,Dominik Livakovic,G,SUB,
+19732632,2026-11-08,FC Barcelona,away,37913575,Hamza Abdelkarim,F,SUB,
+19732632,2026-11-08,FC Barcelona,away,38205325,Ebrima Tunkara,M,SUB,
+19732632,2026-11-08,FC Barcelona,away,37788342,Álex Campos,D,SUB,
+19732632,2026-11-08,Atlético de Madrid,home,333616,Juan Musso,G,SUB,
+19732632,2026-11-08,Atlético de Madrid,home,37602079,Rodrigo Mendoza,M,SUB,
+19732632,2026-11-08,Atlético de Madrid,home,37261342,Johnny Cardoso,M,SUB,18.0
+19732632,2026-11-08,Atlético de Madrid,home,185571,Koke,M,XI,72.0
+19732632,2026-11-08,Atlético de Madrid,home,9967153,Kang-in Lee,F,XI,60.0
+19732632,2026-11-08,Atlético de Madrid,home,37423008,Pablo Barrios,M,XI,78.0
+19732632,2026-11-08,Atlético de Madrid,home,25514,Alexander Sørloth,F,SUB,30.0
+19732632,2026-11-08,Atlético de Madrid,home,7698436,Álex Baena,M,XI,72.0
+19732632,2026-11-08,Atlético de Madrid,home,5321,Ademola Lookman,F,SUB,
+19732632,2026-11-08,Atlético de Madrid,home,159276,Jan Oblak,G,XI,90.0
+19732632,2026-11-08,Atlético de Madrid,home,186795,Marcos Llorente,D,XI,90.0
+19732632,2026-11-08,Atlético de Madrid,home,16827175,Jonathan David,F,SUB,12.0
+19732632,2026-11-08,Atlético de Madrid,home,37304115,Arnau Ortiz,F,SUB,
+19732632,2026-11-08,Atlético de Madrid,home,181449,Dávid Hancko,D,XI,90.0
+19732632,2026-11-08,Atlético de Madrid,home,37551089,Marc Pubill,D,XI,90.0
+19732632,2026-11-08,Atlético de Madrid,home,21394947,Julián Alvarez,F,XI,90.0
+19732632,2026-11-08,Atlético de Madrid,home,37577657,Giuliano Simeone,M,XI,90.0
+19732632,2026-11-08,Atlético de Madrid,home,160208,Alejandro Grimaldo,D,XI,90.0
+19732632,2026-11-08,Atlético de Madrid,home,540189,Morten Hjulmand,M,SUB,18.0
+19732632,2026-11-08,Atlético de Madrid,home,100580,Robin Le Normand,D,SUB,
+19732632,2026-11-08,Atlético de Madrid,home,37779261,Romeo Hueso,D,SUB,
+19732632,2026-11-08,Atlético de Madrid,home,38205278,Jorge Domínguez,D,SUB,
+19732632,2026-11-08,Atlético de Madrid,home,37656197,Dani Martinez,D,SUB,
+19732632,2026-11-08,FC Barcelona,away,37598766,,,OUT,0.0
+19732632,2026-11-08,FC Barcelona,away,337394,,,OUT,0.0
+19732632,2026-11-08,FC Barcelona,away,74060,,,OUT,0.0
+19732632,2026-11-08,FC Barcelona,away,37719662,,,OUT,0.0
+19732632,2026-11-08,FC Barcelona,away,186910,,,OUT,0.0
+19732632,2026-11-08,Atlético de Madrid,home,333731,,,OUT,0.0
