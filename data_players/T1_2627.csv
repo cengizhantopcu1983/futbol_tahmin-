@@ -3050,7 +3050,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746583,2026-10-17,Erzurumspor FK,home,5640822,Sefa Akgün,M,SUB,9.0
 19746583,2026-10-17,Erzurumspor FK,home,25564,Gyrano Kerk,F,SUB,9.0
 19746583,2026-10-17,Erzurumspor FK,home,201245,Eren Tozlu,F,XI,81.0
-19746583,2026-10-17,Erzurumspor FK,home,106494,Guram Giorbelidze,D,XI,89.0
+19746583,2026-10-17,Erzurumspor FK,home,106494,Guram Giorbelidze,D,XI,90.0
 19746583,2026-10-17,Erzurumspor FK,home,1356266,Nihad Mujakic,D,XI,90.0
 19746583,2026-10-17,Erzurumspor FK,home,35682209,Ibrahim Diabate,F,SUB,19.0
 19746583,2026-10-17,Erzurumspor FK,home,160196,Miguel Cardoso,F,XI,71.0
@@ -3060,7 +3060,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746583,2026-10-17,Erzurumspor FK,home,6642530,Matija Orbanic,G,SUB,
 19746583,2026-10-17,Erzurumspor FK,home,433075,Elisha Owusu,M,XI,81.0
 19746583,2026-10-17,Erzurumspor FK,home,201365,Orhan Ovacıklı,D,XI,90.0
-19746583,2026-10-17,Erzurumspor FK,home,233878,Martín Rodríguez,M,XI,89.0
+19746583,2026-10-17,Erzurumspor FK,home,233878,Martín Rodríguez,M,XI,90.0
 19746583,2026-10-17,Erzurumspor FK,home,37616409,Lawrence Agyekum,M,SUB,1.0
 19746583,2026-10-17,Erzurumspor FK,home,37640395,Nariman Akhundzada,F,SUB,
 19746583,2026-10-17,Erzurumspor FK,home,27088904,Mustafa Fettahoğlu,F,SUB,
@@ -3099,7 +3099,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746587,2026-10-17,Gençlerbirliği,home,751437,Sékou Koïta,F,SUB,1.0
 19746587,2026-10-17,Gençlerbirliği,home,201680,Gökhan Akkan,G,SUB,
 19746587,2026-10-17,Gençlerbirliği,home,205067,Oğulcan Ülgün,M,SUB,18.0
-19746587,2026-10-17,Gençlerbirliği,home,38209457,Ousmane Diabate,M,XI,89.0
+19746587,2026-10-17,Gençlerbirliği,home,38209457,Ousmane Diabate,M,XI,90.0
 19746587,2026-10-17,Gençlerbirliği,home,38208365,Prince Martor Jr.,F,SUB,1.0
 19746587,2026-10-17,Gençlerbirliği,home,129416,Salih Uçan,M,XI,72.0
 19746587,2026-10-17,Gençlerbirliği,home,37563342,Göktuğ Erdem,M,SUB,10.0
@@ -3107,7 +3107,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746587,2026-10-17,Gençlerbirliği,home,202070,İrfan Can Eğribayat,G,XI,90.0
 19746587,2026-10-17,Gençlerbirliği,home,765766,Abdurrahim Dursun,D,SUB,
 19746587,2026-10-17,Gençlerbirliği,home,37597764,Rafael Luís,M,XI,80.0
-19746587,2026-10-17,Gençlerbirliği,home,2483848,Fıratcan Üzüm,D,XI,89.0
+19746587,2026-10-17,Gençlerbirliği,home,2483848,Fıratcan Üzüm,D,XI,90.0
 19746587,2026-10-17,Gençlerbirliği,home,36084749,Metehan Baltacı,D,XI,90.0
 19746587,2026-10-17,Gençlerbirliği,home,37926713,,,OUT,0.0
 19746587,2026-10-17,Gençlerbirliği,home,95672,,,OUT,0.0
@@ -3117,6 +3117,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746587,2026-10-17,Galatasaray,away,37423141,,,OUT,0.0
 19746587,2026-10-17,Gençlerbirliği,home,430505,,,OUT,0.0
 19746587,2026-10-17,Gençlerbirliği,home,129907,,,OUT,0.0
+19746587,2026-10-17,Galatasaray,away,37664,,,OUT,0.0
 19746587,2026-10-17,Galatasaray,away,130022,,,OUT,0.0
 19746587,2026-10-17,Gençlerbirliği,home,527534,,,OUT,0.0
 19746588,2026-10-17,Konyaspor,away,37602782,Deniz Ertaş,G,SUB,
@@ -3161,7 +3162,6 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746588,2026-10-17,Amed SK,home,37624889,Rayan Lutin,M,XI,63.0
 19746588,2026-10-17,Amed SK,home,37659071,Berk Kızıldemir,M,SUB,
 19746588,2026-10-17,Amed SK,home,37632306,Gift Orban,F,XI,72.0
-19746588,2026-10-17,Amed SK,home,37703784,,,OUT,0.0
 19746588,2026-10-17,Amed SK,home,37907265,,,OUT,0.0
 19746588,2026-10-17,Amed SK,home,202535,,,OUT,0.0
 19746588,2026-10-17,Amed SK,home,36083970,,,OUT,0.0
@@ -3169,6 +3169,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746588,2026-10-17,Konyaspor,away,203954,,,OUT,0.0
 19746588,2026-10-17,Konyaspor,away,450488,,,OUT,0.0
 19746588,2026-10-17,Amed SK,home,22535472,,,OUT,0.0
+19746588,2026-10-17,Amed SK,home,37703784,,,OUT,0.0
 19746585,2026-10-17,Fenerbahçe,home,28912973,Archie Brown,D,SUB,13.0
 19746585,2026-10-17,Fenerbahçe,home,22528506,İsmail Yüksek,M,SUB,
 19746585,2026-10-17,Fenerbahçe,home,97087,Mattéo Guendouzi,M,XI,90.0
@@ -3207,7 +3208,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746585,2026-10-17,Alanyaspor,away,37540455,İzzet Çelik,M,SUB,
 19746585,2026-10-17,Alanyaspor,away,111694,Gaius Makouta,M,XI,90.0
 19746585,2026-10-17,Alanyaspor,away,203040,Paulo Victor,G,XI,90.0
-19746585,2026-10-17,Alanyaspor,away,37632013,Baran Gezek,M,XI,89.0
+19746585,2026-10-17,Alanyaspor,away,37632013,Baran Gezek,M,XI,90.0
 19746585,2026-10-17,Alanyaspor,away,37341855,Maestro,M,SUB,1.0
 19746585,2026-10-17,Alanyaspor,away,31226971,Yusuf Özdemir,M,SUB,
 19746585,2026-10-17,Alanyaspor,away,32518,Florent Hadergjonaj,M,XI,90.0
@@ -3223,13 +3224,13 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746590,2026-10-18,Kasımpaşa,home,7698449,Ali Yavuz Kol,M,XI,82.0
 19746590,2026-10-18,Kasımpaşa,home,37538213,Atakan Müjde,M,SUB,
 19746590,2026-10-18,Kasımpaşa,home,13186483,Adrian Benedyczak,F,XI,82.0
-19746590,2026-10-18,Kasımpaşa,home,62486,Haris Hajradinovic,M,SUB,11.0
+19746590,2026-10-18,Kasımpaşa,home,62486,Haris Hajradinovic,M,SUB,7.0
 19746590,2026-10-18,Kasımpaşa,home,37583799,Thiemoko Diarra,F,SUB,8.0
-19746590,2026-10-18,Kasımpaşa,home,4977653,Kévin Mouanga,D,SUB,8.0
+19746590,2026-10-18,Kasımpaşa,home,4977653,Kévin Mouanga,D,SUB,4.0
 19746590,2026-10-18,Kasımpaşa,home,16496642,Andri Fannar Baldursson,M,XI,90.0
 19746590,2026-10-18,Kasımpaşa,home,34455847,Jesurun Rak-Sakyi,M,XI,86.0
 19746590,2026-10-18,Kasımpaşa,home,24564,Ömer Bayram,D,SUB,
-19746590,2026-10-18,Kasımpaşa,home,37595901,Marcus Rafferty,M,SUB,8.0
+19746590,2026-10-18,Kasımpaşa,home,37595901,Marcus Rafferty,M,SUB,4.0
 19746590,2026-10-18,Kasımpaşa,home,205252,Ali Emre Yanar,G,SUB,
 19746590,2026-10-18,Kasımpaşa,home,31854,Kerem Demirbay,M,XI,83.0
 19746590,2026-10-18,Kasımpaşa,home,37361459,Matei Ilie,D,XI,90.0
@@ -3242,7 +3243,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746590,2026-10-18,Samsunspor,away,37723761,Joe Mendes,D,XI,90.0
 19746590,2026-10-18,Samsunspor,away,37611109,Igor Drapiński,D,SUB,
 19746590,2026-10-18,Samsunspor,away,1494342,Elliot Watt,M,XI,90.0
-19746590,2026-10-18,Samsunspor,away,16475808,Elayis Tavsan,F,SUB,8.0
+19746590,2026-10-18,Samsunspor,away,16475808,Elayis Tavsan,F,SUB,4.0
 19746590,2026-10-18,Samsunspor,away,32777442,Samed Onur,M,SUB,
 19746590,2026-10-18,Samsunspor,away,23269651,Tanguy Coulibaly,M,XI,86.0
 19746590,2026-10-18,Samsunspor,away,203305,Emre Kılınç,M,XI,45.0
@@ -3255,7 +3256,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746590,2026-10-18,Samsunspor,away,37664240,Enes Albak,D,SUB,
 19746590,2026-10-18,Samsunspor,away,3187724,Bilal Bayazıt,G,SUB,
 19746590,2026-10-18,Samsunspor,away,37632122,Mustafa Tan,D,SUB,
-19746590,2026-10-18,Samsunspor,away,38208058,Saikuba Jarju,F,SUB,8.0
+19746590,2026-10-18,Samsunspor,away,38208058,Saikuba Jarju,F,SUB,4.0
 19746590,2026-10-18,Samsunspor,away,37596530,Gabriele Guarino,D,XI,90.0
 19746590,2026-10-18,Samsunspor,away,37715435,Antoine Sekongo,M,SUB,20.0
 19746590,2026-10-18,Samsunspor,away,540311,Afonso Sousa,M,SUB,45.0
@@ -3271,7 +3272,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746584,2026-10-18,Göztepe,away,24817287,Arda Özçimen,G,XI,90.0
 19746584,2026-10-18,Göztepe,away,37375221,Arda Okan Kurtulan,M,XI,90.0
 19746584,2026-10-18,Göztepe,away,37423121,Taha Altıkardeş,D,XI,90.0
-19746584,2026-10-18,Göztepe,away,10967436,Rhaldney,M,XI,89.0
+19746584,2026-10-18,Göztepe,away,10967436,Rhaldney,M,XI,90.0
 19746584,2026-10-18,Göztepe,away,37545764,Alex Matos,M,SUB,
 19746584,2026-10-18,Göztepe,away,37426978,André Henrique,F,XI,83.0
 19746584,2026-10-18,Göztepe,away,2206568,Alexis Antunes,F,XI,88.0
@@ -3283,16 +3284,16 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746584,2026-10-18,Göztepe,away,3219737,Gökdeniz Bayrakdar,F,SUB,
 19746584,2026-10-18,Göztepe,away,6599974,Tino Anjorin,M,SUB,1.0
 19746584,2026-10-18,Göztepe,away,191018,Noah Sonko Sundberg,D,XI,90.0
-19746584,2026-10-18,Göztepe,away,37560901,Novatus Miroshi,M,XI,89.0
-19746584,2026-10-18,Göztepe,away,37354878,Sinclair Armstrong,F,SUB,12.0
+19746584,2026-10-18,Göztepe,away,37560901,Novatus Miroshi,M,XI,90.0
+19746584,2026-10-18,Göztepe,away,37354878,Sinclair Armstrong,F,SUB,7.0
 19746584,2026-10-18,Göztepe,away,9307576,Malcom Bokele,D,XI,90.0
 19746584,2026-10-18,Göztepe,away,37631598,Şamil Öztürk,G,SUB,
-19746584,2026-10-18,Göztepe,away,37615973,Janderson,F,SUB,12.0
+19746584,2026-10-18,Göztepe,away,37615973,Janderson,F,SUB,7.0
 19746584,2026-10-18,Göztepe,away,37715059,Nevzat Üzel,G,SUB,
 19746584,2026-10-18,Kocaelispor,home,10780,Anfernee Dijksteel,D,XI,90.0
 19746584,2026-10-18,Kocaelispor,home,22860508,Muharrem Cinan,D,XI,58.0
 19746584,2026-10-18,Kocaelispor,home,37548309,Emir Ortakaya,D,XI,90.0
-19746584,2026-10-18,Kocaelispor,home,37528918,Matej Maglica,D,SUB,10.0
+19746584,2026-10-18,Kocaelispor,home,37528918,Matej Maglica,D,SUB,5.0
 19746584,2026-10-18,Kocaelispor,home,5381,Dan Agyei,F,XI,74.0
 19746584,2026-10-18,Kocaelispor,home,37315654,Tobias Gulliksen,M,SUB,32.0
 19746584,2026-10-18,Kocaelispor,home,37520128,Berkan Kutlu,M,XI,90.0
@@ -3359,7 +3360,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746589,2026-10-18,Gaziantep F.K.,away,203344,Ataberk Dadakdeniz,G,SUB,
 19746589,2026-10-18,Gaziantep F.K.,away,31822,Alexandru Maxim,M,SUB,45.0
 19746589,2026-10-18,Gaziantep F.K.,away,37298037,Ogün Özçiçek,M,XI,90.0
-19746589,2026-10-18,Gaziantep F.K.,away,22515510,Sabahattin Destici,D,SUB,10.0
+19746589,2026-10-18,Gaziantep F.K.,away,22515510,Sabahattin Destici,D,SUB,5.0
 19746589,2026-10-18,Gaziantep F.K.,away,37587007,,,OUT,0.0
 19746589,2026-10-18,Gaziantep F.K.,away,38198,,,OUT,0.0
 19746589,2026-10-18,Gaziantep F.K.,away,20355818,,,OUT,0.0
@@ -3372,8 +3373,8 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746589,2026-10-18,İstanbul Başakşehir,home,32070,,,OUT,0.0
 19746589,2026-10-18,Gaziantep F.K.,away,14726292,,,OUT,0.0
 19746591,2026-10-19,Beşiktaş,away,32550,Alexander Nübel,G,XI,90.0
-19746591,2026-10-19,Beşiktaş,away,5319,Wilfred Ndidi,M,SUB,9.0
-19746591,2026-10-19,Beşiktaş,away,32622,Salih Özcan,M,XI,89.0
+19746591,2026-10-19,Beşiktaş,away,5319,Wilfred Ndidi,M,SUB,5.0
+19746591,2026-10-19,Beşiktaş,away,32622,Salih Özcan,M,XI,90.0
 19746591,2026-10-19,Beşiktaş,away,5270487,Kartal Yılmaz,M,SUB,1.0
 19746591,2026-10-19,Beşiktaş,away,29735915,Hyeon-gyu Oh,F,SUB,13.0
 19746591,2026-10-19,Beşiktaş,away,37590868,Kassoum Ouattara,D,SUB,13.0
@@ -3475,13 +3476,13 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746581,2026-10-24,Kasımpaşa,away,129679,Cláudio Winck,D,XI,90.0
 19746581,2026-10-24,Kasımpaşa,away,37667492,Adem Arous,D,XI,90.0
 19746581,2026-10-24,Kasımpaşa,away,37705883,Jakob Jessen,D,SUB,
-19746581,2026-10-24,Kasımpaşa,away,7698449,Ali Yavuz Kol,M,XI,89.0
+19746581,2026-10-24,Kasımpaşa,away,7698449,Ali Yavuz Kol,M,XI,90.0
 19746581,2026-10-24,Kasımpaşa,away,37538213,Atakan Müjde,M,SUB,1.0
 19746581,2026-10-24,Kasımpaşa,away,13186483,Adrian Benedyczak,F,XI,79.0
 19746581,2026-10-24,Kasımpaşa,away,62486,Haris Hajradinovic,M,XI,62.0
 19746581,2026-10-24,Kasımpaşa,away,37583799,Thiemoko Diarra,F,SUB,1.0
 19746581,2026-10-24,Kasımpaşa,away,16496642,Andri Fannar Baldursson,M,SUB,28.0
-19746581,2026-10-24,Kasımpaşa,away,34455847,Jesurun Rak-Sakyi,M,XI,89.0
+19746581,2026-10-24,Kasımpaşa,away,34455847,Jesurun Rak-Sakyi,M,XI,90.0
 19746581,2026-10-24,Kasımpaşa,away,24564,Ömer Bayram,D,SUB,
 19746581,2026-10-24,Kasımpaşa,away,37595901,Marcus Rafferty,M,SUB,11.0
 19746581,2026-10-24,Kasımpaşa,away,205252,Ali Emre Yanar,G,SUB,
@@ -3494,7 +3495,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746581,2026-10-24,Kasımpaşa,away,37734110,Emirhan Boz,M,SUB,
 19746581,2026-10-24,Eyüpspor,home,37532259,Emre Bilgin,G,XI,90.0
 19746581,2026-10-24,Eyüpspor,home,37714787,Arda Yavuz,D,SUB,
-19746581,2026-10-24,Eyüpspor,home,31228892,Anıl Yaşar,D,SUB,10.0
+19746581,2026-10-24,Eyüpspor,home,31228892,Anıl Yaşar,D,SUB,6.0
 19746581,2026-10-24,Eyüpspor,home,751551,Jawad El Yamiq,D,XI,90.0
 19746581,2026-10-24,Eyüpspor,home,37616342,Talha Ülvan,D,XI,90.0
 19746581,2026-10-24,Eyüpspor,home,37704485,David Costa,M,XI,73.0
@@ -3546,7 +3547,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746582,2026-10-24,Erzurumspor FK,away,37618642,Amar Gerxhaliu,D,XI,90.0
 19746582,2026-10-24,Erzurumspor FK,away,540571,Brandon Baiye,M,XI,90.0
 19746582,2026-10-24,Erzurumspor FK,away,5640822,Sefa Akgün,M,SUB,
-19746582,2026-10-24,Erzurumspor FK,away,25564,Gyrano Kerk,F,SUB,11.0
+19746582,2026-10-24,Erzurumspor FK,away,25564,Gyrano Kerk,F,SUB,6.0
 19746582,2026-10-24,Erzurumspor FK,away,201245,Eren Tozlu,F,XI,77.0
 19746582,2026-10-24,Erzurumspor FK,away,106494,Guram Giorbelidze,D,XI,90.0
 19746582,2026-10-24,Erzurumspor FK,away,1356266,Nihad Mujakic,D,XI,90.0
@@ -3585,12 +3586,12 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746574,2026-10-24,Samsunspor,home,37532664,Yunus Emre Çift,D,SUB,19.0
 19746574,2026-10-24,Samsunspor,home,37664240,Enes Albak,D,SUB,
 19746574,2026-10-24,Samsunspor,home,3187724,Bilal Bayazıt,G,XI,90.0
-19746574,2026-10-24,Samsunspor,home,37632122,Mustafa Tan,D,SUB,14.0
-19746574,2026-10-24,Samsunspor,home,38208058,Saikuba Jarju,F,SUB,13.0
+19746574,2026-10-24,Samsunspor,home,37632122,Mustafa Tan,D,SUB,6.0
+19746574,2026-10-24,Samsunspor,home,38208058,Saikuba Jarju,F,SUB,5.0
 19746574,2026-10-24,Samsunspor,home,37596530,Gabriele Guarino,D,XI,85.0
 19746574,2026-10-24,Samsunspor,home,37715435,Antoine Sekongo,M,XI,79.0
 19746574,2026-10-24,Samsunspor,home,540311,Afonso Sousa,M,XI,37.0
-19746574,2026-10-24,Amed SK,away,534368,Miraç Acer,D,SUB,9.0
+19746574,2026-10-24,Amed SK,away,534368,Miraç Acer,D,SUB,1.0
 19746574,2026-10-24,Amed SK,away,173220,David Bates,D,XI,90.0
 19746574,2026-10-24,Amed SK,away,22535472,Lumbardh Dellova,D,XI,90.0
 19746574,2026-10-24,Amed SK,away,37530649,Cem Üstündag,M,SUB,
@@ -3599,7 +3600,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746574,2026-10-24,Amed SK,away,23278710,Samuel Ballet,M,XI,85.0
 19746574,2026-10-24,Amed SK,away,203698,Umut Meraş,D,XI,90.0
 19746574,2026-10-24,Amed SK,away,35349,Gökhan Gül,M,SUB,15.0
-19746574,2026-10-24,Amed SK,away,203359,Mehmet Yeşil,D,SUB,13.0
+19746574,2026-10-24,Amed SK,away,203359,Mehmet Yeşil,D,SUB,5.0
 19746574,2026-10-24,Amed SK,away,99036,Rayan Raveloson,M,XI,90.0
 19746574,2026-10-24,Amed SK,away,16475787,Burak Bozan,G,SUB,
 19746574,2026-10-24,Amed SK,away,37908102,Amadou Cissé,D,SUB,
@@ -3611,7 +3612,6 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746574,2026-10-24,Amed SK,away,124327,Dia Saba,M,XI,89.0
 19746574,2026-10-24,Amed SK,away,37624889,Rayan Lutin,M,SUB,
 19746574,2026-10-24,Amed SK,away,37632306,Gift Orban,F,XI,90.0
-19746574,2026-10-24,Amed SK,away,37703784,,,OUT,0.0
 19746574,2026-10-24,Amed SK,away,37907265,,,OUT,0.0
 19746574,2026-10-24,Samsunspor,home,37715012,,,OUT,0.0
 19746574,2026-10-24,Amed SK,away,202535,,,OUT,0.0
@@ -3619,6 +3619,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746574,2026-10-24,Samsunspor,home,540342,,,OUT,0.0
 19746574,2026-10-24,Samsunspor,home,14685565,,,OUT,0.0
 19746574,2026-10-24,Samsunspor,home,203305,,,OUT,0.0
+19746574,2026-10-24,Amed SK,away,37703784,,,OUT,0.0
 19746577,2026-10-25,Gençlerbirliği,away,222272,Thalisson,D,XI,90.0
 19746577,2026-10-25,Gençlerbirliği,away,63184,Dimitrios Goutas,D,XI,30.0
 19746577,2026-10-25,Gençlerbirliği,away,25548824,Tiago Gouveia,F,SUB,33.0
@@ -3643,7 +3644,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746577,2026-10-25,Konyaspor,home,37602782,Deniz Ertaş,G,SUB,
 19746577,2026-10-25,Konyaspor,home,201517,Ahmet Oğuz,D,SUB,
 19746577,2026-10-25,Konyaspor,home,37563181,Arif Boşluk,D,SUB,
-19746577,2026-10-25,Konyaspor,home,450488,Uğurcan Yazğılı,D,SUB,12.0
+19746577,2026-10-25,Konyaspor,home,450488,Uğurcan Yazğılı,D,SUB,7.0
 19746577,2026-10-25,Konyaspor,home,162177,Diogo Gonçalves,M,SUB,14.0
 19746577,2026-10-25,Konyaspor,home,177670,Marko Jevtović,M,XI,90.0
 19746577,2026-10-25,Konyaspor,home,25234,Deniz Türüç,M,XI,84.0
@@ -3652,10 +3653,10 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746577,2026-10-25,Konyaspor,home,390278,Bahadır Güngördü,G,XI,90.0
 19746577,2026-10-25,Konyaspor,home,161320,Chidozie Awaziem,D,XI,90.0
 19746577,2026-10-25,Konyaspor,home,97434,Yhoan Andzouana,D,XI,90.0
-19746577,2026-10-25,Konyaspor,home,37257780,Ebrima Colley,F,SUB,11.0
+19746577,2026-10-25,Konyaspor,home,37257780,Ebrima Colley,F,SUB,6.0
 19746577,2026-10-25,Konyaspor,home,37262280,Rayyan Baniya,D,XI,90.0
 19746577,2026-10-25,Konyaspor,home,1941,Arthur Masuaku,D,XI,90.0
-19746577,2026-10-25,Konyaspor,home,293951,Mostafa Mohamed,F,SUB,8.0
+19746577,2026-10-25,Konyaspor,home,293951,Mostafa Mohamed,F,SUB,3.0
 19746577,2026-10-25,Konyaspor,home,37598728,Emir Bars,F,SUB,
 19746577,2026-10-25,Konyaspor,home,37697405,Tóth Rajmund,M,SUB,14.0
 19746577,2026-10-25,Konyaspor,home,21036708,Melih İbrahimoğlu,M,XI,83.0
@@ -3670,14 +3671,14 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746578,2026-10-25,Göztepe,home,37375221,Arda Okan Kurtulan,M,XI,90.0
 19746578,2026-10-25,Göztepe,home,37423121,Taha Altıkardeş,D,XI,90.0
 19746578,2026-10-25,Göztepe,home,10967436,Rhaldney,M,XI,23.0
-19746578,2026-10-25,Göztepe,home,37545764,Alex Matos,M,SUB,12.0
+19746578,2026-10-25,Göztepe,home,37545764,Alex Matos,M,SUB,7.0
 19746578,2026-10-25,Göztepe,home,37426978,André Henrique,F,XI,83.0
 19746578,2026-10-25,Göztepe,home,2206568,Alexis Antunes,F,XI,83.0
 19746578,2026-10-25,Göztepe,home,37451261,Juan,F,XI,58.0
-19746578,2026-10-25,Göztepe,home,43244,Efkan Bekiroğlu,M,SUB,12.0
+19746578,2026-10-25,Göztepe,home,43244,Efkan Bekiroğlu,M,SUB,7.0
 19746578,2026-10-25,Göztepe,home,37674862,Richard Akonnor,M,XI,90.0
 19746578,2026-10-25,Göztepe,home,37714842,Ege Yıldırım,D,SUB,
-19746578,2026-10-25,Göztepe,home,526418,Bekir Turaç Böke,F,SUB,12.0
+19746578,2026-10-25,Göztepe,home,526418,Bekir Turaç Böke,F,SUB,7.0
 19746578,2026-10-25,Göztepe,home,3219737,Gökdeniz Bayrakdar,F,SUB,
 19746578,2026-10-25,Göztepe,home,6599974,Tino Anjorin,M,SUB,60.0
 19746578,2026-10-25,Göztepe,home,191018,Noah Sonko Sundberg,D,XI,90.0
@@ -3766,6 +3767,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746575,2026-10-26,Beşiktaş,home,37606065,,,OUT,0.0
 19746575,2026-10-26,İstanbul Başakşehir,away,437246,,,OUT,0.0
 19746575,2026-10-26,İstanbul Başakşehir,away,1494704,,,OUT,0.0
+19746575,2026-10-26,Beşiktaş,home,25589,,,OUT,0.0
 19746579,2026-10-26,Trabzonspor,away,37718239,Ahmet Yıldırım,G,SUB,
 19746579,2026-10-26,Trabzonspor,away,390543,Samet Akaydin,D,SUB,
 19746579,2026-10-26,Trabzonspor,away,96099,Fabinho,M,XI,45.0
@@ -3784,7 +3786,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746579,2026-10-26,Trabzonspor,away,37559583,Sidny Lopes Cabral,D,SUB,29.0
 19746579,2026-10-26,Trabzonspor,away,202620,Melih Kabasakal,M,XI,61.0
 19746579,2026-10-26,Trabzonspor,away,24818229,Aral Şimşir,M,XI,89.0
-19746579,2026-10-26,Trabzonspor,away,37736801,Noah Saviolo,F,SUB,10.0
+19746579,2026-10-26,Trabzonspor,away,37736801,Noah Saviolo,F,SUB,4.0
 19746579,2026-10-26,Trabzonspor,away,393336,Metehan Mimaroğlu,F,SUB,
 19746579,2026-10-26,Trabzonspor,away,37569376,Ali Habeşoğlu,F,SUB,
 19746579,2026-10-26,Rizespor,home,1525202,Attila Mocsi,D,SUB,
@@ -3836,7 +3838,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746576,2026-10-26,Galatasaray,home,4243131,Barış Alper Yılmaz,M,XI,64.0
 19746576,2026-10-26,Galatasaray,home,37928897,Renato Nhaga,M,SUB,
 19746576,2026-10-26,Galatasaray,home,37674431,Aleksey Batrakov,M,XI,80.0
-19746576,2026-10-26,Galatasaray,home,31640130,Wilfried Singo,D,SUB,8.0
+19746576,2026-10-26,Galatasaray,home,31640130,Wilfried Singo,D,SUB,2.0
 19746576,2026-10-26,Galatasaray,home,96017,Mario Lemina,M,XI,90.0
 19746576,2026-10-26,Fenerbahçe,away,28912973,Archie Brown,D,XI,90.0
 19746576,2026-10-26,Fenerbahçe,away,22528506,İsmail Yüksek,M,SUB,
@@ -3848,7 +3850,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746576,2026-10-26,Fenerbahçe,away,37568397,Yiğit Efe Demir,D,SUB,
 19746576,2026-10-26,Fenerbahçe,away,201444,İrfan Can Kahveci,M,XI,78.0
 19746576,2026-10-26,Fenerbahçe,away,2510388,Mert Müldür,D,SUB,
-19746576,2026-10-26,Fenerbahçe,away,49353,Vedat Muriqi,F,SUB,13.0
+19746576,2026-10-26,Fenerbahçe,away,49353,Vedat Muriqi,F,SUB,7.0
 19746576,2026-10-26,Fenerbahçe,away,37678433,Kojo Oppong,D,SUB,34.0
 19746576,2026-10-26,Fenerbahçe,away,3862139,Levent Mercan,D,XI,56.0
 19746576,2026-10-26,Fenerbahçe,away,160110,Nélson Semedo,D,XI,90.0
@@ -3937,19 +3939,19 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746565,2026-10-31,Çorum FK,away,23278611,Alexandre Penetra,D,SUB,15.0
 19746565,2026-10-31,Çorum FK,away,30071846,Hrvoje Smolcic,D,XI,90.0
 19746565,2026-10-31,Çorum FK,away,202002,Cengiz Ünder,M,XI,90.0
-19746565,2026-10-31,Çorum FK,away,1477612,Markus Karlsbakk,M,SUB,9.0
+19746565,2026-10-31,Çorum FK,away,1477612,Markus Karlsbakk,M,SUB,3.0
 19746565,2026-10-31,Çorum FK,away,62963,Mame Thiam,F,SUB,
 19746565,2026-10-31,Çorum FK,away,37434598,Mohamed Diomandé,M,XI,83.0
 19746565,2026-10-31,Çorum FK,away,203462,Gökhan Sazdağı,D,XI,87.0
-19746565,2026-10-31,Çorum FK,away,37266015,Youssoufa Moukoko,F,SUB,13.0
+19746565,2026-10-31,Çorum FK,away,37266015,Youssoufa Moukoko,F,SUB,7.0
 19746565,2026-10-31,Çorum FK,away,537994,Arda Şengül,D,SUB,
 19746565,2026-10-31,Çorum FK,away,203711,Erhan Erentürk,G,SUB,
 19746565,2026-10-31,Çorum FK,away,286894,Jesús Ramírez,F,XI,83.0
 19746565,2026-10-31,Çorum FK,away,50828,Ylber Ramadani,M,XI,90.0
-19746565,2026-10-31,Çorum FK,away,37316459,Göktan Gürpüz,M,SUB,9.0
+19746565,2026-10-31,Çorum FK,away,37316459,Göktan Gürpüz,M,SUB,3.0
 19746565,2026-10-31,Çorum FK,away,37600525,Andrei Borza,D,XI,90.0
 19746565,2026-10-31,Çorum FK,away,37589293,Ermin Mahmic,F,XI,75.0
-19746565,2026-10-31,Çorum FK,away,202503,Ahmed Ildız,M,SUB,13.0
+19746565,2026-10-31,Çorum FK,away,202503,Ahmed Ildız,M,SUB,7.0
 19746565,2026-10-31,Çorum FK,away,35259800,Alexandros Kyziridis,M,XI,87.0
 19746565,2026-10-31,Erzurumspor FK,home,37567486,,,OUT,0.0
 19746565,2026-10-31,Çorum FK,away,25796,,,OUT,0.0
@@ -3982,7 +3984,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746566,2026-10-31,Kocaelispor,home,37528918,Matej Maglica,D,SUB,
 19746566,2026-10-31,Kocaelispor,home,5381,Dan Agyei,F,SUB,27.0
 19746566,2026-10-31,Kocaelispor,home,37315654,Tobias Gulliksen,M,SUB,1.0
-19746566,2026-10-31,Kocaelispor,home,37520128,Berkan Kutlu,M,XI,89.0
+19746566,2026-10-31,Kocaelispor,home,37520128,Berkan Kutlu,M,XI,90.0
 19746566,2026-10-31,Kocaelispor,home,37673619,Gonçalo Sousa,F,XI,63.0
 19746566,2026-10-31,Kocaelispor,home,1507167,Show,M,XI,90.0
 19746566,2026-10-31,Kocaelispor,home,37745146,Haydar Karataş,M,SUB,
@@ -4008,10 +4010,10 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746567,2026-10-31,Fenerbahçe,home,391441,Mert Hakan Yandaş,M,SUB,
 19746567,2026-10-31,Fenerbahçe,home,995,Romelu Lukaku,F,XI,90.0
 19746567,2026-10-31,Fenerbahçe,home,1512208,Tarık Çetin,G,SUB,
-19746567,2026-10-31,Fenerbahçe,home,37568397,Yiğit Efe Demir,D,SUB,11.0
+19746567,2026-10-31,Fenerbahçe,home,37568397,Yiğit Efe Demir,D,SUB,6.0
 19746567,2026-10-31,Fenerbahçe,home,201444,İrfan Can Kahveci,M,XI,90.0
 19746567,2026-10-31,Fenerbahçe,home,2510388,Mert Müldür,D,SUB,25.0
-19746567,2026-10-31,Fenerbahçe,home,49353,Vedat Muriqi,F,SUB,12.0
+19746567,2026-10-31,Fenerbahçe,home,49353,Vedat Muriqi,F,SUB,7.0
 19746567,2026-10-31,Fenerbahçe,home,37678433,Kojo Oppong,D,XI,84.0
 19746567,2026-10-31,Fenerbahçe,home,3862139,Levent Mercan,D,XI,90.0
 19746567,2026-10-31,Fenerbahçe,home,160110,Nélson Semedo,D,XI,65.0
@@ -4019,7 +4021,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746567,2026-10-31,Fenerbahçe,home,159142,Ederson,G,XI,90.0
 19746567,2026-10-31,Fenerbahçe,home,200715,Mert Günok,G,SUB,
 19746567,2026-10-31,Fenerbahçe,home,130142,Milan Škriniar,D,XI,90.0
-19746567,2026-10-31,Fenerbahçe,home,37555777,Dorgeles Nene,F,SUB,12.0
+19746567,2026-10-31,Fenerbahçe,home,37555777,Dorgeles Nene,F,SUB,7.0
 19746567,2026-10-31,Fenerbahçe,home,10967396,Oğuz Aydın,M,XI,83.0
 19746567,2026-10-31,Fenerbahçe,home,37597972,Ognjen Mimović,D,SUB,
 19746567,2026-10-31,Fenerbahçe,home,1193,N'Golo Kanté,M,XI,90.0
@@ -4027,7 +4029,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746567,2026-10-31,Göztepe,away,37375221,Arda Okan Kurtulan,M,XI,90.0
 19746567,2026-10-31,Göztepe,away,31607879,Allan Godói,D,SUB,1.0
 19746567,2026-10-31,Göztepe,away,37423121,Taha Altıkardeş,D,XI,90.0
-19746567,2026-10-31,Göztepe,away,10967436,Rhaldney,M,XI,89.0
+19746567,2026-10-31,Göztepe,away,10967436,Rhaldney,M,XI,90.0
 19746567,2026-10-31,Göztepe,away,37545764,Alex Matos,M,SUB,
 19746567,2026-10-31,Göztepe,away,37426978,André Henrique,F,SUB,25.0
 19746567,2026-10-31,Göztepe,away,2206568,Alexis Antunes,F,XI,74.0
@@ -4039,7 +4041,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746567,2026-10-31,Göztepe,away,3219737,Gökdeniz Bayrakdar,F,SUB,
 19746567,2026-10-31,Göztepe,away,6599974,Tino Anjorin,M,SUB,16.0
 19746567,2026-10-31,Göztepe,away,191018,Noah Sonko Sundberg,D,XI,90.0
-19746567,2026-10-31,Göztepe,away,37560901,Novatus Miroshi,M,XI,89.0
+19746567,2026-10-31,Göztepe,away,37560901,Novatus Miroshi,M,XI,90.0
 19746567,2026-10-31,Göztepe,away,37354878,Sinclair Armstrong,F,SUB,16.0
 19746567,2026-10-31,Göztepe,away,9307576,Malcom Bokele,D,XI,90.0
 19746567,2026-10-31,Göztepe,away,37631598,Şamil Öztürk,G,SUB,
@@ -4054,7 +4056,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746567,2026-10-31,Fenerbahçe,home,28912973,,,OUT,0.0
 19746567,2026-10-31,Fenerbahçe,home,20333643,,,OUT,0.0
 19746570,2026-11-01,Eyüpspor,away,37532259,Emre Bilgin,G,XI,90.0
-19746570,2026-11-01,Eyüpspor,away,37714787,Arda Yavuz,D,SUB,12.0
+19746570,2026-11-01,Eyüpspor,away,37714787,Arda Yavuz,D,SUB,5.0
 19746570,2026-11-01,Eyüpspor,away,31228892,Anıl Yaşar,D,SUB,
 19746570,2026-11-01,Eyüpspor,away,751551,Jawad El Yamiq,D,XI,90.0
 19746570,2026-11-01,Eyüpspor,away,37616342,Talha Ülvan,D,XI,30.0
@@ -4088,7 +4090,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746570,2026-11-01,Amed SK,home,16475787,Burak Bozan,G,SUB,
 19746570,2026-11-01,Amed SK,home,37908102,Amadou Cissé,D,SUB,
 19746570,2026-11-01,Amed SK,home,96798,Alban Lafont,G,XI,90.0
-19746570,2026-11-01,Amed SK,home,26646,Kahraman Demirtaş,D,SUB,12.0
+19746570,2026-11-01,Amed SK,home,26646,Kahraman Demirtaş,D,SUB,5.0
 19746570,2026-11-01,Amed SK,home,20693760,Mohamed Khalil,M,SUB,12.0
 19746570,2026-11-01,Amed SK,home,37598720,Ali Turap Bülbül,D,SUB,35.0
 19746570,2026-11-01,Amed SK,home,124327,Dia Saba,M,XI,77.0
@@ -4128,7 +4130,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746571,2026-11-01,İstanbul Başakşehir,home,526347,Yusuf Sarı,F,SUB,12.0
 19746571,2026-11-01,İstanbul Başakşehir,home,4546,Olivier Kemen,M,XI,78.0
 19746571,2026-11-01,İstanbul Başakşehir,home,32070,Davie Selke,F,XI,67.0
-19746571,2026-11-01,İstanbul Başakşehir,home,66180,Edin Visca,M,SUB,12.0
+19746571,2026-11-01,İstanbul Başakşehir,home,66180,Edin Visca,M,SUB,7.0
 19746571,2026-11-01,İstanbul Başakşehir,home,37509454,Abbosbek Fayzullaev,M,SUB,12.0
 19746571,2026-11-01,İstanbul Başakşehir,home,330582,Eldor Shomurodov,M,XI,83.0
 19746571,2026-11-01,İstanbul Başakşehir,home,37620666,Hamza Güreler,D,SUB,
@@ -4177,9 +4179,9 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746573,2026-11-01,Trabzonspor,home,37718238,Erol Çolak,G,SUB,
 19746573,2026-11-01,Trabzonspor,home,37569376,Ali Habeşoğlu,F,SUB,
 19746573,2026-11-01,Gaziantep F.K.,away,189707,Luis Pérez,D,XI,90.0
-19746573,2026-11-01,Gaziantep F.K.,away,23717944,Drissa Camara,M,XI,89.0
+19746573,2026-11-01,Gaziantep F.K.,away,23717944,Drissa Camara,M,XI,90.0
 19746573,2026-11-01,Gaziantep F.K.,away,37615037,Efe Sarıkaya,D,XI,90.0
-19746573,2026-11-01,Gaziantep F.K.,away,25515,Juninho Bacuna,M,XI,89.0
+19746573,2026-11-01,Gaziantep F.K.,away,25515,Juninho Bacuna,M,XI,90.0
 19746573,2026-11-01,Gaziantep F.K.,away,37732860,Victor Gidado,M,XI,90.0
 19746573,2026-11-01,Gaziantep F.K.,away,37303949,Trivante Stewart,F,XI,73.0
 19746573,2026-11-01,Gaziantep F.K.,away,24817079,Kacper Kozłowski,M,XI,45.0
@@ -4214,13 +4216,14 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746573,2026-11-01,Gaziantep F.K.,away,37575391,,,OUT,0.0
 19746573,2026-11-01,Gaziantep F.K.,away,35180,,,OUT,0.0
 19746573,2026-11-01,Gaziantep F.K.,away,37544272,,,OUT,0.0
+19746573,2026-11-01,Gaziantep F.K.,away,3510215,,,OUT,0.0
 19746573,2026-11-01,Trabzonspor,home,37597771,,,OUT,0.0
 19746573,2026-11-01,Trabzonspor,home,24818229,,,OUT,0.0
 19746573,2026-11-01,Trabzonspor,home,37566870,,,OUT,0.0
 19746572,2026-11-01,Beşiktaş,away,32550,Alexander Nübel,G,XI,90.0
 19746572,2026-11-01,Beşiktaş,away,5319,Wilfred Ndidi,M,XI,90.0
 19746572,2026-11-01,Beşiktaş,away,32622,Salih Özcan,M,XI,90.0
-19746572,2026-11-01,Beşiktaş,away,25589,Milot Rashica,M,SUB,12.0
+19746572,2026-11-01,Beşiktaş,away,25589,Milot Rashica,M,SUB,7.0
 19746572,2026-11-01,Beşiktaş,away,5270487,Kartal Yılmaz,M,SUB,
 19746572,2026-11-01,Beşiktaş,away,29735915,Hyeon-gyu Oh,F,SUB,27.0
 19746572,2026-11-01,Beşiktaş,away,37590868,Kassoum Ouattara,D,SUB,
@@ -4228,7 +4231,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746572,2026-11-01,Beşiktaş,away,37572227,Junior Olaitan,M,XI,63.0
 19746572,2026-11-01,Beşiktaş,away,25709,Vaclav Cerny,M,XI,45.0
 19746572,2026-11-01,Beşiktaş,away,61780,Leandro Trossard,M,XI,83.0
-19746572,2026-11-01,Beşiktaş,away,37650803,Taylan Bulut,D,SUB,12.0
+19746572,2026-11-01,Beşiktaş,away,37650803,Taylan Bulut,D,SUB,7.0
 19746572,2026-11-01,Beşiktaş,away,177988,Dušan Vlahović,F,XI,90.0
 19746572,2026-11-01,Beşiktaş,away,37727058,İlhan Fakılı,F,SUB,45.0
 19746572,2026-11-01,Beşiktaş,away,4545417,Rıdvan Yılmaz,D,XI,90.0
@@ -4241,15 +4244,15 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746572,2026-11-01,Kasımpaşa,home,108695,Andreas Gianniotis,G,XI,90.0
 19746572,2026-11-01,Kasımpaşa,home,129679,Cláudio Winck,D,XI,90.0
 19746572,2026-11-01,Kasımpaşa,home,37667492,Adem Arous,D,XI,90.0
-19746572,2026-11-01,Kasımpaşa,home,37705883,Jakob Jessen,D,SUB,9.0
+19746572,2026-11-01,Kasımpaşa,home,37705883,Jakob Jessen,D,SUB,4.0
 19746572,2026-11-01,Kasımpaşa,home,7698449,Ali Yavuz Kol,M,XI,86.0
 19746572,2026-11-01,Kasımpaşa,home,37538213,Atakan Müjde,M,SUB,
 19746572,2026-11-01,Kasımpaşa,home,13186483,Adrian Benedyczak,F,XI,90.0
 19746572,2026-11-01,Kasımpaşa,home,62486,Haris Hajradinovic,M,XI,83.0
-19746572,2026-11-01,Kasımpaşa,home,37583799,Thiemoko Diarra,F,SUB,9.0
+19746572,2026-11-01,Kasımpaşa,home,37583799,Thiemoko Diarra,F,SUB,4.0
 19746572,2026-11-01,Kasımpaşa,home,34455847,Jesurun Rak-Sakyi,M,XI,66.0
 19746572,2026-11-01,Kasımpaşa,home,24564,Ömer Bayram,D,SUB,
-19746572,2026-11-01,Kasımpaşa,home,37595901,Marcus Rafferty,M,SUB,12.0
+19746572,2026-11-01,Kasımpaşa,home,37595901,Marcus Rafferty,M,SUB,7.0
 19746572,2026-11-01,Kasımpaşa,home,205252,Ali Emre Yanar,G,SUB,
 19746572,2026-11-01,Kasımpaşa,home,31854,Kerem Demirbay,M,XI,90.0
 19746572,2026-11-01,Kasımpaşa,home,37361459,Matei Ilie,D,XI,90.0
@@ -4569,6 +4572,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746560,2026-11-07,İstanbul Başakşehir,away,37564614,,,OUT,0.0
 19746560,2026-11-07,Göztepe,home,37710344,,,OUT,0.0
 19746560,2026-11-07,İstanbul Başakşehir,away,97319,,,OUT,0.0
+19746560,2026-11-07,Göztepe,home,3187919,,,OUT,0.0
 19746560,2026-11-07,İstanbul Başakşehir,away,391366,,,OUT,0.0
 19746560,2026-11-07,Göztepe,home,191018,,,OUT,0.0
 19746561,2026-11-08,Rizespor,home,1525202,Attila Mocsi,D,XI,90.0

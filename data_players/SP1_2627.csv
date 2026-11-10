@@ -3932,7 +3932,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732653,2026-10-17,Elche,away,96247,Thomas Lemar,M,XI,65.0
 19732653,2026-10-17,Elche,away,452982,Tete Morente,F,SUB,25.0
 19732653,2026-10-17,Elche,away,37574526,Lucas Cepeda,M,XI,65.0
-19732653,2026-10-17,Elche,away,37430918,Rubén Sánchez,D,SUB,15.0
+19732653,2026-10-17,Elche,away,37430918,Rubén Sánchez,D,SUB,7.0
 19732653,2026-10-17,Elche,away,4545453,Víctor Chust,D,XI,90.0
 19732653,2026-10-17,Elche,away,37622253,Abiel Osorio,F,XI,65.0
 19732653,2026-10-17,Elche,away,37728406,Ali Houary,F,SUB,
@@ -3958,7 +3958,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732653,2026-10-17,Villarreal,home,26328601,Sergi Cardona,D,XI,90.0
 19732653,2026-10-17,Villarreal,home,37551076,Nathan Saliba,M,SUB,24.0
 19732653,2026-10-17,Villarreal,home,2283,Péter Gulácsi,G,XI,90.0
-19732653,2026-10-17,Villarreal,home,37747465,Nizar El Jmili,F,SUB,14.0
+19732653,2026-10-17,Villarreal,home,37747465,Nizar El Jmili,F,SUB,6.0
 19732653,2026-10-17,Villarreal,home,37752567,Joselillo Gaitán,F,SUB,
 19732653,2026-10-17,Elche,away,37316864,,,OUT,0.0
 19732653,2026-10-17,Villarreal,home,31238822,,,OUT,0.0
@@ -4013,7 +4013,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732662,2026-10-17,FC Barcelona,away,4460,,,OUT,0.0
 19732662,2026-10-17,Real Betis,home,449187,,,OUT,0.0
 19732654,2026-10-17,Valencia,home,142175,Stole Dimitrievski,G,XI,90.0
-19732654,2026-10-17,Valencia,home,254081,Guido Rodríguez,M,XI,86.0
+19732654,2026-10-17,Valencia,home,254081,Guido Rodríguez,M,XI,85.0
 19732654,2026-10-17,Valencia,home,96887,Mouctar Diakhaby,D,SUB,
 19732654,2026-10-17,Valencia,home,37592231,César Tárrega,D,XI,90.0
 19732654,2026-10-17,Valencia,home,26491,Arnaut Danjuma,M,XI,90.0
@@ -4022,13 +4022,13 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732654,2026-10-17,Valencia,home,23269836,Harvey Elliott,M,SUB,16.0
 19732654,2026-10-17,Valencia,home,445425,Luis Rioja,F,SUB,36.0
 19732654,2026-10-17,Valencia,home,24081081,Justin de Haas,D,XI,74.0
-19732654,2026-10-17,Valencia,home,186337,José Gayà,D,XI,85.0
+19732654,2026-10-17,Valencia,home,186337,José Gayà,D,XI,86.0
 19732654,2026-10-17,Valencia,home,751434,Aliou Dieng,M,SUB,
 19732654,2026-10-17,Valencia,home,187167,Pepelu,M,XI,90.0
 19732654,2026-10-17,Valencia,home,187935,Dani Raba,M,XI,54.0
-19732654,2026-10-17,Valencia,home,23278660,Jesús Vázquez,D,SUB,9.0
+19732654,2026-10-17,Valencia,home,23278660,Jesús Vázquez,D,SUB,4.0
 19732654,2026-10-17,Valencia,home,37541244,Arnau Martínez,D,SUB,
-19732654,2026-10-17,Valencia,home,198424,Filip Ugrinic,M,SUB,8.0
+19732654,2026-10-17,Valencia,home,198424,Filip Ugrinic,M,SUB,5.0
 19732654,2026-10-17,Valencia,home,2060,Pablo Maffeo,D,XI,90.0
 19732654,2026-10-17,Valencia,home,37583537,Kayne van Oevelen,G,SUB,
 19732654,2026-10-17,Valencia,home,37712456,David Otorbi,F,SUB,36.0
@@ -4047,7 +4047,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732654,2026-10-17,Athletic Club,away,37568219,Álex Padilla,G,SUB,
 19732654,2026-10-17,Athletic Club,away,186299,Aymeric Laporte,D,XI,90.0
 19732654,2026-10-17,Athletic Club,away,37568662,Hugo Rincón,D,XI,90.0
-19732654,2026-10-17,Athletic Club,away,186063,Cem Gürsoy,M,XI,63.0
+19732654,2026-10-17,Athletic Club,away,186063,Iñigo Ruiz de Galarreta Etxeberria,M,XI,63.0
 19732654,2026-10-17,Athletic Club,away,8204,Yuri Berchiche,D,SUB,
 19732654,2026-10-17,Athletic Club,away,34422783,Mikel Jauregizar,M,SUB,45.0
 19732654,2026-10-17,Athletic Club,away,37590340,Alejandro Rego,M,SUB,27.0
@@ -4072,7 +4072,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732656,2026-10-18,Osasuna,home,35281051,Raúl García,F,SUB,1.0
 19732656,2026-10-18,Osasuna,home,188218,Kike Barja,F,SUB,
 19732656,2026-10-18,Osasuna,home,186123,Aitor Fernández,G,XI,90.0
-19732656,2026-10-18,Osasuna,home,186329,Rubén García,F,XI,89.0
+19732656,2026-10-18,Osasuna,home,186329,Rubén García,F,XI,90.0
 19732656,2026-10-18,Osasuna,home,186954,Diego Rico,D,SUB,
 19732656,2026-10-18,Osasuna,home,186173,Moi Gómez,M,XI,67.0
 19732656,2026-10-18,Osasuna,home,34700,Ante Budimir,F,XI,90.0
@@ -4089,7 +4089,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732656,2026-10-18,Osasuna,home,37718061,Unai Santos,D,SUB,
 19732656,2026-10-18,Osasuna,home,37706150,Rockson Yeboah,D,SUB,
 19732656,2026-10-18,Racing Santander,away,37316661,Álvaro Mantilla,D,XI,90.0
-19732656,2026-10-18,Racing Santander,away,186983,Aarón Martín,D,SUB,10.0
+19732656,2026-10-18,Racing Santander,away,186983,Aarón Martín,D,SUB,7.0
 19732656,2026-10-18,Racing Santander,away,25169144,Pablo Ramón,D,XI,90.0
 19732656,2026-10-18,Racing Santander,away,9641315,Íñigo Sainz-Maza,M,SUB,
 19732656,2026-10-18,Racing Santander,away,5283531,Giorgi Guliashvili,F,SUB,1.0
@@ -4097,7 +4097,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732656,2026-10-18,Racing Santander,away,31625663,Juan Carlos Arana,F,SUB,
 19732656,2026-10-18,Racing Santander,away,533882,Iñigo Vicente,M,XI,90.0
 19732656,2026-10-18,Racing Santander,away,3219728,Andrés Martín,F,SUB,45.0
-19732656,2026-10-18,Racing Santander,away,187160,Asier Villalibre,F,SUB,10.0
+19732656,2026-10-18,Racing Santander,away,187160,Asier Villalibre,F,SUB,7.0
 19732656,2026-10-18,Racing Santander,away,25922183,Julen Agirrezabala,G,XI,90.0
 19732656,2026-10-18,Racing Santander,away,37592183,Maguette Gueye,M,SUB,
 19732656,2026-10-18,Racing Santander,away,37722328,Pablo García Fernández,F,SUB,21.0
@@ -4106,7 +4106,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732656,2026-10-18,Racing Santander,away,37565251,Matteo Prati,M,XI,90.0
 19732656,2026-10-18,Racing Santander,away,37718995,Iker Luque,F,SUB,
 19732656,2026-10-18,Racing Santander,away,185400,Sergio Canales,M,XI,69.0
-19732656,2026-10-18,Racing Santander,away,37739178,Yassir Zabiri,F,XI,89.0
+19732656,2026-10-18,Racing Santander,away,37739178,Yassir Zabiri,F,XI,90.0
 19732656,2026-10-18,Racing Santander,away,37691579,Pedro Felipe,D,SUB,
 19732656,2026-10-18,Racing Santander,away,21427729,Iván Martín,M,XI,83.0
 19732656,2026-10-18,Racing Santander,away,37590934,Jeanuël Belocian,D,XI,90.0
@@ -4142,7 +4142,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732661,2026-10-18,Deportivo Alavés,away,37567268,Nicolás Valentini,D,XI,90.0
 19732661,2026-10-18,Deportivo Alavés,away,37624126,Youssef Enríquez,D,SUB,
 19732661,2026-10-18,Deportivo Alavés,away,4439,Denis Suárez,M,SUB,28.0
-19732661,2026-10-18,Deportivo Alavés,away,447166,Ander Guevara,M,SUB,8.0
+19732661,2026-10-18,Deportivo Alavés,away,447166,Ander Guevara,M,SUB,2.0
 19732661,2026-10-18,Deportivo Alavés,away,4545461,Antonio Blanco,M,XI,88.0
 19732661,2026-10-18,Deportivo Alavés,away,186936,Mariano Díaz,F,SUB,28.0
 19732661,2026-10-18,Deportivo Alavés,away,187098,Carles Aleñá,M,XI,62.0
@@ -4154,7 +4154,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732661,2026-10-18,Deportivo Alavés,away,16488582,Ville Koski,D,XI,90.0
 19732661,2026-10-18,Deportivo Alavés,away,186426,Jonny Otto,D,XI,62.0
 19732661,2026-10-18,Deportivo Alavés,away,37249198,Pablo Ibáñez,M,XI,90.0
-19732661,2026-10-18,Deportivo Alavés,away,37584717,Aitor Mañas,F,SUB,8.0
+19732661,2026-10-18,Deportivo Alavés,away,37584717,Aitor Mañas,F,SUB,2.0
 19732661,2026-10-18,Deportivo Alavés,away,26523850,Abde Rebbach,D,XI,88.0
 19732661,2026-10-18,Deportivo Alavés,away,24468972,Miguel Rodríguez,F,SUB,
 19732661,2026-10-18,Deportivo Alavés,away,261130,Carlos Protesoni,M,SUB,
@@ -4247,7 +4247,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732655,2026-10-18,Sevilla,away,37719429,Jesús Cruz,M,SUB,
 19732655,2026-10-18,Sevilla,away,37546904,Rafa Romero,G,SUB,
 19732655,2026-10-18,Real Madrid,home,1314,Thibaut Courtois,G,XI,90.0
-19732655,2026-10-18,Real Madrid,home,460160,Éder Militão,D,SUB,10.0
+19732655,2026-10-18,Real Madrid,home,460160,Éder Militão,D,SUB,5.0
 19732655,2026-10-18,Real Madrid,home,37612542,Dean Huijsen,D,XI,90.0
 19732655,2026-10-18,Real Madrid,home,37255840,Jude Bellingham,M,XI,69.0
 19732655,2026-10-18,Real Madrid,home,23688922,Eduardo Camavinga,M,SUB,12.0
@@ -4261,7 +4261,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732655,2026-10-18,Real Madrid,home,100556,Ibrahima Konaté,D,XI,90.0
 19732655,2026-10-18,Real Madrid,home,448448,Marc Cucurella,D,XI,90.0
 19732655,2026-10-18,Real Madrid,home,37537864,Álvaro Carreras,D,SUB,
-19732655,2026-10-18,Real Madrid,home,37731112,Carlos Espí,F,SUB,10.0
+19732655,2026-10-18,Real Madrid,home,37731112,Carlos Espí,F,SUB,6.0
 19732655,2026-10-18,Real Madrid,home,96353,Bernardo Silva,M,SUB,21.0
 19732655,2026-10-18,Real Madrid,home,340342,Brahim Díaz,M,SUB,21.0
 19732655,2026-10-18,Real Madrid,home,31837,Antonio Rüdiger,D,SUB,
@@ -4284,7 +4284,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732658,2026-10-19,Getafe,home,21781710,Abdel Abqar,D,SUB,58.0
 19732658,2026-10-19,Getafe,home,37601802,Mario Martín,M,XI,45.0
 19732658,2026-10-19,Getafe,home,24071,Nemanja Gudelj,M,XI,90.0
-19732658,2026-10-19,Getafe,home,32744,Borja Mayoral,F,SUB,8.0
+19732658,2026-10-19,Getafe,home,32744,Borja Mayoral,F,SUB,3.0
 19732658,2026-10-19,Getafe,home,37396571,Martín Satriano,M,XI,90.0
 19732658,2026-10-19,Getafe,home,37316612,Ramón Terrats,F,XI,32.0
 19732658,2026-10-19,Getafe,home,186587,David Soria,G,XI,90.0
@@ -4348,8 +4348,8 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732686,2026-10-21,Levante,home,31855,Jeremy Toljan,D,XI,83.0
 19732686,2026-10-21,Levante,home,23269641,Manu Sánchez,D,XI,90.0
 19732686,2026-10-21,Levante,home,37625755,Thiago Fernández,M,XI,85.0
-19732686,2026-10-21,Levante,home,37739341,Paco Cortés,F,SUB,15.0
-19732686,2026-10-21,Levante,home,37923034,Nacho Pérez,D,SUB,17.0
+19732686,2026-10-21,Levante,home,37739341,Paco Cortés,F,SUB,5.0
+19732686,2026-10-21,Levante,home,37923034,Nacho Pérez,D,SUB,7.0
 19732686,2026-10-21,Levante,home,37595890,Álex Primo,G,SUB,
 19732686,2026-10-21,Levante,home,38221506,Marc Santos,D,SUB,
 19732686,2026-10-21,Athletic Club,away,187215,Unai Simón,G,XI,90.0
@@ -4379,7 +4379,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732686,2026-10-21,Athletic Club,away,22158925,,,OUT,0.0
 19732686,2026-10-21,Athletic Club,away,190168,,,OUT,0.0
 19732652,2026-10-23,Málaga,away,446609,Alfonso Herrero,G,XI,90.0
-19732652,2026-10-23,Málaga,away,194768,Jens Cajuste,M,SUB,9.0
+19732652,2026-10-23,Málaga,away,194768,Jens Cajuste,M,SUB,3.0
 19732652,2026-10-23,Málaga,away,37297497,Carlos Puga,D,XI,77.0
 19732652,2026-10-23,Málaga,away,188749,Einar Galilea,D,XI,90.0
 19732652,2026-10-23,Málaga,away,20334484,Álex Pastor,D,SUB,
@@ -4429,6 +4429,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732652,2026-10-23,Deportivo Alavés,home,522619,,,OUT,0.0
 19732652,2026-10-23,Málaga,away,37723837,,,OUT,0.0
 19732652,2026-10-23,Málaga,away,37336532,,,OUT,0.0
+19732652,2026-10-23,Málaga,away,540508,,,OUT,0.0
 19732646,2026-10-24,Rayo Vallecano,home,3156875,Marash Kumbulla,D,SUB,
 19732646,2026-10-24,Rayo Vallecano,home,445829,Pedro Díaz,M,XI,60.0
 19732646,2026-10-24,Rayo Vallecano,home,2511096,Pathé Ciss,M,XI,90.0
@@ -4456,7 +4457,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732646,2026-10-24,Elche,away,37726748,Buba Sangaré,D,XI,90.0
 19732646,2026-10-24,Elche,away,37570534,Roy Revivo,D,XI,90.0
 19732646,2026-10-24,Elche,away,37567286,Federico Redondo,D,XI,83.0
-19732646,2026-10-24,Elche,away,185961,Pedro Bigas,D,SUB,12.0
+19732646,2026-10-24,Elche,away,185961,Pedro Bigas,D,SUB,7.0
 19732646,2026-10-24,Elche,away,130140,Ezequiel Ponce,F,SUB,
 19732646,2026-10-24,Elche,away,37568149,Facundo Buonanotte,M,SUB,45.0
 19732646,2026-10-24,Elche,away,7698447,Germán Valera,F,XI,90.0
@@ -4483,7 +4484,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732647,2026-10-24,Espanyol,away,37336430,Ángel Fortuño,G,XI,90.0
 19732647,2026-10-24,Espanyol,away,447226,Andoni Gorosabel,D,SUB,
 19732647,2026-10-24,Espanyol,away,37344112,Quilindschy Hartman,D,XI,90.0
-19732647,2026-10-24,Espanyol,away,30446852,Urko González de Zárate,M,SUB,12.0
+19732647,2026-10-24,Espanyol,away,30446852,Urko González de Zárate,M,SUB,5.0
 19732647,2026-10-24,Espanyol,away,37539733,Clemens Riedel,D,SUB,
 19732647,2026-10-24,Espanyol,away,185573,Leandro Cabrera,D,XI,90.0
 19732647,2026-10-24,Espanyol,away,448290,Javi Puado,F,SUB,14.0
@@ -4494,8 +4495,8 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732647,2026-10-24,Espanyol,away,6403,Marko Dmitrovic,G,SUB,
 19732647,2026-10-24,Espanyol,away,447240,Unai Núñez,D,SUB,1.0
 19732647,2026-10-24,Espanyol,away,37544065,Bryan Zaragoza,M,XI,76.0
-19732647,2026-10-24,Espanyol,away,21413492,Vanja Drkusic,D,XI,89.0
-19732647,2026-10-24,Espanyol,away,37608472,Marcos Fernández,F,SUB,12.0
+19732647,2026-10-24,Espanyol,away,21413492,Vanja Drkusic,D,XI,90.0
+19732647,2026-10-24,Espanyol,away,37608472,Marcos Fernández,F,SUB,5.0
 19732647,2026-10-24,Espanyol,away,37691726,Gabriel Moscardo,M,SUB,
 19732647,2026-10-24,Espanyol,away,37731254,Roger Hinojo,D,SUB,
 19732647,2026-10-24,Espanyol,away,37544761,Álex Calatrava,M,XI,85.0
@@ -4514,7 +4515,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732647,2026-10-24,Racing Santander,home,3219728,Andrés Martín,M,XI,67.0
 19732647,2026-10-24,Racing Santander,home,187160,Asier Villalibre,F,SUB,
 19732647,2026-10-24,Racing Santander,home,25922183,Julen Agirrezabala,G,XI,90.0
-19732647,2026-10-24,Racing Santander,home,37592183,Maguette Gueye,M,SUB,9.0
+19732647,2026-10-24,Racing Santander,home,37592183,Maguette Gueye,M,SUB,2.0
 19732647,2026-10-24,Racing Santander,home,37722328,Pablo García Fernández,F,SUB,23.0
 19732647,2026-10-24,Racing Santander,home,37543638,Facundo González,D,SUB,
 19732647,2026-10-24,Racing Santander,home,37756111,Jorge Salinas,D,XI,90.0
@@ -4556,12 +4557,12 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732643,2026-10-24,Villarreal,away,12394069,Logan Costa,D,SUB,
 19732643,2026-10-24,Villarreal,away,37623379,Alex Freeman,D,XI,90.0
 19732643,2026-10-24,Villarreal,away,37746954,Alassane Diatta,M,SUB,
-19732643,2026-10-24,Villarreal,away,37714190,Pau Navarro,D,SUB,12.0
+19732643,2026-10-24,Villarreal,away,37714190,Pau Navarro,D,SUB,3.0
 19732643,2026-10-24,Villarreal,away,186552,Gerard Moreno,F,XI,82.0
 19732643,2026-10-24,Villarreal,away,335705,Juan Foyth,D,XI,65.0
-19732643,2026-10-24,Villarreal,away,13963088,Georges Mikautadze,F,SUB,24.0
-19732643,2026-10-24,Villarreal,away,37380649,Alberto Moleiro,M,SUB,25.0
-19732643,2026-10-24,Villarreal,away,37459024,Ilias Akhomach,M,XI,65.0
+19732643,2026-10-24,Villarreal,away,13963088,Georges Mikautadze,F,SUB,25.0
+19732643,2026-10-24,Villarreal,away,37380649,Alberto Moleiro,M,SUB,24.0
+19732643,2026-10-24,Villarreal,away,37459024,Ilias Akhomach,M,XI,66.0
 19732643,2026-10-24,Villarreal,away,37593154,Renato Veiga,D,XI,90.0
 19732643,2026-10-24,Villarreal,away,37556968,Rubén Gómez,G,SUB,
 19732643,2026-10-24,Villarreal,away,189585,Santi Comesaña,M,SUB,8.0
@@ -4570,7 +4571,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732643,2026-10-24,Villarreal,away,31238822,Tajon Buchanan,M,XI,87.0
 19732643,2026-10-24,Villarreal,away,433169,Pape Gueye,M,XI,79.0
 19732643,2026-10-24,Villarreal,away,37614807,Tani Oluwaseyi,F,SUB,
-19732643,2026-10-24,Villarreal,away,1396,Ayoze Pérez,F,XI,66.0
+19732643,2026-10-24,Villarreal,away,1396,Ayoze Pérez,F,XI,65.0
 19732643,2026-10-24,Villarreal,away,26328601,Sergi Cardona,D,SUB,25.0
 19732643,2026-10-24,Villarreal,away,2283,Péter Gulácsi,G,XI,90.0
 19732643,2026-10-24,Villarreal,away,37747465,Nizar El Jmili,F,SUB,
@@ -4590,7 +4591,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732650,2026-10-24,Deportivo A Coruña,away,37593325,David Mella,D,XI,58.0
 19732650,2026-10-24,Deportivo A Coruña,away,19979845,Giacomo Quagliata,D,XI,80.0
 19732650,2026-10-24,Deportivo A Coruña,away,5967970,Leo Román,G,XI,90.0
-19732650,2026-10-24,Deportivo A Coruña,away,21072676,Riki Rodríguez,M,SUB,11.0
+19732650,2026-10-24,Deportivo A Coruña,away,21072676,Riki Rodríguez,M,SUB,6.0
 19732650,2026-10-24,Deportivo A Coruña,away,382668,Miguel Loureiro,D,XI,90.0
 19732650,2026-10-24,Deportivo A Coruña,away,37607177,Lorenzo Amatucci,M,XI,84.0
 19732650,2026-10-24,Deportivo A Coruña,away,4337,Angeliño,D,SUB,
@@ -4633,6 +4634,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732650,2026-10-24,Atlético de Madrid,home,185571,,,OUT,0.0
 19732650,2026-10-24,Atlético de Madrid,home,333731,,,OUT,0.0
 19732650,2026-10-24,Deportivo A Coruña,away,37787869,,,OUT,0.0
+19732650,2026-10-24,Atlético de Madrid,home,37261342,,,OUT,0.0
 19732651,2026-10-25,Getafe,away,20315950,Jiri Letacek,G,SUB,
 19732651,2026-10-25,Getafe,away,37757475,Davinchi,D,SUB,19.0
 19732651,2026-10-25,Getafe,away,37291195,Saba Sazonov,D,SUB,45.0
@@ -4658,7 +4660,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732651,2026-10-25,Athletic Club,home,3510288,Dani Vivian,D,XI,90.0
 19732651,2026-10-25,Athletic Club,home,24081488,Aitor Paredes,D,XI,90.0
 19732651,2026-10-25,Athletic Club,home,187035,Yeray Álvarez,D,SUB,
-19732651,2026-10-25,Athletic Club,home,25922178,Beñat Prados,M,SUB,10.0
+19732651,2026-10-25,Athletic Club,home,25922178,Beñat Prados,M,SUB,6.0
 19732651,2026-10-25,Athletic Club,home,187032,Álex Berenguer,M,XI,90.0
 19732651,2026-10-25,Athletic Club,home,186801,Iñaki Williams,M,XI,85.0
 19732651,2026-10-25,Athletic Club,home,37297544,Nico Williams,M,XI,68.0
@@ -4676,7 +4678,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732651,2026-10-25,Athletic Club,home,37714620,Peio Canales Urtasun,M,XI,84.0
 19732651,2026-10-25,Athletic Club,home,37603817,J. Louis-Jean,D,SUB,
 19732651,2026-10-25,Athletic Club,home,37749912,Christian Imga,F,SUB,22.0
-19732651,2026-10-25,Athletic Club,home,37714623,Txus Vizcay,F,SUB,9.0
+19732651,2026-10-25,Athletic Club,home,37714623,Txus Vizcay,F,SUB,5.0
 19732651,2026-10-25,Getafe,away,37678216,,,OUT,0.0
 19732651,2026-10-25,Athletic Club,home,37590336,,,OUT,0.0
 19732651,2026-10-25,Getafe,away,1410,,,OUT,0.0
@@ -4737,6 +4739,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732649,2026-10-25,Celta de Vigo,home,186864,,,OUT,0.0
 19732649,2026-10-25,Real Betis,away,37571856,,,OUT,0.0
 19732649,2026-10-25,Real Betis,away,240195,,,OUT,0.0
+19732649,2026-10-25,Celta de Vigo,home,25922180,,,OUT,0.0
 19732645,2026-10-25,Real Sociedad,home,187110,Álex Remiro,G,XI,90.0
 19732645,2026-10-25,Real Sociedad,home,37422925,Jon Aramburu,D,SUB,28.0
 19732645,2026-10-25,Real Sociedad,home,4243068,Aihen Muñoz,D,SUB,
@@ -4785,6 +4788,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732645,2026-10-25,Levante,away,38221506,Marc Santos,D,SUB,
 19732645,2026-10-25,Real Sociedad,home,187232,,,OUT,0.0
 19732645,2026-10-25,Real Sociedad,home,37609122,,,OUT,0.0
+19732645,2026-10-25,Levante,away,37317478,,,OUT,0.0
 19732648,2026-10-25,FC Barcelona,home,16475841,Joan García,G,XI,90.0
 19732648,2026-10-25,FC Barcelona,home,160956,João Cancelo,D,XI,90.0
 19732648,2026-10-25,FC Barcelona,home,37316480,Alejandro Balde,D,SUB,60.0
@@ -4793,12 +4797,12 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732648,2026-10-25,FC Barcelona,home,37459030,Gavi,M,SUB,
 19732648,2026-10-25,FC Barcelona,home,37596363,Fermín López,M,XI,74.0
 19732648,2026-10-25,FC Barcelona,home,37288001,Pedri,M,XI,90.0
-19732648,2026-10-25,FC Barcelona,home,5329,Gabriel Jesus,F,SUB,12.0
+19732648,2026-10-25,FC Barcelona,home,5329,Gabriel Jesus,F,SUB,4.0
 19732648,2026-10-25,FC Barcelona,home,37656179,Lamine Yamal,F,XI,90.0
 19732648,2026-10-25,FC Barcelona,home,160258,Raphinha,F,XI,86.0
 19732648,2026-10-25,FC Barcelona,home,37719662,Xavi Espart,D,XI,30.0
 19732648,2026-10-25,FC Barcelona,home,805,Wojciech Szczesny,G,SUB,
-19732648,2026-10-25,FC Barcelona,home,15040126,Karim Adeyemi,F,SUB,13.0
+19732648,2026-10-25,FC Barcelona,home,15040126,Karim Adeyemi,F,SUB,5.0
 19732648,2026-10-25,FC Barcelona,home,186910,Rodri,M,XI,90.0
 19732648,2026-10-25,FC Barcelona,home,9611543,Anthony Gordon,F,XI,85.0
 19732648,2026-10-25,FC Barcelona,home,37357510,Gerard Martín,D,XI,90.0
@@ -4818,7 +4822,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732648,2026-10-25,Real Madrid,away,1917,Trent Alexander-Arnold,D,SUB,1.0
 19732648,2026-10-25,Real Madrid,away,205983,Andriy Lunin,G,XI,90.0
 19732648,2026-10-25,Real Madrid,away,5270371,Aurélien Tchouaméni,M,XI,90.0
-19732648,2026-10-25,Real Madrid,away,37547467,Arda Güler,M,XI,89.0
+19732648,2026-10-25,Real Madrid,away,37547467,Arda Güler,M,XI,90.0
 19732648,2026-10-25,Real Madrid,away,100556,Ibrahima Konaté,D,XI,90.0
 19732648,2026-10-25,Real Madrid,away,448448,Marc Cucurella,D,XI,90.0
 19732648,2026-10-25,Real Madrid,away,37537864,Álvaro Carreras,D,SUB,
@@ -4827,7 +4831,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732648,2026-10-25,Real Madrid,away,340342,Brahim Díaz,M,SUB,
 19732648,2026-10-25,Real Madrid,away,31837,Antonio Rüdiger,D,SUB,
 19732648,2026-10-25,Real Madrid,away,26027,Denzel Dumfries,D,SUB,28.0
-19732648,2026-10-25,Real Madrid,away,37922937,Yan Diomande,M,XI,89.0
+19732648,2026-10-25,Real Madrid,away,37922937,Yan Diomande,M,XI,90.0
 19732648,2026-10-25,Real Madrid,away,37656203,Sergio Mestre,G,SUB,
 19732648,2026-10-25,Real Madrid,away,37755701,Thiago Pitarch,M,SUB,
 19732648,2026-10-25,Real Madrid,away,37742497,Ilya Voloshyn,G,SUB,
@@ -4885,7 +4889,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732644,2026-10-26,Sevilla,home,37559115,Lucas Stassin,F,XI,63.0
 19732644,2026-10-26,Sevilla,home,32796138,Félix Correia,M,XI,86.0
 19732644,2026-10-26,Sevilla,home,455799,Chidera Ejuke,M,XI,71.0
-19732644,2026-10-26,Sevilla,home,37402078,José Ángel Carmona,D,SUB,8.0
+19732644,2026-10-26,Sevilla,home,37402078,José Ángel Carmona,D,SUB,4.0
 19732644,2026-10-26,Sevilla,home,3510051,Youssouf Fofana,M,XI,90.0
 19732644,2026-10-26,Osasuna,away,16476323,,,OUT,0.0
 19732644,2026-10-26,Osasuna,away,36085251,,,OUT,0.0
@@ -5056,7 +5060,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732641,2026-10-31,Málaga,away,37325831,José Salinas,D,SUB,
 19732641,2026-10-31,Málaga,away,37603155,Carlos López,G,SUB,
 19732641,2026-10-31,Málaga,away,37592574,Rafa Rodríguez,M,SUB,29.0
-19732641,2026-10-31,Málaga,away,446977,Eneko Jauregi,F,SUB,8.0
+19732641,2026-10-31,Málaga,away,446977,Eneko Jauregi,F,SUB,4.0
 19732641,2026-10-31,Málaga,away,445831,Fernando Calero,D,XI,79.0
 19732641,2026-10-31,Málaga,away,37656201,Adrián Niño Heredia,F,XI,86.0
 19732641,2026-10-31,Málaga,away,37594411,Dani Lorenzo,M,XI,90.0
@@ -5075,12 +5079,12 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732641,2026-10-31,Real Betis,home,186815,Pablo Fornals,M,XI,84.0
 19732641,2026-10-31,Real Betis,home,37297124,Abde Ezzalzouli,M,XI,90.0
 19732641,2026-10-31,Real Betis,home,537666,Fran García,D,XI,90.0
-19732641,2026-10-31,Real Betis,home,37592956,Ángel Ortiz,D,SUB,11.0
+19732641,2026-10-31,Real Betis,home,37592956,Ángel Ortiz,D,SUB,7.0
 19732641,2026-10-31,Real Betis,home,537203,Diego Conde,G,SUB,
 19732641,2026-10-31,Real Betis,home,447092,Álvaro Fidalgo,M,SUB,
 19732641,2026-10-31,Real Betis,home,37619560,Valentín Gómez,D,SUB,
 19732641,2026-10-31,Real Betis,home,4536517,Rodrigo Riquelme,M,XI,61.0
-19732641,2026-10-31,Real Betis,home,37555046,Nelson Deossa,M,SUB,10.0
+19732641,2026-10-31,Real Betis,home,37555046,Nelson Deossa,M,SUB,6.0
 19732641,2026-10-31,Real Betis,home,23277907,Troy Parrott,F,XI,75.0
 19732641,2026-10-31,Real Betis,home,97664,Giovani Lo Celso,M,SUB,
 19732641,2026-10-31,Real Betis,home,186922,Marc Roca,M,XI,90.0
@@ -5174,18 +5178,18 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732637,2026-11-01,Getafe,home,38219936,Ibrahima Danfakha,F,SUB,
 19732637,2026-11-01,Sevilla,away,31892,Odysseas Vlachodimos,G,XI,90.0
 19732637,2026-11-01,Sevilla,away,445827,Juan Iglesias,D,XI,90.0
-19732637,2026-11-01,Sevilla,away,37596375,Julio Díaz,D,SUB,10.0
+19732637,2026-11-01,Sevilla,away,37596375,Julio Díaz,D,SUB,3.0
 19732637,2026-11-01,Sevilla,away,37553227,Kike Salas,D,XI,90.0
 19732637,2026-11-01,Sevilla,away,37595913,Andrés Castrín,D,XI,90.0
 19732637,2026-11-01,Sevilla,away,22168912,Lucien Agoumé,M,XI,87.0
 19732637,2026-11-01,Sevilla,away,447491,Alfon González,F,SUB,
-19732637,2026-11-01,Sevilla,away,106911,Giorgi Kochorashvili,M,SUB,10.0
+19732637,2026-11-01,Sevilla,away,106911,Giorgi Kochorashvili,M,SUB,3.0
 19732637,2026-11-01,Sevilla,away,37422917,Robbie Ure,F,SUB,18.0
 19732637,2026-11-01,Sevilla,away,27440264,Peque Fernández,F,SUB,
 19732637,2026-11-01,Sevilla,away,1478864,Rubén Vargas,M,SUB,18.0
 19732637,2026-11-01,Sevilla,away,21802856,Arouna Sangante,D,SUB,
 19732637,2026-11-01,Sevilla,away,37656778,Francisco Javier González Pérez,G,SUB,
-19732637,2026-11-01,Sevilla,away,37590292,Manu Bueno,M,SUB,64.0
+19732637,2026-11-01,Sevilla,away,37590292,Manu Bueno,M,SUB,63.0
 19732637,2026-11-01,Sevilla,away,160145,Fábio Cardoso,D,SUB,
 19732637,2026-11-01,Sevilla,away,37297313,Isaac Romero,F,XI,27.0
 19732637,2026-11-01,Sevilla,away,465803,Gabriel Suazo,D,XI,87.0
@@ -5206,7 +5210,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732635,2026-11-01,Real Madrid,away,37612542,Dean Huijsen,D,XI,90.0
 19732635,2026-11-01,Real Madrid,away,37255840,Jude Bellingham,M,XI,90.0
 19732635,2026-11-01,Real Madrid,away,23688922,Eduardo Camavinga,M,SUB,13.0
-19732635,2026-11-01,Real Madrid,away,37647009,Endrick,F,SUB,11.0
+19732635,2026-11-01,Real Madrid,away,37647009,Endrick,F,SUB,5.0
 19732635,2026-11-01,Real Madrid,away,96611,Kylian Mbappé,F,XI,90.0
 19732635,2026-11-01,Real Madrid,away,1917,Trent Alexander-Arnold,D,XI,90.0
 19732635,2026-11-01,Real Madrid,away,205983,Andriy Lunin,G,SUB,
@@ -5361,7 +5365,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732640,2026-11-02,Deportivo A Coruña,home,31739,Pierre-Emerick Aubameyang,F,SUB,21.0
 19732640,2026-11-02,Deportivo A Coruña,home,21539180,Diego Villares,M,SUB,
 19732640,2026-11-02,Deportivo A Coruña,home,37551146,Yeremay Hernández,M,XI,90.0
-19732640,2026-11-02,Deportivo A Coruña,home,37593325,David Mella,M,XI,89.0
+19732640,2026-11-02,Deportivo A Coruña,home,37593325,David Mella,M,XI,90.0
 19732640,2026-11-02,Deportivo A Coruña,home,19979845,Giacomo Quagliata,D,XI,56.0
 19732640,2026-11-02,Deportivo A Coruña,home,5967970,Leo Román,G,XI,90.0
 19732640,2026-11-02,Deportivo A Coruña,home,21072676,Riki Rodríguez,M,SUB,1.0
@@ -5371,7 +5375,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732640,2026-11-02,Deportivo A Coruña,home,37597528,Jonathan Asp Jensen,M,SUB,
 19732640,2026-11-02,Deportivo A Coruña,home,22493451,Luismi Cruz,M,XI,69.0
 19732640,2026-11-02,Deportivo A Coruña,home,186514,José María Giménez,D,XI,90.0
-19732640,2026-11-02,Deportivo A Coruña,home,24468971,Mario Soriano,M,XI,89.0
+19732640,2026-11-02,Deportivo A Coruña,home,24468971,Mario Soriano,M,XI,90.0
 19732640,2026-11-02,Deportivo A Coruña,home,186287,Ximo Navarro,D,SUB,1.0
 19732640,2026-11-02,Deportivo A Coruña,home,4241,Adama Traoré,F,SUB,34.0
 19732640,2026-11-02,Deportivo A Coruña,home,187068,Álvaro Ferllo,G,SUB,
