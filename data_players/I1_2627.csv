@@ -3932,6 +3932,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19713540,2026-10-24,Napoli,home,27133,,,OUT,0.0
 19713540,2026-10-24,Roma,away,129261,,,OUT,0.0
 19713540,2026-10-24,Napoli,home,37566882,,,OUT,0.0
+19713540,2026-10-24,Roma,away,129946,,,OUT,0.0
 19713540,2026-10-24,Napoli,home,49420,,,OUT,0.0
 19713542,2026-10-24,Lazio,home,540203,Diogo Leite,D,SUB,45.0
 19713542,2026-10-24,Lazio,home,133951,Luca Pellegrini,D,SUB,
@@ -4443,6 +4444,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19713531,2026-10-27,Roma,home,62962,,,OUT,0.0
 19713531,2026-10-27,Roma,home,23738800,,,OUT,0.0
 19713531,2026-10-27,Roma,home,129261,,,OUT,0.0
+19713531,2026-10-27,Roma,home,129946,,,OUT,0.0
 19713531,2026-10-27,Cagliari,away,1711,,,OUT,0.0
 19713528,2026-10-28,Venezia,home,23288047,Filip Stanković,G,XI,90.0
 19713528,2026-10-28,Venezia,home,37699443,Matías Moreno,D,XI,90.0
@@ -4949,6 +4951,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19713518,2026-10-31,Udinese,home,14011916,,,OUT,0.0
 19713518,2026-10-31,Roma,away,23738800,,,OUT,0.0
 19713518,2026-10-31,Roma,away,129261,,,OUT,0.0
+19713518,2026-10-31,Roma,away,129946,,,OUT,0.0
 19713518,2026-10-31,Udinese,home,31288,,,OUT,0.0
 19713518,2026-10-31,Udinese,home,10967415,,,OUT,0.0
 19713518,2026-10-31,Udinese,home,529960,,,OUT,0.0
