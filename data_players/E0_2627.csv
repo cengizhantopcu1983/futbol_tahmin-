@@ -4112,6 +4112,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19722107,2026-11-07,Leeds United,home,37568967,,,OUT,0.0
 19722107,2026-11-07,Tottenham Hotspur,away,37317392,,,OUT,0.0
 19722107,2026-11-07,Tottenham Hotspur,away,9938919,,,OUT,0.0
+19722107,2026-11-07,Tottenham Hotspur,away,37607151,,,OUT,0.0
 19722109,2026-11-07,Fulham,home,31342,Bernd Leno,G,XI,90.0
 19722109,2026-11-07,Fulham,home,25400,Kenny Tete,D,SUB,13.0
 19722109,2026-11-07,Fulham,home,540027,Calvin Bassey,D,XI,90.0
@@ -4195,6 +4196,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19722113,2026-11-07,Hull City,away,21412837,,,OUT,0.0
 19722113,2026-11-07,Arsenal,home,17544737,,,OUT,0.0
 19722113,2026-11-07,Hull City,away,37392977,,,OUT,0.0
+19722113,2026-11-07,Hull City,away,37645082,,,OUT,0.0
 19722113,2026-11-07,Hull City,away,32796077,,,OUT,0.0
 19722113,2026-11-07,Hull City,away,4892,,,OUT,0.0
 19722113,2026-11-07,Hull City,away,37595365,,,OUT,0.0
@@ -4466,3 +4468,4 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19722106,2026-11-08,Aston Villa,away,24837941,,,OUT,0.0
 19722106,2026-11-08,Aston Villa,away,5252,,,OUT,0.0
 19722106,2026-11-08,Manchester United,home,24818280,,,OUT,0.0
+19722106,2026-11-08,Manchester United,home,37588823,,,OUT,0.0
