@@ -4068,6 +4068,8 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19722110,2026-11-06,Coventry City,away,263186,,,OUT,0.0
 19722110,2026-11-06,Coventry City,away,23223363,,,OUT,0.0
 19722110,2026-11-06,Coventry City,away,2816063,,,OUT,0.0
+19722110,2026-11-06,Coventry City,away,37518832,,,OUT,0.0
+19722110,2026-11-06,Coventry City,away,537108,,,OUT,0.0
 19722107,2026-11-07,Tottenham Hotspur,away,1078,Andrew Robertson,D,XI,90.0
 19722107,2026-11-07,Tottenham Hotspur,away,333989,Marcos Senesi,D,SUB,
 19722107,2026-11-07,Tottenham Hotspur,away,24818803,Jan Paul van Hecke,D,XI,90.0
@@ -4090,7 +4092,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19722107,2026-11-07,Tottenham Hotspur,away,37728388,Luca Williams-Barnett,M,SUB,7.0
 19722107,2026-11-07,Leeds United,home,28575686,James Trafford,G,XI,90.0
 19722107,2026-11-07,Leeds United,home,581158,Jayden Bogle,M,XI,90.0
-19722107,2026-11-07,Leeds United,home,193196,Gabriel Gudmundsson,M,XI,45.0
+19722107,2026-11-07,Leeds United,home,193196,Gabriel Gudmundsson,M,XI,46.0
 19722107,2026-11-07,Leeds United,home,12542,Ethan Ampadu,M,XI,90.0
 19722107,2026-11-07,Leeds United,home,37529525,Tarik Muharemović,D,XI,90.0
 19722107,2026-11-07,Leeds United,home,339112,Joe Rodon,D,SUB,1.0
@@ -4105,7 +4107,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19722107,2026-11-07,Leeds United,home,4536529,Noah Okafor,F,SUB,13.0
 19722107,2026-11-07,Leeds United,home,461027,Ao Tanaka,M,XI,77.0
 19722107,2026-11-07,Leeds United,home,12514,James Justin,D,XI,90.0
-19722107,2026-11-07,Leeds United,home,2206980,Melvin Bard,D,SUB,45.0
+19722107,2026-11-07,Leeds United,home,2206980,Melvin Bard,D,SUB,44.0
 19722107,2026-11-07,Leeds United,home,32525,Nico Elvedi,D,XI,90.0
 19722107,2026-11-07,Leeds United,home,3861741,Ilia Gruev,M,SUB,1.0
 19722107,2026-11-07,Tottenham Hotspur,away,37593240,,,OUT,0.0
@@ -4113,6 +4115,8 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19722107,2026-11-07,Tottenham Hotspur,away,37317392,,,OUT,0.0
 19722107,2026-11-07,Tottenham Hotspur,away,9938919,,,OUT,0.0
 19722107,2026-11-07,Tottenham Hotspur,away,37607151,,,OUT,0.0
+19722107,2026-11-07,Tottenham Hotspur,away,37527169,,,OUT,0.0
+19722107,2026-11-07,Leeds United,home,2178735,,,OUT,0.0
 19722109,2026-11-07,Fulham,home,31342,Bernd Leno,G,XI,90.0
 19722109,2026-11-07,Fulham,home,25400,Kenny Tete,D,SUB,13.0
 19722109,2026-11-07,Fulham,home,540027,Calvin Bassey,D,XI,90.0
@@ -4121,7 +4125,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19722109,2026-11-07,Fulham,home,37628371,César Palacios,M,SUB,18.0
 19722109,2026-11-07,Fulham,home,37402350,Rodrigo Muniz,F,SUB,25.0
 19722109,2026-11-07,Fulham,home,37430894,Kevin,F,SUB,
-19722109,2026-11-07,Fulham,home,37286732,Oscar Bobb,M,XI,78.0
+19722109,2026-11-07,Fulham,home,37286732,Oscar Bobb,M,XI,77.0
 19722109,2026-11-07,Fulham,home,37592738,Hugo Larsson,M,SUB,
 19722109,2026-11-07,Fulham,home,64193,Sander Berge,M,XI,90.0
 19722109,2026-11-07,Fulham,home,1881,Alex Iwobi,M,XI,90.0
@@ -4131,7 +4135,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19722109,2026-11-07,Fulham,home,37259638,David Affengruber,D,XI,90.0
 19722109,2026-11-07,Fulham,home,95093,Benjamin Lecomte,G,SUB,
 19722109,2026-11-07,Fulham,home,37656924,Josh King,M,XI,72.0
-19722109,2026-11-07,Fulham,home,6610,Ryan Sessegnon,M,SUB,12.0
+19722109,2026-11-07,Fulham,home,6610,Ryan Sessegnon,M,SUB,13.0
 19722109,2026-11-07,Fulham,home,581067,Antonee Robinson,D,XI,90.0
 19722109,2026-11-07,Newcastle United,away,2763,Nick Pope,G,SUB,
 19722109,2026-11-07,Newcastle United,away,24799911,Tino Livramento,D,SUB,
@@ -4153,6 +4157,8 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19722109,2026-11-07,Newcastle United,away,2815,Dan Burn,D,XI,90.0
 19722109,2026-11-07,Newcastle United,away,22493645,Amar Dedic,D,XI,90.0
 19722109,2026-11-07,Newcastle United,away,37581796,Lewis Miley,M,SUB,29.0
+19722109,2026-11-07,Newcastle United,away,11705406,,,OUT,0.0
+19722109,2026-11-07,Fulham,home,2285,,,OUT,0.0
 19722113,2026-11-07,Arsenal,home,3130,David Raya,G,XI,90.0
 19722113,2026-11-07,Arsenal,home,37592228,Cristhian Mosquera,D,SUB,
 19722113,2026-11-07,Arsenal,home,3259,Ben White,D,SUB,
@@ -4198,13 +4204,14 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19722113,2026-11-07,Hull City,away,37392977,,,OUT,0.0
 19722113,2026-11-07,Hull City,away,37645082,,,OUT,0.0
 19722113,2026-11-07,Hull City,away,32796077,,,OUT,0.0
+19722113,2026-11-07,Hull City,away,1387,,,OUT,0.0
 19722113,2026-11-07,Hull City,away,4892,,,OUT,0.0
 19722113,2026-11-07,Hull City,away,37595365,,,OUT,0.0
 19722113,2026-11-07,Arsenal,home,16827155,,,OUT,0.0
 19722105,2026-11-07,Manchester City,away,129771,Gianluigi Donnarumma,G,XI,90.0
 19722105,2026-11-07,Manchester City,away,162536,Rúben Dias,D,XI,90.0
 19722105,2026-11-07,Manchester City,away,332047,Elliot Anderson,M,XI,90.0
-19722105,2026-11-07,Manchester City,away,4536500,Marc Guéhi,D,XI,45.0
+19722105,2026-11-07,Manchester City,away,4536500,Marc Guéhi,D,XI,46.0
 19722105,2026-11-07,Manchester City,away,23661272,Iliman Ndiaye,M,XI,90.0
 19722105,2026-11-07,Manchester City,away,73147,Mateo Kovacic,M,SUB,
 19722105,2026-11-07,Manchester City,away,154421,Erling Haaland,F,XI,90.0
@@ -4212,11 +4219,11 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19722105,2026-11-07,Manchester City,away,23697990,Jérémy Doku,M,XI,90.0
 19722105,2026-11-07,Manchester City,away,29709995,Enzo Fernández,M,XI,78.0
 19722105,2026-11-07,Manchester City,away,37689559,Vitor Reis,D,SUB,
-19722105,2026-11-07,Manchester City,away,24838191,Josko Gvardiol,D,XI,45.0
-19722105,2026-11-07,Manchester City,away,21781428,Matheus Nunes,M,SUB,45.0
+19722105,2026-11-07,Manchester City,away,24838191,Josko Gvardiol,D,XI,46.0
+19722105,2026-11-07,Manchester City,away,21781428,Matheus Nunes,M,SUB,44.0
 19722105,2026-11-07,Manchester City,away,186418,Gerónimo Rulli,G,SUB,
 19722105,2026-11-07,Manchester City,away,37717176,Ayyoub Bouaddi,M,SUB,
-19722105,2026-11-07,Manchester City,away,37562487,Nico O'Reilly,D,SUB,45.0
+19722105,2026-11-07,Manchester City,away,37562487,Nico O'Reilly,D,SUB,44.0
 19722105,2026-11-07,Manchester City,away,37702000,Allan,F,SUB,
 19722105,2026-11-07,Manchester City,away,37623459,Abdukodir Khusanov,D,XI,90.0
 19722105,2026-11-07,Manchester City,away,336133,Phil Foden,M,SUB,12.0
@@ -4241,7 +4248,9 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19722105,2026-11-07,Nottingham Forest,home,2975,Matz Sels,G,XI,90.0
 19722105,2026-11-07,Nottingham Forest,home,524045,Daniel Muñoz,M,XI,65.0
 19722105,2026-11-07,Nottingham Forest,home,178032,Nikola Milenković,D,XI,90.0
+19722105,2026-11-07,Nottingham Forest,home,37376834,,,OUT,0.0
 19722105,2026-11-07,Manchester City,away,10990678,,,OUT,0.0
+19722105,2026-11-07,Nottingham Forest,home,335653,,,OUT,0.0
 19722104,2026-11-08,Sunderland,home,33079,Kevin Danso,D,SUB,
 19722104,2026-11-08,Sunderland,home,37734644,Dayann Methalie,D,SUB,
 19722104,2026-11-08,Sunderland,home,37590634,Chemsdine Talbi,M,XI,88.0
@@ -4265,7 +4274,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19722104,2026-11-08,Chelsea,away,37653289,Marco Palestra,D,XI,62.0
 19722104,2026-11-08,Chelsea,away,11311795,Wesley Fofana,D,XI,90.0
 19722104,2026-11-08,Chelsea,away,37577727,Valentín Barco,M,SUB,
-19722104,2026-11-08,Chelsea,away,37259180,Levi Colwill,D,XI,45.0
+19722104,2026-11-08,Chelsea,away,37259180,Levi Colwill,D,XI,46.0
 19722104,2026-11-08,Chelsea,away,496775,Pedro Neto,F,XI,62.0
 19722104,2026-11-08,Chelsea,away,28912747,Cole Palmer,M,XI,90.0
 19722104,2026-11-08,Chelsea,away,323,Jordan Henderson,M,XI,87.0
@@ -4280,9 +4289,8 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19722104,2026-11-08,Chelsea,away,37700784,Aarón Anselmino,D,SUB,
 19722104,2026-11-08,Chelsea,away,37910032,Mahdi Nicoll-Jazuli,M,SUB,
 19722104,2026-11-08,Chelsea,away,37590621,Mike Penders,G,XI,90.0
-19722104,2026-11-08,Chelsea,away,37701999,Estêvão,F,SUB,45.0
+19722104,2026-11-08,Chelsea,away,37701999,Estêvão,F,SUB,44.0
 19722104,2026-11-08,Chelsea,away,37536874,Roméo Lavia,M,XI,90.0
-19722104,2026-11-08,Sunderland,home,37259208,,,OUT,0.0
 19722104,2026-11-08,Chelsea,away,37316840,,,OUT,0.0
 19722104,2026-11-08,Chelsea,away,1343,,,OUT,0.0
 19722104,2026-11-08,Chelsea,away,581220,,,OUT,0.0
@@ -4290,6 +4298,8 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19722104,2026-11-08,Chelsea,away,28931574,,,OUT,0.0
 19722104,2026-11-08,Chelsea,away,37600243,,,OUT,0.0
 19722104,2026-11-08,Chelsea,away,5666458,,,OUT,0.0
+19722104,2026-11-08,Sunderland,home,37259208,,,OUT,0.0
+19722104,2026-11-08,Sunderland,home,37581992,,,OUT,0.0
 19722108,2026-11-08,AFC Bournemouth,away,538472,Djordje Petrovic,G,XI,90.0
 19722108,2026-11-08,AFC Bournemouth,away,28543553,Adrien Truffert,D,XI,90.0
 19722108,2026-11-08,AFC Bournemouth,away,1834,Lewis Cook,M,SUB,23.0
@@ -4317,7 +4327,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19722108,2026-11-08,Ipswich Town,home,37560897,Abdul Fatawu Issahaku,F,SUB,25.0
 19722108,2026-11-08,Ipswich Town,home,537316,Zian Flemming,F,SUB,36.0
 19722108,2026-11-08,Ipswich Town,home,29419594,Julio Enciso,M,XI,90.0
-19722108,2026-11-08,Ipswich Town,home,33186827,Jaden Philogene,M,XI,54.0
+19722108,2026-11-08,Ipswich Town,home,33186827,Jaden Philogene,M,XI,53.0
 19722108,2026-11-08,Ipswich Town,home,163210,Florentino,M,XI,85.0
 19722108,2026-11-08,Ipswich Town,home,37577447,Emersonn,F,XI,54.0
 19722108,2026-11-08,Ipswich Town,home,130248,Saša Lukić,M,SUB,
@@ -4329,9 +4339,10 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19722108,2026-11-08,Ipswich Town,home,29470,Kjell Scherpen,G,SUB,
 19722108,2026-11-08,Ipswich Town,home,319282,Daizen Maeda,M,XI,65.0
 19722108,2026-11-08,Ipswich Town,home,37622174,Abdoul Ouattara,D,XI,90.0
-19722108,2026-11-08,Ipswich Town,home,10310765,Jack Clarke,F,SUB,36.0
+19722108,2026-11-08,Ipswich Town,home,10310765,Jack Clarke,F,SUB,37.0
 19722108,2026-11-08,AFC Bournemouth,away,23260605,,,OUT,0.0
 19722108,2026-11-08,AFC Bournemouth,away,37624325,,,OUT,0.0
+19722108,2026-11-08,AFC Bournemouth,away,37296353,,,OUT,0.0
 19722111,2026-11-08,Liverpool,away,129820,Alisson,G,XI,90.0
 19722111,2026-11-08,Liverpool,away,1453,Joe Gomez,D,SUB,1.0
 19722111,2026-11-08,Liverpool,away,309344,Wataru Endo,M,SUB,
@@ -4376,8 +4387,11 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19722111,2026-11-08,Liverpool,away,37316835,,,OUT,0.0
 19722111,2026-11-08,Liverpool,away,9606060,,,OUT,0.0
 19722111,2026-11-08,Liverpool,away,37288979,,,OUT,0.0
+19722111,2026-11-08,Crystal Palace,home,310288,,,OUT,0.0
 19722111,2026-11-08,Crystal Palace,home,37537937,,,OUT,0.0
 19722111,2026-11-08,Liverpool,away,8403182,,,OUT,0.0
+19722111,2026-11-08,Crystal Palace,home,96722,,,OUT,0.0
+19722111,2026-11-08,Liverpool,away,5270462,,,OUT,0.0
 19722112,2026-11-08,Brighton & Hove Albion,home,37257596,Bart Verbruggen,G,XI,90.0
 19722112,2026-11-08,Brighton & Hove Albion,home,37530791,Jaouen Hadjam,D,SUB,
 19722112,2026-11-08,Brighton & Hove Albion,home,2461,Lewis Dunk,D,XI,90.0
@@ -4385,7 +4399,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19722112,2026-11-08,Brighton & Hove Albion,home,21782390,Georginio Rutter,F,SUB,8.0
 19722112,2026-11-08,Brighton & Hove Albion,home,37655226,Yankuba Minteh,F,SUB,8.0
 19722112,2026-11-08,Brighton & Hove Albion,home,31504,Pascal Groß,M,XI,90.0
-19722112,2026-11-08,Brighton & Hove Albion,home,37656783,Chema Andrés,M,XI,45.0
+19722112,2026-11-08,Brighton & Hove Albion,home,37656783,Chema Andrés,M,XI,46.0
 19722112,2026-11-08,Brighton & Hove Albion,home,37664293,Charalampos Kostoulas,F,XI,82.0
 19722112,2026-11-08,Brighton & Hove Albion,home,19606968,Costinha,D,XI,90.0
 19722112,2026-11-08,Brighton & Hove Albion,home,96513,Olivier Boscagli,D,XI,90.0
@@ -4393,25 +4407,25 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19722112,2026-11-08,Brighton & Hove Albion,home,25738,Ferdi Kadıoğlu,D,SUB,
 19722112,2026-11-08,Brighton & Hove Albion,home,37563876,Diego Gómez,M,XI,90.0
 19722112,2026-11-08,Brighton & Hove Albion,home,37526157,Yasin Ayari,M,XI,78.0
-19722112,2026-11-08,Brighton & Hove Albion,home,24082563,Mats Wieffer,M,SUB,45.0
+19722112,2026-11-08,Brighton & Hove Albion,home,24082563,Mats Wieffer,M,SUB,44.0
 19722112,2026-11-08,Brighton & Hove Albion,home,23269659,Maxim De Cuyper,M,XI,82.0
 19722112,2026-11-08,Brighton & Hove Albion,home,1491407,Michael Svoboda,D,SUB,
 19722112,2026-11-08,Brighton & Hove Albion,home,37682332,Malick Yalcouyé,M,SUB,1.0
 19722112,2026-11-08,Brighton & Hove Albion,home,37657587,Luka Vuskovic,D,XI,90.0
 19722112,2026-11-08,Brentford,away,896225,Caoimhín Kelleher,G,XI,90.0
-19722112,2026-11-08,Brentford,away,27440826,Aaron Hickey,D,XI,45.0
-19722112,2026-11-08,Brentford,away,11658171,Sepp van den Berg,D,XI,70.0
-19722112,2026-11-08,Brentford,away,37509395,Yegor Yarmolyuk,M,SUB,45.0
+19722112,2026-11-08,Brentford,away,27440826,Aaron Hickey,D,XI,46.0
+19722112,2026-11-08,Brentford,away,11658171,Sepp van den Berg,D,XI,69.0
+19722112,2026-11-08,Brentford,away,37509395,Yegor Yarmolyuk,M,SUB,44.0
 19722112,2026-11-08,Brentford,away,27067062,Kevin Schade,F,XI,90.0
 19722112,2026-11-08,Brentford,away,84426,Mathias Jensen,M,SUB,31.0
 19722112,2026-11-08,Brentford,away,37407204,Igor Thiago,F,XI,23.0
-19722112,2026-11-08,Brentford,away,37543248,Dango Ouattara,M,XI,45.0
+19722112,2026-11-08,Brentford,away,37543248,Dango Ouattara,M,XI,46.0
 19722112,2026-11-08,Brentford,away,531971,Hákon Valdimarsson,G,SUB,
-19722112,2026-11-08,Brentford,away,1065,Callum Wilson,F,SUB,20.0
+19722112,2026-11-08,Brentford,away,1065,Callum Wilson,F,SUB,21.0
 19722112,2026-11-08,Brentford,away,37536953,Mamadou Sangaré,M,XI,59.0
 19722112,2026-11-08,Brentford,away,37392849,Jaidon Anthony,F,SUB,
 19722112,2026-11-08,Brentford,away,151418,Kristoffer Ajer,D,XI,90.0
-19722112,2026-11-08,Brentford,away,11705403,Nathan Collins,D,SUB,45.0
+19722112,2026-11-08,Brentford,away,11705403,Nathan Collins,D,SUB,44.0
 19722112,2026-11-08,Brentford,away,28552845,Keane Lewis-Potter,M,XI,59.0
 19722112,2026-11-08,Brentford,away,8449373,Mikkel Damsgaard,M,SUB,
 19722112,2026-11-08,Brentford,away,37685630,El Hadji Malick Diouf,D,SUB,31.0
@@ -4420,14 +4434,17 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19722112,2026-11-08,Brentford,away,37633890,Jannik Schuster,D,SUB,
 19722112,2026-11-08,Brighton & Hove Albion,home,37601748,,,OUT,0.0
 19722112,2026-11-08,Brighton & Hove Albion,home,37253456,,,OUT,0.0
+19722112,2026-11-08,Brighton & Hove Albion,home,21437534,,,OUT,0.0
 19722112,2026-11-08,Brentford,away,37656906,,,OUT,0.0
 19722112,2026-11-08,Brentford,away,37575228,,,OUT,0.0
 19722112,2026-11-08,Brighton & Hove Albion,home,37974187,,,OUT,0.0
+19722112,2026-11-08,Brentford,away,7993,,,OUT,0.0
+19722112,2026-11-08,Brentford,away,21412957,,,OUT,0.0
 19722106,2026-11-08,Manchester United,home,23269670,Senne Lammens,G,XI,90.0
 19722106,2026-11-08,Manchester United,home,164061,Diogo Dalot,D,XI,66.0
 19722106,2026-11-08,Manchester United,home,28716,Noussair Mazraoui,D,XI,90.0
 19722106,2026-11-08,Manchester United,home,26768,Matthijs de Ligt,D,SUB,
-19722106,2026-11-08,Manchester United,home,2884,Harry Maguire,D,XI,45.0
+19722106,2026-11-08,Manchester United,home,2884,Harry Maguire,D,XI,46.0
 19722106,2026-11-08,Manchester United,home,537121,Mason Mount,M,SUB,24.0
 19722106,2026-11-08,Manchester United,home,129602,Bruno Fernandes,M,XI,90.0
 19722106,2026-11-08,Manchester United,home,1846739,Matheus Cunha,M,XI,90.0
@@ -4439,7 +4456,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19722106,2026-11-08,Manchester United,home,37562129,Andrey Santos,M,SUB,
 19722106,2026-11-08,Manchester United,home,62342,Youri Tielemans,M,XI,66.0
 19722106,2026-11-08,Manchester United,home,529689,Bryan Mbeumo,F,XI,83.0
-19722106,2026-11-08,Manchester United,home,37676786,Ayden Heaven,D,SUB,45.0
+19722106,2026-11-08,Manchester United,home,37676786,Ayden Heaven,D,SUB,44.0
 19722106,2026-11-08,Manchester United,home,37665753,Shea Lacey,F,SUB,24.0
 19722106,2026-11-08,Manchester United,home,37540234,Kobbie Mainoo,M,XI,90.0
 19722106,2026-11-08,Manchester United,home,37654112,Jack Fletcher,M,SUB,
@@ -4469,3 +4486,4 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19722106,2026-11-08,Aston Villa,away,5252,,,OUT,0.0
 19722106,2026-11-08,Manchester United,home,24818280,,,OUT,0.0
 19722106,2026-11-08,Manchester United,home,37588823,,,OUT,0.0
+19722106,2026-11-08,Aston Villa,away,6524,,,OUT,0.0
