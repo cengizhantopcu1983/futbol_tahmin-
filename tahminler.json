@@ -1,5 +1,5 @@
 {
-  "olusturulma": "2026-11-14T21:50+03:00",
+  "olusturulma": "2026-11-15T15:13+03:00",
   "model": "dixon-coles-v1",
   "maclar": [
     {
@@ -7593,6 +7593,856 @@
         "uygulandi": false,
         "girilen": null
       }
+    },
+    {
+      "lig": "Serie A",
+      "lig_kodu": "I1",
+      "tarih": "2026-11-23",
+      "saat": "22:45",
+      "ev": "Monza",
+      "deplasman": "Fiorentina",
+      "p_ev": 0.3147,
+      "p_beraberlik": 0.2388,
+      "p_deplasman": 0.4466,
+      "xg_ev": 1.38,
+      "xg_deplasman": 1.69,
+      "ust_2_5": 0.5932,
+      "kg_var": 0.6122,
+      "olasi_skorlar": [
+        {
+          "skor": "1-1",
+          "p": 0.1092
+        },
+        {
+          "skor": "1-2",
+          "p": 0.0913
+        },
+        {
+          "skor": "0-1",
+          "p": 0.0771
+        },
+        {
+          "skor": "2-1",
+          "p": 0.0749
+        },
+        {
+          "skor": "0-2",
+          "p": 0.066
+        }
+      ],
+      "tutarli_skor": {
+        "sonuc": "2",
+        "skor": "1-2",
+        "p": 0.0913
+      },
+      "form_ev": "G M M M M",
+      "form_deplasman": "M M B G B",
+      "elo_ev": 1377,
+      "elo_deplasman": 1464,
+      "piyasa": null,
+      "skor_matrisi": [
+        [
+          0.0473,
+          0.0771,
+          0.066,
+          0.0371,
+          0.0157,
+          0.0053
+        ],
+        [
+          0.063,
+          0.1092,
+          0.0913,
+          0.0514,
+          0.0217,
+          0.0073
+        ],
+        [
+          0.0443,
+          0.0749,
+          0.0632,
+          0.0356,
+          0.015,
+          0.0051
+        ],
+        [
+          0.0205,
+          0.0346,
+          0.0292,
+          0.0164,
+          0.0069,
+          0.0023
+        ],
+        [
+          0.0071,
+          0.012,
+          0.0101,
+          0.0057,
+          0.0024,
+          0.0008
+        ],
+        [
+          0.002,
+          0.0033,
+          0.0028,
+          0.0016,
+          0.0007,
+          0.0002
+        ]
+      ],
+      "az_veri": [],
+      "ilk_yari": {
+        "p_ev": 0.2633,
+        "p_beraberlik": 0.3926,
+        "p_deplasman": 0.3441,
+        "xg_ev": 0.6,
+        "xg_deplasman": 0.74,
+        "ust_0_5": 0.7377,
+        "ust_1_5": 0.3866,
+        "ilk_yari_gol_payi": 0.435
+      },
+      "iy_ms": [
+        {
+          "kod": "2/2",
+          "p": 0.2679
+        },
+        {
+          "kod": "1/1",
+          "p": 0.1802
+        },
+        {
+          "kod": "X/2",
+          "p": 0.1488
+        },
+        {
+          "kod": "X/X",
+          "p": 0.1323
+        },
+        {
+          "kod": "X/1",
+          "p": 0.1115
+        },
+        {
+          "kod": "1/X",
+          "p": 0.0533
+        },
+        {
+          "kod": "2/X",
+          "p": 0.0533
+        },
+        {
+          "kod": "1/2",
+          "p": 0.0299
+        },
+        {
+          "kod": "2/1",
+          "p": 0.023
+        }
+      ],
+      "gol_dakika": {
+        "araliklar": [
+          {
+            "aralik": "0-15",
+            "p_gol": 0.3162
+          },
+          {
+            "aralik": "16-30",
+            "p_gol": 0.3566
+          },
+          {
+            "aralik": "31-45+",
+            "p_gol": 0.4037
+          },
+          {
+            "aralik": "46-60",
+            "p_gol": 0.391
+          },
+          {
+            "aralik": "61-75",
+            "p_gol": 0.4096
+          },
+          {
+            "aralik": "76-90+",
+            "p_gol": 0.5098
+          }
+        ],
+        "ilk_gol_30_once": 0.5601,
+        "golsuz": 0.0473,
+        "ilk_golu_ev": 0.4292,
+        "ilk_golu_deplasman": 0.5235
+      },
+      "istatistikler": {
+        "sari_kart": {
+          "ev": 2.41,
+          "deplasman": 2.25,
+          "toplam": 4.67,
+          "cizgiler": [
+            {
+              "cizgi": 3.5,
+              "ust": 0.6849
+            },
+            {
+              "cizgi": 4.5,
+              "ust": 0.4991
+            },
+            {
+              "cizgi": 5.5,
+              "ust": 0.3257
+            }
+          ]
+        },
+        "korner": {
+          "ev": 4.06,
+          "deplasman": 4.11,
+          "toplam": 8.17,
+          "cizgiler": [
+            {
+              "cizgi": 8.5,
+              "ust": 0.4293
+            },
+            {
+              "cizgi": 9.5,
+              "ust": 0.3119
+            },
+            {
+              "cizgi": 10.5,
+              "ust": 0.2147
+            }
+          ]
+        },
+        "sut": {
+          "ev": 12.09,
+          "deplasman": 13.35,
+          "toplam": 25.44
+        },
+        "isabetli_sut": {
+          "ev": 4.6,
+          "deplasman": 4.85,
+          "toplam": 9.46
+        },
+        "kirmizi_kart": {
+          "ev": 0.08,
+          "deplasman": 0.08,
+          "toplam": 0.17,
+          "p_en_az_bir": 0.1399,
+          "dusuk_guven": true
+        }
+      },
+      "yorgunluk": {
+        "ev_dinlenme": 15,
+        "dep_dinlenme": 15,
+        "ev_avrupa": false,
+        "dep_avrupa": false,
+        "ev_yorgun": false,
+        "dep_yorgun": false,
+        "etki_uygulandi": false
+      },
+      "xg_modeli": {
+        "p_ev": 0.324,
+        "p_beraberlik": 0.2335,
+        "p_deplasman": 0.4426,
+        "xg_ev": 1.47,
+        "xg_deplasman": 1.75,
+        "mac_sayisi": 101,
+        "agirlik": 0.5,
+        "bitiricilik": {
+          "ev": {
+            "mac": 5,
+            "gol": 9,
+            "xg": 8.75,
+            "yenilen": 9,
+            "xga": 5.5,
+            "atak_oran": 1.029,
+            "savunma_oran": 1.636,
+            "atak_carpan": 1.005,
+            "savunma_carpan": 1.077
+          },
+          "dep": {
+            "mac": 5,
+            "gol": 10,
+            "xg": 7.0,
+            "yenilen": 12,
+            "xga": 6.75,
+            "atak_oran": 1.429,
+            "savunma_oran": 1.778,
+            "atak_carpan": 1.064,
+            "savunma_carpan": 1.112
+          },
+          "carpan_ev": 1.118,
+          "carpan_dep": 1.146
+        }
+      },
+      "eslesme": {
+        "mac": 2,
+        "ev_gol": 2,
+        "dep_gol": 2,
+        "beklenen_ev": 2.77,
+        "beklenen_dep": 3.38,
+        "carpan_ev": 0.931,
+        "carpan_dep": 0.898,
+        "son": [
+          {
+            "tarih": "2023-12-22",
+            "skor": "0-1"
+          },
+          {
+            "tarih": "2025-01-13",
+            "skor": "2-1"
+          }
+        ],
+        "uygulandi": false
+      },
+      "topla_oynama_farki": -0.1,
+      "kadro": {
+        "lam": 1.3848,
+        "mu": 1.6891,
+        "uygulandi": false,
+        "girilen": null
+      }
+    },
+    {
+      "lig": "Premier League",
+      "lig_kodu": "E0",
+      "tarih": "2026-11-23",
+      "saat": "23:00",
+      "ev": "Brentford",
+      "deplasman": "Everton",
+      "p_ev": 0.4422,
+      "p_beraberlik": 0.2636,
+      "p_deplasman": 0.2941,
+      "xg_ev": 1.52,
+      "xg_deplasman": 1.18,
+      "ust_2_5": 0.5024,
+      "kg_var": 0.5409,
+      "olasi_skorlar": [
+        {
+          "skor": "1-1",
+          "p": 0.1247
+        },
+        {
+          "skor": "1-0",
+          "p": 0.0981
+        },
+        {
+          "skor": "2-1",
+          "p": 0.09
+        },
+        {
+          "skor": "2-0",
+          "p": 0.077
+        },
+        {
+          "skor": "0-1",
+          "p": 0.0762
+        }
+      ],
+      "tutarli_skor": {
+        "sonuc": "1",
+        "skor": "1-0",
+        "p": 0.0981
+      },
+      "form_ev": "B M B G M",
+      "form_deplasman": "B M M G G",
+      "elo_ev": 1522,
+      "elo_deplasman": 1500,
+      "piyasa": null,
+      "skor_matrisi": [
+        [
+          0.0739,
+          0.0762,
+          0.0477,
+          0.0189,
+          0.0057,
+          0.0014
+        ],
+        [
+          0.0981,
+          0.1247,
+          0.0708,
+          0.0281,
+          0.0085,
+          0.0021
+        ],
+        [
+          0.077,
+          0.09,
+          0.0531,
+          0.0211,
+          0.0063,
+          0.0015
+        ],
+        [
+          0.0389,
+          0.0454,
+          0.0268,
+          0.0106,
+          0.0032,
+          0.0008
+        ],
+        [
+          0.0148,
+          0.0174,
+          0.0102,
+          0.0041,
+          0.0012,
+          0.0003
+        ],
+        [
+          0.0046,
+          0.0054,
+          0.0032,
+          0.0013,
+          0.0004,
+          0.0001
+        ]
+      ],
+      "az_veri": [],
+      "ilk_yari": {
+        "p_ev": 0.327,
+        "p_beraberlik": 0.4341,
+        "p_deplasman": 0.2389,
+        "xg_ev": 0.64,
+        "xg_deplasman": 0.5,
+        "ust_0_5": 0.6784,
+        "ust_1_5": 0.3136,
+        "ilk_yari_gol_payi": 0.421
+      },
+      "iy_ms": [
+        {
+          "kod": "1/1",
+          "p": 0.2559
+        },
+        {
+          "kod": "2/2",
+          "p": 0.1609
+        },
+        {
+          "kod": "X/1",
+          "p": 0.1605
+        },
+        {
+          "kod": "X/X",
+          "p": 0.1594
+        },
+        {
+          "kod": "X/2",
+          "p": 0.1142
+        },
+        {
+          "kod": "1/X",
+          "p": 0.0521
+        },
+        {
+          "kod": "2/X",
+          "p": 0.0521
+        },
+        {
+          "kod": "2/1",
+          "p": 0.0259
+        },
+        {
+          "kod": "1/2",
+          "p": 0.019
+        }
+      ],
+      "gol_dakika": {
+        "araliklar": [
+          {
+            "aralik": "0-15",
+            "p_gol": 0.2755
+          },
+          {
+            "aralik": "16-30",
+            "p_gol": 0.3119
+          },
+          {
+            "aralik": "31-45+",
+            "p_gol": 0.3549
+          },
+          {
+            "aralik": "46-60",
+            "p_gol": 0.3601
+          },
+          {
+            "aralik": "61-75",
+            "p_gol": 0.3777
+          },
+          {
+            "aralik": "76-90+",
+            "p_gol": 0.4737
+          }
+        ],
+        "ilk_gol_30_once": 0.5015,
+        "golsuz": 0.0739,
+        "ilk_golu_ev": 0.521,
+        "ilk_golu_deplasman": 0.4051
+      },
+      "istatistikler": {
+        "sari_kart": {
+          "ev": 1.67,
+          "deplasman": 2.09,
+          "toplam": 3.77,
+          "cizgiler": [
+            {
+              "cizgi": 3.5,
+              "ust": 0.5198
+            },
+            {
+              "cizgi": 4.5,
+              "ust": 0.3258
+            },
+            {
+              "cizgi": 5.5,
+              "ust": 0.1797
+            }
+          ]
+        },
+        "korner": {
+          "ev": 4.94,
+          "deplasman": 4.58,
+          "toplam": 9.52,
+          "cizgiler": [
+            {
+              "cizgi": 8.5,
+              "ust": 0.6108
+            },
+            {
+              "cizgi": 9.5,
+              "ust": 0.4809
+            },
+            {
+              "cizgi": 10.5,
+              "ust": 0.3573
+            }
+          ]
+        },
+        "sut": {
+          "ev": 14.77,
+          "deplasman": 12.57,
+          "toplam": 27.33
+        },
+        "isabetli_sut": {
+          "ev": 3.96,
+          "deplasman": 4.27,
+          "toplam": 8.24
+        },
+        "kirmizi_kart": {
+          "ev": 0.07,
+          "deplasman": 0.08,
+          "toplam": 0.15,
+          "p_en_az_bir": 0.1431,
+          "dusuk_guven": true
+        }
+      },
+      "yorgunluk": {
+        "ev_dinlenme": 15,
+        "dep_dinlenme": 17,
+        "ev_avrupa": false,
+        "dep_avrupa": false,
+        "ev_yorgun": false,
+        "dep_yorgun": false,
+        "etki_uygulandi": false
+      },
+      "xg_modeli": null,
+      "eslesme": {
+        "mac": 3,
+        "ev_gol": 4,
+        "dep_gol": 6,
+        "beklenen_ev": 4.55,
+        "beklenen_dep": 3.54,
+        "carpan_ev": 0.96,
+        "carpan_dep": 1.232,
+        "son": [
+          {
+            "tarih": "2023-09-23",
+            "skor": "1-3"
+          },
+          {
+            "tarih": "2025-02-26",
+            "skor": "1-1"
+          },
+          {
+            "tarih": "2026-04-11",
+            "skor": "2-2"
+          }
+        ],
+        "uygulandi": false
+      },
+      "topla_oynama_farki": null,
+      "kadro": {
+        "lam": 1.5173,
+        "mu": 1.1798,
+        "uygulandi": false,
+        "girilen": null
+      }
+    },
+    {
+      "lig": "La Liga",
+      "lig_kodu": "SP1",
+      "tarih": "2026-11-23",
+      "saat": "23:00",
+      "ev": "Levante",
+      "deplasman": "Elche",
+      "p_ev": 0.4896,
+      "p_beraberlik": 0.2415,
+      "p_deplasman": 0.2689,
+      "xg_ev": 1.82,
+      "xg_deplasman": 1.3,
+      "ust_2_5": 0.6045,
+      "kg_var": 0.6171,
+      "olasi_skorlar": [
+        {
+          "skor": "1-1",
+          "p": 0.1105
+        },
+        {
+          "skor": "2-1",
+          "p": 0.095
+        },
+        {
+          "skor": "1-0",
+          "p": 0.0738
+        },
+        {
+          "skor": "2-0",
+          "p": 0.0728
+        },
+        {
+          "skor": "1-2",
+          "p": 0.068
+        }
+      ],
+      "tutarli_skor": {
+        "sonuc": "1",
+        "skor": "2-1",
+        "p": 0.095
+      },
+      "form_ev": "B G M M B",
+      "form_deplasman": "B B G M M",
+      "elo_ev": 1445,
+      "elo_deplasman": 1437,
+      "piyasa": null,
+      "skor_matrisi": [
+        [
+          0.05,
+          0.0511,
+          0.0374,
+          0.0162,
+          0.0053,
+          0.0014
+        ],
+        [
+          0.0738,
+          0.1105,
+          0.068,
+          0.0296,
+          0.0097,
+          0.0025
+        ],
+        [
+          0.0728,
+          0.095,
+          0.062,
+          0.027,
+          0.0088,
+          0.0023
+        ],
+        [
+          0.0442,
+          0.0577,
+          0.0376,
+          0.0164,
+          0.0053,
+          0.0014
+        ],
+        [
+          0.0201,
+          0.0263,
+          0.0171,
+          0.0075,
+          0.0024,
+          0.0006
+        ],
+        [
+          0.0073,
+          0.0096,
+          0.0062,
+          0.0027,
+          0.0009,
+          0.0002
+        ]
+      ],
+      "az_veri": [],
+      "ilk_yari": {
+        "p_ev": 0.3734,
+        "p_beraberlik": 0.3889,
+        "p_deplasman": 0.2377,
+        "xg_ev": 0.79,
+        "xg_deplasman": 0.57,
+        "ust_0_5": 0.7425,
+        "ust_1_5": 0.3932,
+        "ilk_yari_gol_payi": 0.434
+      },
+      "iy_ms": [
+        {
+          "kod": "1/1",
+          "p": 0.2988
+        },
+        {
+          "kod": "X/1",
+          "p": 0.1589
+        },
+        {
+          "kod": "2/2",
+          "p": 0.1517
+        },
+        {
+          "kod": "X/X",
+          "p": 0.1331
+        },
+        {
+          "kod": "X/2",
+          "p": 0.0968
+        },
+        {
+          "kod": "1/X",
+          "p": 0.0542
+        },
+        {
+          "kod": "2/X",
+          "p": 0.0542
+        },
+        {
+          "kod": "2/1",
+          "p": 0.0319
+        },
+        {
+          "kod": "1/2",
+          "p": 0.0204
+        }
+      ],
+      "gol_dakika": {
+        "araliklar": [
+          {
+            "aralik": "0-15",
+            "p_gol": 0.3199
+          },
+          {
+            "aralik": "16-30",
+            "p_gol": 0.3605
+          },
+          {
+            "aralik": "31-45+",
+            "p_gol": 0.408
+          },
+          {
+            "aralik": "46-60",
+            "p_gol": 0.3968
+          },
+          {
+            "aralik": "61-75",
+            "p_gol": 0.4156
+          },
+          {
+            "aralik": "76-90+",
+            "p_gol": 0.5165
+          }
+        ],
+        "ilk_gol_30_once": 0.5651,
+        "golsuz": 0.05,
+        "ilk_golu_ev": 0.5535,
+        "ilk_golu_deplasman": 0.3965
+      },
+      "istatistikler": {
+        "sari_kart": {
+          "ev": 1.8,
+          "deplasman": 2.37,
+          "toplam": 4.16,
+          "cizgiler": [
+            {
+              "cizgi": 3.5,
+              "ust": 0.5948
+            },
+            {
+              "cizgi": 4.5,
+              "ust": 0.4027
+            },
+            {
+              "cizgi": 5.5,
+              "ust": 0.2429
+            }
+          ]
+        },
+        "korner": {
+          "ev": 4.31,
+          "deplasman": 4.11,
+          "toplam": 8.42,
+          "cizgiler": [
+            {
+              "cizgi": 8.5,
+              "ust": 0.4631
+            },
+            {
+              "cizgi": 9.5,
+              "ust": 0.3408
+            },
+            {
+              "cizgi": 10.5,
+              "ust": 0.2371
+            }
+          ]
+        },
+        "sut": {
+          "ev": 15.54,
+          "deplasman": 12.1,
+          "toplam": 27.64
+        },
+        "isabetli_sut": {
+          "ev": 4.98,
+          "deplasman": 3.99,
+          "toplam": 8.98
+        },
+        "kirmizi_kart": {
+          "ev": 0.13,
+          "deplasman": 0.13,
+          "toplam": 0.25,
+          "p_en_az_bir": 0.2192,
+          "dusuk_guven": true
+        }
+      },
+      "yorgunluk": {
+        "ev_dinlenme": 15,
+        "dep_dinlenme": 15,
+        "ev_avrupa": false,
+        "dep_avrupa": false,
+        "ev_yorgun": false,
+        "dep_yorgun": false,
+        "etki_uygulandi": false
+      },
+      "xg_modeli": null,
+      "eslesme": {
+        "mac": 1,
+        "ev_gol": 3,
+        "dep_gol": 2,
+        "beklenen_ev": 1.82,
+        "beklenen_dep": 1.3,
+        "carpan_ev": 1.092,
+        "carpan_dep": 1.076,
+        "son": [
+          {
+            "tarih": "2026-01-23",
+            "skor": "3-2"
+          }
+        ],
+        "uygulandi": false
+      },
+      "topla_oynama_farki": null,
+      "kadro": {
+        "lam": 1.8214,
+        "mu": 1.3049,
+        "uygulandi": false,
+        "girilen": null
+      }
     }
   ],
   "kadro_ligler": {
@@ -8217,6 +9067,218 @@
             "ad": "Max Aarons",
             "mevki": "D",
             "no": null,
+            "onem": 0.0
+          }
+        ],
+        "Brentford": [
+          {
+            "id": "896225",
+            "ad": "Caoimhín Kelleher",
+            "mevki": "G",
+            "no": 1,
+            "onem": 1.0
+          },
+          {
+            "id": "151418",
+            "ad": "Kristoffer Ajer",
+            "mevki": "D",
+            "no": 20,
+            "onem": 1.0
+          },
+          {
+            "id": "37407204",
+            "ad": "Igor Thiago",
+            "mevki": "F",
+            "no": 9,
+            "onem": 0.918
+          },
+          {
+            "id": "36633",
+            "ad": "Vitaly Janelt",
+            "mevki": "M",
+            "no": 27,
+            "onem": 0.9
+          },
+          {
+            "id": "27067062",
+            "ad": "Kevin Schade",
+            "mevki": "F",
+            "no": 7,
+            "onem": 0.868
+          },
+          {
+            "id": "28552845",
+            "ad": "Keane Lewis-Potter",
+            "mevki": "M",
+            "no": 23,
+            "onem": 0.867
+          },
+          {
+            "id": "37600942",
+            "ad": "Michael Kayode",
+            "mevki": "D",
+            "no": 33,
+            "onem": 0.831
+          },
+          {
+            "id": "37536953",
+            "ad": "Mamadou Sangaré",
+            "mevki": "M",
+            "no": 18,
+            "onem": 0.686
+          },
+          {
+            "id": "37392849",
+            "ad": "Jaidon Anthony",
+            "mevki": "F",
+            "no": 19,
+            "onem": 0.53
+          },
+          {
+            "id": "37543248",
+            "ad": "Dango Ouattara",
+            "mevki": "M",
+            "no": 11,
+            "onem": 0.494
+          },
+          {
+            "id": "37509395",
+            "ad": "Yegor Yarmolyuk",
+            "mevki": "M",
+            "no": 6,
+            "onem": 0.414
+          },
+          {
+            "id": "8449373",
+            "ad": "Mikkel Damsgaard",
+            "mevki": "M",
+            "no": 24,
+            "onem": 0.394
+          },
+          {
+            "id": "27440826",
+            "ad": "Aaron Hickey",
+            "mevki": "D",
+            "no": 2,
+            "onem": 0.39
+          },
+          {
+            "id": "11658171",
+            "ad": "Sepp van den Berg",
+            "mevki": "D",
+            "no": 4,
+            "onem": 0.356
+          },
+          {
+            "id": "84426",
+            "ad": "Mathias Jensen",
+            "mevki": "M",
+            "no": 8,
+            "onem": 0.353
+          },
+          {
+            "id": "37633890",
+            "ad": "Jannik Schuster",
+            "mevki": "D",
+            "no": 44,
+            "onem": 0.332
+          },
+          {
+            "id": "11705403",
+            "ad": "Nathan Collins",
+            "mevki": "D",
+            "no": 22,
+            "onem": 0.268
+          },
+          {
+            "id": "37685630",
+            "ad": "El Hadji Malick Diouf",
+            "mevki": "D",
+            "no": 25,
+            "onem": 0.206
+          },
+          {
+            "id": "1065",
+            "ad": "Callum Wilson",
+            "mevki": "F",
+            "no": 13,
+            "onem": 0.063
+          },
+          {
+            "id": "21412957",
+            "ad": "Fábio Carvalho",
+            "mevki": "M",
+            "no": 14,
+            "onem": 0.003
+          },
+          {
+            "id": "7993",
+            "ad": "Rico Henry",
+            "mevki": "D",
+            "no": 3,
+            "onem": 0.002
+          },
+          {
+            "id": "7306",
+            "ad": "Ellery Balcombe",
+            "mevki": "G",
+            "no": 31,
+            "onem": 0.0
+          },
+          {
+            "id": "531971",
+            "ad": "Hákon Valdimarsson",
+            "mevki": "G",
+            "no": 12,
+            "onem": 0.0
+          },
+          {
+            "id": "37683527",
+            "ad": "Benjamin Fredrick",
+            "mevki": "D",
+            "no": 48,
+            "onem": 0.0
+          },
+          {
+            "id": "37627277",
+            "ad": "Ji-soo Kim",
+            "mevki": "D",
+            "no": null,
+            "onem": 0.0
+          },
+          {
+            "id": "15665",
+            "ad": "Ethan Pinnock",
+            "mevki": "D",
+            "no": 5,
+            "onem": 0.0
+          },
+          {
+            "id": "339093",
+            "ad": "Josh Dasilva",
+            "mevki": "M",
+            "no": 10,
+            "onem": 0.0
+          },
+          {
+            "id": "37575228",
+            "ad": "Antoni Milambo",
+            "mevki": "M",
+            "no": 17,
+            "onem": 0.0
+          },
+          {
+            "id": "37656906",
+            "ad": "Kaye Furo",
+            "mevki": "F",
+            "no": 47,
+            "onem": 0.0
+          },
+          {
+            "id": "37704861",
+            "ad": "Gustavo Nunes",
+            "mevki": "F",
+            "no": 39,
             "onem": 0.0
           }
         ],
@@ -9093,6 +10155,190 @@
             "ad": "Cheick Doucouré",
             "mevki": "M",
             "no": 28,
+            "onem": 0.0
+          }
+        ],
+        "Everton": [
+          {
+            "id": "1826",
+            "ad": "Jordan Pickford",
+            "mevki": "G",
+            "no": 1,
+            "onem": 1.0
+          },
+          {
+            "id": "1639",
+            "ad": "James Tarkowski",
+            "mevki": "D",
+            "no": 6,
+            "onem": 1.0
+          },
+          {
+            "id": "540613",
+            "ad": "Kiernan Dewsbury-Hall",
+            "mevki": "M",
+            "no": 8,
+            "onem": 0.996
+          },
+          {
+            "id": "37680389",
+            "ad": "Harrison Armstrong",
+            "mevki": "M",
+            "no": 45,
+            "onem": 0.959
+          },
+          {
+            "id": "37590847",
+            "ad": "Thierno Barry",
+            "mevki": "F",
+            "no": 11,
+            "onem": 0.95
+          },
+          {
+            "id": "32404895",
+            "ad": "Jarrad Branthwaite",
+            "mevki": "D",
+            "no": 4,
+            "onem": 0.89
+          },
+          {
+            "id": "537271",
+            "ad": "Vitaliy Mykolenko",
+            "mevki": "D",
+            "no": 16,
+            "onem": 0.882
+          },
+          {
+            "id": "4536524",
+            "ad": "James Garner",
+            "mevki": "M",
+            "no": 37,
+            "onem": 0.867
+          },
+          {
+            "id": "37592037",
+            "ad": "Tyrique George",
+            "mevki": "M",
+            "no": 19,
+            "onem": 0.712
+          },
+          {
+            "id": "37266009",
+            "ad": "Merlin Röhl",
+            "mevki": "M",
+            "no": 34,
+            "onem": 0.661
+          },
+          {
+            "id": "25930790",
+            "ad": "Brennan Johnson",
+            "mevki": "F",
+            "no": 22,
+            "onem": 0.457
+          },
+          {
+            "id": "4344",
+            "ad": "Ainsley Maitland-Niles",
+            "mevki": "M",
+            "no": 2,
+            "onem": 0.346
+          },
+          {
+            "id": "1116",
+            "ad": "Jack Grealish",
+            "mevki": "M",
+            "no": 10,
+            "onem": 0.332
+          },
+          {
+            "id": "37528754",
+            "ad": "Jake O'Brien",
+            "mevki": "D",
+            "no": 15,
+            "onem": 0.258
+          },
+          {
+            "id": "25188269",
+            "ad": "Hayden Hackney",
+            "mevki": "M",
+            "no": 30,
+            "onem": 0.22
+          },
+          {
+            "id": "23661272",
+            "ad": "Iliman Ndiaye",
+            "mevki": "M",
+            "no": 10,
+            "onem": 0.2
+          },
+          {
+            "id": "37561126",
+            "ad": "Tyler Dibling",
+            "mevki": "F",
+            "no": 20,
+            "onem": 0.132
+          },
+          {
+            "id": "881",
+            "ad": "Michael Keane",
+            "mevki": "D",
+            "no": 5,
+            "onem": 0.11
+          },
+          {
+            "id": "21773178",
+            "ad": "Beto",
+            "mevki": "F",
+            "no": 9,
+            "onem": 0.034
+          },
+          {
+            "id": "37410255",
+            "ad": "Carlos Alcaraz",
+            "mevki": "M",
+            "no": 24,
+            "onem": 0.014
+          },
+          {
+            "id": "31609",
+            "ad": "Christian Nørgaard",
+            "mevki": "M",
+            "no": 23,
+            "onem": 0.006
+          },
+          {
+            "id": "37259239",
+            "ad": "Tim Iroegbunam",
+            "mevki": "M",
+            "no": 42,
+            "onem": 0.003
+          },
+          {
+            "id": "6038",
+            "ad": "Tom King",
+            "mevki": "G",
+            "no": 31,
+            "onem": 0.0
+          },
+          {
+            "id": "22169319",
+            "ad": "Mark Travers",
+            "mevki": "G",
+            "no": 12,
+            "onem": 0.0
+          },
+          {
+            "id": "37260638",
+            "ad": "Nathan Patterson",
+            "mevki": "D",
+            "no": 2,
+            "onem": 0.0
+          },
+          {
+            "id": "37689514",
+            "ad": "Braiden Graham",
+            "mevki": "F",
+            "no": 58,
             "onem": 0.0
           }
         ],
@@ -12760,6 +14006,232 @@
             "onem": 0.0
           }
         ],
+        "Elche": [
+          {
+            "id": "213939",
+            "ad": "Matías Dituro",
+            "mevki": "G",
+            "no": 1,
+            "onem": 1.0
+          },
+          {
+            "id": "4545453",
+            "ad": "Víctor Chust",
+            "mevki": "D",
+            "no": 23,
+            "onem": 1.0
+          },
+          {
+            "id": "7698447",
+            "ad": "Germán Valera",
+            "mevki": "F",
+            "no": 11,
+            "onem": 0.898
+          },
+          {
+            "id": "37747012",
+            "ad": "Javi Morcillo",
+            "mevki": "M",
+            "no": 47,
+            "onem": 0.818
+          },
+          {
+            "id": "37570534",
+            "ad": "Roy Revivo",
+            "mevki": "D",
+            "no": 3,
+            "onem": 0.781
+          },
+          {
+            "id": "448372",
+            "ad": "Gonzalo Villar",
+            "mevki": "M",
+            "no": 12,
+            "onem": 0.766
+          },
+          {
+            "id": "37297042",
+            "ad": "Fer Niño",
+            "mevki": "F",
+            "no": 14,
+            "onem": 0.72
+          },
+          {
+            "id": "37726748",
+            "ad": "Buba Sangaré",
+            "mevki": "D",
+            "no": 2,
+            "onem": 0.668
+          },
+          {
+            "id": "37567286",
+            "ad": "Federico Redondo",
+            "mevki": "D",
+            "no": 5,
+            "onem": 0.568
+          },
+          {
+            "id": "37574526",
+            "ad": "Lucas Cepeda",
+            "mevki": "F",
+            "no": 21,
+            "onem": 0.516
+          },
+          {
+            "id": "452982",
+            "ad": "Tete Morente",
+            "mevki": "F",
+            "no": 20,
+            "onem": 0.498
+          },
+          {
+            "id": "96247",
+            "ad": "Thomas Lemar",
+            "mevki": "M",
+            "no": 18,
+            "onem": 0.459
+          },
+          {
+            "id": "37622253",
+            "ad": "Abiel Osorio",
+            "mevki": "F",
+            "no": 24,
+            "onem": 0.381
+          },
+          {
+            "id": "37568149",
+            "ad": "Facundo Buonanotte",
+            "mevki": "M",
+            "no": 10,
+            "onem": 0.364
+          },
+          {
+            "id": "37430918",
+            "ad": "Rubén Sánchez",
+            "mevki": "D",
+            "no": 22,
+            "onem": 0.331
+          },
+          {
+            "id": "37337129",
+            "ad": "Martim Neto",
+            "mevki": "M",
+            "no": 16,
+            "onem": 0.252
+          },
+          {
+            "id": "3510281",
+            "ad": "Marc Aguado",
+            "mevki": "M",
+            "no": 8,
+            "onem": 0.247
+          },
+          {
+            "id": "185961",
+            "ad": "Pedro Bigas",
+            "mevki": "D",
+            "no": 6,
+            "onem": 0.224
+          },
+          {
+            "id": "130140",
+            "ad": "Ezequiel Ponce",
+            "mevki": "F",
+            "no": 9,
+            "onem": 0.11
+          },
+          {
+            "id": "37728406",
+            "ad": "Ali Houary",
+            "mevki": "M",
+            "no": 29,
+            "onem": 0.102
+          },
+          {
+            "id": "37259638",
+            "ad": "David Affengruber",
+            "mevki": "D",
+            "no": 22,
+            "onem": 0.1
+          },
+          {
+            "id": "337588",
+            "ad": "Grady Diangana",
+            "mevki": "F",
+            "no": 19,
+            "onem": 0.062
+          },
+          {
+            "id": "189118",
+            "ad": "Josan",
+            "mevki": "M",
+            "no": 17,
+            "onem": 0.028
+          },
+          {
+            "id": "37656811",
+            "ad": "Matia Barzic",
+            "mevki": "D",
+            "no": 26,
+            "onem": 0.014
+          },
+          {
+            "id": "37593171",
+            "ad": "Alejandro Iturbe",
+            "mevki": "G",
+            "no": 13,
+            "onem": 0.0
+          },
+          {
+            "id": "436041",
+            "ad": "Bambo Diaby",
+            "mevki": "D",
+            "no": 4,
+            "onem": 0.0
+          },
+          {
+            "id": "37342991",
+            "ad": "Kevin Lomónaco",
+            "mevki": "D",
+            "no": 15,
+            "onem": 0.0
+          },
+          {
+            "id": "37714191",
+            "ad": "Nordin Al lal Milud",
+            "mevki": "F",
+            "no": 33,
+            "onem": 0.0
+          },
+          {
+            "id": "37737693",
+            "ad": "Umaru Konare Tounkara",
+            "mevki": "F",
+            "no": 36,
+            "onem": 0.0
+          },
+          {
+            "id": "38221616",
+            "ad": "Álvaro Padilla",
+            "mevki": "F",
+            "no": 30,
+            "onem": 0.0
+          },
+          {
+            "id": "37316864",
+            "ad": "Yago Santiago",
+            "mevki": "F",
+            "no": 7,
+            "onem": 0.0
+          },
+          {
+            "id": "37717843",
+            "ad": "Adam Boayar",
+            "mevki": "F",
+            "no": 32,
+            "onem": 0.0
+          }
+        ],
         "Espanol": [
           {
             "id": "37568657",
@@ -13202,6 +14674,218 @@
             "ad": "Ebrahima Drammeh",
             "mevki": "F",
             "no": 27,
+            "onem": 0.0
+          }
+        ],
+        "Levante": [
+          {
+            "id": "62317",
+            "ad": "Mathew Ryan",
+            "mevki": "G",
+            "no": 13,
+            "onem": 1.0
+          },
+          {
+            "id": "6984712",
+            "ad": "Roger Brugué",
+            "mevki": "M",
+            "no": 7,
+            "onem": 0.923
+          },
+          {
+            "id": "22136693",
+            "ad": "Jon Ander Olasagasti",
+            "mevki": "M",
+            "no": 8,
+            "onem": 0.884
+          },
+          {
+            "id": "23269641",
+            "ad": "Manu Sánchez",
+            "mevki": "D",
+            "no": 23,
+            "onem": 0.779
+          },
+          {
+            "id": "95635",
+            "ad": "Aïssa Mandi",
+            "mevki": "D",
+            "no": 2,
+            "onem": 0.77
+          },
+          {
+            "id": "37380652",
+            "ad": "Iván Romero",
+            "mevki": "F",
+            "no": 9,
+            "onem": 0.748
+          },
+          {
+            "id": "37625755",
+            "ad": "Thiago Fernández",
+            "mevki": "M",
+            "no": 24,
+            "onem": 0.698
+          },
+          {
+            "id": "31855",
+            "ad": "Jeremy Toljan",
+            "mevki": "D",
+            "no": 22,
+            "onem": 0.65
+          },
+          {
+            "id": "4545454",
+            "ad": "Adrián Dela",
+            "mevki": "D",
+            "no": 4,
+            "onem": 0.649
+          },
+          {
+            "id": "37662761",
+            "ad": "Daniel Requena Sánchez",
+            "mevki": "M",
+            "no": 6,
+            "onem": 0.617
+          },
+          {
+            "id": "37661094",
+            "ad": "Ifeanyi Ndukwe",
+            "mevki": "D",
+            "no": 3,
+            "onem": 0.602
+          },
+          {
+            "id": "537591",
+            "ad": "Oriol Rey",
+            "mevki": "M",
+            "no": 20,
+            "onem": 0.569
+          },
+          {
+            "id": "37923034",
+            "ad": "Nacho Pérez",
+            "mevki": "D",
+            "no": 29,
+            "onem": 0.541
+          },
+          {
+            "id": "37317478",
+            "ad": "Enzo Bardeli",
+            "mevki": "M",
+            "no": 18,
+            "onem": 0.349
+          },
+          {
+            "id": "21539177",
+            "ad": "Víctor García",
+            "mevki": "D",
+            "no": 17,
+            "onem": 0.342
+          },
+          {
+            "id": "37556019",
+            "ad": "Petar Ratkov",
+            "mevki": "F",
+            "no": 10,
+            "onem": 0.304
+          },
+          {
+            "id": "37646866",
+            "ad": "Karl Etta Eyong",
+            "mevki": "F",
+            "no": 21,
+            "onem": 0.201
+          },
+          {
+            "id": "37569279",
+            "ad": "Hugo Sotelo",
+            "mevki": "M",
+            "no": 5,
+            "onem": 0.16
+          },
+          {
+            "id": "37769567",
+            "ad": "Yanis Musuayi",
+            "mevki": "F",
+            "no": 11,
+            "onem": 0.137
+          },
+          {
+            "id": "37739341",
+            "ad": "Paco Cortés",
+            "mevki": "F",
+            "no": 27,
+            "onem": 0.053
+          },
+          {
+            "id": "37778886",
+            "ad": "Axel Tape",
+            "mevki": "D",
+            "no": 16,
+            "onem": 0.031
+          },
+          {
+            "id": "38221506",
+            "ad": "Marc Santos",
+            "mevki": "D",
+            "no": 33,
+            "onem": 0.024
+          },
+          {
+            "id": "38221505",
+            "ad": "Igor Galdin",
+            "mevki": "G",
+            "no": 36,
+            "onem": 0.0
+          },
+          {
+            "id": "37543908",
+            "ad": "Pablo Campos",
+            "mevki": "G",
+            "no": 1,
+            "onem": 0.0
+          },
+          {
+            "id": "37595890",
+            "ad": "Álex Primo",
+            "mevki": "G",
+            "no": 32,
+            "onem": 0.0
+          },
+          {
+            "id": "37684057",
+            "ad": "Jorge Cabello",
+            "mevki": "D",
+            "no": 14,
+            "onem": 0.0
+          },
+          {
+            "id": "38206214",
+            "ad": "Huseini Nakoha",
+            "mevki": "D",
+            "no": 35,
+            "onem": 0.0
+          },
+          {
+            "id": "37296354",
+            "ad": "Carlos Álvarez",
+            "mevki": "M",
+            "no": 10,
+            "onem": 0.0
+          },
+          {
+            "id": "38221507",
+            "ad": "Manel Usedo",
+            "mevki": "M",
+            "no": 34,
+            "onem": 0.0
+          },
+          {
+            "id": "37735519",
+            "ad": "Kareem Tunde",
+            "mevki": "F",
+            "no": 19,
             "onem": 0.0
           }
         ],
@@ -16217,6 +17901,260 @@
             "onem": 0.0
           }
         ],
+        "Fiorentina": [
+          {
+            "id": "832",
+            "ad": "David de Gea",
+            "mevki": "G",
+            "no": 43,
+            "onem": 1.0
+          },
+          {
+            "id": "23715982",
+            "ad": "Radu Drăgușin",
+            "mevki": "D",
+            "no": 3,
+            "onem": 1.0
+          },
+          {
+            "id": "37568690",
+            "ad": "Cher Ndour",
+            "mevki": "M",
+            "no": 27,
+            "onem": 0.929
+          },
+          {
+            "id": "37729623",
+            "ad": "Franco Mastantuono",
+            "mevki": "M",
+            "no": 30,
+            "onem": 0.909
+          },
+          {
+            "id": "37584705",
+            "ad": "Alejandro Jiménez Sánchez",
+            "mevki": "D",
+            "no": 20,
+            "onem": 0.842
+          },
+          {
+            "id": "37553010",
+            "ad": "Mateo Pellegrino",
+            "mevki": "F",
+            "no": 32,
+            "onem": 0.792
+          },
+          {
+            "id": "4536538",
+            "ad": "Nicolò Fagioli",
+            "mevki": "M",
+            "no": 44,
+            "onem": 0.78
+          },
+          {
+            "id": "37653223",
+            "ad": "Alieu Njie",
+            "mevki": "M",
+            "no": 25,
+            "onem": 0.749
+          },
+          {
+            "id": "37701232",
+            "ad": "Viery",
+            "mevki": "D",
+            "no": 33,
+            "onem": 0.747
+          },
+          {
+            "id": "37765134",
+            "ad": "Víctor Valdepeñas",
+            "mevki": "D",
+            "no": 21,
+            "onem": 0.479
+          },
+          {
+            "id": "4545434",
+            "ad": "João Mário",
+            "mevki": "D",
+            "no": 17,
+            "onem": 0.414
+          },
+          {
+            "id": "20333755",
+            "ad": "Marco Brescianini",
+            "mevki": "M",
+            "no": 4,
+            "onem": 0.41
+          },
+          {
+            "id": "37761103",
+            "ad": "Christ Inao Oulaï",
+            "mevki": "M",
+            "no": 42,
+            "onem": 0.309
+          },
+          {
+            "id": "37607729",
+            "ad": "Arthur Atta",
+            "mevki": "M",
+            "no": 14,
+            "onem": 0.289
+          },
+          {
+            "id": "37316986",
+            "ad": "Wilfried Gnonto",
+            "mevki": "F",
+            "no": 29,
+            "onem": 0.288
+          },
+          {
+            "id": "3181368",
+            "ad": "Luca Ranieri",
+            "mevki": "D",
+            "no": 6,
+            "onem": 0.244
+          },
+          {
+            "id": "36681",
+            "ad": "Marin Pongracic",
+            "mevki": "D",
+            "no": 5,
+            "onem": 0.231
+          },
+          {
+            "id": "21773178",
+            "ad": "Beto",
+            "mevki": "F",
+            "no": 23,
+            "onem": 0.221
+          },
+          {
+            "id": "3169778",
+            "ad": "Pedro Gonçalves",
+            "mevki": "M",
+            "no": 28,
+            "onem": 0.218
+          },
+          {
+            "id": "28454",
+            "ad": "Albert Gudmundsson",
+            "mevki": "F",
+            "no": 11,
+            "onem": 0.079
+          },
+          {
+            "id": "219486",
+            "ad": "Dodô",
+            "mevki": "D",
+            "no": 2,
+            "onem": 0.051
+          },
+          {
+            "id": "129512",
+            "ad": "Rolando Mandragora",
+            "mevki": "M",
+            "no": 8,
+            "onem": 0.021
+          },
+          {
+            "id": "129766",
+            "ad": "Luca Lezzerini",
+            "mevki": "G",
+            "no": 19,
+            "onem": 0.0
+          },
+          {
+            "id": "85808",
+            "ad": "Oliver Christensen",
+            "mevki": "G",
+            "no": 53,
+            "onem": 0.0
+          },
+          {
+            "id": "37723741",
+            "ad": "Arnis Ademi",
+            "mevki": "D",
+            "no": 74,
+            "onem": 0.0
+          },
+          {
+            "id": "37719007",
+            "ad": "Eman Košpo",
+            "mevki": "D",
+            "no": 71,
+            "onem": 0.0
+          },
+          {
+            "id": "37289275",
+            "ad": "Fabiano Parisi",
+            "mevki": "D",
+            "no": 65,
+            "onem": 0.0
+          },
+          {
+            "id": "37911180",
+            "ad": "Dennis Beldenti",
+            "mevki": "D",
+            "no": 75,
+            "onem": 0.0
+          },
+          {
+            "id": "37529791",
+            "ad": "Giovanni Fabbian",
+            "mevki": "M",
+            "no": 80,
+            "onem": 0.0
+          },
+          {
+            "id": "37789625",
+            "ad": "Antonio Pirrò",
+            "mevki": "M",
+            "no": 73,
+            "onem": 0.0
+          },
+          {
+            "id": "37771392",
+            "ad": "Salvatore Cianciulli",
+            "mevki": "M",
+            "no": 76,
+            "onem": 0.0
+          },
+          {
+            "id": "3181370",
+            "ad": "Riccardo Sottil",
+            "mevki": "F",
+            "no": null,
+            "onem": 0.0
+          },
+          {
+            "id": "37911685",
+            "ad": "Brando Mazzeo",
+            "mevki": "F",
+            "no": 72,
+            "onem": 0.0
+          },
+          {
+            "id": "133769",
+            "ad": "Moise Kean",
+            "mevki": "F",
+            "no": 9,
+            "onem": 0.0
+          },
+          {
+            "id": "37778598",
+            "ad": "Federico Croci",
+            "mevki": "F",
+            "no": 70,
+            "onem": 0.0
+          },
+          {
+            "id": "37903851",
+            "ad": "Sulayman Jallow",
+            "mevki": "F",
+            "no": 71,
+            "onem": 0.0
+          }
+        ],
         "Frosinone": [
           {
             "id": "37582342",
@@ -17908,6 +19846,260 @@
             "ad": "Luca Menon",
             "mevki": "F",
             "no": 49,
+            "onem": 0.0
+          }
+        ],
+        "Monza": [
+          {
+            "id": "132862",
+            "ad": "Samuele Birindelli",
+            "mevki": "M",
+            "no": 19,
+            "onem": 0.893
+          },
+          {
+            "id": "537429",
+            "ad": "Ricardo Mangas",
+            "mevki": "M",
+            "no": 7,
+            "onem": 0.891
+          },
+          {
+            "id": "37596971",
+            "ad": "Gustavo Varela",
+            "mevki": "F",
+            "no": 9,
+            "onem": 0.852
+          },
+          {
+            "id": "37600933",
+            "ad": "Lorenzo Lucchesi",
+            "mevki": "D",
+            "no": 3,
+            "onem": 0.759
+          },
+          {
+            "id": "37729314",
+            "ad": "Eddy Kouadio",
+            "mevki": "D",
+            "no": 60,
+            "onem": 0.75
+          },
+          {
+            "id": "37391070",
+            "ad": "Andrea Carboni",
+            "mevki": "D",
+            "no": 44,
+            "onem": 0.719
+          },
+          {
+            "id": "37395404",
+            "ad": "Noel Törnqvist",
+            "mevki": "G",
+            "no": 1,
+            "onem": 0.7
+          },
+          {
+            "id": "37684319",
+            "ad": "Ebenezer Akinsanmiro",
+            "mevki": "M",
+            "no": 14,
+            "onem": 0.699
+          },
+          {
+            "id": "37617684",
+            "ad": "Jay Robinson",
+            "mevki": "F",
+            "no": 46,
+            "onem": 0.631
+          },
+          {
+            "id": "37573971",
+            "ad": "Saba Goglichidze",
+            "mevki": "D",
+            "no": 2,
+            "onem": 0.51
+          },
+          {
+            "id": "37699520",
+            "ad": "Foe Ondoa",
+            "mevki": "M",
+            "no": 8,
+            "onem": 0.483
+          },
+          {
+            "id": "368455",
+            "ad": "Michael Folorunsho",
+            "mevki": "M",
+            "no": 90,
+            "onem": 0.431
+          },
+          {
+            "id": "132079",
+            "ad": "Dany Mota",
+            "mevki": "F",
+            "no": 47,
+            "onem": 0.42
+          },
+          {
+            "id": "37667128",
+            "ad": "Leonardo Colombo",
+            "mevki": "M",
+            "no": 21,
+            "onem": 0.304
+          },
+          {
+            "id": "133021",
+            "ad": "Demba Thiam",
+            "mevki": "G",
+            "no": 20,
+            "onem": 0.3
+          },
+          {
+            "id": "16120895",
+            "ad": "Andrea Colpani",
+            "mevki": "M",
+            "no": 28,
+            "onem": 0.278
+          },
+          {
+            "id": "37653813",
+            "ad": "Adam Bakoune",
+            "mevki": "D",
+            "no": 24,
+            "onem": 0.249
+          },
+          {
+            "id": "133805",
+            "ad": "Patrick Cutrone",
+            "mevki": "F",
+            "no": 10,
+            "onem": 0.234
+          },
+          {
+            "id": "37784017",
+            "ad": "Mathis Mout",
+            "mevki": "M",
+            "no": 80,
+            "onem": 0.207
+          },
+          {
+            "id": "37343000",
+            "ad": "Exequiel Zeballos",
+            "mevki": "F",
+            "no": 22,
+            "onem": 0.186
+          },
+          {
+            "id": "23269662",
+            "ad": "Cyril Ngonge",
+            "mevki": "F",
+            "no": 16,
+            "onem": 0.14
+          },
+          {
+            "id": "36565",
+            "ad": "Idrissa Touré",
+            "mevki": "M",
+            "no": 27,
+            "onem": 0.107
+          },
+          {
+            "id": "37286737",
+            "ad": "Omari Forson",
+            "mevki": "F",
+            "no": 11,
+            "onem": 0.087
+          },
+          {
+            "id": "37714431",
+            "ad": "Yvan Maye",
+            "mevki": "D",
+            "no": 5,
+            "onem": 0.06
+          },
+          {
+            "id": "133948",
+            "ad": "Filippo Delli Carri",
+            "mevki": "D",
+            "no": 15,
+            "onem": 0.032
+          },
+          {
+            "id": "1477610",
+            "ad": "Valentin Antov",
+            "mevki": "D",
+            "no": 6,
+            "onem": 0.018
+          },
+          {
+            "id": "37784002",
+            "ad": "Aleksandr Ballabio",
+            "mevki": "G",
+            "no": 50,
+            "onem": 0.0
+          },
+          {
+            "id": "11311796",
+            "ad": "Semuel Pizzignacco",
+            "mevki": "G",
+            "no": 13,
+            "onem": 0.0
+          },
+          {
+            "id": "37658073",
+            "ad": "Aljaz Strajnar",
+            "mevki": "G",
+            "no": 43,
+            "onem": 0.0
+          },
+          {
+            "id": "37654695",
+            "ad": "Jan Ziolkowski",
+            "mevki": "D",
+            "no": 4,
+            "onem": 0.0
+          },
+          {
+            "id": "367822",
+            "ad": "Matteo Pessina",
+            "mevki": "M",
+            "no": 32,
+            "onem": 0.0
+          },
+          {
+            "id": "37538928",
+            "ad": "Nicolas Galazzi",
+            "mevki": "M",
+            "no": 23,
+            "onem": 0.0
+          },
+          {
+            "id": "37699267",
+            "ad": "Solomon Loubao",
+            "mevki": "F",
+            "no": 22,
+            "onem": 0.0
+          },
+          {
+            "id": "37722570",
+            "ad": "Kevin Martins",
+            "mevki": "F",
+            "no": 70,
+            "onem": 0.0
+          },
+          {
+            "id": "132539",
+            "ad": "Patrick Ciurria",
+            "mevki": "F",
+            "no": 26,
+            "onem": 0.0
+          },
+          {
+            "id": "129453",
+            "ad": "Keita Baldé",
+            "mevki": "F",
+            "no": 17,
             "onem": 0.0
           }
         ],
