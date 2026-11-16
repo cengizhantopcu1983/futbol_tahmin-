@@ -2794,8 +2794,8 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19722142,2026-10-17,Liverpool,away,37595819,Víctor Muñoz,M,XI,79.0
 19722142,2026-10-17,Liverpool,away,14685650,Giorgi Mamardashvili,G,SUB,
 19722142,2026-10-17,Liverpool,away,37317369,Bradley Barcola,M,XI,90.0
-19722142,2026-10-17,Liverpool,away,8403182,Jeremie Frimpong,D,SUB,7.0
-19722142,2026-10-17,Liverpool,away,469717,Ronald Araujo,D,XI,45.0
+19722142,2026-10-17,Liverpool,away,8403182,Jeremie Frimpong,D,SUB,6.0
+19722142,2026-10-17,Liverpool,away,469717,Ronald Araujo,D,XI,46.0
 19722142,2026-10-17,Liverpool,away,37669492,Trey Nyoni,M,SUB,58.0
 19722142,2026-10-17,Liverpool,away,37657770,Lewis Koumas,F,SUB,11.0
 19722142,2026-10-17,Liverpool,away,37721333,Rio Ngumoha,F,SUB,38.0
@@ -2803,14 +2803,14 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19722142,2026-10-17,Brentford,home,27440826,Aaron Hickey,D,SUB,19.0
 19722142,2026-10-17,Brentford,home,11658171,Sepp van den Berg,D,XI,71.0
 19722142,2026-10-17,Brentford,home,37509395,Yegor Yarmolyuk,M,XI,45.0
-19722142,2026-10-17,Brentford,home,27067062,Kevin Schade,M,SUB,45.0
-19722142,2026-10-17,Brentford,home,84426,Mathias Jensen,M,XI,45.0
+19722142,2026-10-17,Brentford,home,27067062,Kevin Schade,M,SUB,44.0
+19722142,2026-10-17,Brentford,home,84426,Mathias Jensen,M,XI,46.0
 19722142,2026-10-17,Brentford,home,37407204,Igor Thiago,F,XI,90.0
-19722142,2026-10-17,Brentford,home,37543248,Dango Ouattara,M,XI,45.0
+19722142,2026-10-17,Brentford,home,37543248,Dango Ouattara,M,XI,46.0
 19722142,2026-10-17,Brentford,home,531971,Hákon Valdimarsson,G,SUB,
 19722142,2026-10-17,Brentford,home,1065,Callum Wilson,F,SUB,
 19722142,2026-10-17,Brentford,home,21412957,Fábio Carvalho,M,SUB,
-19722142,2026-10-17,Brentford,home,37536953,Mamadou Sangaré,M,SUB,45.0
+19722142,2026-10-17,Brentford,home,37536953,Mamadou Sangaré,M,SUB,44.0
 19722142,2026-10-17,Brentford,home,37392849,Jaidon Anthony,M,XI,77.0
 19722142,2026-10-17,Brentford,home,151418,Kristoffer Ajer,D,XI,90.0
 19722142,2026-10-17,Brentford,home,11705403,Nathan Collins,D,SUB,
@@ -2825,7 +2825,6 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19722142,2026-10-17,Liverpool,away,37288979,,,OUT,0.0
 19722142,2026-10-17,Brentford,home,339093,,,OUT,0.0
 19722142,2026-10-17,Brentford,home,37656906,,,OUT,0.0
-19722142,2026-10-17,Brentford,home,37575228,,,OUT,0.0
 19722142,2026-10-17,Liverpool,away,5270462,,,OUT,0.0
 19722136,2026-10-17,Aston Villa,away,5666477,Zion Suzuki,G,XI,90.0
 19722136,2026-10-17,Aston Villa,away,6524,Matty Cash,D,XI,90.0
@@ -4208,6 +4207,8 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19722113,2026-11-07,Hull City,away,4892,,,OUT,0.0
 19722113,2026-11-07,Hull City,away,37595365,,,OUT,0.0
 19722113,2026-11-07,Arsenal,home,16827155,,,OUT,0.0
+19722113,2026-11-07,Hull City,away,37555035,,,OUT,0.0
+19722113,2026-11-07,Hull City,away,11022894,,,OUT,0.0
 19722105,2026-11-07,Manchester City,away,129771,Gianluigi Donnarumma,G,XI,90.0
 19722105,2026-11-07,Manchester City,away,162536,Rúben Dias,D,XI,90.0
 19722105,2026-11-07,Manchester City,away,332047,Elliot Anderson,M,XI,90.0

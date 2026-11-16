@@ -1,5 +1,5 @@
 {
-  "olusturulma": "2026-11-16T16:06+03:00",
+  "olusturulma": "2026-11-17T02:01+03:00",
   "model": "dixon-coles-v1",
   "maclar": [
     {
@@ -1434,7 +1434,7 @@
       "p_deplasman": 0.3422,
       "xg_ev": 1.43,
       "xg_deplasman": 1.31,
-      "ust_2_5": 0.5118,
+      "ust_2_5": 0.5117,
       "kg_var": 0.5543,
       "olasi_skorlar": [
         {
@@ -1591,7 +1591,7 @@
           },
           {
             "aralik": "76-90+",
-            "p_gol": 0.4784
+            "p_gol": 0.4783
           }
         ],
         "ilk_gol_30_once": 0.5063,
@@ -2127,10 +2127,10 @@
           },
           {
             "aralik": "76-90+",
-            "p_gol": 0.4558
+            "p_gol": 0.4557
           }
         ],
-        "ilk_gol_30_once": 0.4831,
+        "ilk_gol_30_once": 0.483,
         "golsuz": 0.0843,
         "ilk_golu_ev": 0.5425,
         "ilk_golu_deplasman": 0.3732
@@ -2229,7 +2229,7 @@
       "topla_oynama_farki": null,
       "kadro": {
         "lam": 1.5146,
-        "mu": 1.0419,
+        "mu": 1.0418,
         "uygulandi": false,
         "girilen": null
       }
@@ -2246,7 +2246,7 @@
       "p_deplasman": 0.2155,
       "xg_ev": 1.79,
       "xg_deplasman": 1.03,
-      "ust_2_5": 0.5309,
+      "ust_2_5": 0.5308,
       "kg_var": 0.5355,
       "olasi_skorlar": [
         {
@@ -2337,8 +2337,8 @@
         "p_deplasman": 0.193,
         "xg_ev": 0.75,
         "xg_deplasman": 0.43,
-        "ust_0_5": 0.6944,
-        "ust_1_5": 0.3321,
+        "ust_0_5": 0.6943,
+        "ust_1_5": 0.332,
         "ilk_yari_gol_payi": 0.421
       },
       "iy_ms": [
@@ -2348,7 +2348,7 @@
         },
         {
           "kod": "X/1",
-          "p": 0.1855
+          "p": 0.1854
         },
         {
           "kod": "X/X",
@@ -2364,11 +2364,11 @@
         },
         {
           "kod": "1/X",
-          "p": 0.0483
+          "p": 0.0484
         },
         {
           "kod": "2/X",
-          "p": 0.0483
+          "p": 0.0484
         },
         {
           "kod": "2/1",
@@ -2496,7 +2496,7 @@
       },
       "topla_oynama_farki": null,
       "kadro": {
-        "lam": 1.7889,
+        "lam": 1.7888,
         "mu": 1.0293,
         "uygulandi": false,
         "girilen": null
@@ -2511,7 +2511,7 @@
       "deplasman": "Crystal Palace",
       "p_ev": 0.3596,
       "p_beraberlik": 0.2574,
-      "p_deplasman": 0.383,
+      "p_deplasman": 0.3829,
       "xg_ev": 1.42,
       "xg_deplasman": 1.46,
       "ust_2_5": 0.5455,
@@ -2590,7 +2590,7 @@
           0.0005
         ],
         [
-          0.0027,
+          0.0028,
           0.004,
           0.0029,
           0.0014,
@@ -2624,7 +2624,7 @@
         },
         {
           "kod": "X/2",
-          "p": 0.1391
+          "p": 0.139
         },
         {
           "kod": "X/1",
@@ -2752,7 +2752,7 @@
       },
       "topla_oynama_farki": null,
       "kadro": {
-        "lam": 1.4185,
+        "lam": 1.4186,
         "mu": 1.4582,
         "uygulandi": false,
         "girilen": null
@@ -3462,7 +3462,7 @@
         },
         {
           "kod": "1/1",
-          "p": 0.0959
+          "p": 0.0958
         },
         {
           "kod": "X/1",
@@ -5159,7 +5159,7 @@
         "p_deplasman": 0.4457,
         "xg_ev": 0.32,
         "xg_deplasman": 0.8,
-        "ust_0_5": 0.6721,
+        "ust_0_5": 0.672,
         "ust_1_5": 0.3064,
         "ilk_yari_gol_payi": 0.421
       },
@@ -7913,7 +7913,7 @@
       "xg_ev": 1.52,
       "xg_deplasman": 1.18,
       "ust_2_5": 0.5024,
-      "kg_var": 0.5409,
+      "kg_var": 0.541,
       "olasi_skorlar": [
         {
           "skor": "1-1",
@@ -8065,7 +8065,7 @@
           },
           {
             "aralik": "61-75",
-            "p_gol": 0.3777
+            "p_gol": 0.3778
           },
           {
             "aralik": "76-90+",
@@ -8170,8 +8170,8 @@
       },
       "topla_oynama_farki": null,
       "kadro": {
-        "lam": 1.5173,
-        "mu": 1.1798,
+        "lam": 1.5174,
+        "mu": 1.1799,
         "uygulandi": false,
         "girilen": null
       }
@@ -8449,7 +8449,7 @@
     "E0": {
       "mod": "xi",
       "katsayi_hucum": -0.0567,
-      "katsayi_savunma": 0.0506,
+      "katsayi_savunma": 0.0505,
       "merkez": [
         1.7298,
         2.2409
@@ -9100,17 +9100,17 @@
             "onem": 0.9
           },
           {
-            "id": "27067062",
-            "ad": "Kevin Schade",
-            "mevki": "F",
-            "no": 7,
-            "onem": 0.868
-          },
-          {
             "id": "28552845",
             "ad": "Keane Lewis-Potter",
             "mevki": "M",
             "no": 23,
+            "onem": 0.867
+          },
+          {
+            "id": "27067062",
+            "ad": "Kevin Schade",
+            "mevki": "F",
+            "no": 7,
             "onem": 0.867
           },
           {
@@ -9125,7 +9125,7 @@
             "ad": "Mamadou Sangaré",
             "mevki": "M",
             "no": 18,
-            "onem": 0.686
+            "onem": 0.684
           },
           {
             "id": "37392849",
@@ -9139,7 +9139,7 @@
             "ad": "Dango Ouattara",
             "mevki": "M",
             "no": 11,
-            "onem": 0.494
+            "onem": 0.496
           },
           {
             "id": "37509395",
@@ -9174,7 +9174,7 @@
             "ad": "Mathias Jensen",
             "mevki": "M",
             "no": 8,
-            "onem": 0.353
+            "onem": 0.354
           },
           {
             "id": "37633890",
@@ -11245,7 +11245,7 @@
             "ad": "Ronald Araujo",
             "mevki": "D",
             "no": 33,
-            "onem": 0.74
+            "onem": 0.741
           },
           {
             "id": "30062",
@@ -11301,7 +11301,7 @@
             "ad": "Jeremie Frimpong",
             "mevki": "D",
             "no": 30,
-            "onem": 0.223
+            "onem": 0.222
           },
           {
             "id": "37657770",
