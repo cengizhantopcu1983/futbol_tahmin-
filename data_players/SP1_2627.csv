@@ -2278,7 +2278,6 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732699,2026-09-13,Levante,home,37923034,Nacho Pérez,D,SUB,19.0
 19732699,2026-09-13,Levante,home,38221506,Marc Santos,D,SUB,
 19732699,2026-09-13,FC Barcelona,away,37598766,,,OUT,0.0
-19732699,2026-09-13,FC Barcelona,away,26536,,,OUT,0.0
 19732700,2026-09-13,Getafe,home,20315950,Jiri Letacek,G,SUB,
 19732700,2026-09-13,Getafe,home,63020,Dakonam Djené,D,XI,90.0
 19732700,2026-09-13,Getafe,home,37757475,Davinchi,D,SUB,1.0
@@ -2732,7 +2731,6 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732687,2026-09-16,Racing Santander,away,37590934,Jeanuël Belocian,D,SUB,
 19732687,2026-09-16,Racing Santander,away,37773103,Laro Gómez,G,SUB,
 19732687,2026-09-16,FC Barcelona,home,37598766,,,OUT,0.0
-19732687,2026-09-16,FC Barcelona,home,26536,,,OUT,0.0
 19732687,2026-09-16,Racing Santander,away,3219728,,,OUT,0.0
 19732687,2026-09-16,Racing Santander,away,37683780,,,OUT,0.0
 19732690,2026-09-17,Getafe,away,20315950,Jiri Letacek,G,SUB,
@@ -3092,7 +3090,6 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732675,2026-09-19,Sevilla,home,37716641,Miguel Ángel Sierra Ortega,M,XI,79.0
 19732675,2026-09-19,Sevilla,home,37656048,Iker Ortín,D,SUB,
 19732675,2026-09-19,FC Barcelona,away,37598766,,,OUT,0.0
-19732675,2026-09-19,FC Barcelona,away,26536,,,OUT,0.0
 19732675,2026-09-19,Sevilla,home,1478864,,,OUT,0.0
 19732675,2026-09-19,Sevilla,home,37559115,,,OUT,0.0
 19732675,2026-09-19,FC Barcelona,away,16475841,,,OUT,0.0
@@ -3504,7 +3501,6 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732669,2026-10-10,Getafe,away,37769397,Diego Ferrer,G,SUB,
 19732669,2026-10-10,Getafe,away,37678216,,,OUT,0.0
 19732669,2026-10-10,FC Barcelona,home,37598766,,,OUT,0.0
-19732669,2026-10-10,FC Barcelona,home,26536,,,OUT,0.0
 19732669,2026-10-10,Getafe,away,1410,,,OUT,0.0
 19732669,2026-10-10,FC Barcelona,home,4460,,,OUT,0.0
 19732669,2026-10-10,FC Barcelona,home,160258,,,OUT,0.0
