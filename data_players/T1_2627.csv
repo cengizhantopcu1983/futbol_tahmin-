@@ -4349,19 +4349,19 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746564,2026-11-06,Gaziantep F.K.,home,37615037,Efe Sarıkaya,D,SUB,
 19746564,2026-11-06,Gaziantep F.K.,home,14726292,Ulrich Meleke,M,SUB,
 19746564,2026-11-06,Gaziantep F.K.,home,25515,Juninho Bacuna,M,XI,71.0
-19746564,2026-11-06,Gaziantep F.K.,home,37732860,Victor Gidado,M,SUB,44.0
-19746564,2026-11-06,Gaziantep F.K.,home,37303949,Trivante Stewart,F,XI,46.0
+19746564,2026-11-06,Gaziantep F.K.,home,37732860,Victor Gidado,M,SUB,45.0
+19746564,2026-11-06,Gaziantep F.K.,home,37303949,Trivante Stewart,F,XI,45.0
 19746564,2026-11-06,Gaziantep F.K.,home,24817079,Kacper Kozłowski,M,XI,90.0
 19746564,2026-11-06,Gaziantep F.K.,home,26771,Myenty Abena,D,XI,90.0
 19746564,2026-11-06,Gaziantep F.K.,home,37684063,Karamba Gassama,M,SUB,
-19746564,2026-11-06,Gaziantep F.K.,home,165701,Deian Sorescu,M,XI,46.0
-19746564,2026-11-06,Gaziantep F.K.,home,35180,Serdar Dursun,F,SUB,44.0
+19746564,2026-11-06,Gaziantep F.K.,home,165701,Deian Sorescu,M,XI,45.0
+19746564,2026-11-06,Gaziantep F.K.,home,35180,Serdar Dursun,F,SUB,45.0
 19746564,2026-11-06,Gaziantep F.K.,home,37630141,Abakar Sylla,D,XI,90.0
 19746564,2026-11-06,Gaziantep F.K.,home,23277919,Kerim Çalhanoğlu,D,XI,90.0
 19746564,2026-11-06,Gaziantep F.K.,home,3877087,Halil Dervişoğlu,F,SUB,19.0
 19746564,2026-11-06,Gaziantep F.K.,home,203344,Ataberk Dadakdeniz,G,XI,90.0
-19746564,2026-11-06,Gaziantep F.K.,home,31822,Alexandru Maxim,M,XI,46.0
-19746564,2026-11-06,Gaziantep F.K.,home,37298037,Ogün Özçiçek,M,SUB,44.0
+19746564,2026-11-06,Gaziantep F.K.,home,31822,Alexandru Maxim,M,XI,45.0
+19746564,2026-11-06,Gaziantep F.K.,home,37298037,Ogün Özçiçek,M,SUB,45.0
 19746564,2026-11-06,Gaziantep F.K.,home,22515510,Sabahattin Destici,D,SUB,27.0
 19746564,2026-11-06,Gaziantep F.K.,home,37726211,Cemilhan Aslan,G,SUB,
 19746564,2026-11-06,Kasımpaşa,away,201148,,,OUT,0.0
@@ -4381,9 +4381,9 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746563,2026-11-07,Eyüpspor,home,37714787,Arda Yavuz,D,SUB,
 19746563,2026-11-07,Eyüpspor,home,31228892,Anıl Yaşar,D,XI,90.0
 19746563,2026-11-07,Eyüpspor,home,751551,Jawad El Yamiq,D,XI,90.0
-19746563,2026-11-07,Eyüpspor,home,37704485,David Costa,M,SUB,44.0
-19746563,2026-11-07,Eyüpspor,home,28931569,Yusuf Barası,F,SUB,44.0
-19746563,2026-11-07,Eyüpspor,home,36457,Abdelhamid Sabiri,M,XI,46.0
+19746563,2026-11-07,Eyüpspor,home,37704485,David Costa,M,SUB,45.0
+19746563,2026-11-07,Eyüpspor,home,28931569,Yusuf Barası,F,SUB,45.0
+19746563,2026-11-07,Eyüpspor,home,36457,Abdelhamid Sabiri,M,XI,45.0
 19746563,2026-11-07,Eyüpspor,home,529880,Lenny Pintor,M,XI,18.0
 19746563,2026-11-07,Eyüpspor,home,37590303,Charles-André Raux-Yao,M,XI,90.0
 19746563,2026-11-07,Eyüpspor,home,37563663,Hamza Akman,M,SUB,5.0
@@ -4397,7 +4397,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746563,2026-11-07,Eyüpspor,home,37565604,Musa Eren Karakaş,D,SUB,
 19746563,2026-11-07,Eyüpspor,home,38200157,Christ Sadia,M,SUB,72.0
 19746563,2026-11-07,Eyüpspor,home,37431014,Chandrel Massanga,M,XI,85.0
-19746563,2026-11-07,Eyüpspor,home,97149,Bilal Boutobba,M,XI,46.0
+19746563,2026-11-07,Eyüpspor,home,97149,Bilal Boutobba,M,XI,45.0
 19746563,2026-11-07,Kocaelispor,away,10780,Anfernee Dijksteel,D,XI,90.0
 19746563,2026-11-07,Kocaelispor,away,22860508,Muharrem Cinan,D,SUB,7.0
 19746563,2026-11-07,Kocaelispor,away,37548309,Emir Ortakaya,D,XI,90.0
@@ -4424,27 +4424,26 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746563,2026-11-07,Kocaelispor,away,1376,,,OUT,0.0
 19746563,2026-11-07,Eyüpspor,home,38210476,,,OUT,0.0
 19746563,2026-11-07,Eyüpspor,home,37580151,,,OUT,0.0
-19746563,2026-11-07,Eyüpspor,home,37616342,,,OUT,0.0
 19746563,2026-11-07,Eyüpspor,home,157030,,,OUT,0.0
 19746563,2026-11-07,Eyüpspor,home,42980,,,OUT,0.0
 19746556,2026-11-07,Konyaspor,away,37602782,Deniz Ertaş,G,SUB,
 19746556,2026-11-07,Konyaspor,away,201517,Ahmet Oğuz,D,SUB,
 19746556,2026-11-07,Konyaspor,away,37563181,Arif Boşluk,D,SUB,
-19746556,2026-11-07,Konyaspor,away,450488,Uğurcan Yazğılı,D,XI,46.0
+19746556,2026-11-07,Konyaspor,away,450488,Uğurcan Yazğılı,D,XI,45.0
 19746556,2026-11-07,Konyaspor,away,162177,Diogo Gonçalves,M,XI,61.0
-19746556,2026-11-07,Konyaspor,away,177670,Marko Jevtović,M,SUB,44.0
+19746556,2026-11-07,Konyaspor,away,177670,Marko Jevtović,M,SUB,45.0
 19746556,2026-11-07,Konyaspor,away,114160,Enis Bardhi,M,SUB,13.0
 19746556,2026-11-07,Konyaspor,away,12789480,Jackson Muleka,F,SUB,29.0
 19746556,2026-11-07,Konyaspor,away,390278,Bahadır Güngördü,G,XI,90.0
 19746556,2026-11-07,Konyaspor,away,161320,Chidozie Awaziem,D,XI,90.0
 19746556,2026-11-07,Konyaspor,away,38213583,Ata Yanık,D,SUB,
-19746556,2026-11-07,Konyaspor,away,97434,Yhoan Andzouana,D,SUB,44.0
+19746556,2026-11-07,Konyaspor,away,97434,Yhoan Andzouana,D,SUB,45.0
 19746556,2026-11-07,Konyaspor,away,37257780,Ebrima Colley,M,XI,77.0
 19746556,2026-11-07,Konyaspor,away,37262280,Rayyan Baniya,D,XI,90.0
 19746556,2026-11-07,Konyaspor,away,1941,Arthur Masuaku,D,XI,90.0
 19746556,2026-11-07,Konyaspor,away,293951,Mostafa Mohamed,F,XI,61.0
 19746556,2026-11-07,Konyaspor,away,37598728,Emir Bars,F,SUB,
-19746556,2026-11-07,Konyaspor,away,37697405,Tóth Rajmund,M,XI,46.0
+19746556,2026-11-07,Konyaspor,away,37697405,Tóth Rajmund,M,XI,45.0
 19746556,2026-11-07,Konyaspor,away,21036708,Melih İbrahimoğlu,M,XI,90.0
 19746556,2026-11-07,Konyaspor,away,62734,Jean-Luc Dompé,M,XI,90.0
 19746556,2026-11-07,Konyaspor,away,37375216,Enis Destan,F,SUB,29.0
@@ -4502,18 +4501,18 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19746558,2026-11-07,Amed SK,away,37530649,Cem Üstündag,M,SUB,1.0
 19746558,2026-11-07,Amed SK,away,31616654,Ermal Krasniqi,D,XI,90.0
 19746558,2026-11-07,Amed SK,away,201765,Furkan Soyalp,M,XI,77.0
-19746558,2026-11-07,Amed SK,away,36083970,Yira Sor,F,SUB,44.0
+19746558,2026-11-07,Amed SK,away,36083970,Yira Sor,F,SUB,45.0
 19746558,2026-11-07,Amed SK,away,203698,Umut Meraş,D,XI,90.0
-19746558,2026-11-07,Amed SK,away,35349,Gökhan Gül,M,XI,46.0
+19746558,2026-11-07,Amed SK,away,35349,Gökhan Gül,M,XI,45.0
 19746558,2026-11-07,Amed SK,away,203359,Mehmet Yeşil,D,SUB,27.0
 19746558,2026-11-07,Amed SK,away,99036,Rayan Raveloson,M,XI,90.0
 19746558,2026-11-07,Amed SK,away,16475787,Burak Bozan,G,SUB,
 19746558,2026-11-07,Amed SK,away,37908102,Amadou Cissé,D,SUB,
 19746558,2026-11-07,Amed SK,away,96798,Alban Lafont,G,XI,90.0
-19746558,2026-11-07,Amed SK,away,62258,Mbaye Diagne,F,XI,46.0
+19746558,2026-11-07,Amed SK,away,62258,Mbaye Diagne,F,XI,45.0
 19746558,2026-11-07,Amed SK,away,26646,Kahraman Demirtaş,D,SUB,
 19746558,2026-11-07,Amed SK,away,20693760,Mohamed Khalil,M,SUB,
-19746558,2026-11-07,Amed SK,away,37598720,Ali Turap Bülbül,D,SUB,44.0
+19746558,2026-11-07,Amed SK,away,37598720,Ali Turap Bülbül,D,SUB,45.0
 19746558,2026-11-07,Amed SK,away,124327,Dia Saba,M,XI,90.0
 19746558,2026-11-07,Amed SK,away,37624889,Rayan Lutin,M,SUB,13.0
 19746558,2026-11-07,Amed SK,away,37632306,Gift Orban,F,XI,90.0
