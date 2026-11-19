@@ -3516,8 +3516,8 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732664,2026-10-10,Real Madrid,home,5270371,Aurélien Tchouaméni,M,XI,90.0
 19732664,2026-10-10,Real Madrid,home,37547467,Arda Güler,M,XI,77.0
 19732664,2026-10-10,Real Madrid,home,100556,Ibrahima Konaté,D,XI,90.0
-19732664,2026-10-10,Real Madrid,home,448448,Marc Cucurella,D,SUB,44.0
-19732664,2026-10-10,Real Madrid,home,37537864,Álvaro Carreras,D,XI,46.0
+19732664,2026-10-10,Real Madrid,home,448448,Marc Cucurella,D,SUB,45.0
+19732664,2026-10-10,Real Madrid,home,37537864,Álvaro Carreras,D,XI,45.0
 19732664,2026-10-10,Real Madrid,home,37731112,Carlos Espí,F,SUB,
 19732664,2026-10-10,Real Madrid,home,96353,Bernardo Silva,M,SUB,
 19732664,2026-10-10,Real Madrid,home,340342,Brahim Díaz,M,SUB,
@@ -3555,6 +3555,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732664,2026-10-10,Real Madrid,home,37612542,,,OUT,0.0
 19732664,2026-10-10,Real Madrid,home,37596373,,,OUT,0.0
 19732664,2026-10-10,Villarreal,away,31238822,,,OUT,0.0
+19732664,2026-10-10,Villarreal,away,96656,,,OUT,0.0
 19732670,2026-10-11,Celta de Vigo,away,438751,Altay Bayındır,G,SUB,
 19732670,2026-10-11,Celta de Vigo,away,1128,Marcos Alonso,D,XI,90.0
 19732670,2026-10-11,Celta de Vigo,away,37715699,Abdoulaye Faye,D,SUB,
