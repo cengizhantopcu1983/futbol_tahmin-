@@ -2838,8 +2838,8 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732685,2026-09-17,Málaga,home,37582644,,,OUT,0.0
 19732685,2026-09-17,Málaga,home,37336532,,,OUT,0.0
 19732678,2026-09-18,Espanyol,home,37336430,Ángel Fortuño,G,SUB,
-19732678,2026-09-18,Espanyol,home,37344112,Quilindschy Hartman,D,SUB,44.0
-19732678,2026-09-18,Espanyol,home,30446852,Urko González de Zárate,M,XI,46.0
+19732678,2026-09-18,Espanyol,home,37344112,Quilindschy Hartman,D,SUB,45.0
+19732678,2026-09-18,Espanyol,home,30446852,Urko González de Zárate,M,XI,45.0
 19732678,2026-09-18,Espanyol,home,37539733,Clemens Riedel,D,SUB,23.0
 19732678,2026-09-18,Espanyol,home,185573,Leandro Cabrera,D,XI,90.0
 19732678,2026-09-18,Espanyol,home,188057,Edu Expósito,M,XI,90.0
@@ -2850,13 +2850,14 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19732678,2026-09-18,Espanyol,home,447240,Unai Núñez,D,XI,67.0
 19732678,2026-09-18,Espanyol,home,37544065,Bryan Zaragoza,M,XI,67.0
 19732678,2026-09-18,Espanyol,home,21413492,Vanja Drkusic,D,SUB,
-19732678,2026-09-18,Espanyol,home,37608472,Marcos Fernández,F,SUB,44.0
+19732678,2026-09-18,Espanyol,home,37608472,Marcos Fernández,F,SUB,45.0
 19732678,2026-09-18,Espanyol,home,37691726,Gabriel Moscardo,M,SUB,
-19732678,2026-09-18,Espanyol,home,37731254,Roger Hinojo,D,XI,46.0
+19732678,2026-09-18,Espanyol,home,37731254,Roger Hinojo,D,XI,45.0
 19732678,2026-09-18,Espanyol,home,37544761,Álex Calatrava,M,XI,61.0
 19732678,2026-09-18,Espanyol,home,37391524,Tyrhys Dolan,F,SUB,23.0
 19732678,2026-09-18,Espanyol,home,37716722,Rafel Bauzà,M,SUB,
 19732678,2026-09-18,Espanyol,home,37658956,Javi Hernández,M,XI,90.0
+19732678,2026-09-18,Espanyol,home,38225811,Víctor Mullerat,F,SUB,
 19732678,2026-09-18,Espanyol,home,37744885,Llorenç Serred,G,SUB,
 19732678,2026-09-18,Espanyol,home,37679032,José Ángel López,D,XI,90.0
 19732678,2026-09-18,Elche,away,213939,Matías Dituro,G,XI,90.0
