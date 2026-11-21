@@ -1,5 +1,5 @@
 {
- "olusturulma": "2026-11-21T15:58+03:00",
+ "olusturulma": "2026-11-21T23:15+03:00",
  "sezon": "2627",
  "ligler": [
   {
@@ -1404,8 +1404,6 @@
      "veri": {
       "ev_is": 9.0,
       "dep_is": 6.0,
-      "ev_bs": 6.0,
-      "dep_bs": 5.0,
       "ev_top": 56.0,
       "dep_top": 44.0
      }
@@ -1418,8 +1416,6 @@
      "veri": {
       "ev_is": 2.0,
       "dep_is": 4.0,
-      "ev_bs": 4.0,
-      "dep_bs": 1.0,
       "ev_top": 31.0,
       "dep_top": 69.0
      }
@@ -1432,8 +1428,6 @@
      "veri": {
       "ev_is": 2.0,
       "dep_is": 4.0,
-      "ev_bs": 2.0,
-      "dep_bs": 4.0,
       "ev_top": 56.0,
       "dep_top": 44.0
      }
@@ -1446,8 +1440,6 @@
      "veri": {
       "ev_is": 7.0,
       "dep_is": 8.0,
-      "ev_bs": 5.0,
-      "dep_bs": 5.0,
       "ev_top": 54.0,
       "dep_top": 46.0
      }
@@ -1460,8 +1452,6 @@
      "veri": {
       "ev_is": 6.0,
       "dep_is": 0.0,
-      "ev_bs": 2.0,
-      "dep_bs": 0.0,
       "ev_top": 75.0,
       "dep_top": 25.0
      }
@@ -1474,8 +1464,6 @@
      "veri": {
       "ev_is": 5.0,
       "dep_is": 4.0,
-      "ev_bs": 1.0,
-      "dep_bs": 3.0,
       "ev_top": 22.0,
       "dep_top": 78.0
      }
@@ -1488,8 +1476,6 @@
      "veri": {
       "ev_is": 5.0,
       "dep_is": 5.0,
-      "ev_bs": 0.0,
-      "dep_bs": 3.0,
       "ev_top": 58.0,
       "dep_top": 42.0
      }
@@ -1502,8 +1488,6 @@
      "veri": {
       "ev_is": 10.0,
       "dep_is": 2.0,
-      "ev_bs": 2.0,
-      "dep_bs": 0.0,
       "ev_top": 67.0,
       "dep_top": 33.0
      }
@@ -1516,8 +1500,6 @@
      "veri": {
       "ev_is": 4.0,
       "dep_is": 4.0,
-      "ev_bs": 4.0,
-      "dep_bs": 1.0,
       "ev_top": 38.0,
       "dep_top": 62.0
      }
@@ -1530,8 +1512,6 @@
      "veri": {
       "ev_is": 7.0,
       "dep_is": 4.0,
-      "ev_bs": 5.0,
-      "dep_bs": 3.0,
       "ev_top": 50.0,
       "dep_top": 50.0
      }
@@ -1544,8 +1524,6 @@
      "veri": {
       "ev_is": 2.0,
       "dep_is": 5.0,
-      "ev_bs": 2.0,
-      "dep_bs": 4.0,
       "ev_top": 52.0,
       "dep_top": 48.0
      }
@@ -1558,8 +1536,6 @@
      "veri": {
       "ev_is": 0.0,
       "dep_is": 3.0,
-      "ev_bs": 1.0,
-      "dep_bs": 2.0,
       "ev_top": 56.0,
       "dep_top": 44.0
      }
@@ -1572,8 +1548,6 @@
      "veri": {
       "ev_is": 3.0,
       "dep_is": 5.0,
-      "ev_bs": 4.0,
-      "dep_bs": 4.0,
       "ev_top": 45.0,
       "dep_top": 55.0
      }
@@ -1586,8 +1560,6 @@
      "veri": {
       "ev_is": 9.0,
       "dep_is": 1.0,
-      "ev_bs": 6.0,
-      "dep_bs": 0.0,
       "ev_top": 79.0,
       "dep_top": 21.0
      }
@@ -1600,8 +1572,6 @@
      "veri": {
       "ev_is": 6.0,
       "dep_is": 3.0,
-      "ev_bs": 5.0,
-      "dep_bs": 4.0,
       "ev_top": 62.0,
       "dep_top": 38.0
      }
@@ -1614,8 +1584,6 @@
      "veri": {
       "ev_is": 3.0,
       "dep_is": 3.0,
-      "ev_bs": 1.0,
-      "dep_bs": 4.0,
       "ev_top": 39.0,
       "dep_top": 61.0
      }
@@ -1628,8 +1596,6 @@
      "veri": {
       "ev_is": 4.0,
       "dep_is": 2.0,
-      "ev_bs": 1.0,
-      "dep_bs": 1.0,
       "ev_top": 43.0,
       "dep_top": 57.0
      }
@@ -1642,8 +1608,6 @@
      "veri": {
       "ev_is": 1.0,
       "dep_is": 1.0,
-      "ev_bs": 1.0,
-      "dep_bs": 1.0,
       "ev_top": 42.0,
       "dep_top": 58.0
      }
@@ -1656,8 +1620,6 @@
      "veri": {
       "ev_is": 5.0,
       "dep_is": 1.0,
-      "ev_bs": 2.0,
-      "dep_bs": 1.0,
       "ev_top": 44.0,
       "dep_top": 56.0
      }
@@ -1670,8 +1632,6 @@
      "veri": {
       "ev_is": 10.0,
       "dep_is": 5.0,
-      "ev_bs": 4.0,
-      "dep_bs": 4.0,
       "ev_top": 58.0,
       "dep_top": 42.0
      }
@@ -1684,8 +1644,6 @@
      "veri": {
       "ev_is": 4.0,
       "dep_is": 1.0,
-      "ev_bs": 1.0,
-      "dep_bs": 1.0,
       "ev_top": 36.0,
       "dep_top": 64.0
      }
@@ -1698,8 +1656,6 @@
      "veri": {
       "ev_is": 4.0,
       "dep_is": 2.0,
-      "ev_bs": 2.0,
-      "dep_bs": 2.0,
       "ev_top": 53.0,
       "dep_top": 47.0
      }
@@ -1712,8 +1668,6 @@
      "veri": {
       "ev_is": 2.0,
       "dep_is": 6.0,
-      "ev_bs": 2.0,
-      "dep_bs": 2.0,
       "ev_top": 42.0,
       "dep_top": 58.0
      }
@@ -1726,8 +1680,6 @@
      "veri": {
       "ev_is": 5.0,
       "dep_is": 4.0,
-      "ev_bs": 0.0,
-      "dep_bs": 6.0,
       "ev_top": 63.0,
       "dep_top": 37.0
      }
@@ -1740,8 +1692,6 @@
      "veri": {
       "ev_is": 4.0,
       "dep_is": 4.0,
-      "ev_bs": 1.0,
-      "dep_bs": 2.0,
       "ev_top": 50.0,
       "dep_top": 50.0
      }
@@ -1754,8 +1704,6 @@
      "veri": {
       "ev_is": 4.0,
       "dep_is": 4.0,
-      "ev_bs": 1.0,
-      "dep_bs": 1.0,
       "ev_top": 31.0,
       "dep_top": 69.0
      }
@@ -1780,8 +1728,6 @@
      "veri": {
       "ev_is": 4.0,
       "dep_is": 3.0,
-      "ev_bs": 3.0,
-      "dep_bs": 2.0,
       "ev_top": 58.0,
       "dep_top": 42.0
      }
@@ -1794,8 +1740,6 @@
      "veri": {
       "ev_is": 2.0,
       "dep_is": 7.0,
-      "ev_bs": 2.0,
-      "dep_bs": 4.0,
       "ev_top": 36.0,
       "dep_top": 64.0
      }
@@ -1808,8 +1752,6 @@
      "veri": {
       "ev_is": 3.0,
       "dep_is": 5.0,
-      "ev_bs": 1.0,
-      "dep_bs": 4.0,
       "ev_top": 49.0,
       "dep_top": 51.0
      }
@@ -1822,8 +1764,6 @@
      "veri": {
       "ev_is": 5.0,
       "dep_is": 1.0,
-      "ev_bs": 0.0,
-      "dep_bs": 1.0,
       "ev_top": 65.0,
       "dep_top": 35.0
      }
@@ -1836,8 +1776,6 @@
      "veri": {
       "ev_is": 2.0,
       "dep_is": 1.0,
-      "ev_bs": 0.0,
-      "dep_bs": 1.0,
       "ev_top": 26.0,
       "dep_top": 74.0
      }
@@ -1850,8 +1788,6 @@
      "veri": {
       "ev_is": 5.0,
       "dep_is": 3.0,
-      "ev_bs": 2.0,
-      "dep_bs": 2.0,
       "ev_top": 61.0,
       "dep_top": 39.0
      }
@@ -1864,8 +1800,6 @@
      "veri": {
       "ev_is": 9.0,
       "dep_is": 1.0,
-      "ev_bs": 3.0,
-      "dep_bs": 1.0,
       "ev_top": 57.0,
       "dep_top": 43.0
      }
@@ -1878,8 +1812,6 @@
      "veri": {
       "ev_is": 6.0,
       "dep_is": 0.0,
-      "ev_bs": 6.0,
-      "dep_bs": 1.0,
       "ev_top": 65.0,
       "dep_top": 35.0
      }
@@ -1892,8 +1824,6 @@
      "veri": {
       "ev_is": 6.0,
       "dep_is": 0.0,
-      "ev_bs": 4.0,
-      "dep_bs": 0.0,
       "ev_top": 77.0,
       "dep_top": 23.0
      }
@@ -1906,8 +1836,6 @@
      "veri": {
       "ev_is": 5.0,
       "dep_is": 7.0,
-      "ev_bs": 2.0,
-      "dep_bs": 3.0,
       "ev_top": 47.0,
       "dep_top": 53.0
      }
@@ -1920,8 +1848,6 @@
      "veri": {
       "ev_is": 2.0,
       "dep_is": 5.0,
-      "ev_bs": 2.0,
-      "dep_bs": 1.0,
       "ev_top": 40.0,
       "dep_top": 60.0
      }
@@ -1934,8 +1860,6 @@
      "veri": {
       "ev_is": 1.0,
       "dep_is": 3.0,
-      "ev_bs": 0.0,
-      "dep_bs": 3.0,
       "ev_top": 50.0,
       "dep_top": 50.0
      }
@@ -1948,8 +1872,6 @@
      "veri": {
       "ev_is": 6.0,
       "dep_is": 3.0,
-      "ev_bs": 6.0,
-      "dep_bs": 3.0,
       "ev_top": 70.0,
       "dep_top": 30.0
      }
@@ -1962,8 +1884,6 @@
      "veri": {
       "ev_is": 6.0,
       "dep_is": 6.0,
-      "ev_bs": 2.0,
-      "dep_bs": 3.0,
       "ev_top": 33.0,
       "dep_top": 67.0
      }
@@ -1976,8 +1896,6 @@
      "veri": {
       "ev_is": 6.0,
       "dep_is": 4.0,
-      "ev_bs": 0.0,
-      "dep_bs": 3.0,
       "ev_top": 35.0,
       "dep_top": 65.0
      }
@@ -1990,8 +1908,6 @@
      "veri": {
       "ev_is": 5.0,
       "dep_is": 7.0,
-      "ev_bs": 2.0,
-      "dep_bs": 8.0,
       "ev_top": 35.0,
       "dep_top": 65.0
      }
@@ -2004,8 +1920,6 @@
      "veri": {
       "ev_is": 7.0,
       "dep_is": 6.0,
-      "ev_bs": 5.0,
-      "dep_bs": 8.0,
       "ev_top": 43.0,
       "dep_top": 57.0
      }
@@ -2018,8 +1932,6 @@
      "veri": {
       "ev_is": 7.0,
       "dep_is": 4.0,
-      "ev_bs": 3.0,
-      "dep_bs": 3.0,
       "ev_top": 52.0,
       "dep_top": 48.0
      }
@@ -2032,8 +1944,6 @@
      "veri": {
       "ev_is": 4.0,
       "dep_is": 3.0,
-      "ev_bs": 1.0,
-      "dep_bs": 4.0,
       "ev_top": 50.0,
       "dep_top": 50.0
      }
@@ -2046,8 +1956,6 @@
      "veri": {
       "ev_is": 3.0,
       "dep_is": 4.0,
-      "ev_bs": 1.0,
-      "dep_bs": 5.0,
       "ev_top": 62.0,
       "dep_top": 38.0
      }
@@ -2060,8 +1968,6 @@
      "veri": {
       "ev_is": 5.0,
       "dep_is": 5.0,
-      "ev_bs": 2.0,
-      "dep_bs": 3.0,
       "ev_top": 48.0,
       "dep_top": 52.0
      }
@@ -2074,8 +1980,6 @@
      "veri": {
       "ev_is": 6.0,
       "dep_is": 4.0,
-      "ev_bs": 2.0,
-      "dep_bs": 3.0,
       "ev_top": 50.0,
       "dep_top": 50.0
      }
@@ -2088,8 +1992,6 @@
      "veri": {
       "ev_is": 6.0,
       "dep_is": 5.0,
-      "ev_bs": 4.0,
-      "dep_bs": 2.0,
       "ev_top": 58.0,
       "dep_top": 42.0
      }
@@ -2102,8 +2004,6 @@
      "veri": {
       "ev_is": 6.0,
       "dep_is": 6.0,
-      "ev_bs": 3.0,
-      "dep_bs": 2.0,
       "ev_top": 42.0,
       "dep_top": 58.0
      }
@@ -2116,8 +2016,6 @@
      "veri": {
       "ev_is": 6.0,
       "dep_is": 9.0,
-      "ev_bs": 3.0,
-      "dep_bs": 8.0,
       "ev_top": 55.0,
       "dep_top": 45.0
      }
@@ -2130,8 +2028,6 @@
      "veri": {
       "ev_is": 2.0,
       "dep_is": 4.0,
-      "ev_bs": 1.0,
-      "dep_bs": 2.0,
       "ev_top": 51.0,
       "dep_top": 49.0
      }
@@ -2144,8 +2040,6 @@
      "veri": {
       "ev_is": 2.0,
       "dep_is": 3.0,
-      "ev_bs": 1.0,
-      "dep_bs": 1.0,
       "ev_top": 46.0,
       "dep_top": 54.0
      }
@@ -2158,8 +2052,6 @@
      "veri": {
       "ev_is": 3.0,
       "dep_is": 3.0,
-      "ev_bs": 1.0,
-      "dep_bs": 1.0,
       "ev_top": 62.0,
       "dep_top": 38.0
      }
@@ -2172,8 +2064,6 @@
      "veri": {
       "ev_is": 5.0,
       "dep_is": 4.0,
-      "ev_bs": 2.0,
-      "dep_bs": 1.0,
       "ev_top": 56.0,
       "dep_top": 44.0
      }
@@ -2186,8 +2076,6 @@
      "veri": {
       "ev_is": 2.0,
       "dep_is": 4.0,
-      "ev_bs": 5.0,
-      "dep_bs": 1.0,
       "ev_top": 52.0,
       "dep_top": 48.0
      }
@@ -2200,8 +2088,6 @@
      "veri": {
       "ev_is": 5.0,
       "dep_is": 2.0,
-      "ev_bs": 3.0,
-      "dep_bs": 2.0,
       "ev_top": 40.0,
       "dep_top": 60.0
      }
@@ -2214,8 +2100,6 @@
      "veri": {
       "ev_is": 7.0,
       "dep_is": 6.0,
-      "ev_bs": 4.0,
-      "dep_bs": 2.0,
       "ev_top": 64.0,
       "dep_top": 36.0
      }
@@ -2228,8 +2112,6 @@
      "veri": {
       "ev_is": 6.0,
       "dep_is": 2.0,
-      "ev_bs": 4.0,
-      "dep_bs": 1.0,
       "ev_top": 40.0,
       "dep_top": 60.0
      }
@@ -2242,8 +2124,6 @@
      "veri": {
       "ev_is": 6.0,
       "dep_is": 5.0,
-      "ev_bs": 3.0,
-      "dep_bs": 2.0,
       "ev_top": 50.0,
       "dep_top": 50.0
      }
@@ -2256,8 +2136,6 @@
      "veri": {
       "ev_is": 3.0,
       "dep_is": 2.0,
-      "ev_bs": 1.0,
-      "dep_bs": 2.0,
       "ev_top": 55.0,
       "dep_top": 45.0
      }
@@ -2270,8 +2148,6 @@
      "veri": {
       "ev_is": 6.0,
       "dep_is": 7.0,
-      "ev_bs": 1.0,
-      "dep_bs": 4.0,
       "ev_top": 31.0,
       "dep_top": 69.0
      }
@@ -2284,8 +2160,6 @@
      "veri": {
       "ev_is": 3.0,
       "dep_is": 5.0,
-      "ev_bs": 3.0,
-      "dep_bs": 3.0,
       "ev_top": 43.0,
       "dep_top": 57.0
      }
@@ -2298,8 +2172,6 @@
      "veri": {
       "ev_is": 2.0,
       "dep_is": 3.0,
-      "ev_bs": 1.0,
-      "dep_bs": 2.0,
       "ev_top": 62.0,
       "dep_top": 38.0
      }
@@ -2312,8 +2184,6 @@
      "veri": {
       "ev_is": 3.0,
       "dep_is": 4.0,
-      "ev_bs": 4.0,
-      "dep_bs": 1.0,
       "ev_top": 56.0,
       "dep_top": 44.0
      }
@@ -2326,8 +2196,6 @@
      "veri": {
       "ev_is": 4.0,
       "dep_is": 6.0,
-      "ev_bs": 1.0,
-      "dep_bs": 3.0,
       "ev_top": 46.0,
       "dep_top": 54.0
      }
@@ -2340,8 +2208,6 @@
      "veri": {
       "ev_is": 7.0,
       "dep_is": 5.0,
-      "ev_bs": 2.0,
-      "dep_bs": 4.0,
       "ev_top": 68.0,
       "dep_top": 32.0
      }
@@ -2354,8 +2220,6 @@
      "veri": {
       "ev_is": 10.0,
       "dep_is": 2.0,
-      "ev_bs": 4.0,
-      "dep_bs": 2.0,
       "ev_top": 57.0,
       "dep_top": 43.0
      }
@@ -2368,8 +2232,6 @@
      "veri": {
       "ev_is": 5.0,
       "dep_is": 7.0,
-      "ev_bs": 2.0,
-      "dep_bs": 6.0,
       "ev_top": 54.0,
       "dep_top": 46.0
      }
@@ -2382,8 +2244,6 @@
      "veri": {
       "ev_is": 9.0,
       "dep_is": 5.0,
-      "ev_bs": 4.0,
-      "dep_bs": 1.0,
       "ev_top": 55.0,
       "dep_top": 45.0
      }
@@ -2396,8 +2256,6 @@
      "veri": {
       "ev_is": 6.0,
       "dep_is": 3.0,
-      "ev_bs": 1.0,
-      "dep_bs": 1.0,
       "ev_top": 45.0,
       "dep_top": 55.0
      }
@@ -2410,8 +2268,6 @@
      "veri": {
       "ev_is": 5.0,
       "dep_is": 5.0,
-      "ev_bs": 4.0,
-      "dep_bs": 5.0,
       "ev_top": 67.0,
       "dep_top": 33.0
      }
@@ -2424,8 +2280,6 @@
      "veri": {
       "ev_is": 2.0,
       "dep_is": 5.0,
-      "ev_bs": 1.0,
-      "dep_bs": 2.0,
       "ev_top": 58.0,
       "dep_top": 42.0
      }
@@ -2438,8 +2292,6 @@
      "veri": {
       "ev_is": 2.0,
       "dep_is": 5.0,
-      "ev_bs": 3.0,
-      "dep_bs": 3.0,
       "ev_top": 49.0,
       "dep_top": 51.0
      }
@@ -2452,8 +2304,6 @@
      "veri": {
       "ev_is": 4.0,
       "dep_is": 3.0,
-      "ev_bs": 3.0,
-      "dep_bs": 3.0,
       "ev_top": 78.0,
       "dep_top": 22.0
      }
@@ -2466,8 +2316,6 @@
      "veri": {
       "ev_is": 4.0,
       "dep_is": 1.0,
-      "ev_bs": 1.0,
-      "dep_bs": 2.0,
       "ev_top": 26.0,
       "dep_top": 74.0
      }
@@ -2480,8 +2328,6 @@
      "veri": {
       "ev_is": 6.0,
       "dep_is": 5.0,
-      "ev_bs": 2.0,
-      "dep_bs": 6.0,
       "ev_top": 64.0,
       "dep_top": 36.0
      }
@@ -2494,8 +2340,6 @@
      "veri": {
       "ev_is": 2.0,
       "dep_is": 0.0,
-      "ev_bs": 1.0,
-      "dep_bs": 2.0,
       "ev_top": 41.0,
       "dep_top": 59.0
      }
@@ -2520,8 +2364,6 @@
      "veri": {
       "ev_is": 0.0,
       "dep_is": 2.0,
-      "ev_bs": 0.0,
-      "dep_bs": 2.0,
       "ev_top": 39.0,
       "dep_top": 61.0
      }
@@ -2534,8 +2376,6 @@
      "veri": {
       "ev_is": 11.0,
       "dep_is": 5.0,
-      "ev_bs": 9.0,
-      "dep_bs": 4.0,
       "ev_top": 60.0,
       "dep_top": 40.0
      }
@@ -2548,8 +2388,6 @@
      "veri": {
       "ev_is": 4.0,
       "dep_is": 0.0,
-      "ev_bs": 4.0,
-      "dep_bs": 2.0,
       "ev_top": 41.0,
       "dep_top": 59.0
      }
@@ -2562,8 +2400,6 @@
      "veri": {
       "ev_is": 2.0,
       "dep_is": 5.0,
-      "ev_bs": 1.0,
-      "dep_bs": 2.0,
       "ev_top": 47.0,
       "dep_top": 53.0
      }
@@ -2576,8 +2412,6 @@
      "veri": {
       "ev_is": 6.0,
       "dep_is": 6.0,
-      "ev_bs": 6.0,
-      "dep_bs": 5.0,
       "ev_top": 26.0,
       "dep_top": 74.0
      }
@@ -2590,8 +2424,6 @@
      "veri": {
       "ev_is": 5.0,
       "dep_is": 7.0,
-      "ev_bs": 6.0,
-      "dep_bs": 3.0,
       "ev_top": 59.0,
       "dep_top": 41.0
      }
@@ -2604,8 +2436,6 @@
      "veri": {
       "ev_is": 4.0,
       "dep_is": 3.0,
-      "ev_bs": 1.0,
-      "dep_bs": 5.0,
       "ev_top": 69.0,
       "dep_top": 31.0
      }
@@ -2618,8 +2448,6 @@
      "veri": {
       "ev_is": 6.0,
       "dep_is": 2.0,
-      "ev_bs": 2.0,
-      "dep_bs": 1.0,
       "ev_top": 58.0,
       "dep_top": 42.0
      }
@@ -2632,8 +2460,6 @@
      "veri": {
       "ev_is": 3.0,
       "dep_is": 2.0,
-      "ev_bs": 1.0,
-      "dep_bs": 1.0,
       "ev_top": 69.0,
       "dep_top": 31.0
      }
@@ -2646,8 +2472,6 @@
      "veri": {
       "ev_is": 1.0,
       "dep_is": 9.0,
-      "ev_bs": 3.0,
-      "dep_bs": 5.0,
       "ev_top": 28.0,
       "dep_top": 72.0
      }
@@ -2660,8 +2484,6 @@
      "veri": {
       "ev_is": 6.0,
       "dep_is": 6.0,
-      "ev_bs": 2.0,
-      "dep_bs": 4.0,
       "ev_top": 62.0,
       "dep_top": 38.0
      }
@@ -2674,8 +2496,6 @@
      "veri": {
       "ev_is": 4.0,
       "dep_is": 7.0,
-      "ev_bs": 3.0,
-      "dep_bs": 3.0,
       "ev_top": 39.0,
       "dep_top": 61.0
      }
@@ -2688,8 +2508,6 @@
      "veri": {
       "ev_is": 6.0,
       "dep_is": 4.0,
-      "ev_bs": 4.0,
-      "dep_bs": 1.0,
       "ev_top": 66.0,
       "dep_top": 34.0
      }
@@ -2702,8 +2520,6 @@
      "veri": {
       "ev_is": 6.0,
       "dep_is": 0.0,
-      "ev_bs": 6.0,
-      "dep_bs": 0.0,
       "ev_top": 73.0,
       "dep_top": 27.0
      }
@@ -2716,8 +2532,6 @@
      "veri": {
       "ev_is": 3.0,
       "dep_is": 4.0,
-      "ev_bs": 2.0,
-      "dep_bs": 2.0,
       "ev_top": 38.0,
       "dep_top": 62.0
      }
@@ -2730,8 +2544,6 @@
      "veri": {
       "ev_is": 5.0,
       "dep_is": 4.0,
-      "ev_bs": 1.0,
-      "dep_bs": 4.0,
       "ev_top": 42.0,
       "dep_top": 58.0
      }
@@ -2744,8 +2556,6 @@
      "veri": {
       "ev_is": 4.0,
       "dep_is": 5.0,
-      "ev_bs": 3.0,
-      "dep_bs": 2.0,
       "ev_top": 28.0,
       "dep_top": 72.0
      }
@@ -2770,8 +2580,6 @@
      "veri": {
       "ev_is": 8.0,
       "dep_is": 4.0,
-      "ev_bs": 6.0,
-      "dep_bs": 2.0,
       "ev_top": 40.0,
       "dep_top": 60.0
      }
@@ -2784,8 +2592,6 @@
      "veri": {
       "ev_is": 6.0,
       "dep_is": 1.0,
-      "ev_bs": 1.0,
-      "dep_bs": 1.0,
       "ev_top": 64.0,
       "dep_top": 36.0
      }
