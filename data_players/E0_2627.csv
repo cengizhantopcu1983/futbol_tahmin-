@@ -4752,6 +4752,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19722103,2026-11-21,AFC Bournemouth,home,37624325,,,OUT,0.0
 19722103,2026-11-21,Nottingham Forest,away,335653,,,OUT,0.0
 19722103,2026-11-21,AFC Bournemouth,home,37296353,,,OUT,0.0
+19722103,2026-11-21,AFC Bournemouth,home,23260605,,,OUT,0.0
 19722095,2026-11-21,Arsenal,away,3130,David Raya,G,XI,70.0
 19722095,2026-11-21,Arsenal,away,17544737,William Saliba,D,SUB,
 19722095,2026-11-21,Arsenal,away,37592228,Cristhian Mosquera,D,SUB,
@@ -4795,3 +4796,99 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19722095,2026-11-21,Arsenal,away,16827155,,,OUT,0.0
 19722095,2026-11-21,Newcastle United,home,37584641,,,OUT,0.0
 19722095,2026-11-21,Arsenal,away,37720618,,,OUT,0.0
+19722098,2026-11-22,Hull City,home,1462,Jack Butland,G,SUB,
+19722098,2026-11-22,Hull City,home,6572,Lewie Coyle,D,XI,84.0
+19722098,2026-11-22,Hull City,home,14338473,Ryan Giles,D,SUB,23.0
+19722098,2026-11-22,Hull City,home,3066,Semi Ajayi,D,XI,90.0
+19722098,2026-11-22,Hull City,home,18226,Sorba Thomas,F,SUB,45.0
+19722098,2026-11-22,Hull City,home,4746,Oli McBurnie,F,XI,90.0
+19722098,2026-11-22,Hull City,home,37555035,Mohamed Belloumi,M,XI,90.0
+19722098,2026-11-22,Hull City,home,37612555,Jens Hjertø-Dahl,M,SUB,22.0
+19722098,2026-11-22,Hull City,home,3305,John Egan,D,SUB,
+19722098,2026-11-22,Hull City,home,37459070,Brooke Norton-Cuffy,D,SUB,6.0
+19722098,2026-11-22,Hull City,home,27813909,Konstantinos Tzolakis,G,XI,90.0
+19722098,2026-11-22,Hull City,home,37261082,Elliot Stroud,D,XI,67.0
+19722098,2026-11-22,Hull City,home,37664964,Lucas Herrington,D,SUB,
+19722098,2026-11-22,Hull City,home,3058,Matt Crooks,M,XI,68.0
+19722098,2026-11-22,Hull City,home,455410,Regan Slater,M,XI,90.0
+19722098,2026-11-22,Hull City,home,37342617,Lucas Gourna-Douath,M,SUB,45.0
+19722098,2026-11-22,Hull City,home,37622162,Nobel Mendy,D,XI,90.0
+19722098,2026-11-22,Hull City,home,37259239,Tim Iroegbunam,M,XI,45.0
+19722098,2026-11-22,Hull City,home,37713942,Robinio Vaz,F,SUB,
+19722098,2026-11-22,Hull City,home,37530812,Mohamed-Ali Cho,M,XI,45.0
+19722098,2026-11-22,Brighton & Hove Albion,away,37257596,Bart Verbruggen,G,XI,90.0
+19722098,2026-11-22,Brighton & Hove Albion,away,2461,Lewis Dunk,D,XI,90.0
+19722098,2026-11-22,Brighton & Hove Albion,away,37561625,Jack Hinshelwood,M,SUB,23.0
+19722098,2026-11-22,Brighton & Hove Albion,away,21782390,Georginio Rutter,F,XI,67.0
+19722098,2026-11-22,Brighton & Hove Albion,away,37655226,Yankuba Minteh,F,SUB,23.0
+19722098,2026-11-22,Brighton & Hove Albion,away,31504,Pascal Groß,M,XI,90.0
+19722098,2026-11-22,Brighton & Hove Albion,away,37656783,Chema Andrés,M,XI,90.0
+19722098,2026-11-22,Brighton & Hove Albion,away,37549513,Ibrahim Osman,F,SUB,1.0
+19722098,2026-11-22,Brighton & Hove Albion,away,37664293,Charalampos Kostoulas,F,SUB,23.0
+19722098,2026-11-22,Brighton & Hove Albion,away,19606968,Costinha,D,XI,89.0
+19722098,2026-11-22,Brighton & Hove Albion,away,96513,Olivier Boscagli,D,XI,67.0
+19722098,2026-11-22,Brighton & Hove Albion,away,2683,Jason Steele,G,SUB,
+19722098,2026-11-22,Brighton & Hove Albion,away,25738,Ferdi Kadıoğlu,D,SUB,10.0
+19722098,2026-11-22,Brighton & Hove Albion,away,37563876,Diego Gómez,M,XI,80.0
+19722098,2026-11-22,Brighton & Hove Albion,away,37526157,Yasin Ayari,M,XI,67.0
+19722098,2026-11-22,Brighton & Hove Albion,away,24082563,Mats Wieffer,M,SUB,
+19722098,2026-11-22,Brighton & Hove Albion,away,23269659,Maxim De Cuyper,M,XI,90.0
+19722098,2026-11-22,Brighton & Hove Albion,away,1491407,Michael Svoboda,D,SUB,
+19722098,2026-11-22,Brighton & Hove Albion,away,1494712,Matt O'Riley,M,SUB,
+19722098,2026-11-22,Brighton & Hove Albion,away,37657587,Luka Vuskovic,D,XI,90.0
+19722098,2026-11-22,Hull City,home,21412837,,,OUT,0.0
+19722098,2026-11-22,Hull City,home,1387,,,OUT,0.0
+19722098,2026-11-22,Hull City,home,4892,,,OUT,0.0
+19722098,2026-11-22,Hull City,home,37595365,,,OUT,0.0
+19722098,2026-11-22,Brighton & Hove Albion,away,21437534,,,OUT,0.0
+19722098,2026-11-22,Brighton & Hove Albion,away,37253456,,,OUT,0.0
+19722098,2026-11-22,Brighton & Hove Albion,away,37601748,,,OUT,0.0
+19722098,2026-11-22,Hull City,home,37645082,,,OUT,0.0
+19722098,2026-11-22,Hull City,home,32796077,,,OUT,0.0
+19722097,2026-11-22,Liverpool,home,129820,Alisson,G,XI,90.0
+19722097,2026-11-22,Liverpool,home,1453,Joe Gomez,D,SUB,5.0
+19722097,2026-11-22,Liverpool,home,1743,Virgil van Dijk,D,XI,90.0
+19722097,2026-11-22,Liverpool,home,37631909,Jérémy Jacquet,D,XI,90.0
+19722097,2026-11-22,Liverpool,home,37381778,Milos Kerkez,D,XI,90.0
+19722097,2026-11-22,Liverpool,home,37429246,Florian Wirtz,M,XI,90.0
+19722097,2026-11-22,Liverpool,home,785998,Dominik Szoboszlai,M,XI,90.0
+19722097,2026-11-22,Liverpool,home,34053,Alexander Isak,F,XI,85.0
+19722097,2026-11-22,Liverpool,home,216612,Alexis Mac Allister,M,XI,72.0
+19722097,2026-11-22,Liverpool,home,129836,Federico Chiesa,F,SUB,
+19722097,2026-11-22,Liverpool,home,84627,Konstantinos Tsimikas,D,SUB,
+19722097,2026-11-22,Liverpool,home,37595819,Víctor Muñoz,F,SUB,18.0
+19722097,2026-11-22,Liverpool,home,14685650,Giorgi Mamardashvili,G,SUB,
+19722097,2026-11-22,Liverpool,home,37317369,Bradley Barcola,M,XI,72.0
+19722097,2026-11-22,Liverpool,home,8403182,Jeremie Frimpong,D,SUB,12.0
+19722097,2026-11-22,Liverpool,home,469717,Ronald Araujo,D,XI,85.0
+19722097,2026-11-22,Liverpool,home,37669492,Trey Nyoni,M,SUB,18.0
+19722097,2026-11-22,Liverpool,home,37543607,James McConnell,M,SUB,
+19722097,2026-11-22,Liverpool,home,37657770,Lewis Koumas,F,SUB,5.0
+19722097,2026-11-22,Liverpool,home,37721333,Rio Ngumoha,M,XI,78.0
+19722097,2026-11-22,Manchester United,away,23269670,Senne Lammens,G,XI,90.0
+19722097,2026-11-22,Manchester United,away,164061,Diogo Dalot,D,XI,90.0
+19722097,2026-11-22,Manchester United,away,28716,Noussair Mazraoui,D,SUB,25.0
+19722097,2026-11-22,Manchester United,away,26768,Matthijs de Ligt,D,XI,90.0
+19722097,2026-11-22,Manchester United,away,2884,Harry Maguire,D,SUB,68.0
+19722097,2026-11-22,Manchester United,away,2206665,Lisandro Martínez,D,XI,90.0
+19722097,2026-11-22,Manchester United,away,537121,Mason Mount,M,SUB,25.0
+19722097,2026-11-22,Manchester United,away,129602,Bruno Fernandes,M,XI,90.0
+19722097,2026-11-22,Manchester United,away,1846739,Matheus Cunha,F,XI,45.0
+19722097,2026-11-22,Manchester United,away,9605680,Joshua Zirkzee,F,SUB,45.0
+19722097,2026-11-22,Manchester United,away,37653176,Patrick Dorgu,M,XI,65.0
+19722097,2026-11-22,Manchester United,away,37600357,Leny Yoro,D,XI,8.0
+19722097,2026-11-22,Manchester United,away,37317015,Amad Diallo,F,SUB,
+19722097,2026-11-22,Manchester United,away,37562129,Andrey Santos,M,SUB,3.0
+19722097,2026-11-22,Manchester United,away,62342,Youri Tielemans,M,XI,65.0
+19722097,2026-11-22,Manchester United,away,529689,Bryan Mbeumo,M,XI,22.0
+19722097,2026-11-22,Manchester United,away,1454,Tom Heaton,G,SUB,
+19722097,2026-11-22,Manchester United,away,37676786,Ayden Heaven,D,SUB,
+19722097,2026-11-22,Manchester United,away,37665753,Shea Lacey,F,SUB,
+19722097,2026-11-22,Manchester United,away,37540234,Kobbie Mainoo,M,XI,87.0
+19722097,2026-11-22,Liverpool,home,37685025,,,OUT,0.0
+19722097,2026-11-22,Liverpool,home,37316835,,,OUT,0.0
+19722097,2026-11-22,Liverpool,home,9606060,,,OUT,0.0
+19722097,2026-11-22,Liverpool,home,37288979,,,OUT,0.0
+19722097,2026-11-22,Manchester United,away,893705,,,OUT,0.0
+19722097,2026-11-22,Manchester United,away,24818280,,,OUT,0.0
+19722097,2026-11-22,Manchester United,away,37588823,,,OUT,0.0
