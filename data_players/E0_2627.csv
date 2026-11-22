@@ -4514,11 +4514,11 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19722096,2026-11-21,Fulham,away,25400,Kenny Tete,D,XI,90.0
 19722096,2026-11-21,Fulham,away,540027,Calvin Bassey,D,XI,90.0
 19722096,2026-11-21,Fulham,away,784373,Jorge Cuenca,D,SUB,
-19722096,2026-11-21,Fulham,away,37593253,Gonzalo García Torres,F,SUB,12.0
+19722096,2026-11-21,Fulham,away,37593253,Gonzalo García Torres,F,SUB,13.0
 19722096,2026-11-21,Fulham,away,37628371,César Palacios,M,SUB,7.0
 19722096,2026-11-21,Fulham,away,37402350,Rodrigo Muniz,F,XI,83.0
 19722096,2026-11-21,Fulham,away,2285,Tom Cairney,M,SUB,7.0
-19722096,2026-11-21,Fulham,away,37286732,Oscar Bobb,F,XI,78.0
+19722096,2026-11-21,Fulham,away,37286732,Oscar Bobb,F,XI,77.0
 19722096,2026-11-21,Fulham,away,37592738,Hugo Larsson,M,SUB,20.0
 19722096,2026-11-21,Fulham,away,64193,Sander Berge,M,XI,90.0
 19722096,2026-11-21,Fulham,away,1881,Alex Iwobi,M,XI,70.0
@@ -4662,6 +4662,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19722100,2026-11-21,Leeds United,away,32525,Nico Elvedi,D,XI,90.0
 19722100,2026-11-21,Leeds United,away,37568967,,,OUT,0.0
 19722100,2026-11-21,Chelsea,home,581220,,,OUT,0.0
+19722100,2026-11-21,Chelsea,home,28931574,,,OUT,0.0
 19722102,2026-11-21,Sunderland,away,33079,Kevin Danso,D,SUB,
 19722102,2026-11-21,Sunderland,away,37734644,Dayann Methalie,D,SUB,
 19722102,2026-11-21,Sunderland,away,37590634,Chemsdine Talbi,M,XI,90.0
