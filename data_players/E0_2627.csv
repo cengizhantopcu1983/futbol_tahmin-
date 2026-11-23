@@ -4304,6 +4304,8 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19722104,2026-11-08,Chelsea,away,5666458,,,OUT,0.0
 19722104,2026-11-08,Sunderland,home,37259208,,,OUT,0.0
 19722104,2026-11-08,Sunderland,home,37581992,,,OUT,0.0
+19722104,2026-11-08,Chelsea,away,37631362,,,OUT,0.0
+19722104,2026-11-08,Sunderland,home,258137,,,OUT,0.0
 19722108,2026-11-08,AFC Bournemouth,away,538472,Djordje Petrovic,G,XI,90.0
 19722108,2026-11-08,AFC Bournemouth,away,28543553,Adrien Truffert,D,XI,90.0
 19722108,2026-11-08,AFC Bournemouth,away,1834,Lewis Cook,M,SUB,23.0
@@ -4396,6 +4398,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19722111,2026-11-08,Liverpool,away,8403182,,,OUT,0.0
 19722111,2026-11-08,Crystal Palace,home,96722,,,OUT,0.0
 19722111,2026-11-08,Liverpool,away,5270462,,,OUT,0.0
+19722111,2026-11-08,Crystal Palace,home,96950,,,OUT,0.0
 19722112,2026-11-08,Brighton & Hove Albion,home,37257596,Bart Verbruggen,G,XI,90.0
 19722112,2026-11-08,Brighton & Hove Albion,home,37530791,Jaouen Hadjam,D,SUB,
 19722112,2026-11-08,Brighton & Hove Albion,home,2461,Lewis Dunk,D,XI,90.0
@@ -4489,7 +4492,10 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19722106,2026-11-08,Aston Villa,away,5252,,,OUT,0.0
 19722106,2026-11-08,Manchester United,home,24818280,,,OUT,0.0
 19722106,2026-11-08,Manchester United,home,37588823,,,OUT,0.0
+19722106,2026-11-08,Manchester United,home,955,,,OUT,0.0
+19722106,2026-11-08,Manchester United,home,1878,,,OUT,0.0
 19722106,2026-11-08,Aston Villa,away,6524,,,OUT,0.0
+19722106,2026-11-08,Manchester United,home,2206665,,,OUT,0.0
 19722096,2026-11-21,Manchester City,home,129771,Gianluigi Donnarumma,G,XI,90.0
 19722096,2026-11-21,Manchester City,home,162536,Rúben Dias,D,XI,90.0
 19722096,2026-11-21,Manchester City,home,332047,Elliot Anderson,M,XI,90.0
@@ -4620,6 +4626,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19722099,2026-11-21,Coventry City,home,37328095,,,OUT,0.0
 19722099,2026-11-21,Coventry City,home,263186,,,OUT,0.0
 19722099,2026-11-21,Crystal Palace,away,37537937,,,OUT,0.0
+19722099,2026-11-21,Crystal Palace,away,96950,,,OUT,0.0
 19722100,2026-11-21,Chelsea,home,1343,Emiliano Martínez,G,XI,90.0
 19722100,2026-11-21,Chelsea,home,37653289,Marco Palestra,D,SUB,
 19722100,2026-11-21,Chelsea,home,11311795,Wesley Fofana,D,XI,90.0
@@ -4709,6 +4716,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19722102,2026-11-21,Sunderland,away,1887,,,OUT,0.0
 19722102,2026-11-21,Sunderland,away,37259208,,,OUT,0.0
 19722102,2026-11-21,Sunderland,away,37581992,,,OUT,0.0
+19722102,2026-11-21,Aston Villa,home,6524,,,OUT,0.0
 19722103,2026-11-21,AFC Bournemouth,home,538472,Djordje Petrovic,G,XI,90.0
 19722103,2026-11-21,AFC Bournemouth,home,28543553,Adrien Truffert,D,XI,90.0
 19722103,2026-11-21,AFC Bournemouth,home,1834,Lewis Cook,M,SUB,21.0

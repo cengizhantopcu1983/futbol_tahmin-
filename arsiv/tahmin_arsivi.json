@@ -4097,7 +4097,7 @@
     "p_beraberlik": 0.2335,
     "p_deplasman": 0.4426
    },
-   "kayit": "2026-11-22T23:28+03:00"
+   "kayit": "2026-11-23T18:14+03:00"
   },
   "E0|2026-11-23|Brentford|Everton": {
    "lig": "Premier League",
@@ -4119,7 +4119,7 @@
     "deplasman": 0.2885
    },
    "golge": null,
-   "kayit": "2026-11-22T23:28+03:00"
+   "kayit": "2026-11-23T18:14+03:00"
   },
   "SP1|2026-11-23|Levante|Elche": {
    "lig": "La Liga",
@@ -4141,7 +4141,7 @@
     "deplasman": 0.3007
    },
    "golge": null,
-   "kayit": "2026-11-22T23:28+03:00"
+   "kayit": "2026-11-23T18:14+03:00"
   },
   "I1|2026-11-27|Venezia|Bologna": {
    "lig": "Serie A",
@@ -4163,7 +4163,7 @@
     "p_beraberlik": 0.2413,
     "p_deplasman": 0.5706
    },
-   "kayit": "2026-11-22T23:28+03:00"
+   "kayit": "2026-11-23T18:14+03:00"
   },
   "E0|2026-11-27|Nott'm Forest|Chelsea": {
    "lig": "Premier League",
@@ -4181,7 +4181,7 @@
    "en_olasi_skor": "1-1",
    "piyasa": null,
    "golge": null,
-   "kayit": "2026-11-22T23:28+03:00"
+   "kayit": "2026-11-23T18:14+03:00"
   },
   "SP1|2026-11-27|Levante|Santander": {
    "lig": "La Liga",
@@ -4199,7 +4199,7 @@
    "en_olasi_skor": "2-1",
    "piyasa": null,
    "golge": null,
-   "kayit": "2026-11-22T23:28+03:00"
+   "kayit": "2026-11-23T18:14+03:00"
   },
   "T1|2026-11-21|Genclerbirligi|Gaziantep": {
    "lig": "Süper Lig",
@@ -4433,7 +4433,7 @@
     "p_beraberlik": 0.1892,
     "p_deplasman": 0.1946
    },
-   "kayit": "2026-11-22T23:28+03:00"
+   "kayit": "2026-11-23T18:14+03:00"
   },
   "SP1|2026-11-28|Betis|Vallecano": {
    "lig": "La Liga",
@@ -4451,7 +4451,7 @@
    "en_olasi_skor": "1-1",
    "piyasa": null,
    "golge": null,
-   "kayit": "2026-11-22T23:28+03:00"
+   "kayit": "2026-11-23T18:14+03:00"
   },
   "I1|2026-11-28|Frosinone|Parma": {
    "lig": "Serie A",
@@ -4473,7 +4473,7 @@
     "p_beraberlik": 0.224,
     "p_deplasman": 0.2181
    },
-   "kayit": "2026-11-22T23:28+03:00"
+   "kayit": "2026-11-23T18:14+03:00"
   },
   "E0|2026-11-28|Leeds|Coventry": {
    "lig": "Premier League",
@@ -4491,7 +4491,7 @@
    "en_olasi_skor": "1-0",
    "piyasa": null,
    "golge": null,
-   "kayit": "2026-11-22T23:28+03:00"
+   "kayit": "2026-11-23T18:14+03:00"
   },
   "E0|2026-11-28|Man United|Brentford": {
    "lig": "Premier League",
@@ -4509,7 +4509,7 @@
    "en_olasi_skor": "1-1",
    "piyasa": null,
    "golge": null,
-   "kayit": "2026-11-22T23:28+03:00"
+   "kayit": "2026-11-23T18:14+03:00"
   },
   "SP1|2026-11-28|Malaga|Ath Bilbao": {
    "lig": "La Liga",
@@ -4527,7 +4527,7 @@
    "en_olasi_skor": "0-1",
    "piyasa": null,
    "golge": null,
-   "kayit": "2026-11-22T23:28+03:00"
+   "kayit": "2026-11-23T18:14+03:00"
   },
   "I1|2026-11-28|Torino|Lazio": {
    "lig": "Serie A",
@@ -4549,7 +4549,7 @@
     "p_beraberlik": 0.2446,
     "p_deplasman": 0.5261
    },
-   "kayit": "2026-11-22T23:28+03:00"
+   "kayit": "2026-11-23T18:14+03:00"
   },
   "E0|2026-11-28|Ipswich|Aston Villa": {
    "lig": "Premier League",
@@ -4567,7 +4567,7 @@
    "en_olasi_skor": "1-1",
    "piyasa": null,
    "golge": null,
-   "kayit": "2026-11-22T23:28+03:00"
+   "kayit": "2026-11-23T18:14+03:00"
   },
   "SP1|2026-11-28|Elche|Ath Madrid": {
    "lig": "La Liga",
@@ -4585,7 +4585,7 @@
    "en_olasi_skor": "1-1",
    "piyasa": null,
    "golge": null,
-   "kayit": "2026-11-22T23:28+03:00"
+   "kayit": "2026-11-23T18:14+03:00"
   },
   "I1|2026-11-28|Inter|Genoa": {
    "lig": "Serie A",
@@ -4607,7 +4607,7 @@
     "p_beraberlik": 0.1492,
     "p_deplasman": 0.0836
    },
-   "kayit": "2026-11-22T23:28+03:00"
+   "kayit": "2026-11-23T18:14+03:00"
   },
   "SP1|2026-11-28|Real Madrid|Alaves": {
    "lig": "La Liga",
@@ -4625,7 +4625,7 @@
    "en_olasi_skor": "2-0",
    "piyasa": null,
    "golge": null,
-   "kayit": "2026-11-22T23:28+03:00"
+   "kayit": "2026-11-23T18:14+03:00"
   },
   "I1|2026-11-29|Udinese|Fiorentina": {
    "lig": "Serie A",
@@ -4647,7 +4647,7 @@
     "p_beraberlik": 0.2469,
     "p_deplasman": 0.4055
    },
-   "kayit": "2026-11-22T23:28+03:00"
+   "kayit": "2026-11-23T18:14+03:00"
   },
   "E0|2026-11-29|Everton|Liverpool": {
    "lig": "Premier League",
@@ -4665,7 +4665,7 @@
    "en_olasi_skor": "1-1",
    "piyasa": null,
    "golge": null,
-   "kayit": "2026-11-22T23:28+03:00"
+   "kayit": "2026-11-23T18:14+03:00"
   },
   "SP1|2026-11-29|Valencia|Osasuna": {
    "lig": "La Liga",
@@ -4683,7 +4683,7 @@
    "en_olasi_skor": "1-1",
    "piyasa": null,
    "golge": null,
-   "kayit": "2026-11-22T23:28+03:00"
+   "kayit": "2026-11-23T18:14+03:00"
   },
   "I1|2026-11-29|Sassuolo|Napoli": {
    "lig": "Serie A",
@@ -4705,7 +4705,7 @@
     "p_beraberlik": 0.2049,
     "p_deplasman": 0.6088
    },
-   "kayit": "2026-11-22T23:28+03:00"
+   "kayit": "2026-11-23T18:14+03:00"
   },
   "E0|2026-11-29|Fulham|Bournemouth": {
    "lig": "Premier League",
@@ -4723,7 +4723,7 @@
    "en_olasi_skor": "1-1",
    "piyasa": null,
    "golge": null,
-   "kayit": "2026-11-22T23:28+03:00"
+   "kayit": "2026-11-23T18:14+03:00"
   },
   "E0|2026-11-29|Brighton|Newcastle": {
    "lig": "Premier League",
@@ -4741,7 +4741,7 @@
    "en_olasi_skor": "2-0",
    "piyasa": null,
    "golge": null,
-   "kayit": "2026-11-22T23:28+03:00"
+   "kayit": "2026-11-23T18:14+03:00"
   },
   "E0|2026-11-29|Sunderland|Tottenham": {
    "lig": "Premier League",
@@ -4759,7 +4759,7 @@
    "en_olasi_skor": "0-1",
    "piyasa": null,
    "golge": null,
-   "kayit": "2026-11-22T23:28+03:00"
+   "kayit": "2026-11-23T18:14+03:00"
   },
   "E0|2026-11-29|Crystal Palace|Hull": {
    "lig": "Premier League",
@@ -4777,7 +4777,7 @@
    "en_olasi_skor": "1-1",
    "piyasa": null,
    "golge": null,
-   "kayit": "2026-11-22T23:28+03:00"
+   "kayit": "2026-11-23T18:14+03:00"
   },
   "SP1|2026-11-29|La Coruna|Barcelona": {
    "lig": "La Liga",
@@ -4795,7 +4795,7 @@
    "en_olasi_skor": "1-2",
    "piyasa": null,
    "golge": null,
-   "kayit": "2026-11-22T23:28+03:00"
+   "kayit": "2026-11-23T18:14+03:00"
   },
   "E0|2026-11-29|Arsenal|Man City": {
    "lig": "Premier League",
@@ -4813,7 +4813,7 @@
    "en_olasi_skor": "1-0",
    "piyasa": null,
    "golge": null,
-   "kayit": "2026-11-22T23:28+03:00"
+   "kayit": "2026-11-23T18:14+03:00"
   },
   "I1|2026-11-29|Roma|Monza": {
    "lig": "Serie A",
@@ -4835,7 +4835,7 @@
     "p_beraberlik": 0.1461,
     "p_deplasman": 0.1032
    },
-   "kayit": "2026-11-22T23:28+03:00"
+   "kayit": "2026-11-23T18:14+03:00"
   },
   "SP1|2026-11-29|Celta|Villarreal": {
    "lig": "La Liga",
@@ -4853,7 +4853,7 @@
    "en_olasi_skor": "1-1",
    "piyasa": null,
    "golge": null,
-   "kayit": "2026-11-22T23:28+03:00"
+   "kayit": "2026-11-23T18:14+03:00"
   },
   "I1|2026-11-29|Como|Juventus": {
    "lig": "Serie A",
@@ -4875,7 +4875,7 @@
     "p_beraberlik": 0.2856,
     "p_deplasman": 0.3039
    },
-   "kayit": "2026-11-22T23:28+03:00"
+   "kayit": "2026-11-23T18:14+03:00"
   },
   "SP1|2026-11-29|Sociedad|Sevilla": {
    "lig": "La Liga",
@@ -4893,7 +4893,7 @@
    "en_olasi_skor": "1-1",
    "piyasa": null,
    "golge": null,
-   "kayit": "2026-11-22T23:28+03:00"
+   "kayit": "2026-11-23T18:14+03:00"
   },
   "I1|2026-11-30|Lecce|Atalanta": {
    "lig": "Serie A",
@@ -4915,7 +4915,7 @@
     "p_beraberlik": 0.2232,
     "p_deplasman": 0.5964
    },
-   "kayit": "2026-11-22T23:28+03:00"
+   "kayit": "2026-11-23T18:14+03:00"
   },
   "I1|2026-11-30|Cagliari|Milan": {
    "lig": "Serie A",
@@ -4937,7 +4937,7 @@
     "p_beraberlik": 0.2447,
     "p_deplasman": 0.5601
    },
-   "kayit": "2026-11-22T23:28+03:00"
+   "kayit": "2026-11-23T18:14+03:00"
   },
   "SP1|2026-11-30|Espanol|Getafe": {
    "lig": "La Liga",
@@ -4955,7 +4955,25 @@
    "en_olasi_skor": "1-0",
    "piyasa": null,
    "golge": null,
-   "kayit": "2026-11-22T23:28+03:00"
+   "kayit": "2026-11-23T18:14+03:00"
+  },
+  "E0|2026-12-01|Coventry|Ipswich": {
+   "lig": "Premier League",
+   "lig_kodu": "E0",
+   "tarih": "2026-12-01",
+   "saat": "23:00",
+   "ev": "Coventry",
+   "deplasman": "Ipswich",
+   "p_ev": 0.3908,
+   "p_beraberlik": 0.2185,
+   "p_deplasman": 0.3906,
+   "xg_ev": 1.87,
+   "xg_deplasman": 1.85,
+   "olasi_skor": "2-1",
+   "en_olasi_skor": "1-1",
+   "piyasa": null,
+   "golge": null,
+   "kayit": "2026-11-23T18:14+03:00"
   }
  }
 }
