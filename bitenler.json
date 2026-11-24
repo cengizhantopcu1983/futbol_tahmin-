@@ -1,5 +1,5 @@
 {
- "olusturulma": "2026-11-23T18:14+03:00",
+ "olusturulma": "2026-11-24T18:12+03:00",
  "sezon": "2627",
  "ligler": [
   {
@@ -27,17 +27,97 @@
    ],
    "maclar": [
     {
-     "tarih": "2026-11-08",
-     "ev": "Besiktas",
-     "deplasman": "Genclerbirligi",
-     "skor": "3-0",
+     "tarih": "2026-11-23",
+     "ev": "Buyuksehyr",
+     "deplasman": "Corum",
+     "skor": "4-2",
      "veri": {
-      "ev_is": 10.0,
-      "dep_is": 1.0,
-      "ev_bs": 4.0,
-      "dep_bs": 0.0,
-      "ev_top": 69.0,
-      "dep_top": 31.0
+      "ev_is": 5.0,
+      "dep_is": 3.0
+     }
+    },
+    {
+     "tarih": "2026-11-22",
+     "ev": "Trabzonspor",
+     "deplasman": "Eyupspor",
+     "skor": "1-0",
+     "veri": {
+      "ev_is": 9.0,
+      "dep_is": 1.0
+     }
+    },
+    {
+     "tarih": "2026-11-22",
+     "ev": "Konyaspor",
+     "deplasman": "Besiktas",
+     "skor": "2-4",
+     "veri": {
+      "ev_is": 6.0,
+      "dep_is": 7.0
+     }
+    },
+    {
+     "tarih": "2026-11-22",
+     "ev": "Kasimpasa",
+     "deplasman": "Alanyaspor",
+     "skor": "2-1",
+     "veri": {
+      "ev_is": 4.0,
+      "dep_is": 2.0
+     }
+    },
+    {
+     "tarih": "2026-11-22",
+     "ev": "Erzurumspor",
+     "deplasman": "Goztep",
+     "skor": "0-1",
+     "veri": {
+      "ev_is": 5.0,
+      "dep_is": 4.0
+     }
+    },
+    {
+     "tarih": "2026-11-21",
+     "ev": "Kocaelispor",
+     "deplasman": "Fenerbahce",
+     "skor": "2-2",
+     "veri": {
+      "ev_is": 5.0,
+      "dep_is": 6.0
+     }
+    },
+    {
+     "tarih": "2026-11-21",
+     "ev": "Galatasaray",
+     "deplasman": "Samsunspor",
+     "skor": "2-1",
+     "veri": {
+      "ev_is": 5.0,
+      "dep_is": 7.0
+     }
+    },
+    {
+     "tarih": "2026-11-21",
+     "ev": "Amedspor",
+     "deplasman": "Rizespor",
+     "skor": "0-2",
+     "veri": {
+      "ev_is": 7.0,
+      "dep_is": 5.0
+     }
+    },
+    {
+     "tarih": "2026-11-21",
+     "ev": "Genclerbirligi",
+     "deplasman": "Gaziantep",
+     "skor": "1-0",
+     "veri": {
+      "ev_is": 2.0,
+      "dep_is": 2.0,
+      "ev_bs": 1.0,
+      "dep_bs": 3.0,
+      "ev_top": 37.0,
+      "dep_top": 63.0
      }
     },
     {
@@ -56,6 +136,20 @@
     },
     {
      "tarih": "2026-11-08",
+     "ev": "Rizespor",
+     "deplasman": "Erzurumspor",
+     "skor": "2-1",
+     "veri": {
+      "ev_is": 6.0,
+      "dep_is": 4.0,
+      "ev_bs": 7.0,
+      "dep_bs": 1.0,
+      "ev_top": 62.0,
+      "dep_top": 38.0
+     }
+    },
+    {
+     "tarih": "2026-11-08",
      "ev": "Corum",
      "deplasman": "Fenerbahce",
      "skor": "0-5",
@@ -70,16 +164,16 @@
     },
     {
      "tarih": "2026-11-08",
-     "ev": "Rizespor",
-     "deplasman": "Erzurumspor",
-     "skor": "2-1",
+     "ev": "Besiktas",
+     "deplasman": "Genclerbirligi",
+     "skor": "3-0",
      "veri": {
-      "ev_is": 6.0,
-      "dep_is": 4.0,
-      "ev_bs": 7.0,
-      "dep_bs": 1.0,
-      "ev_top": 62.0,
-      "dep_top": 38.0
+      "ev_is": 10.0,
+      "dep_is": 1.0,
+      "ev_bs": 4.0,
+      "dep_bs": 0.0,
+      "ev_top": 69.0,
+      "dep_top": 31.0
      }
     },
     {
@@ -164,6 +258,34 @@
     },
     {
      "tarih": "2026-11-01",
+     "ev": "Kasimpasa",
+     "deplasman": "Besiktas",
+     "skor": "2-2",
+     "veri": {
+      "ev_is": 6.0,
+      "dep_is": 4.0,
+      "ev_bs": 4.0,
+      "dep_bs": 4.0,
+      "ev_top": 42.0,
+      "dep_top": 58.0
+     }
+    },
+    {
+     "tarih": "2026-11-01",
+     "ev": "Trabzonspor",
+     "deplasman": "Gaziantep",
+     "skor": "2-0",
+     "veri": {
+      "ev_is": 6.0,
+      "dep_is": 6.0,
+      "ev_bs": 3.0,
+      "dep_bs": 0.0,
+      "ev_top": 57.0,
+      "dep_top": 43.0
+     }
+    },
+    {
+     "tarih": "2026-11-01",
      "ev": "Buyuksehyr",
      "deplasman": "Samsunspor",
      "skor": "5-2",
@@ -184,48 +306,6 @@
       "dep_bs": 1.0,
       "ev_top": 55.0,
       "dep_top": 45.0
-     }
-    },
-    {
-     "tarih": "2026-11-01",
-     "ev": "Trabzonspor",
-     "deplasman": "Gaziantep",
-     "skor": "2-0",
-     "veri": {
-      "ev_is": 6.0,
-      "dep_is": 6.0,
-      "ev_bs": 3.0,
-      "dep_bs": 0.0,
-      "ev_top": 57.0,
-      "dep_top": 43.0
-     }
-    },
-    {
-     "tarih": "2026-11-01",
-     "ev": "Kasimpasa",
-     "deplasman": "Besiktas",
-     "skor": "2-2",
-     "veri": {
-      "ev_is": 6.0,
-      "dep_is": 4.0,
-      "ev_bs": 4.0,
-      "dep_bs": 4.0,
-      "ev_top": 42.0,
-      "dep_top": 58.0
-     }
-    },
-    {
-     "tarih": "2026-10-31",
-     "ev": "Fenerbahce",
-     "deplasman": "Goztep",
-     "skor": "1-2",
-     "veri": {
-      "ev_is": 6.0,
-      "dep_is": 6.0,
-      "ev_bs": 3.0,
-      "dep_bs": 3.0,
-      "ev_top": 66.0,
-      "dep_top": 34.0
      }
     },
     {
@@ -254,6 +334,20 @@
       "dep_bs": 3.0,
       "ev_top": 53.0,
       "dep_top": 47.0
+     }
+    },
+    {
+     "tarih": "2026-10-31",
+     "ev": "Fenerbahce",
+     "deplasman": "Goztep",
+     "skor": "1-2",
+     "veri": {
+      "ev_is": 6.0,
+      "dep_is": 6.0,
+      "ev_bs": 3.0,
+      "dep_bs": 3.0,
+      "ev_top": 66.0,
+      "dep_top": 34.0
      }
     },
     {
@@ -338,6 +432,20 @@
     },
     {
      "tarih": "2026-10-24",
+     "ev": "Samsunspor",
+     "deplasman": "Amedspor",
+     "skor": "1-2",
+     "veri": {
+      "ev_is": 3.0,
+      "dep_is": 6.0,
+      "ev_bs": 2.0,
+      "dep_bs": 2.0,
+      "ev_top": 48.0,
+      "dep_top": 52.0
+     }
+    },
+    {
+     "tarih": "2026-10-24",
      "ev": "Gaziantep",
      "deplasman": "Erzurumspor",
      "skor": "1-3",
@@ -362,20 +470,6 @@
       "dep_bs": 1.0,
       "ev_top": 52.0,
       "dep_top": 48.0
-     }
-    },
-    {
-     "tarih": "2026-10-24",
-     "ev": "Samsunspor",
-     "deplasman": "Amedspor",
-     "skor": "1-2",
-     "veri": {
-      "ev_is": 3.0,
-      "dep_is": 6.0,
-      "ev_bs": 2.0,
-      "dep_bs": 2.0,
-      "ev_top": 48.0,
-      "dep_top": 52.0
      }
     },
     {
@@ -408,12 +502,16 @@
     },
     {
      "tarih": "2026-10-18",
-     "ev": "Buyuksehyr",
-     "deplasman": "Gaziantep",
-     "skor": "2-1",
+     "ev": "Kasimpasa",
+     "deplasman": "Samsunspor",
+     "skor": "4-1",
      "veri": {
-      "ev_is": 6.0,
-      "dep_is": 4.0
+      "ev_is": 9.0,
+      "dep_is": 4.0,
+      "ev_bs": 4.0,
+      "dep_bs": 3.0,
+      "ev_top": 50.0,
+      "dep_top": 50.0
      }
     },
     {
@@ -432,16 +530,12 @@
     },
     {
      "tarih": "2026-10-18",
-     "ev": "Kasimpasa",
-     "deplasman": "Samsunspor",
-     "skor": "4-1",
+     "ev": "Buyuksehyr",
+     "deplasman": "Gaziantep",
+     "skor": "2-1",
      "veri": {
-      "ev_is": 9.0,
-      "dep_is": 4.0,
-      "ev_bs": 4.0,
-      "dep_bs": 3.0,
-      "ev_top": 50.0,
-      "dep_top": 50.0
+      "ev_is": 6.0,
+      "dep_is": 4.0
      }
     },
     {
@@ -568,6 +662,20 @@
     },
     {
      "tarih": "2026-10-10",
+     "ev": "Genclerbirligi",
+     "deplasman": "Amedspor",
+     "skor": "2-2",
+     "veri": {
+      "ev_is": 4.0,
+      "dep_is": 5.0,
+      "ev_bs": 1.0,
+      "dep_bs": 3.0,
+      "ev_top": 48.0,
+      "dep_top": 52.0
+     }
+    },
+    {
+     "tarih": "2026-10-10",
      "ev": "Rizespor",
      "deplasman": "Fenerbahce",
      "skor": "0-3",
@@ -609,20 +717,6 @@
      }
     },
     {
-     "tarih": "2026-10-10",
-     "ev": "Genclerbirligi",
-     "deplasman": "Amedspor",
-     "skor": "2-2",
-     "veri": {
-      "ev_is": 4.0,
-      "dep_is": 5.0,
-      "ev_bs": 1.0,
-      "dep_bs": 3.0,
-      "ev_top": 48.0,
-      "dep_top": 52.0
-     }
-    },
-    {
      "tarih": "2026-10-09",
      "ev": "Galatasaray",
      "deplasman": "Kasimpasa",
@@ -634,34 +728,6 @@
       "dep_bs": 2.0,
       "ev_top": 63.0,
       "dep_top": 37.0
-     }
-    },
-    {
-     "tarih": "2026-09-20",
-     "ev": "Amedspor",
-     "deplasman": "Besiktas",
-     "skor": "3-2",
-     "veri": {
-      "ev_is": 8.0,
-      "dep_is": 8.0,
-      "ev_bs": 5.0,
-      "dep_bs": 2.0,
-      "ev_top": 30.0,
-      "dep_top": 70.0
-     }
-    },
-    {
-     "tarih": "2026-09-20",
-     "ev": "Erzurumspor",
-     "deplasman": "Samsunspor",
-     "skor": "1-0",
-     "veri": {
-      "ev_is": 2.0,
-      "dep_is": 2.0,
-      "ev_bs": 2.0,
-      "dep_bs": 0.0,
-      "ev_top": 42.0,
-      "dep_top": 58.0
      }
     },
     {
@@ -680,6 +746,20 @@
     },
     {
      "tarih": "2026-09-20",
+     "ev": "Amedspor",
+     "deplasman": "Besiktas",
+     "skor": "3-2",
+     "veri": {
+      "ev_is": 8.0,
+      "dep_is": 8.0,
+      "ev_bs": 5.0,
+      "dep_bs": 2.0,
+      "ev_top": 30.0,
+      "dep_top": 70.0
+     }
+    },
+    {
+     "tarih": "2026-09-20",
      "ev": "Fenerbahce",
      "deplasman": "Eyupspor",
      "skor": "8-0",
@@ -690,6 +770,20 @@
       "dep_bs": 1.0,
       "ev_top": 55.0,
       "dep_top": 45.0
+     }
+    },
+    {
+     "tarih": "2026-09-20",
+     "ev": "Erzurumspor",
+     "deplasman": "Samsunspor",
+     "skor": "1-0",
+     "veri": {
+      "ev_is": 2.0,
+      "dep_is": 2.0,
+      "ev_bs": 2.0,
+      "dep_bs": 0.0,
+      "ev_top": 42.0,
+      "dep_top": 58.0
      }
     },
     {
@@ -774,20 +868,6 @@
     },
     {
      "tarih": "2026-09-13",
-     "ev": "Galatasaray",
-     "deplasman": "Kocaelispor",
-     "skor": "1-0",
-     "veri": {
-      "ev_is": 9.0,
-      "dep_is": 1.0,
-      "ev_bs": 4.0,
-      "dep_bs": 1.0,
-      "ev_top": 60.0,
-      "dep_top": 40.0
-     }
-    },
-    {
-     "tarih": "2026-09-13",
      "ev": "Amedspor",
      "deplasman": "Buyuksehyr",
      "skor": "5-0",
@@ -808,6 +888,48 @@
       "dep_bs": 3.0,
       "ev_top": 41.0,
       "dep_top": 59.0
+     }
+    },
+    {
+     "tarih": "2026-09-13",
+     "ev": "Galatasaray",
+     "deplasman": "Kocaelispor",
+     "skor": "1-0",
+     "veri": {
+      "ev_is": 9.0,
+      "dep_is": 1.0,
+      "ev_bs": 4.0,
+      "dep_bs": 1.0,
+      "ev_top": 60.0,
+      "dep_top": 40.0
+     }
+    },
+    {
+     "tarih": "2026-09-12",
+     "ev": "Konyaspor",
+     "deplasman": "Trabzonspor",
+     "skor": "1-0",
+     "veri": {
+      "ev_is": 5.0,
+      "dep_is": 4.0,
+      "ev_bs": 2.0,
+      "dep_bs": 3.0,
+      "ev_top": 29.0,
+      "dep_top": 71.0
+     }
+    },
+    {
+     "tarih": "2026-09-12",
+     "ev": "Alanyaspor",
+     "deplasman": "Goztep",
+     "skor": "2-2",
+     "veri": {
+      "ev_is": 4.0,
+      "dep_is": 4.0,
+      "ev_bs": 1.0,
+      "dep_bs": 2.0,
+      "ev_top": 64.0,
+      "dep_top": 36.0
      }
     },
     {
@@ -836,34 +958,6 @@
       "dep_bs": 3.0,
       "ev_top": 50.0,
       "dep_top": 50.0
-     }
-    },
-    {
-     "tarih": "2026-09-12",
-     "ev": "Alanyaspor",
-     "deplasman": "Goztep",
-     "skor": "2-2",
-     "veri": {
-      "ev_is": 4.0,
-      "dep_is": 4.0,
-      "ev_bs": 1.0,
-      "dep_bs": 2.0,
-      "ev_top": 64.0,
-      "dep_top": 36.0
-     }
-    },
-    {
-     "tarih": "2026-09-12",
-     "ev": "Konyaspor",
-     "deplasman": "Trabzonspor",
-     "skor": "1-0",
-     "veri": {
-      "ev_is": 5.0,
-      "dep_is": 4.0,
-      "ev_bs": 2.0,
-      "dep_bs": 3.0,
-      "ev_top": 29.0,
-      "dep_top": 71.0
      }
     },
     {
@@ -1140,6 +1234,20 @@
     },
     {
      "tarih": "2026-08-23",
+     "ev": "Alanyaspor",
+     "deplasman": "Besiktas",
+     "skor": "1-0",
+     "veri": {
+      "ev_is": 3.0,
+      "dep_is": 6.0,
+      "ev_bs": 1.0,
+      "dep_bs": 0.0,
+      "ev_top": 35.0,
+      "dep_top": 65.0
+     }
+    },
+    {
+     "tarih": "2026-08-23",
      "ev": "Trabzonspor",
      "deplasman": "Buyuksehyr",
      "skor": "2-1",
@@ -1160,20 +1268,6 @@
       "dep_bs": 2.0,
       "ev_top": 56.0,
       "dep_top": 44.0
-     }
-    },
-    {
-     "tarih": "2026-08-23",
-     "ev": "Alanyaspor",
-     "deplasman": "Besiktas",
-     "skor": "1-0",
-     "veri": {
-      "ev_is": 3.0,
-      "dep_is": 6.0,
-      "ev_bs": 1.0,
-      "dep_bs": 0.0,
-      "ev_top": 35.0,
-      "dep_top": 65.0
      }
     },
     {
@@ -1397,39 +1491,123 @@
    ],
    "maclar": [
     {
-     "tarih": "2026-11-08",
-     "ev": "Man United",
-     "deplasman": "Aston Villa",
-     "skor": "4-4",
+     "tarih": "2026-11-23",
+     "ev": "Brentford",
+     "deplasman": "Everton",
+     "skor": "4-0",
+     "veri": {
+      "ev_is": 7.0,
+      "dep_is": 2.0,
+      "ev_top": 72.0,
+      "dep_top": 28.0
+     }
+    },
+    {
+     "tarih": "2026-11-22",
+     "ev": "Liverpool",
+     "deplasman": "Man United",
+     "skor": "4-0",
+     "veri": {
+      "ev_is": 11.0,
+      "dep_is": 3.0,
+      "ev_top": 63.0,
+      "dep_top": 37.0
+     }
+    },
+    {
+     "tarih": "2026-11-22",
+     "ev": "Hull",
+     "deplasman": "Brighton",
+     "skor": "2-0",
+     "veri": {
+      "ev_is": 5.0,
+      "dep_is": 8.0,
+      "ev_top": 30.0,
+      "dep_top": 70.0
+     }
+    },
+    {
+     "tarih": "2026-11-21",
+     "ev": "Newcastle",
+     "deplasman": "Arsenal",
+     "skor": "2-2",
+     "veri": {
+      "ev_is": 3.0,
+      "dep_is": 4.0,
+      "ev_top": 34.0,
+      "dep_top": 66.0
+     }
+    },
+    {
+     "tarih": "2026-11-21",
+     "ev": "Tottenham",
+     "deplasman": "Ipswich",
+     "skor": "2-0",
      "veri": {
       "ev_is": 9.0,
-      "dep_is": 6.0,
-      "ev_top": 56.0,
-      "dep_top": 44.0
+      "dep_is": 3.0,
+      "ev_top": 62.0,
+      "dep_top": 38.0
      }
     },
     {
-     "tarih": "2026-11-08",
-     "ev": "Sunderland",
-     "deplasman": "Chelsea",
-     "skor": "1-0",
+     "tarih": "2026-11-21",
+     "ev": "Coventry",
+     "deplasman": "Crystal Palace",
+     "skor": "3-2",
      "veri": {
-      "ev_is": 2.0,
-      "dep_is": 4.0,
-      "ev_top": 31.0,
-      "dep_top": 69.0
+      "ev_is": 7.0,
+      "dep_is": 5.0,
+      "ev_top": 42.0,
+      "dep_top": 58.0
      }
     },
     {
-     "tarih": "2026-11-08",
-     "ev": "Ipswich",
-     "deplasman": "Bournemouth",
-     "skor": "1-2",
+     "tarih": "2026-11-21",
+     "ev": "Chelsea",
+     "deplasman": "Leeds",
+     "skor": "1-4",
      "veri": {
-      "ev_is": 2.0,
+      "ev_is": 3.0,
+      "dep_is": 8.0,
+      "ev_top": 57.0,
+      "dep_top": 43.0
+     }
+    },
+    {
+     "tarih": "2026-11-21",
+     "ev": "Bournemouth",
+     "deplasman": "Nott'm Forest",
+     "skor": "2-0",
+     "veri": {
+      "ev_is": 7.0,
+      "dep_is": 1.0,
+      "ev_top": 51.0,
+      "dep_top": 49.0
+     }
+    },
+    {
+     "tarih": "2026-11-21",
+     "ev": "Aston Villa",
+     "deplasman": "Sunderland",
+     "skor": "0-0",
+     "veri": {
+      "ev_is": 7.0,
+      "dep_is": 1.0,
+      "ev_top": 73.0,
+      "dep_top": 27.0
+     }
+    },
+    {
+     "tarih": "2026-11-21",
+     "ev": "Man City",
+     "deplasman": "Fulham",
+     "skor": "1-1",
+     "veri": {
+      "ev_is": 3.0,
       "dep_is": 4.0,
-      "ev_top": 56.0,
-      "dep_top": 44.0
+      "ev_top": 58.0,
+      "dep_top": 42.0
      }
     },
     {
@@ -1454,6 +1632,42 @@
       "dep_is": 0.0,
       "ev_top": 75.0,
       "dep_top": 25.0
+     }
+    },
+    {
+     "tarih": "2026-11-08",
+     "ev": "Ipswich",
+     "deplasman": "Bournemouth",
+     "skor": "1-2",
+     "veri": {
+      "ev_is": 2.0,
+      "dep_is": 4.0,
+      "ev_top": 56.0,
+      "dep_top": 44.0
+     }
+    },
+    {
+     "tarih": "2026-11-08",
+     "ev": "Sunderland",
+     "deplasman": "Chelsea",
+     "skor": "1-0",
+     "veri": {
+      "ev_is": 2.0,
+      "dep_is": 4.0,
+      "ev_top": 31.0,
+      "dep_top": 69.0
+     }
+    },
+    {
+     "tarih": "2026-11-08",
+     "ev": "Man United",
+     "deplasman": "Aston Villa",
+     "skor": "4-4",
+     "veri": {
+      "ev_is": 9.0,
+      "dep_is": 6.0,
+      "ev_top": 56.0,
+      "dep_top": 44.0
      }
     },
     {
@@ -1542,42 +1756,6 @@
     },
     {
      "tarih": "2026-10-31",
-     "ev": "Aston Villa",
-     "deplasman": "Fulham",
-     "skor": "1-1",
-     "veri": {
-      "ev_is": 3.0,
-      "dep_is": 5.0,
-      "ev_top": 45.0,
-      "dep_top": 55.0
-     }
-    },
-    {
-     "tarih": "2026-10-31",
-     "ev": "Tottenham",
-     "deplasman": "Crystal Palace",
-     "skor": "2-0",
-     "veri": {
-      "ev_is": 9.0,
-      "dep_is": 1.0,
-      "ev_top": 79.0,
-      "dep_top": 21.0
-     }
-    },
-    {
-     "tarih": "2026-10-31",
-     "ev": "Man City",
-     "deplasman": "Brighton",
-     "skor": "0-1",
-     "veri": {
-      "ev_is": 6.0,
-      "dep_is": 3.0,
-      "ev_top": 62.0,
-      "dep_top": 38.0
-     }
-    },
-    {
-     "tarih": "2026-10-31",
      "ev": "Hull",
      "deplasman": "Ipswich",
      "skor": "2-2",
@@ -1590,26 +1768,14 @@
     },
     {
      "tarih": "2026-10-31",
-     "ev": "Coventry",
-     "deplasman": "Sunderland",
-     "skor": "3-1",
-     "veri": {
-      "ev_is": 4.0,
-      "dep_is": 2.0,
-      "ev_top": 43.0,
-      "dep_top": 57.0
-     }
-    },
-    {
-     "tarih": "2026-10-31",
-     "ev": "Brentford",
-     "deplasman": "Nott'm Forest",
+     "ev": "Chelsea",
+     "deplasman": "Man United",
      "skor": "2-0",
      "veri": {
-      "ev_is": 1.0,
-      "dep_is": 1.0,
-      "ev_top": 42.0,
-      "dep_top": 58.0
+      "ev_is": 10.0,
+      "dep_is": 5.0,
+      "ev_top": 58.0,
+      "dep_top": 42.0
      }
     },
     {
@@ -1626,50 +1792,74 @@
     },
     {
      "tarih": "2026-10-31",
-     "ev": "Chelsea",
-     "deplasman": "Man United",
+     "ev": "Brentford",
+     "deplasman": "Nott'm Forest",
      "skor": "2-0",
      "veri": {
-      "ev_is": 10.0,
-      "dep_is": 5.0,
-      "ev_top": 58.0,
-      "dep_top": 42.0
-     }
-    },
-    {
-     "tarih": "2026-10-25",
-     "ev": "Liverpool",
-     "deplasman": "Brighton",
-     "skor": "2-0",
-     "veri": {
-      "ev_is": 4.0,
+      "ev_is": 1.0,
       "dep_is": 1.0,
-      "ev_top": 36.0,
-      "dep_top": 64.0
+      "ev_top": 42.0,
+      "dep_top": 58.0
      }
     },
     {
-     "tarih": "2026-10-25",
-     "ev": "Crystal Palace",
-     "deplasman": "Newcastle",
-     "skor": "0-2",
+     "tarih": "2026-10-31",
+     "ev": "Coventry",
+     "deplasman": "Sunderland",
+     "skor": "3-1",
      "veri": {
       "ev_is": 4.0,
       "dep_is": 2.0,
-      "ev_top": 53.0,
-      "dep_top": 47.0
+      "ev_top": 43.0,
+      "dep_top": 57.0
+     }
+    },
+    {
+     "tarih": "2026-10-31",
+     "ev": "Man City",
+     "deplasman": "Brighton",
+     "skor": "0-1",
+     "veri": {
+      "ev_is": 6.0,
+      "dep_is": 3.0,
+      "ev_top": 62.0,
+      "dep_top": 38.0
+     }
+    },
+    {
+     "tarih": "2026-10-31",
+     "ev": "Tottenham",
+     "deplasman": "Crystal Palace",
+     "skor": "2-0",
+     "veri": {
+      "ev_is": 9.0,
+      "dep_is": 1.0,
+      "ev_top": 79.0,
+      "dep_top": 21.0
+     }
+    },
+    {
+     "tarih": "2026-10-31",
+     "ev": "Aston Villa",
+     "deplasman": "Fulham",
+     "skor": "1-1",
+     "veri": {
+      "ev_is": 3.0,
+      "dep_is": 5.0,
+      "ev_top": 45.0,
+      "dep_top": 55.0
      }
     },
     {
      "tarih": "2026-10-25",
-     "ev": "Hull",
-     "deplasman": "Brentford",
-     "skor": "1-1",
+     "ev": "Sunderland",
+     "deplasman": "Leeds",
+     "skor": "0-0",
      "veri": {
-      "ev_is": 2.0,
-      "dep_is": 6.0,
-      "ev_top": 42.0,
-      "dep_top": 58.0
+      "ev_is": 4.0,
+      "dep_is": 4.0,
+      "ev_top": 50.0,
+      "dep_top": 50.0
      }
     },
     {
@@ -1686,14 +1876,50 @@
     },
     {
      "tarih": "2026-10-25",
-     "ev": "Sunderland",
-     "deplasman": "Leeds",
-     "skor": "0-0",
+     "ev": "Liverpool",
+     "deplasman": "Brighton",
+     "skor": "2-0",
      "veri": {
       "ev_is": 4.0,
-      "dep_is": 4.0,
-      "ev_top": 50.0,
-      "dep_top": 50.0
+      "dep_is": 1.0,
+      "ev_top": 36.0,
+      "dep_top": 64.0
+     }
+    },
+    {
+     "tarih": "2026-10-25",
+     "ev": "Hull",
+     "deplasman": "Brentford",
+     "skor": "1-1",
+     "veri": {
+      "ev_is": 2.0,
+      "dep_is": 6.0,
+      "ev_top": 42.0,
+      "dep_top": 58.0
+     }
+    },
+    {
+     "tarih": "2026-10-25",
+     "ev": "Crystal Palace",
+     "deplasman": "Newcastle",
+     "skor": "0-2",
+     "veri": {
+      "ev_is": 4.0,
+      "dep_is": 2.0,
+      "ev_top": 53.0,
+      "dep_top": 47.0
+     }
+    },
+    {
+     "tarih": "2026-10-24",
+     "ev": "Aston Villa",
+     "deplasman": "Man City",
+     "skor": "2-1",
+     "veri": {
+      "ev_is": 2.0,
+      "dep_is": 7.0,
+      "ev_top": 36.0,
+      "dep_top": 64.0
      }
     },
     {
@@ -1730,18 +1956,6 @@
       "dep_is": 3.0,
       "ev_top": 58.0,
       "dep_top": 42.0
-     }
-    },
-    {
-     "tarih": "2026-10-24",
-     "ev": "Aston Villa",
-     "deplasman": "Man City",
-     "skor": "2-1",
-     "veri": {
-      "ev_is": 2.0,
-      "dep_is": 7.0,
-      "ev_top": 36.0,
-      "dep_top": 64.0
      }
     },
     {
@@ -1818,42 +2032,6 @@
     },
     {
      "tarih": "2026-10-17",
-     "ev": "Fulham",
-     "deplasman": "Hull",
-     "skor": "1-0",
-     "veri": {
-      "ev_is": 6.0,
-      "dep_is": 0.0,
-      "ev_top": 77.0,
-      "dep_top": 23.0
-     }
-    },
-    {
-     "tarih": "2026-10-17",
-     "ev": "Everton",
-     "deplasman": "Chelsea",
-     "skor": "0-2",
-     "veri": {
-      "ev_is": 5.0,
-      "dep_is": 7.0,
-      "ev_top": 47.0,
-      "dep_top": 53.0
-     }
-    },
-    {
-     "tarih": "2026-10-17",
-     "ev": "Brentford",
-     "deplasman": "Liverpool",
-     "skor": "1-2",
-     "veri": {
-      "ev_is": 2.0,
-      "dep_is": 5.0,
-      "ev_top": 40.0,
-      "dep_top": 60.0
-     }
-    },
-    {
-     "tarih": "2026-10-17",
      "ev": "Newcastle",
      "deplasman": "Aston Villa",
      "skor": "0-1",
@@ -1874,6 +2052,42 @@
       "dep_is": 3.0,
       "ev_top": 70.0,
       "dep_top": 30.0
+     }
+    },
+    {
+     "tarih": "2026-10-17",
+     "ev": "Fulham",
+     "deplasman": "Hull",
+     "skor": "1-0",
+     "veri": {
+      "ev_is": 6.0,
+      "dep_is": 0.0,
+      "ev_top": 77.0,
+      "dep_top": 23.0
+     }
+    },
+    {
+     "tarih": "2026-10-17",
+     "ev": "Brentford",
+     "deplasman": "Liverpool",
+     "skor": "1-2",
+     "veri": {
+      "ev_is": 2.0,
+      "dep_is": 5.0,
+      "ev_top": 40.0,
+      "dep_top": 60.0
+     }
+    },
+    {
+     "tarih": "2026-10-17",
+     "ev": "Everton",
+     "deplasman": "Chelsea",
+     "skor": "0-2",
+     "veri": {
+      "ev_is": 5.0,
+      "dep_is": 7.0,
+      "ev_top": 47.0,
+      "dep_top": 53.0
      }
     },
     {
@@ -1902,18 +2116,6 @@
     },
     {
      "tarih": "2026-10-11",
-     "ev": "Hull",
-     "deplasman": "Everton",
-     "skor": "2-2",
-     "veri": {
-      "ev_is": 5.0,
-      "dep_is": 7.0,
-      "ev_top": 35.0,
-      "dep_top": 65.0
-     }
-    },
-    {
-     "tarih": "2026-10-11",
      "ev": "Crystal Palace",
      "deplasman": "Nott'm Forest",
      "skor": "3-1",
@@ -1925,15 +2127,15 @@
      }
     },
     {
-     "tarih": "2026-10-10",
-     "ev": "Aston Villa",
-     "deplasman": "Brentford",
+     "tarih": "2026-10-11",
+     "ev": "Hull",
+     "deplasman": "Everton",
      "skor": "2-2",
      "veri": {
-      "ev_is": 7.0,
-      "dep_is": 4.0,
-      "ev_top": 52.0,
-      "dep_top": 48.0
+      "ev_is": 5.0,
+      "dep_is": 7.0,
+      "ev_top": 35.0,
+      "dep_top": 65.0
      }
     },
     {
@@ -1982,6 +2184,18 @@
       "dep_is": 4.0,
       "ev_top": 50.0,
       "dep_top": 50.0
+     }
+    },
+    {
+     "tarih": "2026-10-10",
+     "ev": "Aston Villa",
+     "deplasman": "Brentford",
+     "skor": "2-2",
+     "veri": {
+      "ev_is": 7.0,
+      "dep_is": 4.0,
+      "ev_top": 52.0,
+      "dep_top": 48.0
      }
     },
     {
@@ -2046,30 +2260,6 @@
     },
     {
      "tarih": "2026-09-19",
-     "ev": "Nott'm Forest",
-     "deplasman": "Coventry",
-     "skor": "0-1",
-     "veri": {
-      "ev_is": 3.0,
-      "dep_is": 3.0,
-      "ev_top": 62.0,
-      "dep_top": 38.0
-     }
-    },
-    {
-     "tarih": "2026-09-19",
-     "ev": "Newcastle",
-     "deplasman": "Hull",
-     "skor": "2-1",
-     "veri": {
-      "ev_is": 5.0,
-      "dep_is": 4.0,
-      "ev_top": 56.0,
-      "dep_top": 44.0
-     }
-    },
-    {
-     "tarih": "2026-09-19",
      "ev": "Everton",
      "deplasman": "Ipswich",
      "skor": "1-0",
@@ -2078,6 +2268,18 @@
       "dep_is": 4.0,
       "ev_top": 52.0,
       "dep_top": 48.0
+     }
+    },
+    {
+     "tarih": "2026-09-19",
+     "ev": "Tottenham",
+     "deplasman": "Aston Villa",
+     "skor": "2-3",
+     "veri": {
+      "ev_is": 7.0,
+      "dep_is": 6.0,
+      "ev_top": 64.0,
+      "dep_top": 36.0
      }
     },
     {
@@ -2094,14 +2296,26 @@
     },
     {
      "tarih": "2026-09-19",
-     "ev": "Tottenham",
-     "deplasman": "Aston Villa",
-     "skor": "2-3",
+     "ev": "Newcastle",
+     "deplasman": "Hull",
+     "skor": "2-1",
      "veri": {
-      "ev_is": 7.0,
-      "dep_is": 6.0,
-      "ev_top": 64.0,
-      "dep_top": 36.0
+      "ev_is": 5.0,
+      "dep_is": 4.0,
+      "ev_top": 56.0,
+      "dep_top": 44.0
+     }
+    },
+    {
+     "tarih": "2026-09-19",
+     "ev": "Nott'm Forest",
+     "deplasman": "Coventry",
+     "skor": "0-1",
+     "veri": {
+      "ev_is": 3.0,
+      "dep_is": 3.0,
+      "ev_top": 62.0,
+      "dep_top": 38.0
      }
     },
     {
@@ -2262,38 +2476,26 @@
     },
     {
      "tarih": "2026-09-05",
-     "ev": "Brighton",
-     "deplasman": "Leeds",
-     "skor": "1-1",
+     "ev": "Hull",
+     "deplasman": "Aston Villa",
+     "skor": "0-0",
      "veri": {
-      "ev_is": 5.0,
-      "dep_is": 5.0,
-      "ev_top": 67.0,
-      "dep_top": 33.0
+      "ev_is": 4.0,
+      "dep_is": 1.0,
+      "ev_top": 26.0,
+      "dep_top": 74.0
      }
     },
     {
      "tarih": "2026-09-05",
-     "ev": "Newcastle",
-     "deplasman": "Bournemouth",
-     "skor": "2-2",
+     "ev": "Nott'm Forest",
+     "deplasman": "Tottenham",
+     "skor": "0-0",
      "veri": {
       "ev_is": 2.0,
-      "dep_is": 5.0,
-      "ev_top": 58.0,
-      "dep_top": 42.0
-     }
-    },
-    {
-     "tarih": "2026-09-05",
-     "ev": "Brentford",
-     "deplasman": "Sunderland",
-     "skor": "1-1",
-     "veri": {
-      "ev_is": 2.0,
-      "dep_is": 5.0,
-      "ev_top": 49.0,
-      "dep_top": 51.0
+      "dep_is": 0.0,
+      "ev_top": 41.0,
+      "dep_top": 59.0
      }
     },
     {
@@ -2310,18 +2512,6 @@
     },
     {
      "tarih": "2026-09-05",
-     "ev": "Hull",
-     "deplasman": "Aston Villa",
-     "skor": "0-0",
-     "veri": {
-      "ev_is": 4.0,
-      "dep_is": 1.0,
-      "ev_top": 26.0,
-      "dep_top": 74.0
-     }
-    },
-    {
-     "tarih": "2026-09-05",
      "ev": "Fulham",
      "deplasman": "Crystal Palace",
      "skor": "2-3",
@@ -2334,14 +2524,38 @@
     },
     {
      "tarih": "2026-09-05",
-     "ev": "Nott'm Forest",
-     "deplasman": "Tottenham",
-     "skor": "0-0",
+     "ev": "Brighton",
+     "deplasman": "Leeds",
+     "skor": "1-1",
+     "veri": {
+      "ev_is": 5.0,
+      "dep_is": 5.0,
+      "ev_top": 67.0,
+      "dep_top": 33.0
+     }
+    },
+    {
+     "tarih": "2026-09-05",
+     "ev": "Brentford",
+     "deplasman": "Sunderland",
+     "skor": "1-1",
      "veri": {
       "ev_is": 2.0,
-      "dep_is": 0.0,
-      "ev_top": 41.0,
-      "dep_top": 59.0
+      "dep_is": 5.0,
+      "ev_top": 49.0,
+      "dep_top": 51.0
+     }
+    },
+    {
+     "tarih": "2026-09-05",
+     "ev": "Newcastle",
+     "deplasman": "Bournemouth",
+     "skor": "2-2",
+     "veri": {
+      "ev_is": 2.0,
+      "dep_is": 5.0,
+      "ev_top": 58.0,
+      "dep_top": 42.0
      }
     },
     {
@@ -2370,30 +2584,6 @@
     },
     {
      "tarih": "2026-08-30",
-     "ev": "Man United",
-     "deplasman": "Ipswich",
-     "skor": "5-2",
-     "veri": {
-      "ev_is": 11.0,
-      "dep_is": 5.0,
-      "ev_top": 60.0,
-      "dep_top": 40.0
-     }
-    },
-    {
-     "tarih": "2026-08-30",
-     "ev": "Sunderland",
-     "deplasman": "Fulham",
-     "skor": "1-0",
-     "veri": {
-      "ev_is": 4.0,
-      "dep_is": 0.0,
-      "ev_top": 41.0,
-      "dep_top": 59.0
-     }
-    },
-    {
-     "tarih": "2026-08-30",
      "ev": "Leeds",
      "deplasman": "Brentford",
      "skor": "1-1",
@@ -2417,27 +2607,27 @@
      }
     },
     {
-     "tarih": "2026-08-29",
-     "ev": "Bournemouth",
-     "deplasman": "Everton",
-     "skor": "1-1",
+     "tarih": "2026-08-30",
+     "ev": "Sunderland",
+     "deplasman": "Fulham",
+     "skor": "1-0",
      "veri": {
-      "ev_is": 5.0,
-      "dep_is": 7.0,
-      "ev_top": 59.0,
-      "dep_top": 41.0
+      "ev_is": 4.0,
+      "dep_is": 0.0,
+      "ev_top": 41.0,
+      "dep_top": 59.0
      }
     },
     {
-     "tarih": "2026-08-29",
-     "ev": "Liverpool",
-     "deplasman": "Nott'm Forest",
-     "skor": "2-2",
+     "tarih": "2026-08-30",
+     "ev": "Man United",
+     "deplasman": "Ipswich",
+     "skor": "5-2",
      "veri": {
-      "ev_is": 4.0,
-      "dep_is": 3.0,
-      "ev_top": 69.0,
-      "dep_top": 31.0
+      "ev_is": 11.0,
+      "dep_is": 5.0,
+      "ev_top": 60.0,
+      "dep_top": 40.0
      }
     },
     {
@@ -2460,6 +2650,30 @@
      "veri": {
       "ev_is": 3.0,
       "dep_is": 2.0,
+      "ev_top": 69.0,
+      "dep_top": 31.0
+     }
+    },
+    {
+     "tarih": "2026-08-29",
+     "ev": "Bournemouth",
+     "deplasman": "Everton",
+     "skor": "1-1",
+     "veri": {
+      "ev_is": 5.0,
+      "dep_is": 7.0,
+      "ev_top": 59.0,
+      "dep_top": 41.0
+     }
+    },
+    {
+     "tarih": "2026-08-29",
+     "ev": "Liverpool",
+     "deplasman": "Nott'm Forest",
+     "skor": "2-2",
+     "veri": {
+      "ev_is": 4.0,
+      "dep_is": 3.0,
       "ev_top": 69.0,
       "dep_top": 31.0
      }
@@ -2490,6 +2704,18 @@
     },
     {
      "tarih": "2026-08-23",
+     "ev": "Brighton",
+     "deplasman": "Aston Villa",
+     "skor": "4-0",
+     "veri": {
+      "ev_is": 6.0,
+      "dep_is": 0.0,
+      "ev_top": 73.0,
+      "dep_top": 27.0
+     }
+    },
+    {
+     "tarih": "2026-08-23",
      "ev": "Newcastle",
      "deplasman": "Liverpool",
      "skor": "2-2",
@@ -2510,18 +2736,6 @@
       "dep_is": 4.0,
       "ev_top": 66.0,
       "dep_top": 34.0
-     }
-    },
-    {
-     "tarih": "2026-08-23",
-     "ev": "Brighton",
-     "deplasman": "Aston Villa",
-     "skor": "4-0",
-     "veri": {
-      "ev_is": 6.0,
-      "dep_is": 0.0,
-      "ev_top": 73.0,
-      "dep_top": 27.0
      }
     },
     {
@@ -2625,6 +2839,110 @@
    ],
    "maclar": [
     {
+     "tarih": "2026-11-23",
+     "ev": "Levante",
+     "deplasman": "Elche",
+     "skor": "1-1",
+     "veri": {
+      "ev_is": 2.0,
+      "dep_is": 2.0
+     }
+    },
+    {
+     "tarih": "2026-11-22",
+     "ev": "Getafe",
+     "deplasman": "Ath Madrid",
+     "skor": "0-3",
+     "veri": {
+      "ev_is": 1.0,
+      "dep_is": 10.0
+     }
+    },
+    {
+     "tarih": "2026-11-22",
+     "ev": "Osasuna",
+     "deplasman": "Malaga",
+     "skor": "1-0",
+     "veri": {
+      "ev_is": 2.0,
+      "dep_is": 0.0
+     }
+    },
+    {
+     "tarih": "2026-11-22",
+     "ev": "Santander",
+     "deplasman": "Sociedad",
+     "skor": "3-2",
+     "veri": {
+      "ev_is": 8.0,
+      "dep_is": 7.0
+     }
+    },
+    {
+     "tarih": "2026-11-22",
+     "ev": "Barcelona",
+     "deplasman": "Villarreal",
+     "skor": "3-2",
+     "veri": {
+      "ev_is": 9.0,
+      "dep_is": 2.0
+     }
+    },
+    {
+     "tarih": "2026-11-21",
+     "ev": "Sevilla",
+     "deplasman": "Betis",
+     "skor": "1-1",
+     "veri": {
+      "ev_is": 6.0,
+      "dep_is": 3.0
+     }
+    },
+    {
+     "tarih": "2026-11-21",
+     "ev": "Alaves",
+     "deplasman": "La Coruna",
+     "skor": "3-1",
+     "veri": {
+      "ev_is": 8.0,
+      "dep_is": 2.0
+     }
+    },
+    {
+     "tarih": "2026-11-21",
+     "ev": "Vallecano",
+     "deplasman": "Valencia",
+     "skor": "0-1",
+     "veri": {
+      "ev_is": 5.0,
+      "dep_is": 2.0
+     }
+    },
+    {
+     "tarih": "2026-11-21",
+     "ev": "Real Madrid",
+     "deplasman": "Celta",
+     "skor": "2-1",
+     "veri": {
+      "ev_is": 7.0,
+      "dep_is": 4.0
+     }
+    },
+    {
+     "tarih": "2026-11-20",
+     "ev": "Ath Bilbao",
+     "deplasman": "Espanol",
+     "skor": "0-1",
+     "veri": {
+      "ev_is": 6.0,
+      "dep_is": 3.0,
+      "ev_bs": 3.0,
+      "dep_bs": 1.0,
+      "ev_top": 58.0,
+      "dep_top": 42.0
+     }
+    },
+    {
      "tarih": "2026-11-08",
      "ev": "Ath Madrid",
      "deplasman": "Barcelona",
@@ -2696,6 +3014,30 @@
     },
     {
      "tarih": "2026-11-07",
+     "ev": "Espanol",
+     "deplasman": "La Coruna",
+     "skor": "0-0",
+     "veri": {
+      "ev_is": 4.0,
+      "dep_is": 1.0
+     }
+    },
+    {
+     "tarih": "2026-11-07",
+     "ev": "Malaga",
+     "deplasman": "Santander",
+     "skor": "1-2",
+     "veri": {
+      "ev_is": 8.0,
+      "dep_is": 7.0,
+      "ev_bs": 7.0,
+      "dep_bs": 4.0,
+      "ev_top": 47.0,
+      "dep_top": 53.0
+     }
+    },
+    {
+     "tarih": "2026-11-07",
      "ev": "Valencia",
      "deplasman": "Real Madrid",
      "skor": "0-3",
@@ -2720,30 +3062,6 @@
       "dep_bs": 4.0,
       "ev_top": 39.0,
       "dep_top": 61.0
-     }
-    },
-    {
-     "tarih": "2026-11-07",
-     "ev": "Espanol",
-     "deplasman": "La Coruna",
-     "skor": "0-0",
-     "veri": {
-      "ev_is": 4.0,
-      "dep_is": 1.0
-     }
-    },
-    {
-     "tarih": "2026-11-07",
-     "ev": "Malaga",
-     "deplasman": "Santander",
-     "skor": "1-2",
-     "veri": {
-      "ev_is": 8.0,
-      "dep_is": 7.0,
-      "ev_bs": 7.0,
-      "dep_bs": 4.0,
-      "ev_top": 47.0,
-      "dep_top": 53.0
      }
     },
     {
@@ -2772,6 +3090,34 @@
     },
     {
      "tarih": "2026-11-01",
+     "ev": "Ath Bilbao",
+     "deplasman": "Sociedad",
+     "skor": "2-1",
+     "veri": {
+      "ev_is": 3.0,
+      "dep_is": 5.0,
+      "ev_bs": 6.0,
+      "dep_bs": 2.0,
+      "ev_top": 38.0,
+      "dep_top": 62.0
+     }
+    },
+    {
+     "tarih": "2026-11-01",
+     "ev": "Elche",
+     "deplasman": "Valencia",
+     "skor": "0-1",
+     "veri": {
+      "ev_is": 3.0,
+      "dep_is": 3.0,
+      "ev_bs": 1.0,
+      "dep_bs": 2.0,
+      "ev_top": 69.0,
+      "dep_top": 31.0
+     }
+    },
+    {
+     "tarih": "2026-11-01",
      "ev": "Santander",
      "deplasman": "Real Madrid",
      "skor": "0-3",
@@ -2796,34 +3142,6 @@
       "dep_bs": 0.0,
       "ev_top": 47.0,
       "dep_top": 53.0
-     }
-    },
-    {
-     "tarih": "2026-11-01",
-     "ev": "Elche",
-     "deplasman": "Valencia",
-     "skor": "0-1",
-     "veri": {
-      "ev_is": 3.0,
-      "dep_is": 3.0,
-      "ev_bs": 1.0,
-      "dep_bs": 2.0,
-      "ev_top": 69.0,
-      "dep_top": 31.0
-     }
-    },
-    {
-     "tarih": "2026-11-01",
-     "ev": "Ath Bilbao",
-     "deplasman": "Sociedad",
-     "skor": "2-1",
-     "veri": {
-      "ev_is": 3.0,
-      "dep_is": 5.0,
-      "ev_bs": 6.0,
-      "dep_bs": 2.0,
-      "ev_top": 38.0,
-      "dep_top": 62.0
      }
     },
     {
@@ -2912,6 +3230,34 @@
     },
     {
      "tarih": "2026-10-25",
+     "ev": "Celta",
+     "deplasman": "Betis",
+     "skor": "0-0",
+     "veri": {
+      "ev_is": 4.0,
+      "dep_is": 2.0,
+      "ev_bs": 1.0,
+      "dep_bs": 1.0,
+      "ev_top": 44.0,
+      "dep_top": 56.0
+     }
+    },
+    {
+     "tarih": "2026-10-25",
+     "ev": "Ath Bilbao",
+     "deplasman": "Getafe",
+     "skor": "4-0",
+     "veri": {
+      "ev_is": 4.0,
+      "dep_is": 1.0,
+      "ev_bs": 1.0,
+      "dep_bs": 0.0,
+      "ev_top": 63.0,
+      "dep_top": 37.0
+     }
+    },
+    {
+     "tarih": "2026-10-25",
      "ev": "Barcelona",
      "deplasman": "Real Madrid",
      "skor": "1-2",
@@ -2939,31 +3285,13 @@
      }
     },
     {
-     "tarih": "2026-10-25",
-     "ev": "Celta",
-     "deplasman": "Betis",
-     "skor": "0-0",
+     "tarih": "2026-10-24",
+     "ev": "Ath Madrid",
+     "deplasman": "La Coruna",
+     "skor": "1-0",
      "veri": {
       "ev_is": 4.0,
-      "dep_is": 2.0,
-      "ev_bs": 1.0,
-      "dep_bs": 1.0,
-      "ev_top": 44.0,
-      "dep_top": 56.0
-     }
-    },
-    {
-     "tarih": "2026-10-25",
-     "ev": "Ath Bilbao",
-     "deplasman": "Getafe",
-     "skor": "4-0",
-     "veri": {
-      "ev_is": 4.0,
-      "dep_is": 1.0,
-      "ev_bs": 1.0,
-      "dep_bs": 0.0,
-      "ev_top": 63.0,
-      "dep_top": 37.0
+      "dep_is": 5.0
      }
     },
     {
@@ -3006,16 +3334,6 @@
       "dep_bs": 3.0,
       "ev_top": 57.0,
       "dep_top": 43.0
-     }
-    },
-    {
-     "tarih": "2026-10-24",
-     "ev": "Ath Madrid",
-     "deplasman": "La Coruna",
-     "skor": "1-0",
-     "veri": {
-      "ev_is": 4.0,
-      "dep_is": 5.0
      }
     },
     {
@@ -3118,20 +3436,6 @@
     },
     {
      "tarih": "2026-10-17",
-     "ev": "Valencia",
-     "deplasman": "Ath Bilbao",
-     "skor": "0-0",
-     "veri": {
-      "ev_is": 3.0,
-      "dep_is": 2.0,
-      "ev_bs": 5.0,
-      "dep_bs": 0.0,
-      "ev_top": 37.0,
-      "dep_top": 63.0
-     }
-    },
-    {
-     "tarih": "2026-10-17",
      "ev": "Betis",
      "deplasman": "Barcelona",
      "skor": "2-5",
@@ -3142,6 +3446,20 @@
       "dep_bs": 5.0,
       "ev_top": 31.0,
       "dep_top": 69.0
+     }
+    },
+    {
+     "tarih": "2026-10-17",
+     "ev": "Espanol",
+     "deplasman": "Ath Madrid",
+     "skor": "0-1",
+     "veri": {
+      "ev_is": 2.0,
+      "dep_is": 6.0,
+      "ev_bs": 0.0,
+      "dep_bs": 3.0,
+      "ev_top": 30.0,
+      "dep_top": 70.0
      }
     },
     {
@@ -3160,16 +3478,16 @@
     },
     {
      "tarih": "2026-10-17",
-     "ev": "Espanol",
-     "deplasman": "Ath Madrid",
-     "skor": "0-1",
+     "ev": "Valencia",
+     "deplasman": "Ath Bilbao",
+     "skor": "0-0",
      "veri": {
-      "ev_is": 2.0,
-      "dep_is": 6.0,
-      "ev_bs": 0.0,
-      "dep_bs": 3.0,
-      "ev_top": 30.0,
-      "dep_top": 70.0
+      "ev_is": 3.0,
+      "dep_is": 2.0,
+      "ev_bs": 5.0,
+      "dep_bs": 0.0,
+      "ev_top": 37.0,
+      "dep_top": 63.0
      }
     },
     {
@@ -3198,30 +3516,6 @@
     },
     {
      "tarih": "2026-10-11",
-     "ev": "Sociedad",
-     "deplasman": "La Coruna",
-     "skor": "3-2",
-     "veri": {
-      "ev_is": 4.0,
-      "dep_is": 7.0
-     }
-    },
-    {
-     "tarih": "2026-10-11",
-     "ev": "Elche",
-     "deplasman": "Celta",
-     "skor": "0-0",
-     "veri": {
-      "ev_is": 2.0,
-      "dep_is": 0.0,
-      "ev_bs": 0.0,
-      "dep_bs": 1.0,
-      "ev_top": 67.0,
-      "dep_top": 33.0
-     }
-    },
-    {
-     "tarih": "2026-10-11",
      "ev": "Santander",
      "deplasman": "Valencia",
      "skor": "2-2",
@@ -3246,6 +3540,30 @@
       "dep_bs": 2.0,
       "ev_top": 52.0,
       "dep_top": 48.0
+     }
+    },
+    {
+     "tarih": "2026-10-11",
+     "ev": "Sociedad",
+     "deplasman": "La Coruna",
+     "skor": "3-2",
+     "veri": {
+      "ev_is": 4.0,
+      "dep_is": 7.0
+     }
+    },
+    {
+     "tarih": "2026-10-11",
+     "ev": "Elche",
+     "deplasman": "Celta",
+     "skor": "0-0",
+     "veri": {
+      "ev_is": 2.0,
+      "dep_is": 0.0,
+      "ev_bs": 0.0,
+      "dep_bs": 1.0,
+      "ev_top": 67.0,
+      "dep_top": 33.0
      }
     },
     {
@@ -3306,6 +3624,20 @@
     },
     {
      "tarih": "2026-09-20",
+     "ev": "Ath Madrid",
+     "deplasman": "Real Madrid",
+     "skor": "2-1",
+     "veri": {
+      "ev_is": 9.0,
+      "dep_is": 3.0,
+      "ev_bs": 4.0,
+      "dep_bs": 1.0,
+      "ev_top": 61.0,
+      "dep_top": 39.0
+     }
+    },
+    {
+     "tarih": "2026-09-20",
      "ev": "Valencia",
      "deplasman": "Sociedad",
      "skor": "2-3",
@@ -3344,20 +3676,6 @@
     },
     {
      "tarih": "2026-09-20",
-     "ev": "Ath Madrid",
-     "deplasman": "Real Madrid",
-     "skor": "2-1",
-     "veri": {
-      "ev_is": 9.0,
-      "dep_is": 3.0,
-      "ev_bs": 4.0,
-      "dep_bs": 1.0,
-      "ev_top": 61.0,
-      "dep_top": 39.0
-     }
-    },
-    {
-     "tarih": "2026-09-20",
      "ev": "Getafe",
      "deplasman": "Malaga",
      "skor": "1-0",
@@ -3368,34 +3686,6 @@
       "dep_bs": 0.0,
       "ev_top": 44.0,
       "dep_top": 56.0
-     }
-    },
-    {
-     "tarih": "2026-09-19",
-     "ev": "Osasuna",
-     "deplasman": "Vallecano",
-     "skor": "1-1",
-     "veri": {
-      "ev_is": 3.0,
-      "dep_is": 2.0,
-      "ev_bs": 1.0,
-      "dep_bs": 1.0,
-      "ev_top": 37.0,
-      "dep_top": 63.0
-     }
-    },
-    {
-     "tarih": "2026-09-19",
-     "ev": "Sevilla",
-     "deplasman": "Barcelona",
-     "skor": "1-3",
-     "veri": {
-      "ev_is": 3.0,
-      "dep_is": 7.0,
-      "ev_bs": 1.0,
-      "dep_bs": 6.0,
-      "ev_top": 31.0,
-      "dep_top": 69.0
      }
     },
     {
@@ -3427,6 +3717,34 @@
      }
     },
     {
+     "tarih": "2026-09-19",
+     "ev": "Osasuna",
+     "deplasman": "Vallecano",
+     "skor": "1-1",
+     "veri": {
+      "ev_is": 3.0,
+      "dep_is": 2.0,
+      "ev_bs": 1.0,
+      "dep_bs": 1.0,
+      "ev_top": 37.0,
+      "dep_top": 63.0
+     }
+    },
+    {
+     "tarih": "2026-09-19",
+     "ev": "Sevilla",
+     "deplasman": "Barcelona",
+     "skor": "1-3",
+     "veri": {
+      "ev_is": 3.0,
+      "dep_is": 7.0,
+      "ev_bs": 1.0,
+      "dep_bs": 6.0,
+      "ev_top": 31.0,
+      "dep_top": 69.0
+     }
+    },
+    {
      "tarih": "2026-09-18",
      "ev": "Espanol",
      "deplasman": "Elche",
@@ -3442,20 +3760,6 @@
     },
     {
      "tarih": "2026-09-17",
-     "ev": "Betis",
-     "deplasman": "Getafe",
-     "skor": "1-0",
-     "veri": {
-      "ev_is": 8.0,
-      "dep_is": 2.0,
-      "ev_bs": 4.0,
-      "dep_bs": 0.0,
-      "ev_top": 75.0,
-      "dep_top": 25.0
-     }
-    },
-    {
-     "tarih": "2026-09-17",
      "ev": "Malaga",
      "deplasman": "Villarreal",
      "skor": "1-3",
@@ -3466,6 +3770,20 @@
       "dep_bs": 7.0,
       "ev_top": 37.0,
       "dep_top": 63.0
+     }
+    },
+    {
+     "tarih": "2026-09-17",
+     "ev": "Betis",
+     "deplasman": "Getafe",
+     "skor": "1-0",
+     "veri": {
+      "ev_is": 8.0,
+      "dep_is": 2.0,
+      "ev_bs": 4.0,
+      "dep_bs": 0.0,
+      "ev_top": 75.0,
+      "dep_top": 25.0
      }
     },
     {
@@ -3508,6 +3826,20 @@
     },
     {
      "tarih": "2026-09-15",
+     "ev": "Vallecano",
+     "deplasman": "Espanol",
+     "skor": "2-1",
+     "veri": {
+      "ev_is": 2.0,
+      "dep_is": 5.0,
+      "ev_bs": 2.0,
+      "dep_bs": 2.0,
+      "ev_top": 55.0,
+      "dep_top": 45.0
+     }
+    },
+    {
+     "tarih": "2026-09-15",
      "ev": "Elche",
      "deplasman": "Real Madrid",
      "skor": "2-3",
@@ -3532,20 +3864,6 @@
       "dep_bs": 1.0,
       "ev_top": 43.0,
       "dep_top": 57.0
-     }
-    },
-    {
-     "tarih": "2026-09-15",
-     "ev": "Vallecano",
-     "deplasman": "Espanol",
-     "skor": "2-1",
-     "veri": {
-      "ev_is": 2.0,
-      "dep_is": 5.0,
-      "ev_bs": 2.0,
-      "dep_bs": 2.0,
-      "ev_top": 55.0,
-      "dep_top": 45.0
      }
     },
     {
@@ -3578,6 +3896,20 @@
     },
     {
      "tarih": "2026-09-13",
+     "ev": "Celta",
+     "deplasman": "Malaga",
+     "skor": "1-1",
+     "veri": {
+      "ev_is": 5.0,
+      "dep_is": 2.0,
+      "ev_bs": 2.0,
+      "dep_bs": 0.0,
+      "ev_top": 46.0,
+      "dep_top": 54.0
+     }
+    },
+    {
+     "tarih": "2026-09-13",
      "ev": "Sociedad",
      "deplasman": "Ath Madrid",
      "skor": "0-3",
@@ -3598,48 +3930,6 @@
      "veri": {
       "ev_is": 4.0,
       "dep_is": 3.0
-     }
-    },
-    {
-     "tarih": "2026-09-13",
-     "ev": "Celta",
-     "deplasman": "Malaga",
-     "skor": "1-1",
-     "veri": {
-      "ev_is": 5.0,
-      "dep_is": 2.0,
-      "ev_bs": 2.0,
-      "dep_bs": 0.0,
-      "ev_top": 46.0,
-      "dep_top": 54.0
-     }
-    },
-    {
-     "tarih": "2026-09-12",
-     "ev": "Osasuna",
-     "deplasman": "Espanol",
-     "skor": "0-2",
-     "veri": {
-      "ev_is": 4.0,
-      "dep_is": 3.0,
-      "ev_bs": 1.0,
-      "dep_bs": 2.0,
-      "ev_top": 61.0,
-      "dep_top": 39.0
-     }
-    },
-    {
-     "tarih": "2026-09-12",
-     "ev": "Santander",
-     "deplasman": "Alaves",
-     "skor": "2-1",
-     "veri": {
-      "ev_is": 4.0,
-      "dep_is": 8.0,
-      "ev_bs": 2.0,
-      "dep_bs": 4.0,
-      "ev_top": 57.0,
-      "dep_top": 43.0
      }
     },
     {
@@ -3668,6 +3958,34 @@
       "dep_bs": 1.0,
       "ev_top": 67.0,
       "dep_top": 33.0
+     }
+    },
+    {
+     "tarih": "2026-09-12",
+     "ev": "Osasuna",
+     "deplasman": "Espanol",
+     "skor": "0-2",
+     "veri": {
+      "ev_is": 4.0,
+      "dep_is": 3.0,
+      "ev_bs": 1.0,
+      "dep_bs": 2.0,
+      "ev_top": 61.0,
+      "dep_top": 39.0
+     }
+    },
+    {
+     "tarih": "2026-09-12",
+     "ev": "Santander",
+     "deplasman": "Alaves",
+     "skor": "2-1",
+     "veri": {
+      "ev_is": 4.0,
+      "dep_is": 8.0,
+      "ev_bs": 2.0,
+      "dep_bs": 4.0,
+      "ev_top": 57.0,
+      "dep_top": 43.0
      }
     },
     {
@@ -3714,20 +4032,6 @@
     },
     {
      "tarih": "2026-09-06",
-     "ev": "Espanol",
-     "deplasman": "Sevilla",
-     "skor": "1-1",
-     "veri": {
-      "ev_is": 3.0,
-      "dep_is": 3.0,
-      "ev_bs": 3.0,
-      "dep_bs": 1.0,
-      "ev_top": 56.0,
-      "dep_top": 44.0
-     }
-    },
-    {
-     "tarih": "2026-09-06",
      "ev": "Malaga",
      "deplasman": "Levante",
      "skor": "0-0",
@@ -3769,17 +4073,17 @@
      }
     },
     {
-     "tarih": "2026-09-05",
-     "ev": "Vallecano",
-     "deplasman": "Santander",
-     "skor": "3-2",
+     "tarih": "2026-09-06",
+     "ev": "Espanol",
+     "deplasman": "Sevilla",
+     "skor": "1-1",
      "veri": {
-      "ev_is": 10.0,
-      "dep_is": 4.0,
-      "ev_bs": 1.0,
+      "ev_is": 3.0,
+      "dep_is": 3.0,
+      "ev_bs": 3.0,
       "dep_bs": 1.0,
-      "ev_top": 49.0,
-      "dep_top": 51.0
+      "ev_top": 56.0,
+      "dep_top": 44.0
      }
     },
     {
@@ -3794,6 +4098,20 @@
       "dep_bs": 0.0,
       "ev_top": 38.0,
       "dep_top": 62.0
+     }
+    },
+    {
+     "tarih": "2026-09-05",
+     "ev": "Vallecano",
+     "deplasman": "Santander",
+     "skor": "3-2",
+     "veri": {
+      "ev_is": 10.0,
+      "dep_is": 4.0,
+      "ev_bs": 1.0,
+      "dep_bs": 1.0,
+      "ev_top": 49.0,
+      "dep_top": 51.0
      }
     },
     {
@@ -3972,20 +4290,6 @@
     },
     {
      "tarih": "2026-08-27",
-     "ev": "Barcelona",
-     "deplasman": "Ath Bilbao",
-     "skor": "2-0",
-     "veri": {
-      "ev_is": 10.0,
-      "dep_is": 0.0,
-      "ev_bs": 4.0,
-      "dep_bs": 0.0,
-      "ev_top": 70.0,
-      "dep_top": 30.0
-     }
-    },
-    {
-     "tarih": "2026-08-27",
      "ev": "Celta",
      "deplasman": "Osasuna",
      "skor": "1-2",
@@ -3996,6 +4300,20 @@
       "dep_bs": 4.0,
       "ev_top": 52.0,
       "dep_top": 48.0
+     }
+    },
+    {
+     "tarih": "2026-08-27",
+     "ev": "Barcelona",
+     "deplasman": "Ath Bilbao",
+     "skor": "2-0",
+     "veri": {
+      "ev_is": 10.0,
+      "dep_is": 0.0,
+      "ev_bs": 4.0,
+      "dep_bs": 0.0,
+      "ev_top": 70.0,
+      "dep_top": 30.0
      }
     },
     {
@@ -4271,31 +4589,103 @@
    ],
    "maclar": [
     {
-     "tarih": "2026-11-08",
-     "ev": "Fiorentina",
-     "deplasman": "Juventus",
-     "skor": "2-2",
+     "tarih": "2026-11-23",
+     "ev": "Monza",
+     "deplasman": "Fiorentina",
+     "skor": "3-0",
      "veri": {
-      "ev_is": 6.0,
-      "dep_is": 6.0,
-      "ev_bs": 3.0,
-      "dep_bs": 4.0,
-      "ev_top": 41.0,
-      "dep_top": 59.0
+      "ev_is": 5.0,
+      "dep_is": 8.0
      }
     },
     {
-     "tarih": "2026-11-08",
-     "ev": "Inter",
-     "deplasman": "Como",
-     "skor": "2-0",
+     "tarih": "2026-11-22",
+     "ev": "Atalanta",
+     "deplasman": "Inter",
+     "skor": "4-4",
+     "veri": {
+      "ev_is": 10.0,
+      "dep_is": 6.0
+     }
+    },
+    {
+     "tarih": "2026-11-22",
+     "ev": "Milan",
+     "deplasman": "Frosinone",
+     "skor": "5-1",
+     "veri": {
+      "ev_is": 8.0,
+      "dep_is": 3.0
+     }
+    },
+    {
+     "tarih": "2026-11-22",
+     "ev": "Sassuolo",
+     "deplasman": "Genoa",
+     "skor": "0-2",
+     "veri": {
+      "ev_is": 7.0,
+      "dep_is": 5.0
+     }
+    },
+    {
+     "tarih": "2026-11-22",
+     "ev": "Bologna",
+     "deplasman": "Udinese",
+     "skor": "1-1",
      "veri": {
       "ev_is": 4.0,
-      "dep_is": 1.0,
-      "ev_bs": 4.0,
-      "dep_bs": 0.0,
-      "ev_top": 43.0,
-      "dep_top": 57.0
+      "dep_is": 3.0
+     }
+    },
+    {
+     "tarih": "2026-11-22",
+     "ev": "Juventus",
+     "deplasman": "Venezia",
+     "skor": "4-0",
+     "veri": {
+      "ev_is": 8.0,
+      "dep_is": 1.0
+     }
+    },
+    {
+     "tarih": "2026-11-21",
+     "ev": "Napoli",
+     "deplasman": "Torino",
+     "skor": "1-0",
+     "veri": {
+      "ev_is": 10.0,
+      "dep_is": 2.0
+     }
+    },
+    {
+     "tarih": "2026-11-21",
+     "ev": "Parma",
+     "deplasman": "Roma",
+     "skor": "1-5",
+     "veri": {
+      "ev_is": 6.0,
+      "dep_is": 9.0
+     }
+    },
+    {
+     "tarih": "2026-11-21",
+     "ev": "Lazio",
+     "deplasman": "Lecce",
+     "skor": "3-0",
+     "veri": {
+      "ev_is": 6.0,
+      "dep_is": 2.0
+     }
+    },
+    {
+     "tarih": "2026-11-21",
+     "ev": "Como",
+     "deplasman": "Cagliari",
+     "skor": "2-0",
+     "veri": {
+      "ev_is": 6.0,
+      "dep_is": 1.0
      }
     },
     {
@@ -4308,6 +4698,20 @@
       "dep_is": 7.0,
       "ev_bs": 2.0,
       "dep_bs": 2.0,
+      "ev_top": 49.0,
+      "dep_top": 51.0
+     }
+    },
+    {
+     "tarih": "2026-11-08",
+     "ev": "Napoli",
+     "deplasman": "Lazio",
+     "skor": "1-1",
+     "veri": {
+      "ev_is": 6.0,
+      "dep_is": 6.0,
+      "ev_bs": 2.0,
+      "dep_bs": 0.0,
       "ev_top": 49.0,
       "dep_top": 51.0
      }
@@ -4328,16 +4732,30 @@
     },
     {
      "tarih": "2026-11-08",
-     "ev": "Napoli",
-     "deplasman": "Lazio",
-     "skor": "1-1",
+     "ev": "Inter",
+     "deplasman": "Como",
+     "skor": "2-0",
+     "veri": {
+      "ev_is": 4.0,
+      "dep_is": 1.0,
+      "ev_bs": 4.0,
+      "dep_bs": 0.0,
+      "ev_top": 43.0,
+      "dep_top": 57.0
+     }
+    },
+    {
+     "tarih": "2026-11-08",
+     "ev": "Fiorentina",
+     "deplasman": "Juventus",
+     "skor": "2-2",
      "veri": {
       "ev_is": 6.0,
       "dep_is": 6.0,
-      "ev_bs": 2.0,
-      "dep_bs": 0.0,
-      "ev_top": 49.0,
-      "dep_top": 51.0
+      "ev_bs": 3.0,
+      "dep_bs": 4.0,
+      "ev_top": 41.0,
+      "dep_top": 59.0
      }
     },
     {
@@ -4508,16 +4926,16 @@
     },
     {
      "tarih": "2026-10-31",
-     "ev": "Milan",
-     "deplasman": "Inter",
-     "skor": "3-1",
+     "ev": "Bologna",
+     "deplasman": "Monza",
+     "skor": "2-1",
      "veri": {
-      "ev_is": 4.0,
-      "dep_is": 8.0,
-      "ev_bs": 2.0,
-      "dep_bs": 4.0,
-      "ev_top": 43.0,
-      "dep_top": 57.0
+      "ev_is": 5.0,
+      "dep_is": 4.0,
+      "ev_bs": 5.0,
+      "dep_bs": 2.0,
+      "ev_top": 59.0,
+      "dep_top": 41.0
      }
     },
     {
@@ -4536,16 +4954,16 @@
     },
     {
      "tarih": "2026-10-31",
-     "ev": "Bologna",
-     "deplasman": "Monza",
-     "skor": "2-1",
+     "ev": "Milan",
+     "deplasman": "Inter",
+     "skor": "3-1",
      "veri": {
-      "ev_is": 5.0,
-      "dep_is": 4.0,
-      "ev_bs": 5.0,
-      "dep_bs": 2.0,
-      "ev_top": 59.0,
-      "dep_top": 41.0
+      "ev_is": 4.0,
+      "dep_is": 8.0,
+      "ev_bs": 2.0,
+      "dep_bs": 4.0,
+      "ev_top": 43.0,
+      "dep_top": 57.0
      }
     },
     {
@@ -4574,6 +4992,32 @@
       "dep_bs": 2.0,
       "ev_top": 60.0,
       "dep_top": 40.0
+     }
+    },
+    {
+     "tarih": "2026-10-28",
+     "ev": "Monza",
+     "deplasman": "Napoli",
+     "skor": "1-4",
+     "veri": {
+      "ev_is": 5.0,
+      "dep_is": 7.0,
+      "ev_bs": 1.0,
+      "dep_bs": 4.0,
+      "ev_top": 35.0,
+      "dep_top": 65.0
+     }
+    },
+    {
+     "tarih": "2026-10-28",
+     "ev": "Genoa",
+     "deplasman": "Juventus",
+     "skor": "2-0",
+     "veri": {
+      "ev_is": 2.0,
+      "dep_is": 4.0,
+      "ev_top": 37.0,
+      "dep_top": 63.0
      }
     },
     {
@@ -4616,32 +5060,6 @@
       "dep_bs": 4.0,
       "ev_top": 66.0,
       "dep_top": 34.0
-     }
-    },
-    {
-     "tarih": "2026-10-28",
-     "ev": "Genoa",
-     "deplasman": "Juventus",
-     "skor": "2-0",
-     "veri": {
-      "ev_is": 2.0,
-      "dep_is": 4.0,
-      "ev_top": 37.0,
-      "dep_top": 63.0
-     }
-    },
-    {
-     "tarih": "2026-10-28",
-     "ev": "Monza",
-     "deplasman": "Napoli",
-     "skor": "1-4",
-     "veri": {
-      "ev_is": 5.0,
-      "dep_is": 7.0,
-      "ev_bs": 1.0,
-      "dep_bs": 4.0,
-      "ev_top": 35.0,
-      "dep_top": 65.0
      }
     },
     {
@@ -4688,48 +5106,6 @@
     },
     {
      "tarih": "2026-10-25",
-     "ev": "Udinese",
-     "deplasman": "Milan",
-     "skor": "0-2",
-     "veri": {
-      "ev_is": 5.0,
-      "dep_is": 7.0,
-      "ev_bs": 1.0,
-      "dep_bs": 6.0,
-      "ev_top": 40.0,
-      "dep_top": 60.0
-     }
-    },
-    {
-     "tarih": "2026-10-25",
-     "ev": "Lecce",
-     "deplasman": "Juventus",
-     "skor": "0-2",
-     "veri": {
-      "ev_is": 4.0,
-      "dep_is": 2.0,
-      "ev_bs": 0.0,
-      "dep_bs": 1.0,
-      "ev_top": 42.0,
-      "dep_top": 58.0
-     }
-    },
-    {
-     "tarih": "2026-10-25",
-     "ev": "Genoa",
-     "deplasman": "Venezia",
-     "skor": "1-0",
-     "veri": {
-      "ev_is": 4.0,
-      "dep_is": 5.0,
-      "ev_bs": 1.0,
-      "dep_bs": 2.0,
-      "ev_top": 45.0,
-      "dep_top": 55.0
-     }
-    },
-    {
-     "tarih": "2026-10-25",
      "ev": "Atalanta",
      "deplasman": "Frosinone",
      "skor": "4-4",
@@ -4754,6 +5130,62 @@
       "dep_bs": 0.0,
       "ev_top": 63.0,
       "dep_top": 37.0
+     }
+    },
+    {
+     "tarih": "2026-10-25",
+     "ev": "Genoa",
+     "deplasman": "Venezia",
+     "skor": "1-0",
+     "veri": {
+      "ev_is": 4.0,
+      "dep_is": 5.0,
+      "ev_bs": 1.0,
+      "dep_bs": 2.0,
+      "ev_top": 45.0,
+      "dep_top": 55.0
+     }
+    },
+    {
+     "tarih": "2026-10-25",
+     "ev": "Lecce",
+     "deplasman": "Juventus",
+     "skor": "0-2",
+     "veri": {
+      "ev_is": 4.0,
+      "dep_is": 2.0,
+      "ev_bs": 0.0,
+      "dep_bs": 1.0,
+      "ev_top": 42.0,
+      "dep_top": 58.0
+     }
+    },
+    {
+     "tarih": "2026-10-25",
+     "ev": "Udinese",
+     "deplasman": "Milan",
+     "skor": "0-2",
+     "veri": {
+      "ev_is": 5.0,
+      "dep_is": 7.0,
+      "ev_bs": 1.0,
+      "dep_bs": 6.0,
+      "ev_top": 40.0,
+      "dep_top": 60.0
+     }
+    },
+    {
+     "tarih": "2026-10-24",
+     "ev": "Lazio",
+     "deplasman": "Parma",
+     "skor": "2-1",
+     "veri": {
+      "ev_is": 5.0,
+      "dep_is": 4.0,
+      "ev_bs": 4.0,
+      "dep_bs": 3.0,
+      "ev_top": 68.0,
+      "dep_top": 32.0
      }
     },
     {
@@ -4796,20 +5228,6 @@
       "dep_bs": 3.0,
       "ev_top": 57.0,
       "dep_top": 43.0
-     }
-    },
-    {
-     "tarih": "2026-10-24",
-     "ev": "Lazio",
-     "deplasman": "Parma",
-     "skor": "2-1",
-     "veri": {
-      "ev_is": 5.0,
-      "dep_is": 4.0,
-      "ev_bs": 4.0,
-      "dep_bs": 3.0,
-      "ev_top": 68.0,
-      "dep_top": 32.0
      }
     },
     {
@@ -4926,20 +5344,6 @@
     },
     {
      "tarih": "2026-10-17",
-     "ev": "Bologna",
-     "deplasman": "Inter",
-     "skor": "1-3",
-     "veri": {
-      "ev_is": 4.0,
-      "dep_is": 8.0,
-      "ev_bs": 3.0,
-      "dep_bs": 7.0,
-      "ev_top": 35.0,
-      "dep_top": 65.0
-     }
-    },
-    {
-     "tarih": "2026-10-17",
      "ev": "Venezia",
      "deplasman": "Napoli",
      "skor": "1-0",
@@ -4950,6 +5354,20 @@
       "dep_bs": 4.0,
       "ev_top": 29.0,
       "dep_top": 71.0
+     }
+    },
+    {
+     "tarih": "2026-10-17",
+     "ev": "Bologna",
+     "deplasman": "Inter",
+     "skor": "1-3",
+     "veri": {
+      "ev_is": 4.0,
+      "dep_is": 8.0,
+      "ev_bs": 3.0,
+      "dep_bs": 7.0,
+      "ev_top": 35.0,
+      "dep_top": 65.0
      }
     },
     {
@@ -4996,20 +5414,6 @@
     },
     {
      "tarih": "2026-10-11",
-     "ev": "Sassuolo",
-     "deplasman": "Milan",
-     "skor": "1-1",
-     "veri": {
-      "ev_is": 4.0,
-      "dep_is": 6.0,
-      "ev_bs": 1.0,
-      "dep_bs": 3.0,
-      "ev_top": 41.0,
-      "dep_top": 59.0
-     }
-    },
-    {
-     "tarih": "2026-10-11",
      "ev": "Cagliari",
      "deplasman": "Juventus",
      "skor": "1-1",
@@ -5020,6 +5424,20 @@
       "dep_bs": 3.0,
       "ev_top": 28.0,
       "dep_top": 72.0
+     }
+    },
+    {
+     "tarih": "2026-10-11",
+     "ev": "Sassuolo",
+     "deplasman": "Milan",
+     "skor": "1-1",
+     "veri": {
+      "ev_is": 4.0,
+      "dep_is": 6.0,
+      "ev_bs": 1.0,
+      "dep_bs": 3.0,
+      "ev_top": 41.0,
+      "dep_top": 59.0
      }
     },
     {
@@ -5108,34 +5526,6 @@
     },
     {
      "tarih": "2026-09-20",
-     "ev": "Milan",
-     "deplasman": "Lecce",
-     "skor": "3-0",
-     "veri": {
-      "ev_is": 4.0,
-      "dep_is": 3.0,
-      "ev_bs": 5.0,
-      "dep_bs": 0.0,
-      "ev_top": 69.0,
-      "dep_top": 31.0
-     }
-    },
-    {
-     "tarih": "2026-09-20",
-     "ev": "Juventus",
-     "deplasman": "Atalanta",
-     "skor": "2-0",
-     "veri": {
-      "ev_is": 5.0,
-      "dep_is": 2.0,
-      "ev_bs": 4.0,
-      "dep_bs": 0.0,
-      "ev_top": 52.0,
-      "dep_top": 48.0
-     }
-    },
-    {
-     "tarih": "2026-09-20",
      "ev": "Parma",
      "deplasman": "Genoa",
      "skor": "2-1",
@@ -5146,6 +5536,20 @@
       "dep_bs": 1.0,
       "ev_top": 43.0,
       "dep_top": 57.0
+     }
+    },
+    {
+     "tarih": "2026-09-20",
+     "ev": "Fiorentina",
+     "deplasman": "Napoli",
+     "skor": "1-1",
+     "veri": {
+      "ev_is": 4.0,
+      "dep_is": 5.0,
+      "ev_bs": 1.0,
+      "dep_bs": 2.0,
+      "ev_top": 42.0,
+      "dep_top": 58.0
      }
     },
     {
@@ -5164,16 +5568,58 @@
     },
     {
      "tarih": "2026-09-20",
-     "ev": "Fiorentina",
-     "deplasman": "Napoli",
-     "skor": "1-1",
+     "ev": "Juventus",
+     "deplasman": "Atalanta",
+     "skor": "2-0",
+     "veri": {
+      "ev_is": 5.0,
+      "dep_is": 2.0,
+      "ev_bs": 4.0,
+      "dep_bs": 0.0,
+      "ev_top": 52.0,
+      "dep_top": 48.0
+     }
+    },
+    {
+     "tarih": "2026-09-20",
+     "ev": "Milan",
+     "deplasman": "Lecce",
+     "skor": "3-0",
+     "veri": {
+      "ev_is": 4.0,
+      "dep_is": 3.0,
+      "ev_bs": 5.0,
+      "dep_bs": 0.0,
+      "ev_top": 69.0,
+      "dep_top": 31.0
+     }
+    },
+    {
+     "tarih": "2026-09-19",
+     "ev": "Venezia",
+     "deplasman": "Lazio",
+     "skor": "0-2",
+     "veri": {
+      "ev_is": 6.0,
+      "dep_is": 2.0,
+      "ev_bs": 2.0,
+      "dep_bs": 2.0,
+      "ev_top": 49.0,
+      "dep_top": 51.0
+     }
+    },
+    {
+     "tarih": "2026-09-19",
+     "ev": "Roma",
+     "deplasman": "Inter",
+     "skor": "2-2",
      "veri": {
       "ev_is": 4.0,
       "dep_is": 5.0,
-      "ev_bs": 1.0,
-      "dep_bs": 2.0,
-      "ev_top": 42.0,
-      "dep_top": 58.0
+      "ev_bs": 4.0,
+      "dep_bs": 7.0,
+      "ev_top": 49.0,
+      "dep_top": 51.0
      }
     },
     {
@@ -5202,34 +5648,6 @@
       "dep_bs": 1.0,
       "ev_top": 40.0,
       "dep_top": 60.0
-     }
-    },
-    {
-     "tarih": "2026-09-19",
-     "ev": "Roma",
-     "deplasman": "Inter",
-     "skor": "2-2",
-     "veri": {
-      "ev_is": 4.0,
-      "dep_is": 5.0,
-      "ev_bs": 4.0,
-      "dep_bs": 7.0,
-      "ev_top": 49.0,
-      "dep_top": 51.0
-     }
-    },
-    {
-     "tarih": "2026-09-19",
-     "ev": "Venezia",
-     "deplasman": "Lazio",
-     "skor": "0-2",
-     "veri": {
-      "ev_is": 6.0,
-      "dep_is": 2.0,
-      "ev_bs": 2.0,
-      "dep_bs": 2.0,
-      "ev_top": 49.0,
-      "dep_top": 51.0
      }
     },
     {
@@ -5528,20 +5946,6 @@
     },
     {
      "tarih": "2026-08-31",
-     "ev": "Atalanta",
-     "deplasman": "Bologna",
-     "skor": "1-0",
-     "veri": {
-      "ev_is": 2.0,
-      "dep_is": 3.0,
-      "ev_bs": 0.0,
-      "dep_bs": 1.0,
-      "ev_top": 42.0,
-      "dep_top": 58.0
-     }
-    },
-    {
-     "tarih": "2026-08-31",
      "ev": "Lecce",
      "deplasman": "Roma",
      "skor": "0-4",
@@ -5552,6 +5956,20 @@
       "dep_bs": 8.0,
       "ev_top": 36.0,
       "dep_top": 64.0
+     }
+    },
+    {
+     "tarih": "2026-08-31",
+     "ev": "Atalanta",
+     "deplasman": "Bologna",
+     "skor": "1-0",
+     "veri": {
+      "ev_is": 2.0,
+      "dep_is": 3.0,
+      "ev_bs": 0.0,
+      "dep_bs": 1.0,
+      "ev_top": 42.0,
+      "dep_top": 58.0
      }
     },
     {

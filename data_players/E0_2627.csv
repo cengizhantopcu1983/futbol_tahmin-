@@ -2457,8 +2457,9 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19722145,2026-10-10,Tottenham Hotspur,away,37317392,,,OUT,0.0
 19722145,2026-10-10,Manchester United,home,893705,,,OUT,0.0
 19722145,2026-10-10,Tottenham Hotspur,away,9938919,,,OUT,0.0
-19722145,2026-10-10,Manchester United,home,26768,,,OUT,0.0
 19722145,2026-10-10,Manchester United,home,28716,,,OUT,0.0
+19722145,2026-10-10,Manchester United,home,24818280,,,OUT,0.0
+19722145,2026-10-10,Manchester United,home,37653176,,,OUT,0.0
 19722148,2026-10-11,Everton,away,1826,Jordan Pickford,G,XI,90.0
 19722148,2026-10-11,Everton,away,4344,Ainsley Maitland-Niles,D,XI,78.0
 19722148,2026-10-11,Everton,away,32404895,Jarrad Branthwaite,D,XI,90.0
@@ -4900,3 +4901,44 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19722097,2026-11-22,Manchester United,away,893705,,,OUT,0.0
 19722097,2026-11-22,Manchester United,away,24818280,,,OUT,0.0
 19722097,2026-11-22,Manchester United,away,37588823,,,OUT,0.0
+19722101,2026-11-23,Everton,away,1826,Jordan Pickford,G,XI,90.0
+19722101,2026-11-23,Everton,away,4344,Ainsley Maitland-Niles,M,SUB,
+19722101,2026-11-23,Everton,away,32404895,Jarrad Branthwaite,D,XI,90.0
+19722101,2026-11-23,Everton,away,881,Michael Keane,D,SUB,21.0
+19722101,2026-11-23,Everton,away,1639,James Tarkowski,D,XI,40.0
+19722101,2026-11-23,Everton,away,540613,Kiernan Dewsbury-Hall,M,XI,69.0
+19722101,2026-11-23,Everton,away,1116,Jack Grealish,M,SUB,45.0
+19722101,2026-11-23,Everton,away,37590847,Thierno Barry,F,XI,69.0
+19722101,2026-11-23,Everton,away,22169319,Mark Travers,G,SUB,
+19722101,2026-11-23,Everton,away,37528754,Jake O'Brien,D,XI,90.0
+19722101,2026-11-23,Everton,away,537271,Vitaliy Mykolenko,D,XI,90.0
+19722101,2026-11-23,Everton,away,37592037,Tyrique George,M,XI,45.0
+19722101,2026-11-23,Everton,away,37561126,Tyler Dibling,F,SUB,
+19722101,2026-11-23,Everton,away,25930790,Brennan Johnson,F,SUB,21.0
+19722101,2026-11-23,Everton,away,31609,Christian Nørgaard,M,SUB,5.0
+19722101,2026-11-23,Everton,away,37410255,Carlos Alcaraz,M,SUB,
+19722101,2026-11-23,Everton,away,25188269,Hayden Hackney,M,SUB,21.0
+19722101,2026-11-23,Everton,away,37266009,Merlin Röhl,M,XI,69.0
+19722101,2026-11-23,Everton,away,4536524,James Garner,M,XI,85.0
+19722101,2026-11-23,Everton,away,37680389,Harrison Armstrong,M,XI,90.0
+19722101,2026-11-23,Brentford,home,896225,Caoimhín Kelleher,G,XI,90.0
+19722101,2026-11-23,Brentford,home,11658171,Sepp van den Berg,D,XI,90.0
+19722101,2026-11-23,Brentford,home,37509395,Yegor Yarmolyuk,M,XI,74.0
+19722101,2026-11-23,Brentford,home,27067062,Kevin Schade,M,SUB,24.0
+19722101,2026-11-23,Brentford,home,84426,Mathias Jensen,M,SUB,16.0
+19722101,2026-11-23,Brentford,home,37543248,Dango Ouattara,M,XI,66.0
+19722101,2026-11-23,Brentford,home,531971,Hákon Valdimarsson,G,SUB,
+19722101,2026-11-23,Brentford,home,1065,Callum Wilson,F,XI,90.0
+19722101,2026-11-23,Brentford,home,21412957,Fábio Carvalho,M,SUB,9.0
+19722101,2026-11-23,Brentford,home,37536953,Mamadou Sangaré,M,SUB,8.0
+19722101,2026-11-23,Brentford,home,37392849,Jaidon Anthony,M,XI,81.0
+19722101,2026-11-23,Brentford,home,151418,Kristoffer Ajer,D,XI,90.0
+19722101,2026-11-23,Brentford,home,28552845,Keane Lewis-Potter,D,XI,74.0
+19722101,2026-11-23,Brentford,home,8449373,Mikkel Damsgaard,M,XI,90.0
+19722101,2026-11-23,Brentford,home,37685630,El Hadji Malick Diouf,D,SUB,16.0
+19722101,2026-11-23,Brentford,home,36633,Vitaly Janelt,M,XI,82.0
+19722101,2026-11-23,Brentford,home,37600942,Michael Kayode,D,XI,90.0
+19722101,2026-11-23,Brentford,home,37704861,Gustavo Nunes,F,SUB,
+19722101,2026-11-23,Brentford,home,37633890,Jannik Schuster,D,SUB,
+19722101,2026-11-23,Brentford,home,37683527,Benjamin Fredrick,D,SUB,
+19722101,2026-11-23,Brentford,home,37656906,,,OUT,0.0
