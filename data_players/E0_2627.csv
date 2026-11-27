@@ -693,6 +693,7 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19722185,2026-08-30,Fulham,away,6610,Ryan Sessegnon,M,SUB,22.0
 19722185,2026-08-30,Fulham,away,1494446,Emile Smith Rowe,M,SUB,14.0
 19722185,2026-08-30,Fulham,away,581067,Antonee Robinson,D,XI,90.0
+19722185,2026-08-30,Fulham,away,37740887,Macauley Zepa,F,SUB,
 19722185,2026-08-30,Fulham,away,2285,,,OUT,0.0
 19722188,2026-08-30,Leeds United,home,28575686,James Trafford,G,XI,90.0
 19722188,2026-08-30,Leeds United,home,581158,Jayden Bogle,M,XI,68.0
@@ -4905,13 +4906,13 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19722098,2026-11-22,Brighton & Hove Albion,away,1494712,Matt O'Riley,M,SUB,
 19722098,2026-11-22,Brighton & Hove Albion,away,37657587,Luka Vuskovic,D,XI,90.0
 19722098,2026-11-22,Hull City,home,21412837,,,OUT,0.0
+19722098,2026-11-22,Hull City,home,37645082,,,OUT,0.0
 19722098,2026-11-22,Hull City,home,1387,,,OUT,0.0
 19722098,2026-11-22,Hull City,home,4892,,,OUT,0.0
 19722098,2026-11-22,Hull City,home,37595365,,,OUT,0.0
 19722098,2026-11-22,Brighton & Hove Albion,away,21437534,,,OUT,0.0
 19722098,2026-11-22,Brighton & Hove Albion,away,37253456,,,OUT,0.0
 19722098,2026-11-22,Brighton & Hove Albion,away,37601748,,,OUT,0.0
-19722098,2026-11-22,Hull City,home,37645082,,,OUT,0.0
 19722098,2026-11-22,Hull City,home,32796077,,,OUT,0.0
 19722097,2026-11-22,Liverpool,home,129820,Alisson,G,XI,90.0
 19722097,2026-11-22,Liverpool,home,1453,Joe Gomez,D,SUB,5.0
@@ -4960,6 +4961,8 @@ sm_id,Date,Team,Side,player_id,player,pos,status,minutes
 19722097,2026-11-22,Manchester United,away,893705,,,OUT,0.0
 19722097,2026-11-22,Manchester United,away,24818280,,,OUT,0.0
 19722097,2026-11-22,Manchester United,away,37588823,,,OUT,0.0
+19722097,2026-11-22,Liverpool,home,5270462,,,OUT,0.0
+19722097,2026-11-22,Liverpool,home,30062,,,OUT,0.0
 19722101,2026-11-23,Everton,away,1826,Jordan Pickford,G,XI,90.0
 19722101,2026-11-23,Everton,away,4344,Ainsley Maitland-Niles,M,SUB,
 19722101,2026-11-23,Everton,away,32404895,Jarrad Branthwaite,D,XI,90.0
